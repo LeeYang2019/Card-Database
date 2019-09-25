@@ -1,7 +1,3 @@
-package edu.matc.persistence;
-
-import edu.matc.entity.User;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,9 +13,9 @@ public class UserData {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
-    public List<User> getAllUsers() {
+    public List<Card> getAllCards() {
 
-        List<User> users = new ArrayList<User>();
+        List<Card> cards = new ArrayList<Card>();
         Database database = Database.getInstance(); //get instance of db
         Connection connection = null;
         String sql = "SELECT * FROM ;";
@@ -29,23 +25,23 @@ public class UserData {
             connection = database.getConnection(); //get the connection
             Statement selectStatement = connection.createStatement();
             ResultSet results = selectStatement.executeQuery(sql);
-
-            while (results.next()) {
-                User employee = createUserFromResults(results);
-                users.add(employee);
-            }
+//
+  //          while (results.next()) {
+    //            User employee = createUserFromResults(results);
+      //          users.add(employee);
+        //    }
             database.disconnect();
         } catch (SQLException e) {
-            logger.error("SearchUser.getAllUsers()...Exception: " + e);
+           // logger.error("SearchUser.getAllUsers()...Exception: " + e);
         } catch (Exception e) {
-            logger.error("SearchUser.getAllUsers()...Exception: " + e);
+            //logger.error("SearchUser.getAllUsers()...Exception: " + e);
         }
-        return users;
+        return null;
     }
 
-    public List<User> getUserByTerm(String searchTerm, String searchType) throws SQLException, ClassNotFoundException{
-
-        List<User> users = new ArrayList<User>();
+    public List<Card> getUserByTerm(String searchTerm, String searchType) throws SQLException, ClassNotFoundException{
+/**
+        List<Card> cards = new ArrayList<Card>();
         Database database = Database.getInstance();
         Connection connection = null;
         String searchItem = searchTerm + "%";
@@ -77,16 +73,19 @@ public class UserData {
                 System.out.println(employee.getFirstName());
                 users.add(employee);
             }
+
             database.disconnect();
         } catch (SQLException e) {
             logger.error("SearchUser.getAllUsers()...Exception: " + e);
         } catch (Exception e) {
             logger.error("SearchUser.getAllUsers()...Exception: " + e);
         }
-
-        return users;
+**/
+        return null;
     }
 
+
+/**
     private User createCardFromResults(ResultSet results) throws SQLException {
         User user = new User();
         user.setLastName(results.getString("last_name"));
@@ -96,5 +95,6 @@ public class UserData {
         user.setDob(results.getString("date_of_birth"));
         return user;
     }
+ **/
 
 }

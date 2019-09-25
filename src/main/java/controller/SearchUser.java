@@ -1,7 +1,3 @@
-package edu.matc.controller;
-
-import edu.matc.persistence.UserData;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,7 +9,6 @@ import java.sql.SQLException;
 
 /**
  * A simple servlet to welcome the user.
- * @author pwaite
  */
 
 @WebServlet(
@@ -31,7 +26,7 @@ public class SearchUser extends HttpServlet {
         String searchType = req.getParameter("searchType");
 
         System.out.println("Searchtype is: " + searchType);
-
+/**
         //if there is not an input, searchTerm is null
         if (searchTerm != null) {
             try {
@@ -44,8 +39,9 @@ public class SearchUser extends HttpServlet {
         } else {
             req.setAttribute("users", userData.getAllUsers()); //for view all users
         }
-
+**/
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
+
     }
 }

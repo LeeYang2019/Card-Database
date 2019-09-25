@@ -1,5 +1,3 @@
-package edu.matc.persistence;
-
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -34,16 +32,9 @@ public class Database {
         } catch (IOException ioe) {
             logger.info("Some message you want logged");
             logger.error("Some message you want logged", ioe);
-
-            //System.out.println("Database.loadProperties()...Cannot load the properties file");
-            //ioe.printStackTrace();
         } catch (Exception e) {
             logger.info("Some message you want logged");
             logger.error("Some message you want logged", e);
-
-
-            //System.out.println("Database.loadProperties()..." + e);
-            //e.printStackTrace();
         }
     }
 
@@ -77,7 +68,6 @@ public class Database {
             } catch (SQLException e) {
                 logger.info("Some message you want logged");
                 logger.error("Some message you want logged", e);
-                //System.out.println("Cannot close connection" + e);
             }
         }
 

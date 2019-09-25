@@ -20,7 +20,7 @@
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
-
+<!--
                 <label for="user">Search Type:</label><br/>
                 <div class="form-check-inline">
                     <label class="form-check-label" for="radio1">
@@ -39,7 +39,7 @@
                 </div>
                 <br/>
                 <button type="submit" class="btn btn-primary">Submit</button>
-                <button type="reset" class="btn btn-danger">Cancel</button>
+                <button type="reset" class="btn btn-danger">Cancel</button> -->
             </form>
 
         </div>
