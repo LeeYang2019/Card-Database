@@ -1,5 +1,5 @@
 
-public Class Card {
+public class Card {
 
   String cardName;
   String cardType;
@@ -37,6 +37,5 @@ public Class Card {
   public String getCardSet() {
     return this.cardSet;
   }
-
 
 }

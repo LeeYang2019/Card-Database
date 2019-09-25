@@ -22,7 +22,7 @@ public class UserData {
         List<User> users = new ArrayList<User>();
         Database database = Database.getInstance(); //get instance of db
         Connection connection = null;
-        String sql = "SELECT * FROM users;";
+        String sql = "SELECT * FROM ;";
 
         try {
             database.connect(); //connect to db with login
@@ -87,7 +87,7 @@ public class UserData {
         return users;
     }
 
-    private User createUserFromResults(ResultSet results) throws SQLException {
+    private User createCardFromResults(ResultSet results) throws SQLException {
         User user = new User();
         user.setLastName(results.getString("last_name"));
         user.setFirstName(results.getString("first_name"));

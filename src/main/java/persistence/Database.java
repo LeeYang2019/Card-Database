@@ -9,9 +9,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 /**
  * Provides access the database
- * Created on 8/31/16.
- *
- * @author pwaite
  */
 
 public class Database {
