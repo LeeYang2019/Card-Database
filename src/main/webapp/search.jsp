@@ -13,15 +13,16 @@
         </div>
         <div class="row">
             <form action="searchUser" method="GET" class="needs-validation" novalidate>
-
+<!--
                 <div class="form-group">
                     <label for="pwd">Please Enter User Information:</label>
                     <input type="password" class="form-control" id="pwd" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
-<!--
-                <label for="user">Search Type:</label><br/>
+
+
+                <label for="YugiohCard">Search Type:</label><br/>
                 <div class="form-check-inline">
                     <label class="form-check-label" for="radio1">
                         <input type="radio" class="form-check-input" id="home" name="searchType" value="ID" checked="checked">ID

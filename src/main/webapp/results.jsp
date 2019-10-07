@@ -4,32 +4,30 @@
 <html>
     <body>
         <div class="container">
-            <div class="row">
-                <header class="jumbotron">
-
-                </header>
-            </div>
+            <%@include file="header.jsp"%>
             <div class="row">
                 <c:import url="header.jsp"/>
             </div>
             <div class="row">
                     <c:choose>
-                        <c:when test="${!empty(users)}">
+                        <c:when test="${!empty(cards)}">
                             <table class="table table-dark table-hover">
                                 <thead>
                                     <tr>
-                                        <th>UserID</th>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>Age</th>
+                                        <th>Card Name</th>
+                                        <th>Card Type</th>
+                                        <th>Card Rarity</th>
+                                        <th>Card Set</th>
+                                        <th>Card Price</th>
                                     </tr>
                                 </thead>
-                                <c:forEach var="individual" items="${users}">
+                                <c:forEach var="card" items="${cards}">
                                     <tr>
-                                        <td class="tbColumns">${individual.id}</td>
-                                        <td class="tbColumns">${individual.firstName}</td>
-                                        <td class="tbColumns">${individual.lastName}</td>
-                                        <td class="tbColumns">${individual.age}</td>
+                                        <td class="tbColumns">${card.cardName}</td>
+                                        <td class="tbColumns">${card.cardType}</td>
+                                        <td class="tbColumns">${card.cardRarity}</td>
+                                        <td class="tbColumns">${card.cardSet}</td>
+                                        <td class="tbColumns">${card.cardPrice}</td>
                                     </tr>
                                 </c:forEach>
                             </table>
