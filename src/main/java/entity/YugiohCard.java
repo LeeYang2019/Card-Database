@@ -11,7 +11,7 @@ public class YugiohCard {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
-    private Integer id;
+    private int id;
 
     @Column(name ="card_name")
     private String cardName;
