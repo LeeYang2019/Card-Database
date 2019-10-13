@@ -1,7 +1,6 @@
 package entity;
 
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 
 @Entity(name = "YugiohCard")
@@ -35,7 +34,7 @@ public class YugiohCard {
      *
      * @param id
      */
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -83,7 +82,7 @@ public class YugiohCard {
      *
      * @return
      */
-    public Integer getId() {
+    public int getId() {
         return this.id;
     }
 

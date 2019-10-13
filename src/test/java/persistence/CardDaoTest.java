@@ -1,28 +1,39 @@
 package persistence;
 
+import entity.YugiohCard;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import testUtils.Database;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CardDaoTest {
 
+    private final Logger logger = LogManager.getLogger(this.getClass());
     CardDao yugiohDao;
 
     @BeforeEach
     void setUp() {
         yugiohDao = new CardDao();
-    }
-
-    @AfterEach
-    void tearDown() {
+        Database database = Database.getInstance();
+        database.runSQL("cleandb.sql");
     }
 
     @Test
+    void getByCardId() {
+        YugiohCard newCard = new YugiohCard();
+        newCard = yugiohDao.getByCardId(1);
+        assertEquals(newCard.getCardName(), "Dark Magician");
+    }
+
+
+    @Test
     void getByCardName() {
-        yugiohDao.getByCardName("Dark Magician");
-        assertEquals(yugiohDao.getByCardName("Dark Magician"), "Dark Magician");
+        //yugiohDao.getByCardName("Dark Magician");
+        //assertEquals(yugiohDao.getByCardName("Dark Magician"), "Dark Magician");
     }
 
     @Test

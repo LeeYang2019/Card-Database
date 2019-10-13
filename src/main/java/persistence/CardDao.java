@@ -33,6 +33,18 @@ public class CardDao {
 
     /**
      *
+     * @param cardId
+     * @return card
+     */
+    public YugiohCard getByCardId(int cardId) {
+        Session session = sessionFactory.openSession();
+        YugiohCard card = session.get( YugiohCard.class, cardId);
+        session.close();
+        return card;
+    }
+
+    /**
+     *
      * @param cardType
      * @return card
      */
@@ -81,7 +93,7 @@ public class CardDao {
 
     /**
      * update Yugiohcard
-     * @param YugiohCard  yugiohcard to be inserted or updated
+     * @param card  yugiohcard to be inserted or updated
      */
     public void saveOrUpdate(YugiohCard card) {
         Session session = sessionFactory.openSession();
@@ -91,7 +103,7 @@ public class CardDao {
 
     /**
      * update a Yugiohcard
-     * @param YugiohCard  Yugiohcard to be inserted or updated
+     * @param card  Yugiohcard to be inserted or updated
      */
     public int insert(YugiohCard card) {
         int id = 0;
@@ -105,7 +117,7 @@ public class CardDao {
 
     /**
      * Delete a Yugiohcard
-     * @param YugiohCard Yugiohcard to be deleted
+     * @param card Yugiohcard to be deleted
      */
     public void delete(YugiohCard card) {
         Session session = sessionFactory.openSession();
