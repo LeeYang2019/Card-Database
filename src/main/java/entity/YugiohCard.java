@@ -126,13 +126,10 @@ public class YugiohCard {
         return this.cardPrice;
     }
 
-    /**
-     *
-     * @return
-     */
+    @Override
     public String toString() {
-        return "id: " + this.id + "\n"
-                + "name: " + this.cardName + "\n"
+        return
+                "name: " + this.cardName + "\n"
                 + "type: " + this.cardType + "\n"
                 + "rarity: " + this.cardRarity + "\n"
                 + "set: " + this.cardSet + "\n"
