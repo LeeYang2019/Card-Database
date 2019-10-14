@@ -8,133 +8,111 @@ import javax.persistence.*;
 public class YugiohCard {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
-    @GenericGenerator(name = "native", strategy = "native")
+    @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
+    @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name ="card_name")
+    @Column(name = "card_name")
     private String cardName;
 
-    @Column(name ="card_type")
+    @Column(name = "card_type")
     private String cardType;
 
-    @Column(name ="card_rarity")
+    @Column(name = "card_rarity")
     private String cardRarity;
 
-    @Column(name ="card_set")
+    @Column(name = "card_set")
     private String cardSet;
 
-    @Column(name ="card_price")
+    @Column(name = "card_price")
     private double cardPrice;
 
-    //no arg constructor
-    public YugiohCard() {}
+    @Column(name = "card_quantity")
+    private int cardQuantity;
+
+    @ManyToOne
+    private User user;
 
     /**
-     *
-     * @param id
+     * no arg constructor
      */
-    public void setId(int id) {
-        this.id = id;
+    public YugiohCard() {
+
     }
 
     /**
-     *
-     * @param cardName
+     * arg constructor
+     * @param cardName cardname
+     * @param cardType cardType
+     * @param cardRarity cardRarity
+     * @param cardSet cardSet
+     * @param cardPrice cardPrice
+     * @param cardQuantity cardQuantity
      */
+    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double cardPrice, int cardQuantity, User user) {
+        this.cardName = cardName;
+        this.cardType = cardType;
+        this.cardRarity = cardRarity;
+        this.cardSet = cardSet;
+        this.cardPrice = cardPrice;
+        this.cardQuantity = cardQuantity;
+        this.user = user;
+    }
+
     public void setCardName(String cardName) {
         this.cardName = cardName;
     }
 
-    /**
-     *
-     * @param cardType
-     */
     public void setCardType(String cardType) {
         this.cardType = cardType;
     }
 
-    /**
-     *
-     * @param cardRarity
-     */
     public void setCardRarity(String cardRarity) {
         this.cardRarity = cardRarity;
     }
 
-    /**
-     *
-     * @param cardSet
-     */
     public void setCardSet(String cardSet) {
         this.cardSet = cardSet;
     }
 
-    /**
-     *
-     * @param cardPrice
-     */
     public void setCardPrice(double cardPrice) {
         this.cardPrice = cardPrice;
     }
 
-    /**
-     *
-     * @return
-     */
-    public int getId() {
-        return this.id;
+    public void setCardQuantity(int cardQuantity) {
+        this.cardQuantity = cardQuantity;
     }
 
-    /**
-     *
-     * @return
-     */
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     public String getCardName() {
         return this.cardName;
     }
 
-    /**
-     *
-     * @return
-     */
     public String getCardType() {
         return this.cardType;
     }
 
-    /**
-     *
-     * @return
-     */
     public String getCardRarity() {
         return this.cardRarity;
     }
 
-    /**
-     *
-     * @return
-     */
     public String getCardSet() {
         return this.cardSet;
     }
 
-    /**
-     *
-     * @return
-     */
     public double getCardPrice() {
         return this.cardPrice;
     }
 
-    @Override
-    public String toString() {
-        return
-                "name: " + this.cardName + "\n"
-                + "type: " + this.cardType + "\n"
-                + "rarity: " + this.cardRarity + "\n"
-                + "set: " + this.cardSet + "\n"
-                + "price: " + this.cardPrice + "\n";
+    public int getCardQuantity() {
+        return this.cardQuantity;
     }
 
+    public User getUser() {
+        return this.user;
+    }
 }
 
