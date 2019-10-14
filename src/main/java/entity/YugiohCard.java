@@ -25,7 +25,7 @@ public class YugiohCard {
     private String cardSet;
 
     @Column(name ="card_price")
-    private Double cardPrice;
+    private double cardPrice;
 
     //no arg constructor
     public YugiohCard() {}
@@ -74,7 +74,7 @@ public class YugiohCard {
      *
      * @param cardPrice
      */
-    public void setCardPrice(Double cardPrice) {
+    public void setCardPrice(double cardPrice) {
         this.cardPrice = cardPrice;
     }
 
@@ -122,7 +122,7 @@ public class YugiohCard {
      *
      * @return
      */
-    public Double getCardPrice() {
+    public double getCardPrice() {
         return this.cardPrice;
     }
 

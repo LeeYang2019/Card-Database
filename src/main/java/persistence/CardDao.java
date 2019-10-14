@@ -84,7 +84,7 @@ public class CardDao {
      * @param cardPrice
      * @return card
      */
-    public YugiohCard getByCardPrice(Double cardPrice) {
+    public YugiohCard getByCardPrice(double cardPrice) {
         Session session = sessionFactory.openSession();
         YugiohCard card = session.get( YugiohCard.class, cardPrice);
         session.close();

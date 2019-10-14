@@ -32,8 +32,11 @@ class CardDaoTest {
 
     @Test
     void getByCardName() {
-        //yugiohDao.getByCardName("Dark Magician");
-        //assertEquals(yugiohDao.getByCardName("Dark Magician"), "Dark Magician");
+        YugiohCard newCard = new YugiohCard();
+        YugiohCard secondCard = new YugiohCard();
+        newCard = yugiohDao.getByCardName("Dark Magician");
+        secondCard = yugiohDao.getByCardId(1);
+        assertEquals(newCard.getCardName(), secondCard.getCardName());
     }
 
     @Test
