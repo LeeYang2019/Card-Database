@@ -17,7 +17,7 @@
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
         <mapping class="entity.YugiohCard"/> <!--specify which class or classes we want hibernate to map to DB-->
-        <mapping class="entity.User" />
+        <mapping class="entity.Collector" />
 
     </session-factory>
 

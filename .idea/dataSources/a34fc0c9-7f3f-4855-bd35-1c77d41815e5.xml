@@ -1127,7 +1127,7 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="284" parent="10" name="user"/>
+    <table id="284" parent="10" name="collector"/>
     <table id="285" parent="10" name="yugioh_card">
       <Collation>latin1_swedish_ci</Collation>
     </table>
@@ -1226,5 +1226,13 @@
       <ColNames>id</ColNames>
       <UnderlyingIndexName>yugioh_card_id_uindex</UnderlyingIndexName>
     </key>
+    <foreign-key id="304" parent="285" name="yugioh_card_collector_id_fk">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>test_yugioh_card_db</RefSchemaName>
+      <RefTableName>collector</RefTableName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
   </database-model>
 </dataSource>

@@ -31,7 +31,7 @@ public class YugiohCard {
     private int cardQuantity;
 
     @ManyToOne
-    private User user;
+    private Collector collector;
 
     /**
      * no arg constructor
@@ -49,14 +49,14 @@ public class YugiohCard {
      * @param cardPrice cardPrice
      * @param cardQuantity cardQuantity
      */
-    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double cardPrice, int cardQuantity, User user) {
+    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double cardPrice, int cardQuantity, Collector collector) {
         this.cardName = cardName;
         this.cardType = cardType;
         this.cardRarity = cardRarity;
         this.cardSet = cardSet;
         this.cardPrice = cardPrice;
         this.cardQuantity = cardQuantity;
-        this.user = user;
+        this.collector = collector;
     }
 
     public void setCardName(String cardName) {
@@ -83,36 +83,5 @@ public class YugiohCard {
         this.cardQuantity = cardQuantity;
     }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public String getCardName() {
-        return this.cardName;
-    }
-
-    public String getCardType() {
-        return this.cardType;
-    }
-
-    public String getCardRarity() {
-        return this.cardRarity;
-    }
-
-    public String getCardSet() {
-        return this.cardSet;
-    }
-
-    public double getCardPrice() {
-        return this.cardPrice;
-    }
-
-    public int getCardQuantity() {
-        return this.cardQuantity;
-    }
-
-    public User getUser() {
-        return this.user;
-    }
 }
 

@@ -1,12 +1,14 @@
 package entity;
+
+
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-@Entity(name = "User")
-@Table(name = "user")
-public class User {
+@Entity(name = "Collector")
+@Table(name = "collector")
+public class Collector {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
@@ -19,13 +21,13 @@ public class User {
     @Column(name = "user_password")
     private String password;
 
-    @OneToMany (mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany (mappedBy = "collector", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<YugiohCard> cards = new HashSet<>();
 
     /**
      * no arg constructor
      */
-    public User() {
+    public Collector() {
 
     }
 
@@ -34,7 +36,7 @@ public class User {
      * @param userName
      * @param password
      */
-    public User(String userName, String password) {
+    public Collector(String userName, String password) {
         this.userName = userName;
         this.password = password;
     }
@@ -96,3 +98,5 @@ public class User {
     //write equals method
 
 }
+
+

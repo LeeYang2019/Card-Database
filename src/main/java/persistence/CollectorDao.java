@@ -1,7 +1,6 @@
 package persistence;
 
-import entity.User;
-import entity.YugiohCard;
+import entity.Collector;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
@@ -13,53 +12,50 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
-public class UserDao {
-
+public class CollectorDao {
     private final Logger logger = LogManager.getLogger(this.getClass());
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
-    public User getByUd(int id) {
+    public Collector getByUd(int id) {
         Session session = sessionFactory.openSession();
-        User user = session.get(User.class, id);
+        Collector user = session.get(Collector.class, id);
         session.close();
         return user;
     }
 
-    public void saveOrUpdate(User user) {
+    public void saveOrUpdate(Collector collector) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        session.saveOrUpdate(user);
+        session.saveOrUpdate(collector);
         transaction.commit();
         session.close();
     }
 
-    public int insert(User user) {
+    public int insert(Collector collector) {
         int id = 0;
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(user);
+        id = (int)session.save(collector);
         transaction.commit();
         session.close();
         return id;
     }
 
-    public void delete(User user) {
+    public void delete(Collector collector) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        session.delete(user);
+        session.delete(collector);
         session.close();
     }
 
-    public List<User> getAll() {
+    public List<Collector> getAll() {
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<User> query = builder.createQuery(User.class);
-        Root<User> root = query.from(User.class);
-        List<User> users = session.createQuery(query).getResultList();
+        CriteriaQuery<Collector> query = builder.createQuery(Collector.class);
+        Root<Collector> root = query.from(Collector.class);
+        List<Collector> collectors = session.createQuery(query).getResultList();
         session.close();
-        return users;
+        return collectors;
     }
-
-
 
 }
