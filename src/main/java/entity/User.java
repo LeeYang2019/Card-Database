@@ -16,7 +16,7 @@ public class User {
     @Column(name = "user_name")
     private String userName;
 
-    @Column(name = "password")
+    @Column(name = "user_password")
     private String password;
 
     @OneToMany (mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)

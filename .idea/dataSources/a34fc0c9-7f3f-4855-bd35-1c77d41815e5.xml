@@ -1127,52 +1127,102 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="284" parent="10" name="yugioh_card">
+    <table id="284" parent="10" name="user"/>
+    <table id="285" parent="10" name="yugioh_card">
       <Collation>latin1_swedish_ci</Collation>
     </table>
-    <column id="285" parent="284" name="id">
+    <column id="286" parent="284" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="284" name="card_name">
+    <column id="287" parent="284" name="user_name">
       <Position>2</Position>
-      <DataType>varchar(70)|0s</DataType>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="284" name="card_type">
+    <column id="288" parent="284" name="user_password">
       <Position>3</Position>
-      <DataType>varchar(25)|0s</DataType>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="284" name="card_rarity">
-      <Position>4</Position>
-      <DataType>varchar(25)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="289" parent="284" name="card_set">
-      <Position>5</Position>
-      <DataType>varchar(25)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="290" parent="284" name="card_price">
-      <Position>6</Position>
-      <DataType>int(11)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="291" parent="284" name="yugioh_card_id_uindex">
+    <index id="289" parent="284" name="user_id_uindex">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="292" parent="284" name="PRIMARY">
+    <key id="290" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="293" parent="284" name="yugioh_card_id_uindex">
+    <key id="291" parent="284" name="user_id_uindex">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>user_id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="292" parent="285" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="293" parent="285" name="user_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="294" parent="285" name="card_name">
+      <Position>3</Position>
+      <DataType>varchar(70)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="295" parent="285" name="card_type">
+      <Position>4</Position>
+      <DataType>varchar(25)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="285" name="card_rarity">
+      <Position>5</Position>
+      <DataType>varchar(25)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="285" name="card_set">
+      <Position>6</Position>
+      <DataType>varchar(25)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="285" name="card_price">
+      <Position>7</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="285" name="card_quantity">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="300" parent="285" name="yugioh_card_id_uindex">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="301" parent="285" name="yugioh_card_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="302" parent="285" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="303" parent="285" name="yugioh_card_id_uindex">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>yugioh_card_id_uindex</UnderlyingIndexName>
     </key>
