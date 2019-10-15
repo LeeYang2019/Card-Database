@@ -79,4 +79,20 @@ public class User {
         return this.password;
     }
 
+
+    public void setCards(Set<YugiohCard> cards) {
+        this.cards = cards;
+    }
+
+    public Set<YugiohCard> getCards() {
+        return this.cards;
+    }
+
+    public void addCard(YugiohCard card) {
+        cards.add(card);
+    }
+
+    //need to write toString method
+    //write equals method
+
 }
