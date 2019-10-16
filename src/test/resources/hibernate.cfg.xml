@@ -18,6 +18,7 @@
 
         <mapping class="entity.YugiohCard" />
         <mapping class="entity.Collector" />
+        <mapping class="entity.Player" />
 
     </session-factory>
 
