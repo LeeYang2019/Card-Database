@@ -1205,7 +1205,6 @@
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>1</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="300" parent="285" name="yugioh_card_id_uindex">

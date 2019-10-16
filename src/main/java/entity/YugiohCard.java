@@ -59,28 +59,64 @@ public class YugiohCard {
         this.collector = collector;
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     public void setCardName(String cardName) {
         this.cardName = cardName;
+    }
+
+    public String getCardName() {
+        return this.cardName;
     }
 
     public void setCardType(String cardType) {
         this.cardType = cardType;
     }
 
+    public String getCardType() {
+        return this.cardType;
+    }
+
     public void setCardRarity(String cardRarity) {
         this.cardRarity = cardRarity;
+    }
+
+    public String getCardRarity() {
+        return this.cardRarity;
     }
 
     public void setCardSet(String cardSet) {
         this.cardSet = cardSet;
     }
 
+    public String getCardSet() {
+        return this.cardSet;
+    }
+
     public void setCardPrice(double cardPrice) {
         this.cardPrice = cardPrice;
     }
 
+    public double getCardPrice() {
+        return this.cardPrice;
+    }
+
     public void setCardQuantity(int cardQuantity) {
         this.cardQuantity = cardQuantity;
+    }
+
+    public int getCardQuantity() {
+        return this.cardQuantity;
+    }
+
+    public void setCollector(Collector collector) {
+        this.collector = collector;
+    }
+
+    public Collector getCollector() {
+        return this.collector;
     }
 
 }
