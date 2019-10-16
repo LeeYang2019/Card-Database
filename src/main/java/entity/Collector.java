@@ -71,7 +71,7 @@ public class Collector {
      */
     public String getUserName() {
         return this.userName;
-    }
+    }d
 
     /**
      * gets password
