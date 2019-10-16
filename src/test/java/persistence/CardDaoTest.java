@@ -76,7 +76,7 @@ class CardDaoTest {
        // newCard.setCollector();
         yugiohDao.insert(newCard);
         yugiohDao.getAll().size();
-        assertEquals(2, yugiohDao.getAll().size());
+        assertEquals(3, yugiohDao.getAll().size());
     }
 
     @Test

@@ -1143,57 +1143,87 @@
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="288" parent="283" name="PRIMARY">
+    <index id="288" parent="283" name="collector_id_uindex">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="289" parent="283" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="289" parent="284" name="id">
+    <key id="290" parent="283" name="collector_id_uindex">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>collector_id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="291" parent="284" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="284" name="user_id">
+    <column id="292" parent="284" name="user_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="284" name="card_name">
+    <column id="293" parent="284" name="card_name">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="284" name="card_type">
+    <column id="294" parent="284" name="card_type">
       <Position>4</Position>
       <DataType>varchar(25)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="293" parent="284" name="card_rarity">
+    <column id="295" parent="284" name="card_rarity">
       <Position>5</Position>
       <DataType>varchar(25)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="284" name="card_set">
+    <column id="296" parent="284" name="card_set">
       <Position>6</Position>
       <DataType>varchar(25)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="284" name="card_price">
+    <column id="297" parent="284" name="card_price">
       <Position>7</Position>
       <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="284" name="card_quantity">
+    <column id="298" parent="284" name="card_quantity">
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="297" parent="284" name="PRIMARY">
+    <index id="299" parent="284" name="yugioh_card_id_uindex">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="300" parent="284" name="yugioh_card_collector_id_fk">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="301" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
+    <key id="302" parent="284" name="yugioh_card_id_uindex">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>yugioh_card_id_uindex</UnderlyingIndexName>
+    </key>
+    <foreign-key id="303" parent="284" name="yugioh_card_collector_id_fk">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>test_yugioh_card_db</RefSchemaName>
+      <RefTableName>collector</RefTableName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
   </database-model>
 </dataSource>
