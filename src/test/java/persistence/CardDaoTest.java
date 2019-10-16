@@ -86,6 +86,6 @@ class CardDaoTest {
 
     @Test
     void getAll() {
-        assertEquals(3, yugiohDao.getAll().size());
+        assertEquals(2, yugiohDao.getAll().size());
     }
 }
