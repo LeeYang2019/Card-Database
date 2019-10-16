@@ -51,6 +51,7 @@ public class YugiohCard {
      * @param cardSet cardSet
      * @param cardPrice cardPrice
      * @param cardQuantity cardQuantity
+     * @param collector collector
      */
     public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double cardPrice, int cardQuantity, Collector collector) {
         this.cardName = cardName;

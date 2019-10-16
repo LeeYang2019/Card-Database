@@ -24,8 +24,10 @@ class CardDaoTest {
 
     @Test
     void getByCardId() {
+        logger.info("hello lee");
         YugiohCard newCard = new YugiohCard();
         newCard = yugiohDao.getByCardId(1);
+        logger.info(newCard.getCardName());
         assertEquals(newCard.getCardName(), "Dark Magician");
     }
 

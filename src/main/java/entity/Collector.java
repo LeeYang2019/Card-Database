@@ -2,6 +2,7 @@ package entity;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -107,9 +108,30 @@ public class Collector {
         cards.add(card);
     }
 
-    //need to write toString method
-    //write equals method
+    /**
+     * removes card
+     * @param card yugioh card
+     */
+    public void removeCard(YugiohCard card) {
+        cards.remove(card);
+        card.setCollector(null);
+    }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Collector)) return false;
+        Collector collector = (Collector) o;
+        return getId() == collector.getId() &&
+                Objects.equals(getUserName(), collector.getUserName()) &&
+                Objects.equals(getPassword(), collector.getPassword()) &&
+                Objects.equals(getCards(), collector.getCards());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), getUserName(), getPassword(), getCards());
+    }
 }
 
 

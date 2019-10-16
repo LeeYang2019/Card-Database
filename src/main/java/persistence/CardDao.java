@@ -6,13 +6,12 @@ import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-
 import javax.persistence.criteria.*;
 import java.util.List;
 
 
 /**
- * Dao to be used with YugiohCard class
+ * YugiohCard Dao
  */
 public class CardDao {
 
@@ -26,21 +25,21 @@ public class CardDao {
      */
     public YugiohCard getByCardName(String cardName) {
         Session session = sessionFactory.openSession();
-        YugiohCard card = session.get( YugiohCard.class, cardName);
+        YugiohCard YugiohCard = session.get( YugiohCard.class, cardName);
         session.close();
-        return card;
+        return YugiohCard;
     }
 
     /**
      *
-     * @param cardId
+     * @param id
      * @return card
      */
-    public YugiohCard getByCardId(int cardId) {
+    public YugiohCard getByCardId(int id) {
         Session session = sessionFactory.openSession();
-        YugiohCard card = session.get( YugiohCard.class, cardId);
+        YugiohCard YugiohCard = session.get( YugiohCard.class, id);
         session.close();
-        return card;
+        return YugiohCard;
     }
 
     /**
@@ -50,9 +49,9 @@ public class CardDao {
      */
     public YugiohCard getByCardType(String cardType) {
         Session session = sessionFactory.openSession();
-        YugiohCard card = session.get( YugiohCard.class, cardType);
+        YugiohCard YugiohCard = session.get( YugiohCard.class, cardType);
         session.close();
-        return card;
+        return YugiohCard;
     }
 
     /**
@@ -62,9 +61,9 @@ public class CardDao {
      */
     public YugiohCard getByCardRarity(String cardRarity) {
         Session session = sessionFactory.openSession();
-        YugiohCard card = session.get( YugiohCard.class, cardRarity);
+        YugiohCard YugiohCard = session.get( YugiohCard.class, cardRarity);
         session.close();
-        return card;
+        return YugiohCard;
     }
 
     /**
@@ -74,9 +73,9 @@ public class CardDao {
      */
     public YugiohCard getByCardSet(String cardSet) {
         Session session = sessionFactory.openSession();
-        YugiohCard card = session.get( YugiohCard.class, cardSet);
+        YugiohCard YugiohCard = session.get( YugiohCard.class, cardSet);
         session.close();
-        return card;
+        return YugiohCard;
     }
 
     /**
@@ -86,9 +85,9 @@ public class CardDao {
      */
     public YugiohCard getByCardPrice(double cardPrice) {
         Session session = sessionFactory.openSession();
-        YugiohCard card = session.get( YugiohCard.class, cardPrice);
+        YugiohCard YugiohCard = session.get( YugiohCard.class, cardPrice);
         session.close();
-        return card;
+        return YugiohCard;
     }
 
     /**

@@ -6,21 +6,21 @@ import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
 public class CollectorDao {
+
     private final Logger logger = LogManager.getLogger(this.getClass());
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
-    public Collector getByUd(int id) {
+    public Collector getById(int id) {
         Session session = sessionFactory.openSession();
-        Collector user = session.get(Collector.class, id);
+        Collector Collector = session.get(Collector.class, id);
         session.close();
-        return user;
+        return Collector;
     }
 
     public void saveOrUpdate(Collector collector) {
