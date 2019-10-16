@@ -1,11 +1,13 @@
 package entity;
-
-
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Collector object
+ * @Author Lee Yang
+ */
 @Entity(name = "Collector")
 @Table(name = "collector")
 public class Collector {
@@ -71,7 +73,7 @@ public class Collector {
      */
     public String getUserName() {
         return this.userName;
-    }d
+    }
 
     /**
      * gets password
@@ -81,15 +83,26 @@ public class Collector {
         return this.password;
     }
 
-
+    /**
+     * sets cards
+     * @param cards
+     */
     public void setCards(Set<YugiohCard> cards) {
         this.cards = cards;
     }
 
+    /**
+     * gets cards
+     * @return cards yugioh cards
+     */
     public Set<YugiohCard> getCards() {
         return this.cards;
     }
 
+    /**
+     * adds a card to the collection of yugioh cards
+     * @param card yugioh card
+     */
     public void addCard(YugiohCard card) {
         cards.add(card);
     }
