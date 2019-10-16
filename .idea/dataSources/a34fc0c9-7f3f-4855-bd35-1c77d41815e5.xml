@@ -1203,7 +1203,7 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="286" name="user_id">
+    <column id="300" parent="286" name="collector_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
@@ -1245,7 +1245,7 @@
       <Type>btree</Type>
     </index>
     <index id="308" parent="286" name="yugioh_card_user_id_fk">
-      <ColNames>user_id</ColNames>
+      <ColNames>collector_id</ColNames>
       <Type>btree</Type>
     </index>
     <key id="309" parent="286" name="PRIMARY">
@@ -1258,7 +1258,7 @@
       <UnderlyingIndexName>yugioh_card_id_uindex</UnderlyingIndexName>
     </key>
     <foreign-key id="311" parent="286" name="yugioh_card_collector_id_fk">
-      <ColNames>user_id</ColNames>
+      <ColNames>collector_id</ColNames>
       <RefSchemaName>test_yugioh_card_db</RefSchemaName>
       <RefTableName>collector</RefTableName>
       <RefColNames>id</RefColNames>

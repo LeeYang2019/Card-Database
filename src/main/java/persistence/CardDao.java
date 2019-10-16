@@ -19,19 +19,41 @@ public class CardDao {
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
     /**
-     *
+     * gets a single card
      * @param cardName
      * @return card
      */
     public YugiohCard getByCardName(String cardName) {
         Session session = sessionFactory.openSession();
-        YugiohCard YugiohCard = session.get( YugiohCard.class, cardName);
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<YugiohCard> query = builder.createQuery( YugiohCard.class );
+        Root<YugiohCard> root = query.from( YugiohCard.class );
+        Expression<String> propertyPath = root.get(cardName);
+        query.where(builder.like(propertyPath, cardName));
+        YugiohCard card = session.createQuery( query ).getSingleResult();
         session.close();
-        return YugiohCard;
+        return card;
     }
 
     /**
-     *
+     * gets a list of cards with similar names
+     * @param cardName
+     * @return cards list of cards with similar names
+     */
+    public List<YugiohCard> getAllByCardName(String cardName) {
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<YugiohCard> query = builder.createQuery( YugiohCard.class );
+        Root<YugiohCard> root = query.from( YugiohCard.class );
+        Expression<String> propertyPath = root.get("%" + cardName +"%");
+        query.where(builder.like(propertyPath, cardName));
+        List<YugiohCard> cards = session.createQuery( query ).getResultList();
+        session.close();
+        return cards;
+    }
+
+
+    /**
      * @param id
      * @return card
      */
@@ -126,8 +148,8 @@ public class CardDao {
         session.close();
     }
 
-    /** Return a list of all yugiohcards
-     *
+    /**
+     * Return a list of all yugiohcards
      * @return All Yugiohcards
      */
     public List<YugiohCard> getAll() {

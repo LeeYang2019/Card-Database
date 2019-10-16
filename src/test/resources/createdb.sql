@@ -30,7 +30,7 @@ create table yugioh_card
     charset = latin1;
 
 create index yugioh_card_user_id_fk
-    on yugioh_card (user_id);
+    on yugioh_card (collector_id);
 
 alter table yugioh_card
     add primary key (id);

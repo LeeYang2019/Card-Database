@@ -18,9 +18,9 @@ public class CollectorDao {
 
     public Collector getById(int id) {
         Session session = sessionFactory.openSession();
-        Collector Collector = session.get(Collector.class, id);
+        Collector collector = session.get(Collector.class, id);
         session.close();
-        return Collector;
+        return collector;
     }
 
     public void saveOrUpdate(Collector collector) {
