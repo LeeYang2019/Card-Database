@@ -17,6 +17,7 @@ class CardDaoTest {
 
     @BeforeEach
     void setUp() {
+        logger.info("hello lee");
         yugiohDao = new CardDao();
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -26,7 +27,8 @@ class CardDaoTest {
     void getByCardId() {
         logger.info("hello lee");
         YugiohCard newCard = new YugiohCard();
-        newCard = yugiohDao.getByCardId(1);
+        int id = 1;
+        newCard = yugiohDao.getByCardId(id);
         logger.info(newCard.getCardName());
         assertEquals(newCard.getCardName(), "Dark Magician");
     }

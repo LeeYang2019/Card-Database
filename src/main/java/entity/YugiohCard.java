@@ -64,6 +64,14 @@ public class YugiohCard {
     }
 
     /**
+     * sets id
+     * @param id
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
      * gets id
      * @return id
      */
