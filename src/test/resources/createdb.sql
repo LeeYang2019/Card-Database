@@ -1,4 +1,3 @@
-
 create table collector
 (
     id            int auto_increment,
@@ -11,10 +10,25 @@ create table collector
 alter table collector
     add primary key (id);
 
+create table update_history
+(
+    id          int auto_increment,
+    update_date datetime not null,
+    quantity    int      null,
+    price       double   null,
+    constraint update_history_id_uindex
+        unique (id),
+    constraint update_history_update_date_uindex
+        unique (update_date)
+);
+
+alter table update_history
+    add primary key (id);
+
 create table yugioh_card
 (
     id            int auto_increment,
-    user_id       int         null,
+    collector_id  int         null,
     card_name     varchar(70) null,
     card_type     varchar(25) null,
     card_rarity   varchar(25) null,
@@ -24,7 +38,7 @@ create table yugioh_card
     constraint yugioh_card_id_uindex
         unique (id),
     constraint yugioh_card_collector_id_fk
-        foreign key (user_id) references collector (id)
+        foreign key (collector_id) references collector (id)
             on update cascade on delete cascade
 )
     charset = latin1;
@@ -34,3 +48,4 @@ create index yugioh_card_user_id_fk
 
 alter table yugioh_card
     add primary key (id);
+
