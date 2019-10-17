@@ -6,10 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import edu.yang.testUtils.Database;
-
 import java.util.List;
-import java.util.Set;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -32,13 +29,14 @@ class YugiohCardDaoTest {
      */
     @Test
     void insert() {
+        /**
         YugiohCard newCard = new YugiohCard();
         newCard.setCardName("Buster Blader");
         newCard.setCardRarity("Ultra");
         newCard.setCardSet("LON-EN035");
         newCard.setCardQuantity(1);
         newCard.setCardType("Monster");
-
+         **/
     }
 
     /**
@@ -77,7 +75,9 @@ class YugiohCardDaoTest {
      */
    @Test
    void getAllByCardType() {
-
+       List<YugiohCard> cards = yugiohDao.getAllByCardType("Monster");
+       assertEquals(cards.size(), 2);
+       logger.info(cards.toString());
    }
 
     /**
@@ -85,7 +85,9 @@ class YugiohCardDaoTest {
      */
    @Test
    void getAllByCardSet() {
-
+       List<YugiohCard> cards = yugiohDao.getAllByCardSet("MFC-EN00");
+       assertEquals(cards.size(), 1);
+       logger.info(cards.toString());
    }
 
 }

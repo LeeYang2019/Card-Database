@@ -7,3 +7,109 @@
 [INFO ] 2019-10-17 10:34:52.100 [main] YugiohCardDaoTest - Dark Magician
 [INFO ] 2019-10-17 10:34:52.209 [main] YugiohCardDaoTest - Dark Magician
 [INFO ] 2019-10-17 10:34:52.313 [main] YugiohCardDaoTest - [cardName: Dark Magician, cardName: Dark Magician Girl]
+[INFO ] 2019-10-17 11:14:59.526 [main] YugiohCardDaoTest - [cardName: Dark Magician, cardName: Dark Magician Girl]
+[INFO ] 2019-10-17 11:17:55.031 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-17 11:17:55.186 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-17 11:17:55.484 [main] YugiohCardDaoTest - [cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: 50.0]
+[INFO ] 2019-10-17 11:17:55.590 [main] YugiohCardDaoTest - [cardName: Dark Magician
+cardType: Monster
+cardRarity: Secret
+cardSet: LOB-EN02
+Quantity: 2
+cardPrice: 25.0, cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: 50.0]
+[INFO ] 2019-10-17 11:17:55.801 [main] YugiohCardDaoTest - [cardName: Dark Magician
+cardType: Monster
+cardRarity: Secret
+cardSet: LOB-EN02
+Quantity: 2
+cardPrice: 25.0, cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: 50.0]
+[INFO ] 2019-10-17 11:18:47.907 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-17 11:18:48.018 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-17 11:18:48.252 [main] YugiohCardDaoTest - [
+ cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: 50.0
+]
+[INFO ] 2019-10-17 11:18:48.417 [main] YugiohCardDaoTest - [
+ cardName: Dark Magician
+cardType: Monster
+cardRarity: Secret
+cardSet: LOB-EN02
+Quantity: 2
+cardPrice: 25.0
+, 
+ cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: 50.0
+]
+[INFO ] 2019-10-17 11:18:48.542 [main] YugiohCardDaoTest - [
+ cardName: Dark Magician
+cardType: Monster
+cardRarity: Secret
+cardSet: LOB-EN02
+Quantity: 2
+cardPrice: 25.0
+, 
+ cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: 50.0
+]
+[INFO ] 2019-10-17 11:19:33.023 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-17 11:19:33.137 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-17 11:19:33.464 [main] YugiohCardDaoTest - [cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: $50.0
+]
+[INFO ] 2019-10-17 11:19:33.601 [main] YugiohCardDaoTest - [cardName: Dark Magician
+cardType: Monster
+cardRarity: Secret
+cardSet: LOB-EN02
+Quantity: 2
+cardPrice: $25.0
+, cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: $50.0
+]
+[INFO ] 2019-10-17 11:19:33.705 [main] YugiohCardDaoTest - [cardName: Dark Magician
+cardType: Monster
+cardRarity: Secret
+cardSet: LOB-EN02
+Quantity: 2
+cardPrice: $25.0
+, cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: $50.0
+]

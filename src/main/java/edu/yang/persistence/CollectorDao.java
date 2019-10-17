@@ -11,6 +11,10 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
+/**
+ * CollectorDao object
+ * @author Lee Yang
+ */
 public class CollectorDao {
 
     private final Logger logger = LogManager.getLogger(this.getClass());

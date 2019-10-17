@@ -12,6 +12,7 @@ import java.util.List;
 
 /**
  * YugiohCard Dao
+ * @author Lee Yang
  */
 public class YugiohCardDao {
 
