@@ -3,22 +3,21 @@ package persistence;
 import entity.YugiohCard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import testUtils.Database;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CardDaoTest {
+class YugiohCardDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    CardDao yugiohDao;
+    YugiohCardDao yugiohDao;
 
     @BeforeEach
     void setUp() {
         logger.info("hello lee");
-        yugiohDao = new CardDao();
+        yugiohDao = new YugiohCardDao();
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
     }

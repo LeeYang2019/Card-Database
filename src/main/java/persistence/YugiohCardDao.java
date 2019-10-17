@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * YugiohCard Dao
  */
-public class CardDao {
+public class YugiohCardDao {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
