@@ -1,13 +1,13 @@
-package persistence;
+package edu.yang.persistence;
 
-import entity.YugiohCard;
+import edu.yang.entity.YugiohCard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import testUtils.Database;
+import edu.yang.testUtils.Database;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * YugiohCardDaoTest

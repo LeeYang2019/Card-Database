@@ -1,4 +1,4 @@
-package entity;
+package edu.yang.entity;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
@@ -6,8 +6,8 @@ import javax.persistence.*;
  * YugiohCard object
  * @author Lee Yang
  */
-@Entity(name = "YugiohCard")
-@Table(name = "yugioh_card")
+@Entity(name="YugiohCard")
+@Table(name="yugioh_card")
 public class YugiohCard {
 
     @Id
@@ -15,22 +15,22 @@ public class YugiohCard {
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name = "card_name")
+    @Column(name="card_name")
     private String cardName;
 
-    @Column(name = "card_type")
+    @Column(name="card_type")
     private String cardType;
 
-    @Column(name = "card_rarity")
+    @Column(name="card_rarity")
     private String cardRarity;
 
-    @Column(name = "card_set")
+    @Column(name="card_set")
     private String cardSet;
 
-    @Column(name = "card_price")
+    @Column(name="card_price")
     private double cardPrice;
 
-    @Column(name = "card_quantity")
+    @Column(name="card_quantity")
     private int cardQuantity;
 
     @ManyToOne

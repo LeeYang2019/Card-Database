@@ -1,4 +1,4 @@
-package persistence;
+package edu.yang.persistence;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

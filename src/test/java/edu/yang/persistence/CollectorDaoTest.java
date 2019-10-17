@@ -1,13 +1,11 @@
-package persistence;
+package edu.yang.persistence;
 
-import entity.Collector;
-import entity.YugiohCard;
+import edu.yang.entity.Collector;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
-import testUtils.Database;
+import edu.yang.testUtils.Database;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;

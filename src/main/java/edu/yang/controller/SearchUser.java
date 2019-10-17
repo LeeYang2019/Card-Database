@@ -1,6 +1,6 @@
-package controller;
+package edu.yang.controller;
 
-import persistence.YugiohCardDao;
+import edu.yang.persistence.YugiohCardDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

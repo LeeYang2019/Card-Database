@@ -1,6 +1,6 @@
-package persistence;
+package edu.yang.persistence;
 
-import entity.YugiohCard;
+import edu.yang.entity.YugiohCard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;

@@ -1,4 +1,4 @@
-package entity;
+package edu.yang.entity;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.HashSet;
