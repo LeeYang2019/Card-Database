@@ -1,10 +1,13 @@
 package edu.yang.entity;
 
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * UpdateHistory object
+ * @author Lee Yang
+ */
 @Entity(name="UpdateHistory")
 @Table(name="update_history")
 public class UpdateHistory {
@@ -14,7 +17,7 @@ public class UpdateHistory {
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name="date")
+    @Column(name="update_date")
     private Date date;
 
     @Column(name="quantity")
@@ -23,12 +26,13 @@ public class UpdateHistory {
     @Column(name="price")
     private double price;
 
+    @ManyToOne
+    private YugiohCard yugiohCard;
+
     /**
      * no arg constructor
      */
-    public UpdateHistory() {
-
-    }
+    public UpdateHistory() { }
 
     /**
      * arg constructor
@@ -36,10 +40,11 @@ public class UpdateHistory {
      * @param quantity
      * @param price
      */
-    public UpdateHistory(Date date, int quantity, double price) {
+    public UpdateHistory(Date date, int quantity, double price, YugiohCard yugiohCard) {
         this.date = date;
         this.quantity = quantity;
         this.price = price;
+        this.yugiohCard = yugiohCard;
     }
 
 
@@ -65,6 +70,14 @@ public class UpdateHistory {
      */
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    /**
+     * sets YugiohCard
+     * @param yugiohCard
+     */
+    public void setYugiohCard(YugiohCard yugiohCard) {
+        this.yugiohCard = yugiohCard;
     }
 
     /**
@@ -97,5 +110,13 @@ public class UpdateHistory {
      */
     public double getPrice() {
         return this.price;
+    }
+
+    /**
+     * gets YugiohCard
+     * @return YugiohCard
+     */
+    public YugiohCard getYugiohCard() {
+        return this.yugiohCard;
     }
 }

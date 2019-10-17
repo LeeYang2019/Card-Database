@@ -1,4 +1,5 @@
 package edu.yang.entity;
+
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
@@ -39,9 +40,7 @@ public class YugiohCard {
     /**
      * no arg constructor
      */
-    public YugiohCard() {
-
-    }
+    public YugiohCard() { }
 
     /**
      * arg constructor
