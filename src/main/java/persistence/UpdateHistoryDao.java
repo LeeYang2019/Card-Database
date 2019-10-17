@@ -25,6 +25,4 @@ public class UpdateHistoryDao {
         sessionFactory = SessionFactoryProvider.getSessionFactory();
         return this.sessionFactory;
     }
-
-
 }
