@@ -190,5 +190,10 @@ public class YugiohCard {
         return this.collector;
     }
 
+    @Override
+    public String toString() {
+        return "cardName: " + this.cardName;
+    }
+
 }
 

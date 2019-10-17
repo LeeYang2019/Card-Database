@@ -19,100 +19,6 @@ public class YugiohCardDao {
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
     /**
-     * gets a single card
-     * @param cardName
-     * @return card
-     */
-    public YugiohCard getByCardName(String cardName) {
-        Session session = sessionFactory.openSession();
-        CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<YugiohCard> query = builder.createQuery( YugiohCard.class );
-        Root<YugiohCard> root = query.from( YugiohCard.class );
-        Expression<String> propertyPath = root.get(cardName);
-        query.where(builder.like(propertyPath, cardName));
-        YugiohCard card = session.createQuery( query ).getSingleResult();
-        session.close();
-        return card;
-    }
-
-    /**
-     * gets a list of cards with similar names
-     * @param cardName
-     * @return cards list of cards with similar names
-     */
-    public List<YugiohCard> getAllByCardName(String cardName) {
-        Session session = sessionFactory.openSession();
-        CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<YugiohCard> query = builder.createQuery( YugiohCard.class );
-        Root<YugiohCard> root = query.from( YugiohCard.class );
-        Expression<String> propertyPath = root.get("%" + cardName +"%");
-        query.where(builder.like(propertyPath, cardName));
-        List<YugiohCard> cards = session.createQuery( query ).getResultList();
-        session.close();
-        return cards;
-    }
-
-
-    /**
-     * @param id
-     * @return card
-     */
-    public YugiohCard getByCardId(int id) {
-        Session session = sessionFactory.openSession();
-        YugiohCard YugiohCard = session.get( YugiohCard.class, id);
-        session.close();
-        return YugiohCard;
-    }
-
-    /**
-     *
-     * @param cardType
-     * @return card
-     */
-    public YugiohCard getByCardType(String cardType) {
-        Session session = sessionFactory.openSession();
-        YugiohCard YugiohCard = session.get( YugiohCard.class, cardType);
-        session.close();
-        return YugiohCard;
-    }
-
-    /**
-     *
-     * @param cardRarity
-     * @return card
-     */
-    public YugiohCard getByCardRarity(String cardRarity) {
-        Session session = sessionFactory.openSession();
-        YugiohCard YugiohCard = session.get( YugiohCard.class, cardRarity);
-        session.close();
-        return YugiohCard;
-    }
-
-    /**
-     *
-     * @param cardSet
-     * @return card
-     */
-    public YugiohCard getByCardSet(String cardSet) {
-        Session session = sessionFactory.openSession();
-        YugiohCard YugiohCard = session.get( YugiohCard.class, cardSet);
-        session.close();
-        return YugiohCard;
-    }
-
-    /**
-     *
-     * @param cardPrice
-     * @return card
-     */
-    public YugiohCard getByCardPrice(double cardPrice) {
-        Session session = sessionFactory.openSession();
-        YugiohCard YugiohCard = session.get( YugiohCard.class, cardPrice);
-        session.close();
-        return YugiohCard;
-    }
-
-    /**
      * update Yugiohcard
      * @param card  yugiohcard to be inserted or updated
      */
@@ -146,6 +52,102 @@ public class YugiohCardDao {
         session.delete(card);
         transaction.commit();
         session.close();
+    }
+
+    /**
+     * @param id
+     * @return card
+     */
+    public YugiohCard getByCardId(int id) {
+        Session session = sessionFactory.openSession();
+        YugiohCard YugiohCard = session.get( YugiohCard.class, id);
+        session.close();
+        return YugiohCard;
+    }
+
+    /**
+     * gets a single card
+     * @param cardName
+     * @return card
+     */
+    public YugiohCard getByCardName(String cardName) {
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<YugiohCard> query = builder.createQuery( YugiohCard.class );
+        Root<YugiohCard> root = query.from( YugiohCard.class );
+        Expression<String> propertyPath = root.get("cardName");
+        query.where(builder.like(propertyPath, cardName));
+        YugiohCard card = session.createQuery( query ).getSingleResult();
+        session.close();
+        return card;
+    }
+
+    /**
+     * gets a list of cards with similar names
+     * @param cardName
+     * @return cards list of cards with similar names
+     */
+    public List<YugiohCard> getAllByCardName(String cardName) {
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<YugiohCard> query = builder.createQuery( YugiohCard.class );
+        Root<YugiohCard> root = query.from( YugiohCard.class );
+        Expression<String> propertyPath = root.get("cardName");
+        query.where(builder.like(propertyPath, "%" + cardName + "%"));
+        List<YugiohCard> cards = session.createQuery( query ).getResultList();
+        session.close();
+        return cards;
+    }
+
+    /**
+     * gets a list of cards with similar types
+     * @param cardType
+     * @return cards list of cards with similar types
+     */
+    public List<YugiohCard> getAllByCardType(String cardType) {
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<YugiohCard> query = builder.createQuery( YugiohCard.class );
+        Root<YugiohCard> root = query.from( YugiohCard.class );
+        Expression<String> propertyPath = root.get("cardType");
+        query.where(builder.like(propertyPath, "%" + cardType + "%"));
+        List<YugiohCard> cards = session.createQuery( query ).getResultList();
+        session.close();
+        return cards;
+    }
+
+    /**
+     * gets a list of cards with similar rarity
+     * @param cardRarity
+     * @return cards list of cards with similar rarity
+     */
+    public List<YugiohCard> getAllByCardRarity(String cardRarity) {
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<YugiohCard> query = builder.createQuery( YugiohCard.class );
+        Root<YugiohCard> root = query.from( YugiohCard.class );
+        Expression<String> propertyPath = root.get("cardRarity");
+        query.where(builder.like(propertyPath, "%" + cardRarity + "%"));
+        List<YugiohCard> cards = session.createQuery( query ).getResultList();
+        session.close();
+        return cards;
+    }
+
+    /**
+     * gets a list of cards with same sets
+     * @param cardSet
+     * @return cards list of cards with same sets
+     */
+    public List<YugiohCard> getAllByCardSet(String cardSet) {
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<YugiohCard> query = builder.createQuery( YugiohCard.class );
+        Root<YugiohCard> root = query.from( YugiohCard.class );
+        Expression<String> propertyPath = root.get("cardSet");
+        query.where(builder.like(propertyPath, "%" + cardSet + "%"));
+        List<YugiohCard> cards = session.createQuery( query ).getResultList();
+        session.close();
+        return cards;
     }
 
     /**

@@ -7,6 +7,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import edu.yang.testUtils.Database;
 
+import java.util.List;
+import java.util.Set;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -24,68 +27,51 @@ class YugiohCardDaoTest {
         database.runSQL("cleandb.sql");
     }
 
+    /**
+     * verify successful get by id
+     */
     @Test
     void getByCardId() {
         YugiohCard newCard = yugiohDao.getByCardId(1);
         assertEquals(newCard.getCardName(), "Dark Magician");
+        logger.info(newCard.getCardName());
     }
 
-
+    /**
+     * verify successful get by cardName
+     */
     @Test
     void getByCardName() {
         YugiohCard newCard = yugiohDao.getByCardName("Dark Magician");
         assertEquals(newCard.getCardName(), "Dark Magician");
+        logger.info(newCard.getCardName());
     }
 
+    /**
+     * verify successful get all by cardName
+     */
     @Test
-    void getByCardType() {
-        YugiohCard newCard = new YugiohCard();
-        //newCard = yugiohDao.get
-    }
+    void getAllByCardName() {
+        List<YugiohCard> cards = yugiohDao.getAllByCardName("Dark Magician");
+        assertEquals(cards.size(), 2);
+        logger.info(cards.toString());
 
-    @Test
-    void getByCardRarity() {
-        YugiohCard newCard = new YugiohCard();
-    }
+   }
 
-    @Test
-    void getByCardSet() {
-        YugiohCard newCard = new YugiohCard();
-    }
+    /**
+     * verify successful get all by cardType
+     */
+   @Test
+   void getAllByCardType() {
 
-    @Test
-    void getByCardPrice() {
-        YugiohCard newCard = new YugiohCard();
-    }
+   }
 
-    @Test
-    void saveOrUpdate() {
-        YugiohCard newCard = new YugiohCard();
-    }
+    /**
+     * verify successful get all by cardSet
+     */
+   @Test
+   void getAllByCardSet() {
 
-    @Test
-    void insert() {
-        YugiohCard newCard = new YugiohCard();
-        newCard.setCardName("Buster Blader");
-        newCard.setCardRarity("Ultra");
-        newCard.setCardPrice(30);
-        newCard.setCardType("Monster");
-        newCard.setCardSet("LON-035");
-        newCard.setCardPrice(25);
-        newCard.setCardQuantity(2);
-       // newCard.setCollector();
-        yugiohDao.insert(newCard);
-        yugiohDao.getAll().size();
-        assertEquals(3, yugiohDao.getAll().size());
-    }
+   }
 
-    @Test
-    void delete() {
-        YugiohCard newCard = new YugiohCard();
-    }
-
-    @Test
-    void getAll() {
-        assertEquals(2, yugiohDao.getAll().size());
-    }
 }
