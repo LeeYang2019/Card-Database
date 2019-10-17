@@ -28,6 +28,20 @@ class YugiohCardDaoTest {
     }
 
     /**
+     * verify successful insert
+     */
+    @Test
+    void insert() {
+        YugiohCard newCard = new YugiohCard();
+        newCard.setCardName("Buster Blader");
+        newCard.setCardRarity("Ultra");
+        newCard.setCardSet("LON-EN035");
+        newCard.setCardQuantity(1);
+        newCard.setCardType("Monster");
+
+    }
+
+    /**
      * verify successful get by id
      */
     @Test
