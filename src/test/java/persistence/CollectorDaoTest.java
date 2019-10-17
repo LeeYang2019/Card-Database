@@ -22,38 +22,48 @@ class CollectorDaoTest {
         newDao = new CollectorDao();
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
-        logger.info("hello lee");
+        logger.info("hello from the other side");
     }
 
     /**
-     * verify success insert of a collector
+     * verify success in getting a collector by id
      */
-    void insert() {
-        Collector newCollector = new Collector("groggySam", "2k19Sun");
-        int id = newDao.insert(newCollector);
-        assertNotEquals(0, id);
+    @Test
+    void getCollectorById() {
+        Collector newCollector = newDao.getById(1);
+        assertEquals("leeyang2019", newCollector.getUserName());
     }
 
-    /**
-     * verify successful saveOrUpdate of a collector
-     */
+    @Test
     void saveOrUpdate() {
         Collector newCollector = newDao.getById(1);
-        newCollector.setUserName("leeyang2020");
+        newCollector.setUserName("jimmybutler");
         newDao.saveOrUpdate(newCollector);
-        assertEquals("leeyang2020", newDao.getById(1).getUserName());
+        assertEquals("jimmybutler", newCollector.getUserName());
     }
+
+    /**
+     * verify successful insert of a collector
+     */
+    @Test
+    void insertCollector() {
+        Collector newCollector = new Collector("redRainbow19", "brownTurnip");
+        int id = newDao.insert(newCollector);
+        assertNotEquals(0, id);
+        assertEquals(3, newDao.getAll().size());
+    }
+
 
     /**
      * Verify successful insert of an collector and card
      */
     @Test
     void insertWithCardSuccess() {
-        Collector newCollector = new Collector("George", "Orwell");
-        YugiohCard newCard = new YugiohCard();
+        //Collector newCollector = new Collector("George", "Orwell");
+        //YugiohCard newCard = new YugiohCard();
 
-        int id = newDao.insert(newCollector);
-        assertNotEquals(0, id);
+        //int id = newDao.insert(newCollector);
+        //assertNotEquals(0, id);
     }
 
     /**
@@ -63,16 +73,6 @@ class CollectorDaoTest {
     void deleteCollector() {
         Collector newCollector = newDao.getById(2);
         newDao.delete(newCollector);
-        assertEquals(1, newDao.getAll().size());
+        assertEquals(2, newDao.getAll().size());
     }
-
-    /**
-     * verify successful get size of the number of collectors
-     */
-    @Test
-    void getCollectorById() {
-        Collector newCollector = newDao.getById(1);
-        assertEquals(newCollector.getUserName(), "leeyang2019");
-    }
-
 }

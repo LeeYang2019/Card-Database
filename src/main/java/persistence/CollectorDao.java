@@ -14,17 +14,32 @@ import java.util.List;
 public class CollectorDao {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
+    SessionFactory sessionFactory;
+
+    /**
+     * gets sessionFactory
+     * @return sessionFactory
+     */
+    public SessionFactory getSessionFactory() {
+        sessionFactory = SessionFactoryProvider.getSessionFactory();
+        return this.sessionFactory;
+    }
+
+    /**
+     * gets a collector by its id
+     * @param id
+     * @return collector
+     */
 
     public Collector getById(int id) {
-        Session session = sessionFactory.openSession();
+        Session session = getSessionFactory().openSession();
         Collector collector = session.get(Collector.class, id);
         session.close();
         return collector;
     }
 
     public void saveOrUpdate(Collector collector) {
-        Session session = sessionFactory.openSession();
+        Session session = getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(collector);
         transaction.commit();
@@ -33,7 +48,7 @@ public class CollectorDao {
 
     public int insert(Collector collector) {
         int id = 0;
-        Session session = sessionFactory.openSession();
+        Session session = getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
         id = (int)session.save(collector);
         transaction.commit();
@@ -49,7 +64,7 @@ public class CollectorDao {
     }
 
     public List<Collector> getAll() {
-        Session session = sessionFactory.openSession();
+        Session session = getSessionFactory().openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Collector> query = builder.createQuery(Collector.class);
         Root<Collector> root = query.from(Collector.class);
@@ -57,5 +72,4 @@ public class CollectorDao {
         session.close();
         return collectors;
     }
-
 }

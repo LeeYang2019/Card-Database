@@ -9,6 +9,9 @@ import testUtils.Database;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * YugiohCardDaoTest
+ */
 class YugiohCardDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
@@ -16,7 +19,6 @@ class YugiohCardDaoTest {
 
     @BeforeEach
     void setUp() {
-        logger.info("hello lee");
         yugiohDao = new YugiohCardDao();
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
