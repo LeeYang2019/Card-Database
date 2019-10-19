@@ -113,3 +113,43 @@ cardSet: MFC-EN00
 Quantity: 4
 cardPrice: $50.0
 ]
+[INFO ] 2019-10-17 18:34:28.687 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-17 18:34:28.950 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-17 18:34:29.264 [main] YugiohCardDaoTest - [cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: $50.0
+]
+[INFO ] 2019-10-17 18:34:29.431 [main] YugiohCardDaoTest - [cardName: Dark Magician
+cardType: Monster
+cardRarity: Secret
+cardSet: LOB-EN02
+Quantity: 2
+cardPrice: $25.0
+, cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: $50.0
+]
+[INFO ] 2019-10-17 18:34:29.596 [main] YugiohCardDaoTest - [cardName: Dark Magician
+cardType: Monster
+cardRarity: Secret
+cardSet: LOB-EN02
+Quantity: 2
+cardPrice: $25.0
+, cardName: Dark Magician Girl
+cardType: Monster
+cardRarity: Secret
+cardSet: MFC-EN00
+Quantity: 4
+cardPrice: $50.0
+]
+[INFO ] 2019-10-17 18:34:29.974 [main] CollectorDaoTest - hello from the other side
+[INFO ] 2019-10-17 18:34:30.223 [main] CollectorDaoTest - hello from the other side
+[INFO ] 2019-10-17 18:34:30.417 [main] CollectorDaoTest - hello from the other side
+[INFO ] 2019-10-17 18:34:30.727 [main] CollectorDaoTest - hello from the other side
+[INFO ] 2019-10-17 18:34:30.962 [main] CollectorDaoTest - hello from the other side

@@ -1,4 +1,4 @@
-create table collector
+create table if not exists collector
 (
     id            int auto_increment,
     user_name     varchar(50) not null,
@@ -8,24 +8,10 @@ create table collector
 );
 
 alter table collector
-    add primary key (id);
+    add constraint `PRIMARY`
+        primary key (id);
 
-create table update_history
-(
-    id          int auto_increment,
-    update_date datetime not null,
-    quantity    int      null,
-    price       double   null,
-    constraint update_history_id_uindex
-        unique (id),
-    constraint update_history_update_date_uindex
-        unique (update_date)
-);
-
-alter table update_history
-    add primary key (id);
-
-create table yugioh_card
+create table if not exists yugioh_card
 (
     id            int auto_increment,
     collector_id  int         null,
@@ -47,5 +33,26 @@ create index yugioh_card_user_id_fk
     on yugioh_card (collector_id);
 
 alter table yugioh_card
-    add primary key (id);
+    add constraint `PRIMARY`
+        primary key (id);
+
+create table if not exists update_history
+(
+    id             int auto_increment,
+    update_date    datetime not null,
+    quantity       int      null,
+    price          double   null,
+    yugioh_card_id int      not null,
+    constraint update_history_id_uindex
+        unique (id),
+    constraint update_history_update_date_uindex
+        unique (update_date),
+    constraint update_history_yugioh_card_id_fk
+        foreign key (id) references yugioh_card (id)
+            on update cascade on delete cascade
+);
+
+alter table update_history
+    add constraint `PRIMARY`
+        primary key (id);
 

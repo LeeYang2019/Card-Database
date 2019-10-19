@@ -118,19 +118,10 @@ public class Collector {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Collector)) return false;
-        Collector collector = (Collector) o;
-        return getId() == collector.getId() &&
-                Objects.equals(getUserName(), collector.getUserName()) &&
-                Objects.equals(getPassword(), collector.getPassword()) &&
-                Objects.equals(getCards(), collector.getCards());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getId(), getUserName(), getPassword(), getCards());
+    public String toString() {
+        return "id : " + this.id + "\n"
+                + "first name : " + this.userName + "\n"
+                + "last name : " + this.password;
     }
 }
 

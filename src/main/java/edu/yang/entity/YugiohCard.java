@@ -1,7 +1,10 @@
 package edu.yang.entity;
 
+import com.mysql.cj.x.protobuf.MysqlxCrud;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * YugiohCard object
@@ -36,6 +39,9 @@ public class YugiohCard {
 
     @ManyToOne
     private Collector collector;
+
+    @OneToMany (mappedBy = "yugioh_card", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<UpdateHistory> entries = new HashSet<>();
 
     /**
      * no arg constructor
@@ -188,6 +194,23 @@ public class YugiohCard {
      */
     public Collector getCollector() {
         return this.collector;
+    }
+
+    public void setUpdate(Set<UpdateHistory> entries) {
+        this.entries = entries;
+    }
+
+    public Set<UpdateHistory> getEntries() {
+        return this.entries;
+    }
+
+    public void addEntry(UpdateHistory entry) {
+        entries.add(entry);
+    }
+
+    public void removeEntry(UpdateHistory entry) {
+        entries.remove(entry);
+        entry.setYugiohCard(null);
     }
 
     @Override
