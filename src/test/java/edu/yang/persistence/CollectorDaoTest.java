@@ -1,11 +1,16 @@
 package edu.yang.persistence;
 
 import edu.yang.entity.Collector;
+import edu.yang.entity.UpdateHistory;
+import edu.yang.entity.YugiohCard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import edu.yang.testUtils.Database;
+
+import java.sql.Timestamp;
+import java.util.Date;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -14,10 +19,12 @@ class CollectorDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     CollectorDao newDao;
+    YugiohCard yugiohCardDao;
 
     @BeforeEach
     void setUp() {
         newDao = new CollectorDao();
+        yugiohCardDao = new YugiohCardDao();
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
         logger.info("hello from the other side");
@@ -57,11 +64,13 @@ class CollectorDaoTest {
      */
     @Test
     void insertWithCardSuccess() {
-        //Collector newCollector = new Collector("George", "Orwell");
-        //YugiohCard newCard = new YugiohCard();
+        Date date = new Date();
+        Timestamp ts = new Timestamp(date.getTime());
 
-        //int id = newDao.insert(newCollector);
-        //assertNotEquals(0, id);
+        Collector newCollector = new Collector("Jimmer", "yang201917");
+        YugiohCard newYugiohCard = new YugiohCard("Dark Magician of Chaos", "Monster", "Ultra", "IOC-EN035", 35, 1, newCollector);
+        UpdateHistory entry = new UpdateHistory(ts, 1, 35, newYugiohCard);
+        int id = new
     }
 
     /**

@@ -106,6 +106,7 @@ public class Collector {
      */
     public void addCard(YugiohCard card) {
         cards.add(card);
+        card.setCollector(this);
     }
 
     /**

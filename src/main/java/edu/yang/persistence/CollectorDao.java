@@ -1,6 +1,8 @@
 package edu.yang.persistence;
 
 import edu.yang.entity.Collector;
+import edu.yang.entity.UpdateHistory;
+import edu.yang.entity.YugiohCard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
@@ -59,6 +61,8 @@ public class CollectorDao {
         session.close();
         return id;
     }
+
+
 
     public void delete(Collector collector) {
         Session session = sessionFactory.openSession();

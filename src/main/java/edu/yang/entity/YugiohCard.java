@@ -206,6 +206,7 @@ public class YugiohCard {
 
     public void addEntry(UpdateHistory entry) {
         entries.add(entry);
+        entry.setYugiohCard(this);
     }
 
     public void removeEntry(UpdateHistory entry) {

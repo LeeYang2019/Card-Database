@@ -2,6 +2,7 @@ package edu.yang.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
+import java.sql.Timestamp;
 import java.util.Date;
 
 /**
@@ -17,8 +18,8 @@ public class UpdateHistory {
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name="update_date")
-    private Date date;
+    @Column(name="time_stamp")
+    private Timestamp ts;
 
     @Column(name="quantity")
     private int quantity;
@@ -36,12 +37,12 @@ public class UpdateHistory {
 
     /**
      * arg constructor
-     * @param date
+     * @param ts
      * @param quantity
      * @param price
      */
-    public UpdateHistory(Date date, int quantity, double price, YugiohCard yugiohCard) {
-        this.date = date;
+    public UpdateHistory(Timestamp ts, int quantity, double price, YugiohCard yugiohCard) {
+        this.ts = ts;
         this.quantity = quantity;
         this.price = price;
         this.yugiohCard = yugiohCard;
@@ -50,10 +51,10 @@ public class UpdateHistory {
 
     /**
      * sets date
-     * @param date
+     * @param ts
      */
-    public void setDate(Date date) {
-        this.date = date;
+    public void setDate(Timestamp ts) {
+        this.ts = ts;
     }
 
     /**
@@ -89,11 +90,11 @@ public class UpdateHistory {
     }
 
     /**
-     * gets date
-     * @return date
+     * gets timestamp
+     * @return timestamp
      */
-    public Date getDate() {
-        return this.date;
+    public Date getTimeStamp() {
+        return this.ts;
     }
 
     /**
