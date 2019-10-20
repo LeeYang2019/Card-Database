@@ -9,6 +9,7 @@ import org.hibernate.Transaction;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
@@ -36,7 +37,6 @@ public class ProjectDao<T> {
      */
     public Session getSession() {
         return SessionFactoryProvider.getSessionFactory().openSession();
-
     }
 
     /**
@@ -84,6 +84,35 @@ public class ProjectDao<T> {
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
         List<T> list = session.createQuery(query).getResultList();
+        session.close();
+        return list;
+    }
+
+    public T getByProperty(String property) {
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<String> propertyPath = root.get(property);
+        query.where(builder.like(propertyPath, property));
+        T entity = session.createQuery( query ).getSingleResult();
+        session.close();
+        return entity;
+    }
+
+    /**
+     * gets a list of cards with similar names
+     * @param property
+     * @return cards list of cards with similar names
+     */
+    public List<T> getAllByProperty(String property) {
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<String> propertyPath = root.get(property);
+        query.where(builder.like(propertyPath, "%" + property + "%"));
+        List<T> list = session.createQuery( query ).getResultList();
         session.close();
         return list;
     }

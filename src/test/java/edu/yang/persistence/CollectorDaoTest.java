@@ -70,7 +70,7 @@ class CollectorDaoTest {
         Collector newCollector = new Collector("Jimmer", "yang201917");
         YugiohCard newYugiohCard = new YugiohCard("Dark Magician of Chaos", "Monster", "Ultra", "IOC-EN035", 35, 1, newCollector);
         UpdateHistory entry = new UpdateHistory(ts, 1, 35, newYugiohCard);
-        int id = new
+
     }
 
     /**
