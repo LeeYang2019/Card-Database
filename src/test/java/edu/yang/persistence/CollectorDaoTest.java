@@ -24,7 +24,7 @@ class CollectorDaoTest {
     @BeforeEach
     void setUp() {
         newDao = new CollectorDao();
-        yugiohCardDao = new YugiohCardDao();
+       // yugiohCardDao = new YugiohCardDao();
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
         logger.info("hello from the other side");
