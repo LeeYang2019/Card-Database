@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ProjectDaoTest {
+class YugiohCardHistoryDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     ProjectDao cardDao;
@@ -23,7 +23,7 @@ class ProjectDaoTest {
     void setUp() {
         cardDao = new ProjectDao(YugiohCard.class);
         collectorDao = new ProjectDao(User.class);
-        entryDao = new ProjectDao(YugiohCardHistory.class);
+        entryDao = new ProjectDao(edu.yang.entity.YugiohCardHistory.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");

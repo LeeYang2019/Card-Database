@@ -39,7 +39,7 @@ public class YugiohCard {
     @ManyToOne
     private User user;
 
-    @OneToMany (mappedBy = "yugioh_card", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany (mappedBy = "yugiohCard", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<YugiohCardHistory> entries = new HashSet<>();
 
     /**

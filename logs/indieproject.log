@@ -153,3 +153,6 @@ cardPrice: $50.0
 [INFO ] 2019-10-17 18:34:30.417 [main] CollectorDaoTest - hello from the other side
 [INFO ] 2019-10-17 18:34:30.727 [main] CollectorDaoTest - hello from the other side
 [INFO ] 2019-10-17 18:34:30.962 [main] CollectorDaoTest - hello from the other side
+[INFO ] 2019-10-21 16:11:50.834 [main] UserDaoTest - hello from the other side
+[ERROR] 2019-10-21 16:15:09.363 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Column 'time_stamp' cannot be null
+[ERROR] 2019-10-21 16:17:44.306 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Column 'time_stamp' cannot be null
