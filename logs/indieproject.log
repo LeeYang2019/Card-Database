@@ -157,3 +157,11 @@ cardPrice: $50.0
 [ERROR] 2019-10-21 16:15:09.363 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Column 'time_stamp' cannot be null
 [ERROR] 2019-10-21 16:17:44.306 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Column 'time_stamp' cannot be null
 [ERROR] 2019-10-21 16:22:08.176 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Column 'time_stamp' cannot be null
+[ERROR] 2019-10-21 16:28:16.787 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Column 'time_stamp' cannot be null
+[INFO ] 2019-10-21 16:28:16.803 [main] UserDaoTest - hello from the other side
+[ERROR] 2019-10-21 16:39:42.517 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-10-21 16:39:42.546 [main] UserDaoTest - hello from the other side
+[ERROR] 2019-10-21 16:41:00.153 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Column 'time_stamp' cannot be null
+[INFO ] 2019-10-21 16:41:00.173 [main] UserDaoTest - hello from the other side
+[ERROR] 2019-10-21 16:44:35.814 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Column 'time_stamp' cannot be null
+[INFO ] 2019-10-21 16:44:35.829 [main] UserDaoTest - hello from the other side
