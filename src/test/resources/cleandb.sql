@@ -1,6 +1,6 @@
-delete from yugioh_player;
-Alter table yugioh_player AUTO_INCREMENT = 1;
-INSERT INTO `yugioh_player` VALUES (1, 'leeyang2019', 'greenbayPackers'),(2, 'johnBones2019', 'greenMantaRays') ;
+delete from user;
+Alter table user AUTO_INCREMENT = 1;
+INSERT INTO user VALUES (1, 'leeyang2019', 'greenbayPackers'),(2, 'johnBones2019', 'greenMantaRays') ;
 delete from yugioh_card;
 Alter table yugioh_card AUTO_INCREMENT = 1;
 INSERT INTO `yugioh_card` VALUES (1,1,'Dark Magician','Monster','Secret','LOB-EN02', 25, 2),(2,1,'Dark Magician Girl','Monster','Secret','MFC-EN00', 50, 4);

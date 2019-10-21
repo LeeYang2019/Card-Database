@@ -7,7 +7,7 @@ create table if not exists yugioh_player
         unique (id)
 );
 
-alter table yugioh_player
+alter table user
     add constraint `PRIMARY`
         primary key (id);
 
@@ -24,13 +24,13 @@ create table if not exists yugioh_card
     constraint yugioh_card_id_uindex
         unique (id),
     constraint yugioh_card_yugioh_player_id_fk
-        foreign key (yugioh_player_id) references yugioh_player (id)
+        foreign key (yugioh_player_id) references user (id)
             on update cascade on delete cascade
 )
     charset = latin1;
 
 create index yugioh_card_user_id_fk
-    on yugioh_card (yugioh_player_id);
+    on yugioh_card (user_id);
 
 alter table yugioh_card
     add constraint `PRIMARY`

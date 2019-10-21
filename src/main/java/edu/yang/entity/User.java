@@ -5,31 +5,31 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * YugiohPlayer object
+ * User object
  * @Author Lee Yang
  */
-@Entity(name = "YugiohPlayer")
-@Table(name = "yugioh_player")
-public class YugiohPlayer {
+@Entity(name = "User")
+@Table(name = "user")
+public class User {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name = "player_name")
+    @Column(name = "user_name")
     private String userName;
 
-    @Column(name = "player_password")
+    @Column(name = "user_password")
     private String password;
 
-    @OneToMany (mappedBy = "yugioh_player", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany (mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<YugiohCard> cards = new HashSet<>();
 
     /**
      * no arg constructor
      */
-    public YugiohPlayer() {
+    public User() {
 
     }
 
@@ -38,7 +38,7 @@ public class YugiohPlayer {
      * @param userName
      * @param password
      */
-    public YugiohPlayer(String userName, String password) {
+    public User(String userName, String password) {
         this.userName = userName;
         this.password = password;
     }
@@ -105,7 +105,7 @@ public class YugiohPlayer {
      */
     public void addCard(YugiohCard card) {
         cards.add(card);
-        card.setYugiohPlayer(this);
+        card.setUser(this);
     }
 
     /**
@@ -114,7 +114,7 @@ public class YugiohPlayer {
      */
     public void removeCard(YugiohCard card) {
         cards.remove(card);
-        card.setYugiohPlayer(null);
+        card.setUser(null);
     }
 
     @Override

@@ -1,6 +1,6 @@
 package edu.yang.persistence;
 
-import edu.yang.entity.YugiohPlayer;
+import edu.yang.entity.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
@@ -12,10 +12,10 @@ import javax.persistence.criteria.Root;
 import java.util.List;
 
 /**
- * CollectorDao object
+ * UserDao object
  * @author Lee Yang
  */
-public class CollectorDao {
+public class UserDao {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     SessionFactory sessionFactory;
@@ -35,26 +35,26 @@ public class CollectorDao {
      * @return collector
      */
 
-    public YugiohPlayer getById(int id) {
+    public User getById(int id) {
         Session session = getSessionFactory().openSession();
-        YugiohPlayer yugiohPlayer = session.get(YugiohPlayer.class, id);
+        User user = session.get(User.class, id);
         session.close();
-        return yugiohPlayer;
+        return user;
     }
 
-    public void saveOrUpdate(YugiohPlayer yugiohPlayer) {
+    public void saveOrUpdate(User user) {
         Session session = getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
-        session.saveOrUpdate(yugiohPlayer);
+        session.saveOrUpdate(user);
         transaction.commit();
         session.close();
     }
 
-    public int insert(YugiohPlayer yugiohPlayer) {
+    public int insert(User user) {
         int id = 0;
         Session session = getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(yugiohPlayer);
+        id = (int)session.save(user);
         transaction.commit();
         session.close();
         return id;
@@ -62,20 +62,20 @@ public class CollectorDao {
 
 
 
-    public void delete(YugiohPlayer yugiohPlayer) {
+    public void delete(User user) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        session.delete(yugiohPlayer);
+        session.delete(user);
         session.close();
     }
 
-    public List<YugiohPlayer> getAll() {
+    public List<User> getAll() {
         Session session = getSessionFactory().openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<YugiohPlayer> query = builder.createQuery(YugiohPlayer.class);
-        Root<YugiohPlayer> root = query.from(YugiohPlayer.class);
-        List<YugiohPlayer> yugiohPlayers = session.createQuery(query).getResultList();
+        CriteriaQuery<User> query = builder.createQuery(User.class);
+        Root<User> root = query.from(User.class);
+        List<User> users = session.createQuery(query).getResultList();
         session.close();
-        return yugiohPlayers;
+        return users;
     }
 }

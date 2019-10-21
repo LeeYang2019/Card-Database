@@ -1,7 +1,7 @@
 package edu.yang.persistence;
 
+import edu.yang.entity.User;
 import edu.yang.entity.YugiohCardHistory;
-import edu.yang.entity.YugiohPlayer;
 import edu.yang.entity.YugiohCard;
 import edu.yang.testUtils.Database;
 import org.apache.logging.log4j.LogManager;
@@ -22,7 +22,7 @@ class ProjectDaoTest {
     @BeforeEach
     void setUp() {
         cardDao = new ProjectDao(YugiohCard.class);
-        collectorDao = new ProjectDao(YugiohPlayer.class);
+        collectorDao = new ProjectDao(User.class);
         entryDao = new ProjectDao(YugiohCardHistory.class);
 
         Database database = Database.getInstance();

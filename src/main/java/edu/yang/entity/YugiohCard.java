@@ -37,7 +37,7 @@ public class YugiohCard {
     private int cardQuantity;
 
     @ManyToOne
-    private YugiohPlayer yugiohPlayer;
+    private User user;
 
     @OneToMany (mappedBy = "yugioh_card", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<YugiohCardHistory> entries = new HashSet<>();
@@ -55,16 +55,16 @@ public class YugiohCard {
      * @param cardSet cardSet
      * @param cardPrice cardPrice
      * @param cardQuantity cardQuantity
-     * @param yugiohPlayer yugiohPlayer
+     * @param user user
      */
-    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double cardPrice, int cardQuantity, YugiohPlayer yugiohPlayer) {
+    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double cardPrice, int cardQuantity, User user) {
         this.cardName = cardName;
         this.cardType = cardType;
         this.cardRarity = cardRarity;
         this.cardSet = cardSet;
         this.cardPrice = cardPrice;
         this.cardQuantity = cardQuantity;
-        this.yugiohPlayer = yugiohPlayer;
+        this.user = user;
     }
 
     /**
@@ -180,19 +180,19 @@ public class YugiohCard {
     }
 
     /**
-     * sets yugiohPlayer
-     * @param yugiohPlayer yugiohPlayer
+     * sets user
+     * @param user user
      */
-    public void setYugiohPlayer(YugiohPlayer yugiohPlayer) {
-        this.yugiohPlayer = yugiohPlayer;
+    public void setUser(User user) {
+        this.user = user;
     }
 
     /**
-     * gets yugiohPlayer
-     * @return yugiohPlayer
+     * gets user
+     * @return user
      */
-    public YugiohPlayer getYugiohPlayer() {
-        return this.yugiohPlayer;
+    public User getUser() {
+        return this.user;
     }
 
     public void setEntries(Set<YugiohCardHistory> entries) {
