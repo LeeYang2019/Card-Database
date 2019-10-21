@@ -1,14 +1,13 @@
 package edu.yang.persistence;
 
-import edu.yang.entity.Collector;
-import edu.yang.entity.UpdateHistory;
+import edu.yang.entity.YugiohCardHistory;
+import edu.yang.entity.YugiohPlayer;
 import edu.yang.entity.YugiohCard;
 import edu.yang.testUtils.Database;
 import org.apache.logging.log4j.LogManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -23,8 +22,8 @@ class ProjectDaoTest {
     @BeforeEach
     void setUp() {
         cardDao = new ProjectDao(YugiohCard.class);
-        collectorDao = new ProjectDao(Collector.class);
-        entryDao = new ProjectDao(UpdateHistory.class);
+        collectorDao = new ProjectDao(YugiohPlayer.class);
+        entryDao = new ProjectDao(YugiohCardHistory.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");

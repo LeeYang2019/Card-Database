@@ -6,19 +6,19 @@ import java.sql.Timestamp;
 import java.util.Date;
 
 /**
- * UpdateHistory object
+ * YugiohCardHistory object
  * @author Lee Yang
  */
-@Entity(name="UpdateHistory")
-@Table(name="update_history")
-public class UpdateHistory {
+@Entity(name="YugiohCardHistory")
+@Table(name="yugioh_card_history")
+public class YugiohCardHistory {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name="time_stamp")
+    @Column(name="updated_dt")
     private Timestamp ts;
 
     @Column(name="quantity")
@@ -33,7 +33,7 @@ public class UpdateHistory {
     /**
      * no arg constructor
      */
-    public UpdateHistory() { }
+    public YugiohCardHistory() { }
 
     /**
      * arg constructor
@@ -41,7 +41,7 @@ public class UpdateHistory {
      * @param quantity
      * @param price
      */
-    public UpdateHistory(Timestamp ts, int quantity, double price, YugiohCard yugiohCard) {
+    public YugiohCardHistory(Timestamp ts, int quantity, double price, YugiohCard yugiohCard) {
         this.ts = ts;
         this.quantity = quantity;
         this.price = price;

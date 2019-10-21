@@ -1,6 +1,5 @@
 package edu.yang.entity;
 
-import com.mysql.cj.x.protobuf.MysqlxCrud;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.HashSet;
@@ -38,10 +37,10 @@ public class YugiohCard {
     private int cardQuantity;
 
     @ManyToOne
-    private Collector collector;
+    private YugiohPlayer yugiohPlayer;
 
     @OneToMany (mappedBy = "yugioh_card", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<UpdateHistory> entries = new HashSet<>();
+    private Set<YugiohCardHistory> entries = new HashSet<>();
 
     /**
      * no arg constructor
@@ -56,16 +55,16 @@ public class YugiohCard {
      * @param cardSet cardSet
      * @param cardPrice cardPrice
      * @param cardQuantity cardQuantity
-     * @param collector collector
+     * @param yugiohPlayer yugiohPlayer
      */
-    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double cardPrice, int cardQuantity, Collector collector) {
+    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double cardPrice, int cardQuantity, YugiohPlayer yugiohPlayer) {
         this.cardName = cardName;
         this.cardType = cardType;
         this.cardRarity = cardRarity;
         this.cardSet = cardSet;
         this.cardPrice = cardPrice;
         this.cardQuantity = cardQuantity;
-        this.collector = collector;
+        this.yugiohPlayer = yugiohPlayer;
     }
 
     /**
@@ -181,35 +180,35 @@ public class YugiohCard {
     }
 
     /**
-     * sets collector
-     * @param collector collector
+     * sets yugiohPlayer
+     * @param yugiohPlayer yugiohPlayer
      */
-    public void setCollector(Collector collector) {
-        this.collector = collector;
+    public void setYugiohPlayer(YugiohPlayer yugiohPlayer) {
+        this.yugiohPlayer = yugiohPlayer;
     }
 
     /**
-     * gets collector
-     * @return collector
+     * gets yugiohPlayer
+     * @return yugiohPlayer
      */
-    public Collector getCollector() {
-        return this.collector;
+    public YugiohPlayer getYugiohPlayer() {
+        return this.yugiohPlayer;
     }
 
-    public void setUpdate(Set<UpdateHistory> entries) {
+    public void setEntries(Set<YugiohCardHistory> entries) {
         this.entries = entries;
     }
 
-    public Set<UpdateHistory> getEntries() {
+    public Set<YugiohCardHistory> getEntries() {
         return this.entries;
     }
 
-    public void addEntry(UpdateHistory entry) {
+    public void addEntry(YugiohCardHistory entry) {
         entries.add(entry);
         entry.setYugiohCard(this);
     }
 
-    public void removeEntry(UpdateHistory entry) {
+    public void removeEntry(YugiohCardHistory entry) {
         entries.remove(entry);
         entry.setYugiohCard(null);
     }

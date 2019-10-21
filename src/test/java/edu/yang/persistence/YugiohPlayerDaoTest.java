@@ -1,7 +1,7 @@
 package edu.yang.persistence;
 
-import edu.yang.entity.Collector;
-import edu.yang.entity.UpdateHistory;
+import edu.yang.entity.YugiohCardHistory;
+import edu.yang.entity.YugiohPlayer;
 import edu.yang.entity.YugiohCard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,7 +15,7 @@ import java.util.Date;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class CollectorDaoTest {
+class YugiohPlayerDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     CollectorDao newDao;
@@ -35,16 +35,16 @@ class CollectorDaoTest {
      */
     @Test
     void getCollectorById() {
-        Collector newCollector = newDao.getById(1);
-        assertEquals("leeyang2019", newCollector.getUserName());
+        YugiohPlayer newYugiohPlayer = newDao.getById(1);
+        assertEquals("leeyang2019", newYugiohPlayer.getUserName());
     }
 
     @Test
     void saveOrUpdate() {
-        Collector newCollector = newDao.getById(1);
-        newCollector.setUserName("jimmybutler");
-        newDao.saveOrUpdate(newCollector);
-        assertEquals("jimmybutler", newCollector.getUserName());
+        YugiohPlayer newYugiohPlayer = newDao.getById(1);
+        newYugiohPlayer.setUserName("jimmybutler");
+        newDao.saveOrUpdate(newYugiohPlayer);
+        assertEquals("jimmybutler", newYugiohPlayer.getUserName());
     }
 
     /**
@@ -52,8 +52,8 @@ class CollectorDaoTest {
      */
     @Test
     void insertCollector() {
-        Collector newCollector = new Collector("redRainbow19", "brownTurnip");
-        int id = newDao.insert(newCollector);
+        YugiohPlayer newYugiohPlayer = new YugiohPlayer("redRainbow19", "brownTurnip");
+        int id = newDao.insert(newYugiohPlayer);
         assertNotEquals(0, id);
         assertEquals(3, newDao.getAll().size());
     }
@@ -67,9 +67,9 @@ class CollectorDaoTest {
         Date date = new Date();
         Timestamp ts = new Timestamp(date.getTime());
 
-        Collector newCollector = new Collector("Jimmer", "yang201917");
-        YugiohCard newYugiohCard = new YugiohCard("Dark Magician of Chaos", "Monster", "Ultra", "IOC-EN035", 35, 1, newCollector);
-        UpdateHistory entry = new UpdateHistory(ts, 1, 35, newYugiohCard);
+        YugiohPlayer newYugiohPlayer = new YugiohPlayer("Jimmer", "yang201917");
+        YugiohCard newYugiohCard = new YugiohCard("Dark Magician of Chaos", "Monster", "Ultra", "IOC-EN035", 35, 1, newYugiohPlayer);
+        YugiohCardHistory entry = new YugiohCardHistory(ts, 1, 35, newYugiohCard);
 
     }
 
@@ -78,8 +78,8 @@ class CollectorDaoTest {
      */
     @Test
     void deleteCollector() {
-        Collector newCollector = newDao.getById(2);
-        newDao.delete(newCollector);
+        YugiohPlayer newYugiohPlayer = newDao.getById(2);
+        newDao.delete(newYugiohPlayer);
         assertEquals(2, newDao.getAll().size());
     }
 }

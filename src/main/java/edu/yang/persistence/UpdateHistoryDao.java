@@ -1,12 +1,11 @@
 package edu.yang.persistence;
 
-import edu.yang.entity.UpdateHistory;
+import edu.yang.entity.YugiohCardHistory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.sql.Update;
 
 /**
  * UpdateHistoryDao object
@@ -27,21 +26,21 @@ public class UpdateHistoryDao {
     }
 
     /**
-     * update UpdateHistory table
+     * update YugiohCardHistory table
      * @param entry
      */
-    public void saveOrUpdate(UpdateHistory entry) {
+    public void saveOrUpdate(YugiohCardHistory entry) {
         Session session = getSessionFactory().openSession();
         session.saveOrUpdate(entry);
         session.close();
     }
 
     /**
-     * update UpdateHistory table
+     * update YugiohCardHistory table
      * @param entry
      * @return id
      */
-    public int insert(UpdateHistory entry) {
+    public int insert(YugiohCardHistory entry) {
         int id = 0;
         Session session = getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
@@ -52,10 +51,10 @@ public class UpdateHistoryDao {
     }
 
     /**
-     * deletes an entry from the UpdateHistory table
+     * deletes an entry from the YugiohCardHistory table
      * @param entry
      */
-    public void delete(UpdateHistory entry) {
+    public void delete(YugiohCardHistory entry) {
         Session session = getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
         session.delete(entry);

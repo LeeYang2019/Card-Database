@@ -2,35 +2,34 @@ package edu.yang.entity;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Set;
 
 /**
- * Collector object
+ * YugiohPlayer object
  * @Author Lee Yang
  */
-@Entity(name = "Collector")
-@Table(name = "collector")
-public class Collector {
+@Entity(name = "YugiohPlayer")
+@Table(name = "yugioh_player")
+public class YugiohPlayer {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name = "user_name")
+    @Column(name = "player_name")
     private String userName;
 
-    @Column(name = "user_password")
+    @Column(name = "player_password")
     private String password;
 
-    @OneToMany (mappedBy = "collector", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany (mappedBy = "yugioh_player", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<YugiohCard> cards = new HashSet<>();
 
     /**
      * no arg constructor
      */
-    public Collector() {
+    public YugiohPlayer() {
 
     }
 
@@ -39,7 +38,7 @@ public class Collector {
      * @param userName
      * @param password
      */
-    public Collector(String userName, String password) {
+    public YugiohPlayer(String userName, String password) {
         this.userName = userName;
         this.password = password;
     }
@@ -106,7 +105,7 @@ public class Collector {
      */
     public void addCard(YugiohCard card) {
         cards.add(card);
-        card.setCollector(this);
+        card.setYugiohPlayer(this);
     }
 
     /**
@@ -115,7 +114,7 @@ public class Collector {
      */
     public void removeCard(YugiohCard card) {
         cards.remove(card);
-        card.setCollector(null);
+        card.setYugiohPlayer(null);
     }
 
     @Override
