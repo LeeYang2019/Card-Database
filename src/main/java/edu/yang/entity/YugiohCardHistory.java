@@ -9,8 +9,8 @@ import java.util.Date;
  * YugiohCardHistory object
  * @author Lee Yang
  */
-@Entity(name="YugiohCardHistory")
-@Table(name="yugioh_card_history")
+@Entity(name = "YugiohCardHistory")
+@Table(name = "yugioh_card_history")
 public class YugiohCardHistory {
 
     @Id
@@ -18,13 +18,13 @@ public class YugiohCardHistory {
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name="updated_dt")
+    @Column(name = "updated_dt")
     private Timestamp ts;
 
-    @Column(name="quantity")
+    @Column(name = "quantity")
     private int quantity;
 
-    @Column(name="price")
+    @Column(name = "price")
     private double price;
 
     @ManyToOne
