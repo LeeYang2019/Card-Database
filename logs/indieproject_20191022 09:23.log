@@ -1,0 +1,1086 @@
+[DEBUG] 2019-10-22 09:23:21.168 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2019-10-22 09:23:21.184 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2019-10-22 09:23:21.239 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2019-10-22 09:23:22.198 [main] Version - HHH000412: Hibernate Core {5.4.4.Final}
+[DEBUG] 2019-10-22 09:23:22.212 [main] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2019-10-22 09:23:23.952 [main] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2019-10-22 09:23:23.953 [main] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2019-10-22 09:23:23.966 [main] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2019-10-22 09:23:25.540 [main] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2019-10-22 09:23:25.628 [main] RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[DEBUG] 2019-10-22 09:23:25.656 [main] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2019-10-22 09:23:25.756 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[DEBUG] 2019-10-22 09:23:25.892 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@4b1a43d8
+[DEBUG] 2019-10-22 09:23:25.893 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@4b1a43d8
+[DEBUG] 2019-10-22 09:23:25.894 [main] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4b1a43d8
+[DEBUG] 2019-10-22 09:23:25.894 [main] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@74db12c2
+[DEBUG] 2019-10-22 09:23:25.895 [main] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@b174a73
+[DEBUG] 2019-10-22 09:23:25.900 [main] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@327ed9f5
+[DEBUG] 2019-10-22 09:23:25.902 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@d48673
+[DEBUG] 2019-10-22 09:23:25.902 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@d48673
+[DEBUG] 2019-10-22 09:23:25.902 [main] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@d48673
+[DEBUG] 2019-10-22 09:23:25.904 [main] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@96a75da
+[DEBUG] 2019-10-22 09:23:25.907 [main] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@96a75da
+[DEBUG] 2019-10-22 09:23:25.908 [main] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@96a75da
+[DEBUG] 2019-10-22 09:23:25.913 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@7d5508e0
+[DEBUG] 2019-10-22 09:23:25.919 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@7d5508e0
+[DEBUG] 2019-10-22 09:23:25.923 [main] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7d5508e0
+[DEBUG] 2019-10-22 09:23:25.929 [main] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@68fe48d7
+[DEBUG] 2019-10-22 09:23:25.929 [main] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@68fe48d7
+[DEBUG] 2019-10-22 09:23:25.931 [main] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@68fe48d7
+[DEBUG] 2019-10-22 09:23:25.972 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3d7b1f1c
+[DEBUG] 2019-10-22 09:23:25.972 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3d7b1f1c
+[DEBUG] 2019-10-22 09:23:25.972 [main] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3d7b1f1c
+[DEBUG] 2019-10-22 09:23:25.976 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@7ed9499e
+[DEBUG] 2019-10-22 09:23:25.977 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@7ed9499e
+[DEBUG] 2019-10-22 09:23:25.977 [main] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7ed9499e
+[DEBUG] 2019-10-22 09:23:25.982 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@b25b095
+[DEBUG] 2019-10-22 09:23:25.982 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@b25b095
+[DEBUG] 2019-10-22 09:23:25.984 [main] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@b25b095
+[DEBUG] 2019-10-22 09:23:25.985 [main] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6c575325
+[DEBUG] 2019-10-22 09:23:25.985 [main] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6c575325
+[DEBUG] 2019-10-22 09:23:25.988 [main] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3fc05ea2
+[DEBUG] 2019-10-22 09:23:25.992 [main] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3fc05ea2
+[DEBUG] 2019-10-22 09:23:25.994 [main] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@51a8313b
+[DEBUG] 2019-10-22 09:23:25.994 [main] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@51a8313b
+[DEBUG] 2019-10-22 09:23:25.996 [main] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@148c7c4b
+[DEBUG] 2019-10-22 09:23:25.996 [main] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4eb45fec
+[DEBUG] 2019-10-22 09:23:26.000 [main] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@459cfcca
+[DEBUG] 2019-10-22 09:23:26.000 [main] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@459cfcca
+[DEBUG] 2019-10-22 09:23:26.001 [main] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@55a609dd
+[DEBUG] 2019-10-22 09:23:26.001 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@55a609dd
+[DEBUG] 2019-10-22 09:23:26.023 [main] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@b0e5507
+[DEBUG] 2019-10-22 09:23:26.023 [main] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@b0e5507
+[DEBUG] 2019-10-22 09:23:26.033 [main] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@51d9b06c
+[DEBUG] 2019-10-22 09:23:26.033 [main] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@51d9b06c
+[DEBUG] 2019-10-22 09:23:26.034 [main] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7a1f45ed
+[DEBUG] 2019-10-22 09:23:26.034 [main] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7a1f45ed
+[DEBUG] 2019-10-22 09:23:26.045 [main] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@73437222
+[DEBUG] 2019-10-22 09:23:26.046 [main] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@73437222
+[DEBUG] 2019-10-22 09:23:26.054 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4096aa05
+[DEBUG] 2019-10-22 09:23:26.055 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4096aa05
+[DEBUG] 2019-10-22 09:23:26.060 [main] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@14d8444b
+[DEBUG] 2019-10-22 09:23:26.060 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@14d8444b
+[DEBUG] 2019-10-22 09:23:26.108 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@205bed61
+[DEBUG] 2019-10-22 09:23:26.108 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@205bed61
+[DEBUG] 2019-10-22 09:23:26.113 [main] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@10fbbdb
+[DEBUG] 2019-10-22 09:23:26.113 [main] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@10fbbdb
+[DEBUG] 2019-10-22 09:23:26.114 [main] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@20a05b32
+[DEBUG] 2019-10-22 09:23:26.114 [main] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@20a05b32
+[DEBUG] 2019-10-22 09:23:26.119 [main] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@71f0b72e
+[DEBUG] 2019-10-22 09:23:26.121 [main] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@71f0b72e
+[DEBUG] 2019-10-22 09:23:26.121 [main] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@71f0b72e
+[DEBUG] 2019-10-22 09:23:26.123 [main] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4aedaf61
+[DEBUG] 2019-10-22 09:23:26.130 [main] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@33d53216
+[DEBUG] 2019-10-22 09:23:26.131 [main] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@33d53216
+[DEBUG] 2019-10-22 09:23:26.131 [main] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@33d53216
+[DEBUG] 2019-10-22 09:23:26.132 [main] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1e141e42
+[DEBUG] 2019-10-22 09:23:26.133 [main] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@2de50ee4
+[DEBUG] 2019-10-22 09:23:26.134 [main] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2de50ee4
+[DEBUG] 2019-10-22 09:23:26.136 [main] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@4e17913b
+[DEBUG] 2019-10-22 09:23:26.136 [main] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@4e17913b
+[DEBUG] 2019-10-22 09:23:26.137 [main] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@3f628ce9
+[DEBUG] 2019-10-22 09:23:26.137 [main] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@3f628ce9
+[DEBUG] 2019-10-22 09:23:26.143 [main] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@75fc1992
+[DEBUG] 2019-10-22 09:23:26.143 [main] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@75fc1992
+[DEBUG] 2019-10-22 09:23:26.144 [main] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3672276e
+[DEBUG] 2019-10-22 09:23:26.144 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3672276e
+[DEBUG] 2019-10-22 09:23:26.144 [main] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2330e3e0
+[DEBUG] 2019-10-22 09:23:26.145 [main] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@3a230001
+[DEBUG] 2019-10-22 09:23:26.145 [main] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@3a230001
+[DEBUG] 2019-10-22 09:23:26.145 [main] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@3a230001
+[DEBUG] 2019-10-22 09:23:26.146 [main] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2c0b4c83
+[DEBUG] 2019-10-22 09:23:26.146 [main] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2c0b4c83
+[DEBUG] 2019-10-22 09:23:26.146 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2c0b4c83
+[DEBUG] 2019-10-22 09:23:26.148 [main] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@6d7cada5
+[DEBUG] 2019-10-22 09:23:26.150 [main] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@3964d79
+[DEBUG] 2019-10-22 09:23:26.152 [main] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@4acb2510
+[DEBUG] 2019-10-22 09:23:26.152 [main] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@4acb2510
+[DEBUG] 2019-10-22 09:23:26.152 [main] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@4acb2510
+[DEBUG] 2019-10-22 09:23:26.152 [main] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7a904f32
+[DEBUG] 2019-10-22 09:23:26.153 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7a904f32
+[DEBUG] 2019-10-22 09:23:26.153 [main] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7a904f32
+[DEBUG] 2019-10-22 09:23:26.155 [main] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@36fc05ff
+[DEBUG] 2019-10-22 09:23:26.156 [main] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@153cd6bb
+[DEBUG] 2019-10-22 09:23:26.159 [main] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@2a685eba
+[DEBUG] 2019-10-22 09:23:26.159 [main] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2a685eba
+[DEBUG] 2019-10-22 09:23:26.159 [main] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1d540566
+[DEBUG] 2019-10-22 09:23:26.164 [main] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@37b57b54
+[DEBUG] 2019-10-22 09:23:26.164 [main] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@37b57b54
+[DEBUG] 2019-10-22 09:23:26.169 [main] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@46a953cf
+[DEBUG] 2019-10-22 09:23:26.169 [main] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@46a953cf
+[DEBUG] 2019-10-22 09:23:26.169 [main] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2c58dcb1
+[DEBUG] 2019-10-22 09:23:26.169 [main] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@2dd8239
+[DEBUG] 2019-10-22 09:23:26.189 [main] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@7942a854
+[DEBUG] 2019-10-22 09:23:26.205 [main] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@4554de02
+[DEBUG] 2019-10-22 09:23:26.206 [main] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4554de02
+[DEBUG] 2019-10-22 09:23:26.206 [main] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4422dd48
+[DEBUG] 2019-10-22 09:23:26.206 [main] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@764cba
+[DEBUG] 2019-10-22 09:23:26.208 [main] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@523d6bdb
+[DEBUG] 2019-10-22 09:23:26.209 [main] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@58496c97
+[DEBUG] 2019-10-22 09:23:26.209 [main] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@ad3324b
+[DEBUG] 2019-10-22 09:23:26.209 [main] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3872bc37
+[DEBUG] 2019-10-22 09:23:26.209 [main] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1a87b51
+[DEBUG] 2019-10-22 09:23:26.209 [main] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@12968227
+[DEBUG] 2019-10-22 09:23:26.321 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2019-10-22 09:23:26.321 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2019-10-22 09:23:26.331 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2019-10-22 09:23:26.331 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2019-10-22 09:23:26.332 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2019-10-22 09:23:26.350 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2019-10-22 09:23:26.350 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2019-10-22 09:23:26.353 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2019-10-22 09:23:26.354 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2019-10-22 09:23:26.360 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2019-10-22 09:23:26.360 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2019-10-22 09:23:26.360 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2019-10-22 09:23:26.361 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2019-10-22 09:23:26.361 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[INFO ] 2019-10-22 09:23:26.397 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/test_yugioh_card_db
+[INFO ] 2019-10-22 09:23:26.398 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {password=****, user=root}
+[INFO ] 2019-10-22 09:23:26.398 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2019-10-22 09:23:27.241 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2019-10-22 09:23:27.566 [main] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 8.0.17
+      major : 8
+      minor : 0
+[DEBUG] 2019-10-22 09:23:27.570 [main] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0
+[DEBUG] 2019-10-22 09:23:27.570 [main] JdbcEnvironmentInitiator - JDBC version : 4.2
+[INFO ] 2019-10-22 09:23:27.762 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[DEBUG] 2019-10-22 09:23:27.848 [main] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2019-10-22 09:23:28.029 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2019-10-22 09:23:28.275 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2019-10-22 09:23:28.284 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3e4e4c1] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@7e7f3cfd]
+[DEBUG] 2019-10-22 09:23:28.775 [main] AnnotationBinder - Binding entity from annotated class: edu.yang.entity.YugiohCard
+[DEBUG] 2019-10-22 09:23:29.039 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2019-10-22 09:23:29.051 [main] EntityBinder - Import with entity name YugiohCard
+[DEBUG] 2019-10-22 09:23:29.054 [main] EntityBinder - Bind entity edu.yang.entity.YugiohCard on table yugioh_card
+[DEBUG] 2019-10-22 09:23:29.113 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.115 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2019-10-22 09:23:29.116 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:id]
+[DEBUG] 2019-10-22 09:23:29.123 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2019-10-22 09:23:29.125 [main] PropertyBinder - Building property id
+[DEBUG] 2019-10-22 09:23:29.129 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2019-10-22 09:23:29.138 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.139 [main] PropertyBinder - MetadataSourceProcessor property cardName with lazy=false
+[DEBUG] 2019-10-22 09:23:29.139 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardName]
+[DEBUG] 2019-10-22 09:23:29.140 [main] SimpleValueBinder - building SimpleValue for cardName
+[DEBUG] 2019-10-22 09:23:29.140 [main] PropertyBinder - Building property cardName
+[DEBUG] 2019-10-22 09:23:29.141 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_type, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.141 [main] PropertyBinder - MetadataSourceProcessor property cardType with lazy=false
+[DEBUG] 2019-10-22 09:23:29.141 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardType]
+[DEBUG] 2019-10-22 09:23:29.141 [main] SimpleValueBinder - building SimpleValue for cardType
+[DEBUG] 2019-10-22 09:23:29.143 [main] PropertyBinder - Building property cardType
+[DEBUG] 2019-10-22 09:23:29.145 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='yugiohCard'}
+[DEBUG] 2019-10-22 09:23:29.145 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=entries, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.148 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.154 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.156 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=entries_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.156 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='entries_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-10-22 09:23:29.162 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='yugiohCard'}
+[DEBUG] 2019-10-22 09:23:29.162 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='yugiohCard'}
+[DEBUG] 2019-10-22 09:23:29.163 [main] CollectionBinder - Collection role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-10-22 09:23:29.168 [main] PropertyBinder - Building property entries
+[DEBUG] 2019-10-22 09:23:29.168 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-10-22 09:23:29.168 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.170 [main] PropertyBinder - Building property user
+[DEBUG] 2019-10-22 09:23:29.175 [main] AnnotationBinder - Binding entity from annotated class: edu.yang.entity.User
+[DEBUG] 2019-10-22 09:23:29.175 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2019-10-22 09:23:29.176 [main] EntityBinder - Import with entity name User
+[DEBUG] 2019-10-22 09:23:29.176 [main] EntityBinder - Bind entity edu.yang.entity.User on table user
+[DEBUG] 2019-10-22 09:23:29.178 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.179 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2019-10-22 09:23:29.179 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:id]
+[DEBUG] 2019-10-22 09:23:29.179 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2019-10-22 09:23:29.180 [main] PropertyBinder - Building property id
+[DEBUG] 2019-10-22 09:23:29.180 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2019-10-22 09:23:29.180 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2019-10-22 09:23:29.180 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=cards, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.180 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.180 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.181 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=cards_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.181 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='cards_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-10-22 09:23:29.181 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2019-10-22 09:23:29.183 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2019-10-22 09:23:29.183 [main] CollectionBinder - Collection role: edu.yang.entity.User.cards
+[DEBUG] 2019-10-22 09:23:29.183 [main] PropertyBinder - Building property cards
+[DEBUG] 2019-10-22 09:23:29.184 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.184 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2019-10-22 09:23:29.184 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:password]
+[DEBUG] 2019-10-22 09:23:29.184 [main] SimpleValueBinder - building SimpleValue for password
+[DEBUG] 2019-10-22 09:23:29.184 [main] PropertyBinder - Building property password
+[DEBUG] 2019-10-22 09:23:29.184 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.185 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+[DEBUG] 2019-10-22 09:23:29.185 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:userName]
+[DEBUG] 2019-10-22 09:23:29.185 [main] SimpleValueBinder - building SimpleValue for userName
+[DEBUG] 2019-10-22 09:23:29.185 [main] PropertyBinder - Building property userName
+[DEBUG] 2019-10-22 09:23:29.185 [main] AnnotationBinder - Binding entity from annotated class: edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-10-22 09:23:29.187 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2019-10-22 09:23:29.187 [main] EntityBinder - Import with entity name YugiohCardHistory
+[DEBUG] 2019-10-22 09:23:29.187 [main] EntityBinder - Bind entity edu.yang.entity.YugiohCardHistory on table yugioh_card_history
+[DEBUG] 2019-10-22 09:23:29.193 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.193 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2019-10-22 09:23:29.193 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCardHistory:id]
+[DEBUG] 2019-10-22 09:23:29.193 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2019-10-22 09:23:29.193 [main] PropertyBinder - Building property id
+[DEBUG] 2019-10-22 09:23:29.193 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2019-10-22 09:23:29.193 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=price, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.193 [main] PropertyBinder - MetadataSourceProcessor property price with lazy=false
+[DEBUG] 2019-10-22 09:23:29.193 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCardHistory:price]
+[DEBUG] 2019-10-22 09:23:29.193 [main] SimpleValueBinder - building SimpleValue for price
+[DEBUG] 2019-10-22 09:23:29.194 [main] PropertyBinder - Building property price
+[DEBUG] 2019-10-22 09:23:29.194 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=update_date, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.194 [main] PropertyBinder - MetadataSourceProcessor property ts with lazy=false
+[DEBUG] 2019-10-22 09:23:29.194 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCardHistory:ts]
+[DEBUG] 2019-10-22 09:23:29.194 [main] SimpleValueBinder - building SimpleValue for ts
+[DEBUG] 2019-10-22 09:23:29.194 [main] PropertyBinder - Building property ts
+[DEBUG] 2019-10-22 09:23:29.194 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-10-22 09:23:29.194 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=yugiohCard, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-10-22 09:23:29.194 [main] PropertyBinder - Building property yugiohCard
+[DEBUG] 2019-10-22 09:23:29.199 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2019-10-22 09:23:29.199 [main] SimpleValueBinder - Starting fillSimpleValue for cardName
+[DEBUG] 2019-10-22 09:23:29.199 [main] SimpleValueBinder - Starting fillSimpleValue for cardType
+[DEBUG] 2019-10-22 09:23:29.199 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2019-10-22 09:23:29.199 [main] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2019-10-22 09:23:29.199 [main] SimpleValueBinder - Starting fillSimpleValue for userName
+[DEBUG] 2019-10-22 09:23:29.199 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2019-10-22 09:23:29.199 [main] SimpleValueBinder - Starting fillSimpleValue for price
+[DEBUG] 2019-10-22 09:23:29.199 [main] SimpleValueBinder - Starting fillSimpleValue for ts
+[DEBUG] 2019-10-22 09:23:29.209 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [yugioh_card]
+[DEBUG] 2019-10-22 09:23:29.209 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[DEBUG] 2019-10-22 09:23:29.209 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [yugioh_card_history]
+[DEBUG] 2019-10-22 09:23:29.209 [main] CollectionSecondPass - Second pass for collection: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-10-22 09:23:29.210 [main] CollectionBinder - Binding a OneToMany: edu.yang.entity.YugiohCard.entries through a foreign key
+[DEBUG] 2019-10-22 09:23:29.211 [main] CollectionBinder - Mapping collection: edu.yang.entity.YugiohCard.entries -> yugioh_card_history
+[DEBUG] 2019-10-22 09:23:29.216 [main] TableBinder - Retrieving property edu.yang.entity.YugiohCardHistory.yugiohCard
+[DEBUG] 2019-10-22 09:23:29.217 [main] CollectionSecondPass - Mapped collection key: yugiohCard_id, one-to-many: edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-10-22 09:23:29.218 [main] CollectionSecondPass - Second pass for collection: edu.yang.entity.User.cards
+[DEBUG] 2019-10-22 09:23:29.218 [main] CollectionBinder - Binding a OneToMany: edu.yang.entity.User.cards through a foreign key
+[DEBUG] 2019-10-22 09:23:29.219 [main] CollectionBinder - Mapping collection: edu.yang.entity.User.cards -> yugioh_card
+[DEBUG] 2019-10-22 09:23:29.219 [main] TableBinder - Retrieving property edu.yang.entity.YugiohCard.user
+[DEBUG] 2019-10-22 09:23:29.219 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: edu.yang.entity.YugiohCard
+[DEBUG] 2019-10-22 09:23:29.219 [main] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.User
+[DEBUG] 2019-10-22 09:23:29.220 [main] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.YugiohCard
+[DEBUG] 2019-10-22 09:23:29.222 [main] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.User
+[DEBUG] 2019-10-22 09:23:29.222 [main] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.YugiohCard
+[DEBUG] 2019-10-22 09:23:29.308 [main] SessionFactoryImpl - Building session factory
+[DEBUG] 2019-10-22 09:23:29.309 [main] Settings - SessionFactory name : null
+[DEBUG] 2019-10-22 09:23:29.309 [main] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Statistics: disabled
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Default entity-mode: pojo
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Default batch fetch size: -1
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Maximum outer join fetch depth: 2
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Default null ordering: NONE
+[DEBUG] 2019-10-22 09:23:29.310 [main] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2019-10-22 09:23:29.311 [main] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - JTA Track by Thread: enabled
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - Query language substitutions: {}
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - Named query checking : enabled
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - Second-level cache: disabled
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - Second-level query cache: disabled
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - Second-level query cache factory: null
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - Second-level cache region prefix: null
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2019-10-22 09:23:29.312 [main] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2019-10-22 09:23:29.313 [main] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2019-10-22 09:23:29.313 [main] Settings - JDBC batch size: 15
+[DEBUG] 2019-10-22 09:23:29.313 [main] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2019-10-22 09:23:29.313 [main] Settings - Scrollable result sets: enabled
+[DEBUG] 2019-10-22 09:23:29.313 [main] Settings - Wrap result sets: disabled
+[DEBUG] 2019-10-22 09:23:29.313 [main] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2019-10-22 09:23:29.315 [main] Settings - JDBC result set fetch size: null
+[DEBUG] 2019-10-22 09:23:29.315 [main] Settings - Connection release mode: AFTER_TRANSACTION
+[DEBUG] 2019-10-22 09:23:29.315 [main] Settings - Generate SQL with comments: disabled
+[DEBUG] 2019-10-22 09:23:29.315 [main] Settings - JPA compliance - query : 
+[DEBUG] 2019-10-22 09:23:29.315 [main] Settings - JPA compliance - closed-handling : 
+[DEBUG] 2019-10-22 09:23:29.315 [main] Settings - JPA compliance - lists : 
+[DEBUG] 2019-10-22 09:23:29.315 [main] Settings - JPA compliance - transactions : 
+[INFO ] 2019-10-22 09:23:29.483 [main] beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[DEBUG] 2019-10-22 09:23:29.559 [main] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2019-10-22 09:23:29.560 [main] SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=gnome, awt.toolkit=sun.awt.X11.XToolkit, java.specification.version=11, sun.cpu.isalist=, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.min_size=5, java.class.path=/home/student/intellij/lib/idea_rt.jar:/home/student/intellij/plugins/junit/lib/junit-rt.jar:/home/student/intellij/plugins/junit/lib/junit5-rt.jar:/home/student/IdeaProjects/indieproject/target/test-classes:/home/student/IdeaProjects/indieproject/target/classes:/home/student/.m2/repository/org/hibernate/hibernate-core/5.4.4.Final/hibernate-core-5.4.4.Final.jar:/home/student/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/home/student/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/student/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/student/.m2/repository/net/bytebuddy/byte-buddy/1.9.11/byte-buddy-1.9.11.jar:/home/student/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/student/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/home/student/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/home/student/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/home/student/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/student/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/home/student/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar:/home/student/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/student/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar:/home/student/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar:/home/student/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar:/home/student/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar:/home/student/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar:/home/student/.m2/repository/org/hibernate/hibernate-c3p0/5.4.4.Final/hibernate-c3p0-5.4.4.Final.jar:/home/student/.m2/repository/com/mchange/c3p0/0.9.5.3/c3p0-0.9.5.3.jar:/home/student/.m2/repository/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15.jar:/home/student/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/home/student/.m2/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar:/home/student/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-runner/1.0.0/junit-platform-runner-1.0.0.jar:/home/student/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-launcher/1.0.0/junit-platform-launcher-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-suite-api/1.0.0/junit-platform-suite-api-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar:/home/student/.m2/repository/org/junit/vintage/junit-vintage-engine/4.12.0/junit-vintage-engine-4.12.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-engine/1.0.0/junit-platform-engine-1.0.0.jar:/home/student/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/home/student/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.0.0/junit-jupiter-engine-5.0.0.jar:/home/student/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar:/home/student/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/student/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/student/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/home/student/.m2/repository/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar:/home/student/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar, java.vm.vendor=Ubuntu, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, java.vendor.url=https://ubuntu.com/, user.timezone=America/Chicago, os.name=Linux, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=/usr/lib/jvm/java-11-openjdk-amd64/lib, sun.java.command=com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit5 edu.yang.persistence.UserDaoTest, jdk.debug=release, sun.cpu.endian=little, user.home=/home/student, hibernate.c3p0.max_statements=50, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2019-07-16, java.home=/usr/lib/jvm/java-11-openjdk-amd64, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, hibernate.c3p0.timeout=300, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, connection.password=student, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.c3p0.max_size=20, java.runtime.version=11.0.4+11-post-Ubuntu-1ubuntu218.04.3, user.name=student, path.separator=:, hibernate.connection.username=****, os.version=5.0.0-31-generic, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/test_yugioh_card_db, file.encoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=https://bugs.launchpad.net/ubuntu/+source/openjdk-lts, java.io.tmpdir=/tmp, java.version=11.0.4, user.dir=/home/student/IdeaProjects/indieproject, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, hibernate.connection.password=****, sun.os.patch.level=unknown, connection.driver_class=com.mysql.cj.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@50b0afd7, java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor=Ubuntu, java.vm.info=mixed mode, sharing, java.vm.version=11.0.4+11-post-Ubuntu-1ubuntu218.04.3, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:mysql://localhost:3306/test_yugioh_card_db, java.class.version=55.0}
+[DEBUG] 2019-10-22 09:23:29.666 [main] TypeSafeActivator - Unable to acquire Bean Validation ValidatorFactory, skipping activation
+[DEBUG] 2019-10-22 09:23:29.666 [main] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2019-10-22 09:23:29.669 [main] SessionFactoryImpl - Instantiated session factory
+[DEBUG] 2019-10-22 09:23:29.669 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3e4e4c1] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@67eec8e1]
+[DEBUG] 2019-10-22 09:23:30.029 [main] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.User] is safe
+[DEBUG] 2019-10-22 09:23:30.029 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.User
+[DEBUG] 2019-10-22 09:23:30.065 [main] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.User] is safe
+[DEBUG] 2019-10-22 09:23:30.066 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.User
+[DEBUG] 2019-10-22 09:23:30.632 [main] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCard] is safe
+[DEBUG] 2019-10-22 09:23:30.632 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCard
+[DEBUG] 2019-10-22 09:23:30.632 [main] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCard] is safe
+[DEBUG] 2019-10-22 09:23:30.632 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCard
+[DEBUG] 2019-10-22 09:23:30.681 [main] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCardHistory] is safe
+[DEBUG] 2019-10-22 09:23:30.681 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-10-22 09:23:30.681 [main] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCardHistory] is safe
+[DEBUG] 2019-10-22 09:23:30.682 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-10-22 09:23:30.732 [main] AbstractCollectionPersister - Static SQL for collection: edu.yang.entity.User.cards
+[DEBUG] 2019-10-22 09:23:30.733 [main] AbstractCollectionPersister -  Row insert: update yugioh_card set user_id=? where id=?
+[DEBUG] 2019-10-22 09:23:30.733 [main] AbstractCollectionPersister -  Row update: update yugioh_card set  where id=?
+[DEBUG] 2019-10-22 09:23:30.733 [main] AbstractCollectionPersister -  Row delete: update yugioh_card set user_id=null where user_id=? and id=?
+[DEBUG] 2019-10-22 09:23:30.733 [main] AbstractCollectionPersister -  One-shot delete: update yugioh_card set user_id=null where user_id=?
+[DEBUG] 2019-10-22 09:23:30.734 [main] AbstractCollectionPersister - Static SQL for collection: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-10-22 09:23:30.734 [main] AbstractCollectionPersister -  Row insert: update yugioh_card_history set yugiohCard_id=? where id=?
+[DEBUG] 2019-10-22 09:23:30.734 [main] AbstractCollectionPersister -  Row update: update yugioh_card_history set  where id=?
+[DEBUG] 2019-10-22 09:23:30.734 [main] AbstractCollectionPersister -  Row delete: update yugioh_card_history set yugiohCard_id=null where yugiohCard_id=? and id=?
+[DEBUG] 2019-10-22 09:23:30.734 [main] AbstractCollectionPersister -  One-shot delete: update yugioh_card_history set yugiohCard_id=null where yugiohCard_id=?
+[DEBUG] 2019-10-22 09:23:30.746 [main] AbstractEntityPersister - Static SQL for entity: edu.yang.entity.User
+[DEBUG] 2019-10-22 09:23:30.746 [main] AbstractEntityPersister -  Version select: select id from user where id =?
+[DEBUG] 2019-10-22 09:23:30.747 [main] AbstractEntityPersister -  Snapshot select: select user_.id, user_.user_password as user_pas2_0_, user_.user_name as user_nam3_0_ from user user_ where user_.id=?
+[DEBUG] 2019-10-22 09:23:30.747 [main] AbstractEntityPersister -  Insert 0: insert into user (user_password, user_name, id) values (?, ?, ?)
+[DEBUG] 2019-10-22 09:23:30.747 [main] AbstractEntityPersister -  Update 0: update user set user_password=?, user_name=? where id=?
+[DEBUG] 2019-10-22 09:23:30.747 [main] AbstractEntityPersister -  Delete 0: delete from user where id=?
+[DEBUG] 2019-10-22 09:23:30.747 [main] AbstractEntityPersister -  Identity insert: insert into user (user_password, user_name) values (?, ?)
+[DEBUG] 2019-10-22 09:23:30.798 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2589d787]
+[DEBUG] 2019-10-22 09:23:30.799 [main] MetamodelGraphWalker - Visiting attribute path : cards
+[DEBUG] 2019-10-22 09:23:30.831 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@636985df]
+[DEBUG] 2019-10-22 09:23:30.836 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6314df3c]
+[DEBUG] 2019-10-22 09:23:30.839 [main] MetamodelGraphWalker - Visiting attribute path : cards.cardName
+[DEBUG] 2019-10-22 09:23:30.839 [main] MetamodelGraphWalker - Visiting attribute path : cards.cardType
+[DEBUG] 2019-10-22 09:23:30.839 [main] MetamodelGraphWalker - Visiting attribute path : cards.entries
+[DEBUG] 2019-10-22 09:23:30.839 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4837f97e]
+[DEBUG] 2019-10-22 09:23:30.839 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@53314f76]
+[DEBUG] 2019-10-22 09:23:30.841 [main] MetamodelGraphWalker - Visiting attribute path : cards.entries.price
+[DEBUG] 2019-10-22 09:23:30.841 [main] MetamodelGraphWalker - Visiting attribute path : cards.entries.ts
+[DEBUG] 2019-10-22 09:23:30.842 [main] MetamodelGraphWalker - Visiting attribute path : cards.entries.yugiohCard
+[DEBUG] 2019-10-22 09:23:30.846 [main] MetamodelGraphWalker - Property path deemed to be circular : cards.entries.yugiohCard
+[DEBUG] 2019-10-22 09:23:30.850 [main] MetamodelGraphWalker - Visiting attribute path : cards.user
+[DEBUG] 2019-10-22 09:23:30.850 [main] MetamodelGraphWalker - Property path deemed to be circular : cards.user
+[DEBUG] 2019-10-22 09:23:30.851 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2019-10-22 09:23:30.851 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2019-10-22 09:23:30.851 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-10-22 09:23:30.880 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-10-22 09:23:30.891 [main] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:0>, path=edu.yang.entity.User)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.User.cards, querySpaceUid=<gen:1>, path=edu.yang.entity.User.cards)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:2>, path=edu.yang.entity.User.cards.<elements>)
+                - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:3>, path=edu.yang.entity.User.cards.<elements>.entries)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:4>, path=edu.yang.entity.User.cards.<elements>.entries.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(cards)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.User.cards)
+                - SQL table alias mapping - cards1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id4_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCard)
+                      - SQL table alias mapping - cards1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(entries)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=edu.yang.entity.YugiohCard.entries)
+                            - SQL table alias mapping - entries2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {yugiohCa4_2_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_2_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=edu.yang.entity.YugiohCardHistory)
+                                  - SQL table alias mapping - entries2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_2_4_}
+
+[DEBUG] 2019-10-22 09:23:30.894 [main] EntityLoader - Static select for entity edu.yang.entity.User [NONE]: select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_name as user_nam3_0_0_, cards1_.user_id as user_id4_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_name as card_nam2_1_2_, cards1_.card_type as card_typ3_1_2_, cards1_.user_id as user_id4_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-10-22 09:23:30.894 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2055833f]
+[DEBUG] 2019-10-22 09:23:30.895 [main] MetamodelGraphWalker - Visiting attribute path : cards
+[DEBUG] 2019-10-22 09:23:30.895 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@310d57b1]
+[DEBUG] 2019-10-22 09:23:30.895 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@143fefaf]
+[DEBUG] 2019-10-22 09:23:30.895 [main] MetamodelGraphWalker - Visiting attribute path : cards.cardName
+[DEBUG] 2019-10-22 09:23:30.896 [main] MetamodelGraphWalker - Visiting attribute path : cards.cardType
+[DEBUG] 2019-10-22 09:23:30.896 [main] MetamodelGraphWalker - Visiting attribute path : cards.entries
+[DEBUG] 2019-10-22 09:23:30.896 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5f8f1712]
+[DEBUG] 2019-10-22 09:23:30.896 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@34a6d9db]
+[DEBUG] 2019-10-22 09:23:30.896 [main] MetamodelGraphWalker - Visiting attribute path : cards.entries.price
+[DEBUG] 2019-10-22 09:23:30.896 [main] MetamodelGraphWalker - Visiting attribute path : cards.entries.ts
+[DEBUG] 2019-10-22 09:23:30.896 [main] MetamodelGraphWalker - Visiting attribute path : cards.entries.yugiohCard
+[DEBUG] 2019-10-22 09:23:30.896 [main] MetamodelGraphWalker - Property path deemed to be circular : cards.entries.yugiohCard
+[DEBUG] 2019-10-22 09:23:30.899 [main] MetamodelGraphWalker - Visiting attribute path : cards.user
+[DEBUG] 2019-10-22 09:23:30.899 [main] MetamodelGraphWalker - Property path deemed to be circular : cards.user
+[DEBUG] 2019-10-22 09:23:30.900 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2019-10-22 09:23:30.900 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2019-10-22 09:23:30.900 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-10-22 09:23:30.900 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-10-22 09:23:30.902 [main] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:0>, path=edu.yang.entity.User)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.User.cards, querySpaceUid=<gen:1>, path=edu.yang.entity.User.cards)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:2>, path=edu.yang.entity.User.cards.<elements>)
+                - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:3>, path=edu.yang.entity.User.cards.<elements>.entries)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:4>, path=edu.yang.entity.User.cards.<elements>.entries.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(cards)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.User.cards)
+                - SQL table alias mapping - cards1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id4_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCard)
+                      - SQL table alias mapping - cards1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(entries)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=edu.yang.entity.YugiohCard.entries)
+                            - SQL table alias mapping - entries2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {yugiohCa4_2_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_2_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=edu.yang.entity.YugiohCardHistory)
+                                  - SQL table alias mapping - entries2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_2_4_}
+
+[DEBUG] 2019-10-22 09:23:30.903 [main] EntityLoader - Static select for entity edu.yang.entity.User [READ]: select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_name as user_nam3_0_0_, cards1_.user_id as user_id4_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_name as card_nam2_1_2_, cards1_.card_type as card_typ3_1_2_, cards1_.user_id as user_id4_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-10-22 09:23:30.918 [main] Loader - Static select for action ACTION_MERGE on entity edu.yang.entity.User: select user0_.id as id1_0_1_, user0_.user_password as user_pas2_0_1_, user0_.user_name as user_nam3_0_1_, cards1_.user_id as user_id4_1_3_, cards1_.id as id1_1_3_, cards1_.id as id1_1_0_, cards1_.card_name as card_nam2_1_0_, cards1_.card_type as card_typ3_1_0_, cards1_.user_id as user_id4_1_0_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id where user0_.id=?
+[DEBUG] 2019-10-22 09:23:30.920 [main] Loader - Static select for action ACTION_REFRESH on entity edu.yang.entity.User: select user0_.id as id1_0_1_, user0_.user_password as user_pas2_0_1_, user0_.user_name as user_nam3_0_1_, cards1_.user_id as user_id4_1_3_, cards1_.id as id1_1_3_, cards1_.id as id1_1_0_, cards1_.card_name as card_nam2_1_0_, cards1_.card_type as card_typ3_1_0_, cards1_.user_id as user_id4_1_0_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id where user0_.id=?
+[DEBUG] 2019-10-22 09:23:30.920 [main] AbstractEntityPersister - Static SQL for entity: edu.yang.entity.YugiohCard
+[DEBUG] 2019-10-22 09:23:30.922 [main] AbstractEntityPersister -  Version select: select id from yugioh_card where id =?
+[DEBUG] 2019-10-22 09:23:30.923 [main] AbstractEntityPersister -  Snapshot select: select yugiohcard_.id, yugiohcard_.card_name as card_nam2_1_, yugiohcard_.card_type as card_typ3_1_, yugiohcard_.user_id as user_id4_1_ from yugioh_card yugiohcard_ where yugiohcard_.id=?
+[DEBUG] 2019-10-22 09:23:30.923 [main] AbstractEntityPersister -  Insert 0: insert into yugioh_card (card_name, card_type, user_id, id) values (?, ?, ?, ?)
+[DEBUG] 2019-10-22 09:23:30.923 [main] AbstractEntityPersister -  Update 0: update yugioh_card set card_name=?, card_type=?, user_id=? where id=?
+[DEBUG] 2019-10-22 09:23:30.923 [main] AbstractEntityPersister -  Delete 0: delete from yugioh_card where id=?
+[DEBUG] 2019-10-22 09:23:30.923 [main] AbstractEntityPersister -  Identity insert: insert into yugioh_card (card_name, card_type, user_id) values (?, ?, ?)
+[DEBUG] 2019-10-22 09:23:30.923 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5a30722c]
+[DEBUG] 2019-10-22 09:23:30.923 [main] MetamodelGraphWalker - Visiting attribute path : cardName
+[DEBUG] 2019-10-22 09:23:30.923 [main] MetamodelGraphWalker - Visiting attribute path : cardType
+[DEBUG] 2019-10-22 09:23:30.923 [main] MetamodelGraphWalker - Visiting attribute path : entries
+[DEBUG] 2019-10-22 09:23:30.923 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2484dbb7]
+[DEBUG] 2019-10-22 09:23:30.923 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@111cba40]
+[DEBUG] 2019-10-22 09:23:30.923 [main] MetamodelGraphWalker - Visiting attribute path : entries.price
+[DEBUG] 2019-10-22 09:23:30.923 [main] MetamodelGraphWalker - Visiting attribute path : entries.ts
+[DEBUG] 2019-10-22 09:23:30.924 [main] MetamodelGraphWalker - Visiting attribute path : entries.yugiohCard
+[DEBUG] 2019-10-22 09:23:30.924 [main] MetamodelGraphWalker - Property path deemed to be circular : entries.yugiohCard
+[DEBUG] 2019-10-22 09:23:30.924 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2019-10-22 09:23:30.924 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5333f08f]
+[DEBUG] 2019-10-22 09:23:30.924 [main] MetamodelGraphWalker - Visiting attribute path : user.cards
+[DEBUG] 2019-10-22 09:23:30.924 [main] MetamodelGraphWalker - Property path deemed to be circular : user.cards
+[DEBUG] 2019-10-22 09:23:30.924 [main] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2019-10-22 09:23:30.925 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2019-10-22 09:23:30.925 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-10-22 09:23:30.925 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-10-22 09:23:30.925 [main] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCard)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCard)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCard.entries)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCard.entries.<elements>)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:3>, path=edu.yang.entity.YugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCard)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(entries)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.YugiohCard.entries)
+                - SQL table alias mapping - entries1_
+                - alias suffix - 1_
+                - suffixed key columns - {yugiohCa4_2_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCardHistory)
+                      - SQL table alias mapping - entries1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=edu.yang.entity.User)
+                - SQL table alias mapping - user2_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_0_3_}
+
+[DEBUG] 2019-10-22 09:23:30.931 [main] EntityLoader - Static select for entity edu.yang.entity.YugiohCard [NONE]: select yugiohcard0_.id as id1_1_0_, yugiohcard0_.card_name as card_nam2_1_0_, yugiohcard0_.card_type as card_typ3_1_0_, yugiohcard0_.user_id as user_id4_1_0_, entries1_.yugiohCard_id as yugiohCa4_2_1_, entries1_.id as id1_2_1_, entries1_.id as id1_2_2_, entries1_.price as price2_2_2_, entries1_.update_date as update_d3_2_2_, entries1_.yugiohCard_id as yugiohCa4_2_2_, user2_.id as id1_0_3_, user2_.user_password as user_pas2_0_3_, user2_.user_name as user_nam3_0_3_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id left outer join user user2_ on yugiohcard0_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-10-22 09:23:30.931 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a1a412e]
+[DEBUG] 2019-10-22 09:23:30.931 [main] MetamodelGraphWalker - Visiting attribute path : cardName
+[DEBUG] 2019-10-22 09:23:30.931 [main] MetamodelGraphWalker - Visiting attribute path : cardType
+[DEBUG] 2019-10-22 09:23:30.931 [main] MetamodelGraphWalker - Visiting attribute path : entries
+[DEBUG] 2019-10-22 09:23:30.931 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5fd43e58]
+[DEBUG] 2019-10-22 09:23:30.931 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@70d4f672]
+[DEBUG] 2019-10-22 09:23:30.932 [main] MetamodelGraphWalker - Visiting attribute path : entries.price
+[DEBUG] 2019-10-22 09:23:30.932 [main] MetamodelGraphWalker - Visiting attribute path : entries.ts
+[DEBUG] 2019-10-22 09:23:30.932 [main] MetamodelGraphWalker - Visiting attribute path : entries.yugiohCard
+[DEBUG] 2019-10-22 09:23:30.932 [main] MetamodelGraphWalker - Property path deemed to be circular : entries.yugiohCard
+[DEBUG] 2019-10-22 09:23:30.932 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2019-10-22 09:23:30.932 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e952845]
+[DEBUG] 2019-10-22 09:23:30.932 [main] MetamodelGraphWalker - Visiting attribute path : user.cards
+[DEBUG] 2019-10-22 09:23:30.932 [main] MetamodelGraphWalker - Property path deemed to be circular : user.cards
+[DEBUG] 2019-10-22 09:23:30.932 [main] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2019-10-22 09:23:30.932 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2019-10-22 09:23:30.933 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-10-22 09:23:30.933 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-10-22 09:23:30.934 [main] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCard)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCard)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCard.entries)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCard.entries.<elements>)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:3>, path=edu.yang.entity.YugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCard)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(entries)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.YugiohCard.entries)
+                - SQL table alias mapping - entries1_
+                - alias suffix - 1_
+                - suffixed key columns - {yugiohCa4_2_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCardHistory)
+                      - SQL table alias mapping - entries1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=edu.yang.entity.User)
+                - SQL table alias mapping - user2_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_0_3_}
+
+[DEBUG] 2019-10-22 09:23:30.934 [main] EntityLoader - Static select for entity edu.yang.entity.YugiohCard [READ]: select yugiohcard0_.id as id1_1_0_, yugiohcard0_.card_name as card_nam2_1_0_, yugiohcard0_.card_type as card_typ3_1_0_, yugiohcard0_.user_id as user_id4_1_0_, entries1_.yugiohCard_id as yugiohCa4_2_1_, entries1_.id as id1_2_1_, entries1_.id as id1_2_2_, entries1_.price as price2_2_2_, entries1_.update_date as update_d3_2_2_, entries1_.yugiohCard_id as yugiohCa4_2_2_, user2_.id as id1_0_3_, user2_.user_password as user_pas2_0_3_, user2_.user_name as user_nam3_0_3_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id left outer join user user2_ on yugiohcard0_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-10-22 09:23:30.934 [main] Loader - Static select for action ACTION_MERGE on entity edu.yang.entity.YugiohCard: select yugiohcard0_.id as id1_1_1_, yugiohcard0_.card_name as card_nam2_1_1_, yugiohcard0_.card_type as card_typ3_1_1_, yugiohcard0_.user_id as user_id4_1_1_, entries1_.yugiohCard_id as yugiohCa4_2_3_, entries1_.id as id1_2_3_, entries1_.id as id1_2_0_, entries1_.price as price2_2_0_, entries1_.update_date as update_d3_2_0_, entries1_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id where yugiohcard0_.id=?
+[DEBUG] 2019-10-22 09:23:30.935 [main] Loader - Static select for action ACTION_REFRESH on entity edu.yang.entity.YugiohCard: select yugiohcard0_.id as id1_1_1_, yugiohcard0_.card_name as card_nam2_1_1_, yugiohcard0_.card_type as card_typ3_1_1_, yugiohcard0_.user_id as user_id4_1_1_, entries1_.yugiohCard_id as yugiohCa4_2_3_, entries1_.id as id1_2_3_, entries1_.id as id1_2_0_, entries1_.price as price2_2_0_, entries1_.update_date as update_d3_2_0_, entries1_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id where yugiohcard0_.id=?
+[DEBUG] 2019-10-22 09:23:30.935 [main] AbstractEntityPersister - Static SQL for entity: edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-10-22 09:23:30.935 [main] AbstractEntityPersister -  Version select: select id from yugioh_card_history where id =?
+[DEBUG] 2019-10-22 09:23:30.935 [main] AbstractEntityPersister -  Snapshot select: select yugiohcard_.id, yugiohcard_.price as price2_2_, yugiohcard_.update_date as update_d3_2_, yugiohcard_.yugiohCard_id as yugiohCa4_2_ from yugioh_card_history yugiohcard_ where yugiohcard_.id=?
+[DEBUG] 2019-10-22 09:23:30.935 [main] AbstractEntityPersister -  Insert 0: insert into yugioh_card_history (price, update_date, yugiohCard_id, id) values (?, ?, ?, ?)
+[DEBUG] 2019-10-22 09:23:30.935 [main] AbstractEntityPersister -  Update 0: update yugioh_card_history set price=?, update_date=?, yugiohCard_id=? where id=?
+[DEBUG] 2019-10-22 09:23:30.935 [main] AbstractEntityPersister -  Delete 0: delete from yugioh_card_history where id=?
+[DEBUG] 2019-10-22 09:23:30.935 [main] AbstractEntityPersister -  Identity insert: insert into yugioh_card_history (price, update_date, yugiohCard_id) values (?, ?, ?)
+[DEBUG] 2019-10-22 09:23:30.938 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6fbf5db2]
+[DEBUG] 2019-10-22 09:23:30.938 [main] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-10-22 09:23:30.939 [main] MetamodelGraphWalker - Visiting attribute path : ts
+[DEBUG] 2019-10-22 09:23:30.939 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard
+[DEBUG] 2019-10-22 09:23:30.940 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@57cabdc3]
+[DEBUG] 2019-10-22 09:23:30.940 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardName
+[DEBUG] 2019-10-22 09:23:30.940 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardType
+[DEBUG] 2019-10-22 09:23:30.940 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.entries
+[DEBUG] 2019-10-22 09:23:30.940 [main] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.entries
+[DEBUG] 2019-10-22 09:23:30.940 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user
+[DEBUG] 2019-10-22 09:23:30.942 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@129c4d19]
+[DEBUG] 2019-10-22 09:23:30.942 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.cards
+[DEBUG] 2019-10-22 09:23:30.942 [main] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.user.cards
+[DEBUG] 2019-10-22 09:23:30.942 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.password
+[DEBUG] 2019-10-22 09:23:30.942 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.userName
+[DEBUG] 2019-10-22 09:23:30.942 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-10-22 09:23:30.943 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-10-22 09:23:30.945 [main] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCardHistory)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCardHistory)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCardHistory.yugiohCard)
+             - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCardHistory.yugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCardHistory)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(yugiohCard)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCard)
+                - SQL table alias mapping - yugiohcard1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(user)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.User)
+                      - SQL table alias mapping - user2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2019-10-22 09:23:30.946 [main] EntityLoader - Static select for entity edu.yang.entity.YugiohCardHistory [NONE]: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_, yugiohcard1_.id as id1_1_1_, yugiohcard1_.card_name as card_nam2_1_1_, yugiohcard1_.card_type as card_typ3_1_1_, yugiohcard1_.user_id as user_id4_1_1_, user2_.id as id1_0_2_, user2_.user_password as user_pas2_0_2_, user2_.user_name as user_nam3_0_2_ from yugioh_card_history yugiohcard0_ left outer join yugioh_card yugiohcard1_ on yugiohcard0_.yugiohCard_id=yugiohcard1_.id left outer join user user2_ on yugiohcard1_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-10-22 09:23:30.946 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@13278a41]
+[DEBUG] 2019-10-22 09:23:30.946 [main] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-10-22 09:23:30.946 [main] MetamodelGraphWalker - Visiting attribute path : ts
+[DEBUG] 2019-10-22 09:23:30.946 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard
+[DEBUG] 2019-10-22 09:23:30.947 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ab595c8]
+[DEBUG] 2019-10-22 09:23:30.947 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardName
+[DEBUG] 2019-10-22 09:23:30.947 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardType
+[DEBUG] 2019-10-22 09:23:30.947 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.entries
+[DEBUG] 2019-10-22 09:23:30.947 [main] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.entries
+[DEBUG] 2019-10-22 09:23:30.947 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user
+[DEBUG] 2019-10-22 09:23:30.948 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@cbf1997]
+[DEBUG] 2019-10-22 09:23:30.948 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.cards
+[DEBUG] 2019-10-22 09:23:30.948 [main] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.user.cards
+[DEBUG] 2019-10-22 09:23:30.948 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.password
+[DEBUG] 2019-10-22 09:23:30.948 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.userName
+[DEBUG] 2019-10-22 09:23:30.949 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-10-22 09:23:30.949 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-10-22 09:23:30.953 [main] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCardHistory)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCardHistory)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCardHistory.yugiohCard)
+             - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCardHistory.yugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCardHistory)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(yugiohCard)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCard)
+                - SQL table alias mapping - yugiohcard1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(user)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.User)
+                      - SQL table alias mapping - user2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2019-10-22 09:23:30.953 [main] EntityLoader - Static select for entity edu.yang.entity.YugiohCardHistory [READ]: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_, yugiohcard1_.id as id1_1_1_, yugiohcard1_.card_name as card_nam2_1_1_, yugiohcard1_.card_type as card_typ3_1_1_, yugiohcard1_.user_id as user_id4_1_1_, user2_.id as id1_0_2_, user2_.user_password as user_pas2_0_2_, user2_.user_name as user_nam3_0_2_ from yugioh_card_history yugiohcard0_ left outer join yugioh_card yugiohcard1_ on yugiohcard0_.yugiohCard_id=yugiohcard1_.id left outer join user user2_ on yugiohcard1_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-10-22 09:23:30.957 [main] Loader - Static select for action ACTION_MERGE on entity edu.yang.entity.YugiohCardHistory: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card_history yugiohcard0_ where yugiohcard0_.id=?
+[DEBUG] 2019-10-22 09:23:30.957 [main] Loader - Static select for action ACTION_REFRESH on entity edu.yang.entity.YugiohCardHistory: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card_history yugiohcard0_ where yugiohcard0_.id=?
+[DEBUG] 2019-10-22 09:23:30.966 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@545d2560]
+[DEBUG] 2019-10-22 09:23:30.966 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@124eb83d]
+[DEBUG] 2019-10-22 09:23:30.966 [main] MetamodelGraphWalker - Visiting attribute path : cardName
+[DEBUG] 2019-10-22 09:23:30.966 [main] MetamodelGraphWalker - Visiting attribute path : cardType
+[DEBUG] 2019-10-22 09:23:30.966 [main] MetamodelGraphWalker - Visiting attribute path : entries
+[DEBUG] 2019-10-22 09:23:30.966 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2d4a3e13]
+[DEBUG] 2019-10-22 09:23:30.967 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a22e4d7]
+[DEBUG] 2019-10-22 09:23:30.967 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2019-10-22 09:23:30.967 [main] MetamodelGraphWalker - Property path deemed to be circular : user
+[DEBUG] 2019-10-22 09:23:30.967 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-10-22 09:23:30.973 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-10-22 09:23:30.974 [main] LoadPlanTreePrinter - LoadPlan(collection=edu.yang.entity.User.cards)
+    - Returns
+       - CollectionReturnImpl(collection=edu.yang.entity.User.cards, querySpaceUid=<gen:0>, path=[edu.yang.entity.User.cards])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:1>, path=[edu.yang.entity.User.cards].<elements>)
+             - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:2>, path=[edu.yang.entity.User.cards].<elements>.entries)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:3>, path=[edu.yang.entity.User.cards].<elements>.entries.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=edu.yang.entity.User.cards)
+          - SQL table alias mapping - cards0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id4_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCard)
+                - SQL table alias mapping - cards0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+[DEBUG] 2019-10-22 09:23:30.975 [main] CollectionLoader - Static select for collection edu.yang.entity.User.cards: select cards0_.user_id as user_id4_1_0_, cards0_.id as id1_1_0_, cards0_.id as id1_1_1_, cards0_.card_name as card_nam2_1_1_, cards0_.card_type as card_typ3_1_1_, cards0_.user_id as user_id4_1_1_ from yugioh_card cards0_ where cards0_.user_id=?
+[DEBUG] 2019-10-22 09:23:30.976 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7841bd30]
+[DEBUG] 2019-10-22 09:23:30.976 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@45c80312]
+[DEBUG] 2019-10-22 09:23:30.977 [main] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-10-22 09:23:30.977 [main] MetamodelGraphWalker - Visiting attribute path : ts
+[DEBUG] 2019-10-22 09:23:30.977 [main] MetamodelGraphWalker - Visiting attribute path : yugiohCard
+[DEBUG] 2019-10-22 09:23:30.977 [main] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard
+[DEBUG] 2019-10-22 09:23:30.977 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-10-22 09:23:30.977 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-10-22 09:23:30.978 [main] LoadPlanTreePrinter - LoadPlan(collection=edu.yang.entity.YugiohCard.entries)
+    - Returns
+       - CollectionReturnImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:0>, path=[edu.yang.entity.YugiohCard.entries])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:1>, path=[edu.yang.entity.YugiohCard.entries].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=edu.yang.entity.YugiohCard.entries)
+          - SQL table alias mapping - entries0_
+          - alias suffix - 0_
+          - suffixed key columns - {yugiohCa4_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCardHistory)
+                - SQL table alias mapping - entries0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+[DEBUG] 2019-10-22 09:23:30.978 [main] CollectionLoader - Static select for collection edu.yang.entity.YugiohCard.entries: select entries0_.yugiohCard_id as yugiohCa4_2_0_, entries0_.id as id1_2_0_, entries0_.id as id1_2_1_, entries0_.price as price2_2_1_, entries0_.update_date as update_d3_2_1_, entries0_.yugiohCard_id as yugiohCa4_2_1_ from yugioh_card_history entries0_ where entries0_.yugiohCard_id=?
+[DEBUG] 2019-10-22 09:23:31.022 [main] SchemaManagementToolCoordinator - No actions specified; doing nothing
+[DEBUG] 2019-10-22 09:23:31.022 [main] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[DEBUG] 2019-10-22 09:23:31.023 [main] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2019-10-22 09:23:31.039 [main] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2019-10-22 09:23:31.039 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2019-10-22 09:23:31.041 [main] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2019-10-22 09:23:31.041 [main] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2019-10-22 09:23:31.049 [main] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@6dae70f9
+[DEBUG] 2019-10-22 09:23:31.058 [main] SessionFactoryRegistry - Registering SessionFactory: 2a85b4dd-ad78-4ff5-80b1-9ca5eeea785e (<unnamed>)
+[DEBUG] 2019-10-22 09:23:31.062 [main] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[DEBUG] 2019-10-22 09:23:31.174 [main] StatisticsInitiator - Statistics initialized [enabled=false]
+[DEBUG] 2019-10-22 09:23:31.212 [main] TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[DEBUG] 2019-10-22 09:23:31.214 [main] TransactionImpl - begin
+[DEBUG] 2019-10-22 09:23:31.231 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2019-10-22 09:23:31.271 [main] SQL - insert into user (user_password, user_name) values (?, ?)
+[DEBUG] 2019-10-22 09:23:31.291 [main] IdentifierGeneratorHelper - Natively generated identity: 3
+[DEBUG] 2019-10-22 09:23:31.291 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-10-22 09:23:31.294 [main] TransactionImpl - committing
+[DEBUG] 2019-10-22 09:23:31.295 [main] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2019-10-22 09:23:31.295 [main] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2019-10-22 09:23:31.299 [main] Collections - Collection found: [edu.yang.entity.User.cards#3], was: [<unreferenced>] (initialized)
+[DEBUG] 2019-10-22 09:23:31.300 [main] AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] 2019-10-22 09:23:31.300 [main] AbstractFlushingEventListener - Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+[DEBUG] 2019-10-22 09:23:31.301 [main] EntityPrinter - Listing entities:
+[DEBUG] 2019-10-22 09:23:31.301 [main] EntityPrinter - edu.yang.entity.User{password=brownTurnip, cards=[], id=3, userName=redRainbow19}
+[DEBUG] 2019-10-22 09:23:31.318 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2019-10-22 09:23:31.325 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2019-10-22 09:23:31.360 [main] SQL - select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_name as user_nam3_0_0_, cards1_.user_id as user_id4_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_name as card_nam2_1_2_, cards1_.card_type as card_typ3_1_2_, cards1_.user_id as user_id4_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-10-22 09:23:31.382 [main] SqlExceptionHelper - could not extract ResultSet [n/a]
+java.sql.SQLSyntaxErrorException: Unknown column 'entries2_.yugiohCard_id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1005) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:379) ~[c3p0-0.9.5.3.jar:0.9.5.3]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.getResultSet(AbstractLoadPlanBasedLoader.java:418) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeQueryStatement(AbstractLoadPlanBasedLoader.java:191) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:121) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:86) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.load(AbstractLoadPlanBasedEntityLoader.java:197) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4312) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:570) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:538) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:333) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1298) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1286) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:203) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2945) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2926) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2882) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2926) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1081) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at edu.yang.persistence.UserDao.getById(UserDao.java:40) [classes/:?]
+	at edu.yang.persistence.UserDaoTest.insertCollectorSuccess(UserDaoTest.java:58) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.0.jar:1.0.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69) [junit5-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
+[WARN ] 2019-10-22 09:23:31.397 [main] SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+[ERROR] 2019-10-22 09:23:31.397 [main] SqlExceptionHelper - Unknown column 'entries2_.yugiohCard_id' in 'field list'
+[INFO ] 2019-10-22 09:23:31.400 [main] DefaultLoadEventListener - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+[DEBUG] 2019-10-22 09:23:31.400 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2019-10-22 09:23:31.608 [main] SQL - select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_name as user_nam3_0_0_, cards1_.user_id as user_id4_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_name as card_nam2_1_2_, cards1_.card_type as card_typ3_1_2_, cards1_.user_id as user_id4_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-10-22 09:23:31.611 [main] SqlExceptionHelper - could not extract ResultSet [n/a]
+java.sql.SQLSyntaxErrorException: Unknown column 'entries2_.yugiohCard_id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1005) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:379) ~[c3p0-0.9.5.3.jar:0.9.5.3]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.getResultSet(AbstractLoadPlanBasedLoader.java:418) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeQueryStatement(AbstractLoadPlanBasedLoader.java:191) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:121) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:86) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.load(AbstractLoadPlanBasedEntityLoader.java:197) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4312) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:570) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:538) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:333) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1298) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1286) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:203) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2945) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2926) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2882) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2926) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1081) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at edu.yang.persistence.ProjectDao.getById(ProjectDao.java:50) [classes/:?]
+	at edu.yang.persistence.UserDaoTest.saveOrUpdateSuccess(UserDaoTest.java:44) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.0.jar:1.0.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69) [junit5-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
+[WARN ] 2019-10-22 09:23:31.627 [main] SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+[ERROR] 2019-10-22 09:23:31.627 [main] SqlExceptionHelper - Unknown column 'entries2_.yugiohCard_id' in 'field list'
+[INFO ] 2019-10-22 09:23:31.627 [main] DefaultLoadEventListener - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+[DEBUG] 2019-10-22 09:23:31.627 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2019-10-22 09:23:31.779 [main] SQL - select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_name as user_nam3_0_0_, cards1_.user_id as user_id4_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_name as card_nam2_1_2_, cards1_.card_type as card_typ3_1_2_, cards1_.user_id as user_id4_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-10-22 09:23:31.784 [main] SqlExceptionHelper - could not extract ResultSet [n/a]
+java.sql.SQLSyntaxErrorException: Unknown column 'entries2_.yugiohCard_id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1005) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:379) ~[c3p0-0.9.5.3.jar:0.9.5.3]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.getResultSet(AbstractLoadPlanBasedLoader.java:418) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeQueryStatement(AbstractLoadPlanBasedLoader.java:191) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:121) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:86) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.load(AbstractLoadPlanBasedEntityLoader.java:197) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4312) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:570) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:538) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:333) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1298) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1286) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:203) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2945) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2926) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2882) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2926) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1081) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at edu.yang.persistence.ProjectDao.getById(ProjectDao.java:50) [classes/:?]
+	at edu.yang.persistence.UserDaoTest.getCollectorByIdSuccess(UserDaoTest.java:38) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.0.jar:1.0.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69) [junit5-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
+[WARN ] 2019-10-22 09:23:31.787 [main] SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+[ERROR] 2019-10-22 09:23:31.787 [main] SqlExceptionHelper - Unknown column 'entries2_.yugiohCard_id' in 'field list'
+[INFO ] 2019-10-22 09:23:31.787 [main] DefaultLoadEventListener - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+[DEBUG] 2019-10-22 09:23:31.787 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2019-10-22 09:23:31.940 [main] SQL - select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_name as user_nam3_0_0_, cards1_.user_id as user_id4_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_name as card_nam2_1_2_, cards1_.card_type as card_typ3_1_2_, cards1_.user_id as user_id4_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-10-22 09:23:31.943 [main] SqlExceptionHelper - could not extract ResultSet [n/a]
+java.sql.SQLSyntaxErrorException: Unknown column 'entries2_.yugiohCard_id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1005) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:379) ~[c3p0-0.9.5.3.jar:0.9.5.3]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.getResultSet(AbstractLoadPlanBasedLoader.java:418) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeQueryStatement(AbstractLoadPlanBasedLoader.java:191) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:121) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:86) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.load(AbstractLoadPlanBasedEntityLoader.java:197) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4312) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:570) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:538) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:333) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1298) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1286) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:203) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2945) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2926) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2882) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2926) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1081) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at edu.yang.persistence.ProjectDao.getById(ProjectDao.java:50) [classes/:?]
+	at edu.yang.persistence.UserDaoTest.deleteCollectorSuccess(UserDaoTest.java:66) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.0.jar:1.0.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69) [junit5-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
+[WARN ] 2019-10-22 09:23:31.944 [main] SqlExceptionHelper - SQL Error: 1054, SQLState: 42S22
+[ERROR] 2019-10-22 09:23:31.944 [main] SqlExceptionHelper - Unknown column 'entries2_.yugiohCard_id' in 'field list'
+[INFO ] 2019-10-22 09:23:31.945 [main] DefaultLoadEventListener - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+[DEBUG] 2019-10-22 09:23:31.945 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

@@ -26,7 +26,7 @@ create table if not exists yugioh_card
     constraint yugioh_card_yugioh_player_id_fk
         foreign key (yugioh_player_id) references user (id)
             on update cascade on delete cascade
-)
+)SET GLOBAL time_zone = '-6:00';
     charset = latin1;
 
 create index yugioh_card_user_id_fk
