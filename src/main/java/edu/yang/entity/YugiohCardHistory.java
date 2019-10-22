@@ -18,7 +18,7 @@ public class YugiohCardHistory {
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name = "updated_date")
+    @Column(name = "update_date")
     private Timestamp ts;
 
     @Column(name = "price")
