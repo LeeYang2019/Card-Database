@@ -1218,7 +1218,7 @@
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="285" name="time_stamp">
+    <column id="303" parent="285" name="updated_date">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
@@ -1235,7 +1235,7 @@
       <Type>btree</Type>
     </index>
     <index id="306" parent="285" name="yugioh_card_history_time_stamp_uindex">
-      <ColNames>time_stamp</ColNames>
+      <ColNames>updated_date</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
@@ -1253,7 +1253,7 @@
       <UnderlyingIndexName>yugioh_card_history_id_uindex</UnderlyingIndexName>
     </key>
     <key id="310" parent="285" name="yugioh_card_history_time_stamp_uindex">
-      <ColNames>time_stamp</ColNames>
+      <ColNames>updated_date</ColNames>
       <UnderlyingIndexName>yugioh_card_history_time_stamp_uindex</UnderlyingIndexName>
     </key>
     <foreign-key id="311" parent="285" name="update_history_yugioh_card_id_fk">

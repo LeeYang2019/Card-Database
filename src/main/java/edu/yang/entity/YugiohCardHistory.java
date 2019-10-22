@@ -18,7 +18,7 @@ public class YugiohCardHistory {
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name = "updated_dt")
+    @Column(name = "updated_date")
     private Timestamp ts;
 
     @Column(name = "price")
@@ -32,22 +32,14 @@ public class YugiohCardHistory {
      */
     public YugiohCardHistory() { }
 
-    /**
-     * arg constructor
-     * @param ts
-     * @param quantity
-     * @param price
-     */
-    public YugiohCardHistory(Timestamp ts, int quantity, double price, YugiohCard yugiohCard) {
+
+    public YugiohCardHistory(Timestamp ts, double price, YugiohCard yugiohCard) {
         this.ts = ts;
         this.price = price;
         this.yugiohCard = yugiohCard;
     }
 
-    /**
-     * sets date
-     * @param ts
-     */
+
     public void setDate(Timestamp ts) {
         this.ts = ts;
     }
@@ -57,26 +49,17 @@ public class YugiohCardHistory {
         this.price = price;
     }
 
-    /**
-     * sets YugiohCard
-     * @param yugiohCard
-     */
+
     public void setYugiohCard(YugiohCard yugiohCard) {
         this.yugiohCard = yugiohCard;
     }
 
-    /**
-     * gets id
-     * @return id
-     */
+
     public int getId() {
         return this.id;
     }
 
-    /**
-     * gets timestamp
-     * @return timestamp
-     */
+
     public Date getTimeStamp() {
         return this.ts;
     }
@@ -86,10 +69,7 @@ public class YugiohCardHistory {
         return this.price;
     }
 
-    /**
-     * gets YugiohCard
-     * @return YugiohCard
-     */
+
     public YugiohCard getYugiohCard() {
         return this.yugiohCard;
     }

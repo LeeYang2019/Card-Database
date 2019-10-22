@@ -30,35 +30,18 @@ public class YugiohCard {
     @OneToMany (mappedBy = "yugiohCard", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<YugiohCardHistory> entries = new HashSet<>();
 
-    /**
-     * no arg constructor
-     */
     public YugiohCard() { }
 
-    /**
-     * arg constructor
-     * @param cardName cardname
-     * @param cardType cardType
-     * @param user user
-     */
     public YugiohCard(String cardName, String cardType, User user) {
         this.cardName = cardName;
         this.cardType = cardType;
         this.user = user;
     }
 
-    /**
-     * sets user
-     * @param user user
-     */
     public void setUser(User user) {
         this.user = user;
     }
 
-    /**
-     * gets user
-     * @return user
-     */
     public User getUser() {
         return this.user;
     }

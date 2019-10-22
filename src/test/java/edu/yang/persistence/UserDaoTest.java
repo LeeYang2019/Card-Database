@@ -13,35 +13,35 @@ import java.sql.Timestamp;
 import java.util.Date;
 
 import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class UserDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     UserDao newDao;
-    YugiohCard yugiohCardDao;
+    ProjectDao projectDao;
 
     @BeforeEach
     void setUp() {
         newDao = new UserDao();
-       // yugiohCardDao = new YugiohCardDao();
+        projectDao = new ProjectDao(User.class);
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
-        logger.info("hello from the other side, Lee Yang");
     }
 
     /**
      * verify success in getting a collector by id
      */
     @Test
-    void getCollectorById() {
-        User newUser = newDao.getById(1);
+    void getCollectorByIdSuccess() {
+        User newUser = (User)projectDao.getById(1);
         assertEquals("leeyang2019", newUser.getUserName());
     }
 
     @Test
-    void saveOrUpdate() {
-        User newUser = newDao.getById(1);
+    void saveOrUpdateSuccess() {
+        User newUser = (User)projectDao.getById(1);
         newUser.setUserName("jimmybutler");
         newDao.saveOrUpdate(newUser);
         assertEquals("jimmybutler", newUser.getUserName());
@@ -51,35 +51,22 @@ class UserDaoTest {
      * verify successful insert of a collector
      */
     @Test
-    void insertCollector() {
+    void insertCollectorSuccess() {
         User newUser = new User("redRainbow19", "brownTurnip");
-        int id = newDao.insert(newUser);
+        int id = projectDao.insert(newUser);
         assertNotEquals(0, id);
-        assertEquals(3, newDao.getAll().size());
-    }
-
-
-    /**
-     * Verify successful insert of an collector and card
-     */
-    @Test
-    void insertWithCardSuccess() {
-        Date date = new Date();
-        Timestamp ts = new Timestamp(date.getTime());
-
-        User newUser = new User("Jimmer", "yang201917");
-        YugiohCard newYugiohCard = new YugiohCard("Dark Magician of Chaos", "Monster", newUser);
-        YugiohCardHistory entry = new YugiohCardHistory(ts, 1, 35, newYugiohCard);
-
+        assertEquals("redRainbow19", newDao.getById(3).getUserName());
     }
 
     /**
      * verify successful delete of a collector
      */
     @Test
-    void deleteCollector() {
-        User newUser = newDao.getById(2);
-        newDao.delete(newUser);
+    void deleteCollectorSuccess() {
+        User newUser = (User)projectDao.getById(1);
+        System.out.println("The name to delete is " + newUser.getUserName());
+        projectDao.delete(newUser);
+        System.out.println(newUser.getUserName());
         assertEquals(2, newDao.getAll().size());
     }
 }

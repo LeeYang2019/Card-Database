@@ -29,35 +29,4 @@ class YugiohCardHistoryDaoTest {
         database.runSQL("cleandb.sql");
     }
 
-
-    @Test
-    void getById() {
-        YugiohCard newYugiohCard = (YugiohCard)cardDao.getById(1);
-        logger.info(newYugiohCard.toString());
-       // assertEquals("Dark Magician", newYugiohCard.getCardName());
-    }
-
-    @Test
-    void saveOrUpdate() {
-    }
-
-    @Test
-    void insert() {
-    }
-
-    @Test
-    void delete() {
-    }
-
-    @Test
-    void getAll() {
-    }
-
-    @Test
-    void getByProperty() {
-    }
-
-    @Test
-    void getAllByProperty() {
-    }
 }
