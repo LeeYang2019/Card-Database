@@ -8,10 +8,6 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import edu.yang.testUtils.Database;
-
-import java.sql.Timestamp;
-import java.util.Date;
-
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -19,12 +15,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class UserDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    UserDao newDao;
     ProjectDao projectDao;
 
+    /**
+     * run these before each test
+     */
     @BeforeEach
     void setUp() {
-        newDao = new UserDao();
         projectDao = new ProjectDao(User.class);
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -34,39 +31,40 @@ class UserDaoTest {
      * verify success in getting a collector by id
      */
     @Test
-    void getCollectorByIdSuccess() {
+    void getUserByIdSuccess() {
         User newUser = (User)projectDao.getById(1);
         assertEquals("leeyang2019", newUser.getUserName());
     }
 
+    /**
+     * verify success in updating an existing user
+     */
     @Test
     void saveOrUpdateSuccess() {
         User newUser = (User)projectDao.getById(1);
         newUser.setUserName("jimmybutler");
-        newDao.saveOrUpdate(newUser);
         assertEquals("jimmybutler", newUser.getUserName());
     }
 
     /**
-     * verify successful insert of a collector
+     * verify successful insert of a new user
      */
     @Test
-    void insertCollectorSuccess() {
+    void insertUserSuccess() {
         User newUser = new User("redRainbow19", "brownTurnip");
         int id = projectDao.insert(newUser);
+        User updatedUser = (User)projectDao.getById(3);
         assertNotEquals(0, id);
-        assertEquals("redRainbow19", newDao.getById(3).getUserName());
+        assertEquals("redRainbow19", updatedUser.getUserName());
     }
 
     /**
-     * verify successful delete of a collector
+     * verify successful delete of a user
      */
     @Test
-    void deleteCollectorSuccess() {
-        User newUser = (User)projectDao.getById(1);
-        System.out.println("The name to delete is " + newUser.getUserName());
+    void deleteUserSuccess() {
+        User newUser = (User)projectDao.getById(2);
         projectDao.delete(newUser);
-        System.out.println(newUser.getUserName());
-        assertEquals(2, newDao.getAll().size());
+        assertEquals(1, projectDao.getAll().size());
     }
 }

@@ -1,9 +1,9 @@
-create table if not exists yugioh_player
+create table if not exists user
 (
-    id              int auto_increment,
-    player_name     varchar(50) not null,
-    player_password varchar(50) not null,
-    constraint yugioh_player_id_uindex
+    id            int auto_increment,
+    user_name     varchar(50) not null,
+    user_password varchar(50) not null,
+    constraint user_id_uindex
         unique (id)
 );
 
@@ -13,24 +13,17 @@ alter table user
 
 create table if not exists yugioh_card
 (
-    id               int auto_increment,
-    yugioh_player_id int         null,
-    card_name        varchar(70) null,
-    card_type        varchar(25) null,
-    card_rarity      varchar(25) null,
-    card_set         varchar(25) null,
-    card_price       int         null,
-    card_quantity    int         not null,
+    id        int auto_increment,
+    user_id   int         null,
+    card_name varchar(70) null,
+    card_type varchar(25) null,
     constraint yugioh_card_id_uindex
         unique (id),
-    constraint yugioh_card_yugioh_player_id_fk
-        foreign key (yugioh_player_id) references user (id)
+    constraint yugioh_card_user_id_fk
+        foreign key (user_id) references user (id)
             on update cascade on delete cascade
-)SET GLOBAL time_zone = '-6:00';
+)
     charset = latin1;
-
-create index yugioh_card_user_id_fk
-    on yugioh_card (user_id);
 
 alter table yugioh_card
     add constraint `PRIMARY`
@@ -38,17 +31,16 @@ alter table yugioh_card
 
 create table if not exists yugioh_card_history
 (
-    id             int auto_increment,
-    yugioh_card_id int       not null,
-    time_stamp     timestamp not null,
-    quantity       int       null,
-    price          double    null,
+    id            int auto_increment,
+    yugiohCard_id int       not null,
+    update_date   timestamp not null,
+    price         double    null,
     constraint update_history_id_uindex
         unique (id),
     constraint update_history_update_date_uindex
-        unique (time_stamp),
+        unique (update_date),
     constraint update_history_yugioh_card_id_fk
-        foreign key (yugioh_card_id) references yugioh_card (id)
+        foreign key (yugiohCard_id) references yugioh_card (id)
             on update cascade on delete cascade
 );
 

@@ -1,6 +1,9 @@
 package edu.yang.entity;
 
+import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.UpdateTimestamp;
+
 import javax.persistence.*;
 import java.sql.Timestamp;
 import java.util.Date;
@@ -18,7 +21,8 @@ public class YugiohCardHistory {
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @Column(name = "update_date")
+    @Column(name = "update_date", nullable = false, updatable = false)
+    @CreationTimestamp
     private Timestamp ts;
 
     @Column(name = "price")
@@ -33,17 +37,10 @@ public class YugiohCardHistory {
     public YugiohCardHistory() { }
 
 
-    public YugiohCardHistory(Timestamp ts, double price, YugiohCard yugiohCard) {
-        this.ts = ts;
+    public YugiohCardHistory(double price, YugiohCard yugiohCard) {
         this.price = price;
         this.yugiohCard = yugiohCard;
     }
-
-
-    public void setDate(Timestamp ts) {
-        this.ts = ts;
-    }
-
 
     public void setPrice(double price) {
         this.price = price;
@@ -73,4 +70,6 @@ public class YugiohCardHistory {
     public YugiohCard getYugiohCard() {
         return this.yugiohCard;
     }
+
+
 }

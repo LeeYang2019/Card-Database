@@ -75,6 +75,7 @@ public class ProjectDao<T> {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         session.delete(entity);
+        transaction.commit();
         session.close();
     }
 

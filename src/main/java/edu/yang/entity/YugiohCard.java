@@ -38,27 +38,26 @@ public class YugiohCard {
         this.user = user;
     }
 
+    public void setCardName(String cardName) { this.cardName = cardName; }
+    public void setCardType(String cardType) { this.cardType = cardType; }
+    public String getCardName() { return this.cardName; }
+    public String getCardType() { return this.cardType; }
     public void setUser(User user) {
         this.user = user;
     }
-
     public User getUser() {
         return this.user;
     }
-
     public void setEntries(Set<YugiohCardHistory> entries) {
         this.entries = entries;
     }
-
     public Set<YugiohCardHistory> getEntries() {
         return this.entries;
     }
-
     public void addEntry(YugiohCardHistory entry) {
         entries.add(entry);
         entry.setYugiohCard(this);
     }
-
     public void removeEntry(YugiohCardHistory entry) {
         entries.remove(entry);
         entry.setYugiohCard(null);

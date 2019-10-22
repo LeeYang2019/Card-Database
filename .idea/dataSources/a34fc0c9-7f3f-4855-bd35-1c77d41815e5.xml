@@ -1223,7 +1223,6 @@
     <column id="303" parent="286" name="yugiohCard_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="304" parent="286" name="update_date">
@@ -1242,29 +1241,20 @@
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="307" parent="286" name="update_history_update_date_uindex">
-      <ColNames>update_date</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <index id="308" parent="286" name="update_history_yugioh_card_id_fk">
+    <index id="307" parent="286" name="update_history_yugioh_card_id_fk">
       <ColNames>yugiohCard_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="309" parent="286" name="PRIMARY">
+    <key id="308" parent="286" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="310" parent="286" name="update_history_id_uindex">
+    <key id="309" parent="286" name="update_history_id_uindex">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>update_history_id_uindex</UnderlyingIndexName>
     </key>
-    <key id="311" parent="286" name="update_history_update_date_uindex">
-      <ColNames>update_date</ColNames>
-      <UnderlyingIndexName>update_history_update_date_uindex</UnderlyingIndexName>
-    </key>
-    <foreign-key id="312" parent="286" name="update_history_yugioh_card_id_fk">
+    <foreign-key id="310" parent="286" name="update_history_yugioh_card_id_fk">
       <ColNames>yugiohCard_id</ColNames>
       <RefSchemaName>test_yugioh_card_db</RefSchemaName>
       <RefTableName>yugioh_card</RefTableName>
