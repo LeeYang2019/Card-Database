@@ -21,9 +21,6 @@ public class YugiohCardHistory {
     @Column(name = "updated_dt")
     private Timestamp ts;
 
-    @Column(name = "quantity")
-    private int quantity;
-
     @Column(name = "price")
     private double price;
 
@@ -43,11 +40,9 @@ public class YugiohCardHistory {
      */
     public YugiohCardHistory(Timestamp ts, int quantity, double price, YugiohCard yugiohCard) {
         this.ts = ts;
-        this.quantity = quantity;
         this.price = price;
         this.yugiohCard = yugiohCard;
     }
-
 
     /**
      * sets date
@@ -57,18 +52,7 @@ public class YugiohCardHistory {
         this.ts = ts;
     }
 
-    /**
-     * sets quantity
-     * @param quantity
-     */
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
 
-    /**
-     * sets price
-     * @param price
-     */
     public void setPrice(double price) {
         this.price = price;
     }
@@ -97,18 +81,7 @@ public class YugiohCardHistory {
         return this.ts;
     }
 
-    /**
-     * gets quantity
-     * @return quantity
-     */
-    public int getQuantity() {
-        return this.quantity;
-    }
 
-    /**
-     * gets price
-     * @return price
-     */
     public double getPrice() {
         return this.price;
     }

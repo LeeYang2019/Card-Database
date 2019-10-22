@@ -24,18 +24,6 @@ public class YugiohCard {
     @Column(name="card_type")
     private String cardType;
 
-    @Column(name="card_rarity")
-    private String cardRarity;
-
-    @Column(name="card_set")
-    private String cardSet;
-
-    @Column(name="card_price")
-    private double cardPrice;
-
-    @Column(name="card_quantity")
-    private int cardQuantity;
-
     @ManyToOne
     private User user;
 
@@ -51,132 +39,12 @@ public class YugiohCard {
      * arg constructor
      * @param cardName cardname
      * @param cardType cardType
-     * @param cardRarity cardRarity
-     * @param cardSet cardSet
-     * @param cardPrice cardPrice
-     * @param cardQuantity cardQuantity
      * @param user user
      */
-    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double cardPrice, int cardQuantity, User user) {
+    public YugiohCard(String cardName, String cardType, User user) {
         this.cardName = cardName;
         this.cardType = cardType;
-        this.cardRarity = cardRarity;
-        this.cardSet = cardSet;
-        this.cardPrice = cardPrice;
-        this.cardQuantity = cardQuantity;
         this.user = user;
-    }
-
-    /**
-     * sets id
-     * @param id
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    /**
-     * gets id
-     * @return id
-     */
-    public int getId() {
-        return this.id;
-    }
-
-    /**
-     * sets cardName
-     * @param cardName cardName
-     */
-    public void setCardName(String cardName) {
-        this.cardName = cardName;
-    }
-
-    /**
-     * gets cardName
-     * @return cardName
-     */
-    public String getCardName() {
-        return this.cardName;
-    }
-
-    /**
-     * sets cardType
-     * @param cardType cardType
-     */
-    public void setCardType(String cardType) {
-        this.cardType = cardType;
-    }
-
-    /**
-     * gets cardType
-     * @return cardType
-     */
-    public String getCardType() {
-        return this.cardType;
-    }
-
-    /**
-     * sets cardRarity
-     * @param cardRarity cardRarity
-     */
-    public void setCardRarity(String cardRarity) {
-        this.cardRarity = cardRarity;
-    }
-
-    /**
-     * gets cardRarity
-     * @return cardRarity
-     */
-    public String getCardRarity() {
-        return this.cardRarity;
-    }
-
-    /**
-     * sets cardSet
-     * @param cardSet cardSet
-     */
-    public void setCardSet(String cardSet) {
-        this.cardSet = cardSet;
-    }
-
-    /**
-     * gets cardSet
-     * @return cardSet
-     */
-    public String getCardSet() {
-        return this.cardSet;
-    }
-
-    /**
-     * sets cardPrice
-     * @param cardPrice cardPrice
-     */
-    public void setCardPrice(double cardPrice) {
-        this.cardPrice = cardPrice;
-    }
-
-    /**
-     * gets cardPrice
-     * @return cardPrice
-     */
-    public double getCardPrice() {
-        return this.cardPrice;
-    }
-
-    /**
-     * sets cardQuantity
-     * @param cardQuantity cardQuantity
-     */
-    public void setCardQuantity(int cardQuantity) {
-        this.cardQuantity = cardQuantity;
-    }
-
-    /**
-     * gets cardQuantity
-     * @return cardQuantity
-     */
-    public int getCardQuantity() {
-        return this.cardQuantity;
     }
 
     /**
@@ -211,16 +79,6 @@ public class YugiohCard {
     public void removeEntry(YugiohCardHistory entry) {
         entries.remove(entry);
         entry.setYugiohCard(null);
-    }
-
-    @Override
-    public String toString() {
-        return "cardName: " + this.cardName + "\n"
-                + "cardType: " + this.cardType + "\n"
-                + "cardRarity: " + this.cardRarity + "\n"
-                + "cardSet: " + this.cardSet + "\n"
-                + "Quantity: " + this.cardQuantity + "\n"
-                + "cardPrice: $" + this.cardPrice + "\n";
     }
 
 }

@@ -27,7 +27,7 @@ class UserDaoTest {
        // yugiohCardDao = new YugiohCardDao();
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
-        logger.info("hello from the other side");
+        logger.info("hello from the other side, Lee Yang");
     }
 
     /**
@@ -68,7 +68,7 @@ class UserDaoTest {
         Timestamp ts = new Timestamp(date.getTime());
 
         User newUser = new User("Jimmer", "yang201917");
-        YugiohCard newYugiohCard = new YugiohCard("Dark Magician of Chaos", "Monster", "Ultra", "IOC-EN035", 35, 1, newUser);
+        YugiohCard newYugiohCard = new YugiohCard("Dark Magician of Chaos", "Monster", newUser);
         YugiohCardHistory entry = new YugiohCardHistory(ts, 1, 35, newYugiohCard);
 
     }
