@@ -24,17 +24,38 @@ public class YugiohCard {
     @Column(name="card_type")
     private String cardType;
 
+    @Column(name = "card_rarity")
+    private String cardRarity;
+
+    @Column(name = "card_set")
+    private String cardSet;
+
+    @Column(name = "price")
+    private double price;
+
+    @Column(name = "qty")
+    private int quantity;
+
+    @Column(name = "status")
+    private String status;
+
     @ManyToOne
     private User user;
 
     @OneToMany (mappedBy = "yugiohCard", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<YugiohCardHistory> entries = new HashSet<>();
 
-    public YugiohCard() { }
+    public YugiohCard() {
 
-    public YugiohCard(String cardName, String cardType, User user) {
+    }
+
+    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double price, int quantity, User user) {
         this.cardName = cardName;
         this.cardType = cardType;
+        this.cardRarity = cardRarity;
+        this.cardSet = cardSet;
+        this.price = price;
+        this.quantity = quantity;
         this.user = user;
     }
 

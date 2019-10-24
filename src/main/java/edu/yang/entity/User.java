@@ -23,6 +23,9 @@ public class User {
     @Column(name = "user_password")
     private String password;
 
+    @Column(name = "user_role")
+    private String role;
+
     @OneToMany (mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<YugiohCard> cards = new HashSet<>();
 
@@ -59,6 +62,10 @@ public class User {
         this.password = password;
     }
 
+    public void setRole(String role) {
+        this.role = role;
+    }
+
     /**
      * gets id
      * @return id
@@ -81,6 +88,14 @@ public class User {
      */
     public String getPassword() {
         return this.password;
+    }
+
+    /**
+     * gets role
+     * @return role
+     */
+    public String getRole() {
+        return this.role;
     }
 
     /**
