@@ -60,15 +60,18 @@ public class YugiohCard {
      * @param cardSet
      * @param price
      * @param quantity
+     * @param status
      * @param user
      */
-    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, double price, int quantity, User user) {
+    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet,
+                      double price, int quantity, String status, User user) {
         this.cardName = cardName;
         this.cardType = cardType;
         this.cardRarity = cardRarity;
         this.cardSet = cardSet;
         this.price = price;
         this.quantity = quantity;
+        this.status = status;
         this.user = user;
     }
 
@@ -114,6 +117,14 @@ public class YugiohCard {
      */
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    /**
+     * sets status
+     * @param status
+     */
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     /**
@@ -166,6 +177,14 @@ public class YugiohCard {
      */
     public int getQuantity() {
         return this.quantity;
+    }
+
+    /**
+     * gets status
+     * @return status
+     */
+    public String getStatus() {
+        return this.status;
     }
 
     /**
