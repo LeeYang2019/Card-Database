@@ -195,3 +195,28 @@ quantity : 1]
 [INFO ] 2019-10-29 10:57:17.336 [main] YugiohCardDaoTest - Dark Magician
 [INFO ] 2019-10-29 10:57:17.336 [main] YugiohCardDaoTest - Dark Magician Girl
 [INFO ] 2019-10-29 10:57:17.336 [main] YugiohCardDaoTest - ------------------------------------------
+[INFO ] 2019-10-29 11:14:56.454 [main] ProjectDao - this method is being called
+[INFO ] 2019-10-29 11:14:56.455 [main] ProjectDao - role
+[INFO ] 2019-10-29 11:14:56.455 [main] ProjectDao - admin
+[INFO ] 2019-10-29 11:14:56.604 [main] ProjectDao - this method is being called
+[INFO ] 2019-10-29 11:14:56.605 [main] ProjectDao - role
+[INFO ] 2019-10-29 11:14:56.605 [main] ProjectDao - general
+[INFO ] 2019-10-29 11:15:12.661 [main] ProjectDao - this method is being called
+[INFO ] 2019-10-29 11:15:12.671 [main] ProjectDao - cardSet
+[INFO ] 2019-10-29 11:15:12.678 [main] ProjectDao - sold
+[INFO ] 2019-10-29 11:15:16.234 [main] ProjectDao - this method is being called
+[INFO ] 2019-10-29 11:15:16.236 [main] ProjectDao - cardSet
+[INFO ] 2019-10-29 11:15:16.237 [main] ProjectDao - LOB
+[INFO ] 2019-10-29 11:15:16.622 [main] ProjectDao - this method is being called
+[INFO ] 2019-10-29 11:15:16.622 [main] ProjectDao - cardName
+[INFO ] 2019-10-29 11:15:16.622 [main] ProjectDao - Dark Magician
+[INFO ] 2019-10-29 11:15:16.800 [main] ProjectDao - this method is being called
+[INFO ] 2019-10-29 11:15:16.801 [main] ProjectDao - cardType
+[INFO ] 2019-10-29 11:15:16.801 [main] ProjectDao - Monster
+[INFO ] 2019-10-29 11:15:17.104 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-10-29 11:15:17.511 [main] ProjectDao - this method is being called
+[INFO ] 2019-10-29 11:15:17.511 [main] ProjectDao - cardRarity
+[INFO ] 2019-10-29 11:15:17.511 [main] ProjectDao - Secret
+[INFO ] 2019-10-29 11:16:18.599 [main] ProjectDao - this method is being called
+[INFO ] 2019-10-29 11:16:18.620 [main] ProjectDao - status
+[INFO ] 2019-10-29 11:16:18.621 [main] ProjectDao - sold

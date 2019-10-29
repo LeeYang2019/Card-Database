@@ -130,18 +130,31 @@ public class ProjectDao<T> {
      * @oaran value value of property
      * @return list of entities
      */
-    public List<T> getAllByProperty(String property, String value) {
-
-        logger.info("this method is being called");
-        logger.info(property);
-        logger.info(value);
-
+    public List<T> getAllByPropertyLike(String property, String value) {
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
         Expression<String> propertyPath = root.get(property);
         query.where(builder.like(propertyPath, "%" + value + "%"));
+        List<T> list = session.createQuery( query ).getResultList();
+        session.close();
+        return list;
+    }
+
+    /**
+     * gets a list of cards with similar names
+     * @param property property to specify
+     * @oaran value value of property
+     * @return list of entities
+     */
+    public List<T> getAllByProperty(String property, String value) {
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<String> propertyPath = root.get(property);
+        query.where(builder.like(propertyPath, value));
         List<T> list = session.createQuery( query ).getResultList();
         session.close();
         return list;

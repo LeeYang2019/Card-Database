@@ -38,7 +38,7 @@ class YugiohCardDaoTest {
      * verify successful get of a card by id
      */
     @Test
-    void getCardByIDSuccess() {
+    void getCardByIDSuccessSuccess() {
         YugiohCard newCard = (YugiohCard)cardDao.getById(1);
         logger.info("new card: " + newCard.getCardName());
         assertEquals("Dark Magician", newCard.getCardName());
@@ -48,8 +48,8 @@ class YugiohCardDaoTest {
      * verify successful get of all cards by cardName
      */
     @Test
-    void getCardsByCardName() {
-        List<YugiohCard> cards = cardDao.getAllByProperty("cardName", "Dark Magician");
+    void getCardsByCardNameSuccess() {
+        List<YugiohCard> cards = cardDao.getAllByPropertyLike("cardName", "Dark Magician");
         assertEquals(2, cards.size());
     }
 
@@ -57,24 +57,35 @@ class YugiohCardDaoTest {
      * verify successful get of all cards by cardType
      */
     @Test
-    void getCardsByCardType() {
+    void getCardsByCardTypeSuccess() {
         List<YugiohCard> cards = cardDao.getAllByProperty("cardType", "Monster");
         assertEquals(2, cards.size());
     }
 
     /**
-     * verify successfule get of all cards by cardRarity
+     * verify successful get of all cards by cardRarity
      */
     @Test
-    void getCardsByCardRarity() {
+    void getCardsByCardRaritySuccess() {
         List<YugiohCard> cards = cardDao.getAllByProperty("cardRarity", "Secret");
         assertEquals(1, cards.size());
     }
 
+    /**
+     * verify successful get of all cards by cardSet
+     */
     @Test
-    void getCardsByCardSet() {
-
+    void getCardsByCardSetSuccess() {
         List<YugiohCard> cards = cardDao.getAllByProperty("cardSet", "LOB");
+        assertEquals(1, cards.size());
+    }
+
+    /**
+     * verify successfule get of all cards by status (card)
+     */
+    @Test
+    void getCardsByCardStatusSuccess() {
+        List<YugiohCard> cards = cardDao.getAllByProperty("status", "sold");
         assertEquals(1, cards.size());
     }
 

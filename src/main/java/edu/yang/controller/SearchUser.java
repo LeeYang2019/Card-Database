@@ -1,5 +1,8 @@
 package edu.yang.controller;
 
+import edu.yang.entity.YugiohCard;
+import edu.yang.persistence.ProjectDao;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -20,7 +23,7 @@ public class SearchUser extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        YugiohCardDao newYugiohCardDao = new YugiohCardDao();
+        ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
 
         //get user input
         String searchTerm = req.getParameter("searchTerm");
@@ -29,7 +32,7 @@ public class SearchUser extends HttpServlet {
         //if there is not an input, searchTerm is null
         if (searchTerm != null) {
             try {
-                req.setAttribute("users", newYugiohCardDao.getByCardName(searchTerm));
+                //req.setAttribute("users", newYugiohCardDao.getAllByPropertyLike(searchTerm));
             } catch (Exception e) {
                 e.printStackTrace();
             }
