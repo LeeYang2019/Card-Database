@@ -162,6 +162,13 @@ public class YugiohCard {
     }
 
     /**
+     * gets the card id
+     * @return id
+     */
+    public int getId() {
+        return this.id;
+    }
+    /**
      * gets cardName
      * @return cardName
      */

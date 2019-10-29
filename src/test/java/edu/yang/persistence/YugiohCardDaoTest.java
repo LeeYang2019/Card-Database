@@ -89,6 +89,16 @@ class YugiohCardDaoTest {
         assertEquals(1, cards.size());
     }
 
+    /**
+     * verify successful get all by cardSet
+     */
+    @Test
+    void getAllCardsSuccess() {
+        List<YugiohCard> cards = cardDao.getAll();
+        assertEquals(cards.size(), 2);
+        logger.info(cards.toString());
+    }
+
 
     /**
      * verify successful insert with user and timestamp (yugiohcardHistory) success
@@ -112,18 +122,51 @@ class YugiohCardDaoTest {
         //assertEquals(0, entryId);
         assertEquals(3, updateUser.getCards().size());
 
+        for (YugiohCard card : updateUser.getCards()) {
+            logger.info("card : " + card.getCardName());
+        }
+
     }
 
     /**
-     * verify successful get all by cardSet
+     * verify successful save or update
      */
     @Test
-    void getAllCards() {
-        // List<YugiohCard> cards = yugiohDao.getAllByCardSet("Dark Magician");
-        //assertEquals(cards.size(), 2);
-        //logger.info(cards.toString());
+    void saveOrUpdateSuccess() {
+        YugiohCard updateCard = (YugiohCard)cardDao.getById(1);
+        updateCard.setCardName("Dark Magician of Chaos");
+        assertEquals("Dark Magician of Chaos", updateCard.getCardName());
+        logger.info("updated card: " + updateCard.getCardName());
     }
 
+    /**
+     * verify successful delete of a card
+     */
+    @Test
+    void deleteWithUserAndYugiohCardUpdateHistorySuccess() {
 
+        //get card
+        YugiohCard deleteCard = (YugiohCard) cardDao.getById(2); //dark magician girl
 
+        //get user to whom card belongs
+        int id = deleteCard.getUser().getId(); //belongs to leeyang2019
+        logger.info("this entry's card id : " + id);
+        logger.info("current collection size: " + deleteCard.getUser().getCards().size()); //should be 2
+
+        //delete card from user to whom card belongs
+        deleteCard.getUser().removeCard(deleteCard);
+
+        //delete each entry in the collection from the yugiohcardHistory table
+        for (YugiohCardHistory entry : deleteCard.getEntries()) {
+            tsDao.delete(entry);
+        }
+
+        //delete card
+        cardDao.delete(deleteCard);
+
+        User updatedUser = (User) userDao.getById(id);
+
+        assertEquals(1, updatedUser.getCards().size()); //this card should have one entry left
+        logger.info("current collection size after delete: " + updatedUser.getCards().size());
+    }
 }

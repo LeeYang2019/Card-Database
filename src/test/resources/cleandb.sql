@@ -8,3 +8,4 @@ delete from yugioh_card_history;
 Alter table yugioh_card_history AUTO_INCREMENT = 0;
 INSERT INTO `yugioh_card_history` VALUES (1,1,now(),50.00);
 INSERT INTO `yugioh_card_history` VALUES (2,1,now(),70.00);
+INSERT INTO `yugioh_card_history` VALUES (3,2,now(),150.00);

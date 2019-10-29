@@ -29,14 +29,20 @@ class YugiohCardHistoryDaoTest {
         database.runSQL("cleandb.sql");
     }
 
+    /**
+     * verify successful get by id
+     */
     @Test
     void getByIdSuccess() {
         YugiohCardHistory entry = (YugiohCardHistory)updateHistoryDao.getById(1);
-        System.out.println("Entry id: " + entry.getId());
-        System.out.println("Entry cardId: " + entry.getYugiohCard());
-        System.out.println("Entry update_dt: " + entry.getTimeStamp());
+        logger.info("Entry id: " + entry.getId());
+        logger.info("Entry cardId: " + entry.getYugiohCard());
+        logger.info("Entry update_dt: " + entry.getTimeStamp());
     }
 
+    /**
+     * verify successful insert with new card from existing user
+     */
     @Test
     void insertWithCardAndUserSuccess() {
 
@@ -54,21 +60,38 @@ class YugiohCardHistoryDaoTest {
         entry.setYugiohCard(newYugiohCard);
         entry.setPrice(35.00);
 
-        //add entry to card entries
+        //add entry to card collection
         newYugiohCard.addEntry(entry);
 
         int insertCardId = cardDao.insert(newYugiohCard);
         int id = updateHistoryDao.insert(entry);
 
-        //assertEquals(0, id);
+        //size should be one for new card
+        assertEquals(1, newYugiohCard.getEntries().size());
 
-        System.out.println("this yugiohCard: " + newYugiohCard.getCardName() + " is owned by " + newYugiohCard.getUser().getUserName());
-        System.out.println("an update was made on: " + entry.getTimeStamp() + " for the card: " + entry.getYugiohCard().getCardName());
+        //user should now have 3 cards in his/her collection
+        assertEquals(3, updateUser.getCards().size());
     }
 
+    /**
+     * verify successful delete
+     */
     @Test
-    void deleteSuccessWithCardSuccess() {
+    void deleteFromCardSuccess() {
+        YugiohCardHistory entry = (YugiohCardHistory) updateHistoryDao.getById(1);
+        logger.info(entry.getYugiohCard().getEntries().size()); //this card has two entries
 
+        int id = entry.getYugiohCard().getId();
+        logger.info("this entry's card id : " + id);
+        entry.getYugiohCard().removeEntry(entry);
+
+        updateHistoryDao.delete(entry);
+
+        YugiohCard updatedCard = (YugiohCard) cardDao.getById(id);
+        logger.info(updatedCard.getEntries().size());
+
+        assertEquals(2, updateHistoryDao.getAll().size());
+        assertEquals(1, updatedCard.getEntries().size()); //this card should have one entry left
     }
 
 }
