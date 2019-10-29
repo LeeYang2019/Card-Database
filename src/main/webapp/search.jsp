@@ -15,8 +15,8 @@
             <form action="searchUser" method="GET" class="needs-validation" novalidate>
 
                 <div class="form-group">
-                    <label for="pwd">Please Enter User Information:</label>
-                    <input type="password" class="form-control" id="pwd" required>
+                    <label for="cardSearch">Please enter a search word:</label>
+                    <input type="text" class="form-control" id="pwd" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
@@ -25,17 +25,17 @@
                 <label for="YugiohCard">Search Type:</label><br/>
                 <div class="form-check-inline">
                     <label class="form-check-label" for="radio1">
-                        <input type="radio" class="form-check-input" id="home" name="searchType" value="Card Name" checked="checked">ID
+                        <input type="radio" class="form-check-input" id="home" name="searchType" value="Card Name" checked="checked">Card Name
                     </label>
                 </div>
                 <div class="form-check-inline">
                     <label class="form-check-label" for="radio2">
-                        <input type="radio" class="form-check-input" id="cell" name="searchType" value="Card Type">First Name
+                        <input type="radio" class="form-check-input" id="cell" name="searchType" value="Card Type">Card Type
                     </label>
                 </div>
                 <div class="form-check-inline">
                     <label class="form-check-label">
-                        <input type="radio" class="form-check-input" id="work" name="searchType" value="Card Rarity">Last Name
+                        <input type="radio" class="form-check-input" id="work" name="searchType" value="Card Rarity">Card Rarity
                     </label>
                 </div>
                 <br/>
