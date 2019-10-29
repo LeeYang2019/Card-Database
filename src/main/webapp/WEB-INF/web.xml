@@ -24,7 +24,7 @@
       <url-pattern>/search.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>admin</role-name>
+      <role-name>general</role-name>
     </auth-constraint>
   </security-constraint>
 
@@ -35,12 +35,12 @@
       <url-pattern>/adminOnly/*</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>admin</role-name>
+      <role-name>general</role-name>
     </auth-constraint>
   </security-constraint>
 
   <security-role>
-    <role-name>admin</role-name>
+    <role-name>general</role-name>
   </security-role>
 
 </web-app>

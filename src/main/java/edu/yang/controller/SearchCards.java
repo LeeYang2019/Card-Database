@@ -16,10 +16,10 @@ import java.io.IOException;
  */
 
 @WebServlet(
-        urlPatterns = {"/searchUser"}
+        urlPatterns = {"/searchCards"}
 )
 
-public class SearchUser extends HttpServlet {
+public class SearchCards extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -32,7 +32,7 @@ public class SearchUser extends HttpServlet {
         //if there is not an input, searchTerm is null
         if (searchTerm != null) {
             try {
-                //req.setAttribute("users", newYugiohCardDao.getAllByPropertyLike(searchTerm));
+                req.setAttribute("users", newYugiohCardDao.getAllByPropertyLike(searchTer));
             } catch (Exception e) {
                 e.printStackTrace();
             }

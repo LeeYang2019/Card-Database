@@ -1,5 +1,7 @@
 package edu.yang.entity;
 import org.hibernate.annotations.GenericGenerator;
+
+import javax.annotation.security.DeclareRoles;
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -10,6 +12,7 @@ import java.util.Set;
  */
 @Entity(name = "User")
 @Table(name = "user")
+@DeclareRoles("general")
 public class User {
 
     @Id

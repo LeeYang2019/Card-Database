@@ -6,7 +6,7 @@
 
 <body>
     <a href = "searchUser"> Return all cards</a>
-    <a hred = "search.jsp"> Go to card search</a>
+    <a href = "search.jsp"> Go to card search</a>
 </body>
 </html>
 <%@include file="footer.jsp"%>
