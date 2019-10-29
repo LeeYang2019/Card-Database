@@ -41,7 +41,7 @@ public class ProjectDao<T> {
 
     /**
      * gets an entity by its id
-     * @param id
+     * @param id id of the entity to get
      * @return a entity
      */
 
@@ -52,6 +52,10 @@ public class ProjectDao<T> {
         return entity;
     }
 
+    /**
+     * updates entity
+     * @param entity the entity to be inserted or deleted
+     */
     public void saveOrUpdate(T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -60,6 +64,11 @@ public class ProjectDao<T> {
         session.close();
     }
 
+    /**
+     * inserts entity
+     * @param entity entity to be inserted
+     * @return id
+     */
     public int insert(T entity) {
         int id = 0;
         Session session = getSession();
@@ -71,6 +80,10 @@ public class ProjectDao<T> {
     }
 
 
+    /**
+     * deletes entity
+     * @param entity entity to be deleted
+     */
     public void delete(T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -79,6 +92,10 @@ public class ProjectDao<T> {
         session.close();
     }
 
+    /**
+     * gets list of entities
+     * @return list of entities
+     */
     public List<T> getAll() {
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
@@ -89,13 +106,19 @@ public class ProjectDao<T> {
         return list;
     }
 
-    public T getByProperty(String property) {
-        Session session = sessionFactory.openSession();
+    /**
+     * gets an entity by its property
+     * @param property property to specify
+     * @param value value of property
+     * @return entity
+     */
+    public T getByProperty(String property, String value) {
+        Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
         Expression<String> propertyPath = root.get(property);
-        query.where(builder.like(propertyPath, property));
+        query.where(builder.like(propertyPath, "%" + value + "%"));
         T entity = session.createQuery( query ).getSingleResult();
         session.close();
         return entity;
@@ -103,16 +126,22 @@ public class ProjectDao<T> {
 
     /**
      * gets a list of cards with similar names
-     * @param property
-     * @return cards list of cards with similar names
+     * @param property property to specify
+     * @oaran value value of property
+     * @return list of entities
      */
-    public List<T> getAllByProperty(String property) {
+    public List<T> getAllByProperty(String property, String value) {
+
+        logger.info("this method is being called");
+        logger.info(property);
+        logger.info(value);
+
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
         Expression<String> propertyPath = root.get(property);
-        query.where(builder.like(propertyPath, "%" + property + "%"));
+        query.where(builder.like(propertyPath, "%" + value + "%"));
         List<T> list = session.createQuery( query ).getResultList();
         session.close();
         return list;

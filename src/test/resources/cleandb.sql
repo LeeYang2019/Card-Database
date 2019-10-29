@@ -1,3 +1,10 @@
 delete from user;
 Alter table user AUTO_INCREMENT = 0;
-INSERT INTO user VALUES (1, 'leeyang2019', 'greenbayPackers'),(2, 'johnBones2019', 'greenMantaRays') ;
+INSERT INTO user VALUES (1, 'leeyang2019', 'greenbayPackers', 'general'),(2, 'johnBones2019', 'greenMantaRays', 'general'), (3, 'terryBones2019', 'greenMantaRays', 'admin') ;
+delete from yugioh_card;
+Alter table yugioh_card AUTO_INCREMENT = 0;
+INSERT INTO `yugioh_card` VALUES (1,1,'Dark Magician','Monster', 'Ultra', 'LOB', 'EN035', 35.00, 2, 'unsold', null),(2,1,'Dark Magician Girl','Monster', 'Secret', 'MFC', 'EN000', 100.00, 1, 'sold', null);
+delete from yugioh_card_history;
+Alter table yugioh_card_history AUTO_INCREMENT = 0;
+INSERT INTO `yugioh_card_history` VALUES (1,1,now(),50.00);
+INSERT INTO `yugioh_card_history` VALUES (2,1,now(),70.00);

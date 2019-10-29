@@ -30,6 +30,9 @@ public class YugiohCard {
     @Column(name = "card_set")
     private String cardSet;
 
+    @Column(name = "card_index")
+    private String cardIndex;
+
     @Column(name = "price")
     private double price;
 
@@ -61,17 +64,20 @@ public class YugiohCard {
      * @param cardType
      * @param cardRarity
      * @param cardSet
+     * @param index
      * @param price
      * @param quantity
      * @param status
+     * @param image
      * @param user
      */
-    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet,
+    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, String index,
                       double price, int quantity, String status, String image, User user) {
         this.cardName = cardName;
         this.cardType = cardType;
         this.cardRarity = cardRarity;
         this.cardSet = cardSet;
+        this.cardIndex = index;
         this.price = price;
         this.quantity = quantity;
         this.status = status;
@@ -105,6 +111,14 @@ public class YugiohCard {
      */
     public void setCardSet(String cardSet) {
         this.cardSet = cardSet;
+    }
+
+    /**
+     * sets cardIndex
+     * @param cardIndex
+     */
+    public void setIndex(String cardIndex) {
+        this.cardIndex = cardIndex;
     }
 
     /**
@@ -173,6 +187,14 @@ public class YugiohCard {
      */
     public String getCardSet() {
         return this.cardSet;
+    }
+
+    /**
+     * gets cardIndex
+     * @return cardIndex
+     */
+    public String getCardIndex() {
+        return this.cardIndex;
     }
 
     /**

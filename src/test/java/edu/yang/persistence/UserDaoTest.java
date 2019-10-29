@@ -8,10 +8,15 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import edu.yang.testUtils.Database;
+import java.util.List;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * unit tests for user class
+ * @author Yang
+ */
 class UserDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
@@ -51,20 +56,38 @@ class UserDaoTest {
      */
     @Test
     void insertUserSuccess() {
-        User newUser = new User("redRainbow19", "brownTurnip");
+        User newUser = new User("redRainbow19", "brownTurnip", "general");
         int id = projectDao.insert(newUser);
-        User updatedUser = (User)projectDao.getById(3);
+        User updatedUser = (User)projectDao.getById(4);
         assertNotEquals(0, id);
         assertEquals("redRainbow19", updatedUser.getUserName());
     }
+
+    /**
+     * verify successful get general users
+     */
+    @Test
+     void getAllUsersByGeneralRoleSuccess() {
+         List<User> users = projectDao.getAllByProperty("role", "general");
+         assertEquals(2, users.size());
+     }
+
+    /**
+     * verify success get of admin users
+     */
+    @Test
+     void getAllUsersByAdminRoleSuccess() {
+        List<User> users = projectDao.getAllByProperty("role", "admin");
+        assertEquals(1, users.size());
+     }
 
     /**
      * verify successful delete of a user
      */
     @Test
     void deleteUserSuccess() {
-        User newUser = (User)projectDao.getById(2);
+        User newUser = (User) projectDao.getById(2);
         projectDao.delete(newUser);
-        assertEquals(1, projectDao.getAll().size());
+        assertEquals(2, projectDao.getAll().size());
     }
 }

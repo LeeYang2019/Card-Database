@@ -1199,48 +1199,53 @@
     </column>
     <column id="299" parent="285" name="card_set">
       <Position>6</Position>
-      <DataType>varchar(10)|0s</DataType>
+      <DataType>varchar(6)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="285" name="price">
+    <column id="300" parent="285" name="card_index">
       <Position>7</Position>
+      <DataType>varchar(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="285" name="price">
+      <Position>8</Position>
       <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="285" name="qty">
-      <Position>8</Position>
+    <column id="302" parent="285" name="qty">
+      <Position>9</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="285" name="status">
-      <Position>9</Position>
+    <column id="303" parent="285" name="status">
+      <Position>10</Position>
       <DataType>varchar(8)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="285" name="image">
-      <Position>10</Position>
+    <column id="304" parent="285" name="image">
+      <Position>11</Position>
       <DataType>varchar(64)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="304" parent="285" name="yugioh_card_id_uindex">
+    <index id="305" parent="285" name="yugioh_card_id_uindex">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="305" parent="285" name="yugioh_card_user_id_fk">
+    <index id="306" parent="285" name="yugioh_card_user_id_fk">
       <ColNames>user_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="306" parent="285" name="PRIMARY">
+    <key id="307" parent="285" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="307" parent="285" name="yugioh_card_id_uindex">
+    <key id="308" parent="285" name="yugioh_card_id_uindex">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>yugioh_card_id_uindex</UnderlyingIndexName>
     </key>
-    <foreign-key id="308" parent="285" name="yugioh_card_user_id_fk">
+    <foreign-key id="309" parent="285" name="yugioh_card_user_id_fk">
       <ColNames>user_id</ColNames>
       <RefSchemaName>test_yugioh_card_db</RefSchemaName>
       <RefTableName>user</RefTableName>
@@ -1248,48 +1253,48 @@
       <OnUpdate>cascade</OnUpdate>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <column id="309" parent="286" name="id">
+    <column id="310" parent="286" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="310" parent="286" name="yugiohCard_id">
+    <column id="311" parent="286" name="yugiohCard_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="311" parent="286" name="update_date">
+    <column id="312" parent="286" name="update_date">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="312" parent="286" name="price">
+    <column id="313" parent="286" name="price">
       <Position>4</Position>
       <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="313" parent="286" name="update_history_id_uindex">
+    <index id="314" parent="286" name="update_history_id_uindex">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="314" parent="286" name="update_history_yugioh_card_id_fk">
+    <index id="315" parent="286" name="update_history_yugioh_card_id_fk">
       <ColNames>yugiohCard_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="315" parent="286" name="PRIMARY">
+    <key id="316" parent="286" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="316" parent="286" name="update_history_id_uindex">
+    <key id="317" parent="286" name="update_history_id_uindex">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>update_history_id_uindex</UnderlyingIndexName>
     </key>
-    <foreign-key id="317" parent="286" name="update_history_yugioh_card_id_fk">
+    <foreign-key id="318" parent="286" name="update_history_yugioh_card_id_fk">
       <ColNames>yugiohCard_id</ColNames>
       <RefSchemaName>test_yugioh_card_db</RefSchemaName>
       <RefTableName>yugioh_card</RefTableName>
