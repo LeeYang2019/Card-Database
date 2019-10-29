@@ -2,11 +2,15 @@ package edu.yang.persistence;
 
 import edu.yang.entity.User;
 import edu.yang.entity.YugiohCard;
+import edu.yang.entity.YugiohCardHistory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import edu.yang.testUtils.Database;
+
+import java.sql.Timestamp;
+import java.util.Date;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -16,13 +20,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class YugiohCardDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    ProjectDao projectDao;
+    ProjectDao cardDao;
     ProjectDao userDao;
+    ProjectDao tsDao;
 
     @BeforeEach
     void setUp() {
-        projectDao = new ProjectDao(YugiohCard.class);
+        cardDao = new ProjectDao(YugiohCard.class);
         userDao = new ProjectDao(User.class);
+        tsDao = new ProjectDao(YugiohCardHistory.class);
+
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
     }
@@ -32,7 +39,7 @@ class YugiohCardDaoTest {
      */
     @Test
     void getCardByIDSuccess() {
-        YugiohCard newCard = (YugiohCard)projectDao.getById(1);
+        YugiohCard newCard = (YugiohCard)cardDao.getById(1);
         logger.info("new card: " + newCard.getCardName());
         assertEquals("Dark Magician", newCard.getCardName());
     }
@@ -42,14 +49,8 @@ class YugiohCardDaoTest {
      */
     @Test
     void getCardsByCardName() {
-        List<YugiohCard> cards = projectDao.getAllByProperty("cardName", "Dark Magician");
+        List<YugiohCard> cards = cardDao.getAllByProperty("cardName", "Dark Magician");
         assertEquals(2, cards.size());
-
-        logger.info("List of returned cards by similar names: ");
-        for (YugiohCard card : cards) {
-            logger.info(card.getCardName());
-        }
-        logger.info("------------------------------------------");
     }
 
     /**
@@ -57,14 +58,8 @@ class YugiohCardDaoTest {
      */
     @Test
     void getCardsByCardType() {
-        List<YugiohCard> cards = projectDao.getAllByProperty("cardType", "Monster");
+        List<YugiohCard> cards = cardDao.getAllByProperty("cardType", "Monster");
         assertEquals(2, cards.size());
-
-        logger.info("List of returned cards by type: ");
-        for (YugiohCard card : cards) {
-            logger.info(card.getCardName());
-        }
-        logger.info("------------------------------------------");
     }
 
     /**
@@ -72,47 +67,39 @@ class YugiohCardDaoTest {
      */
     @Test
     void getCardsByCardRarity() {
-        List<YugiohCard> cards = projectDao.getAllByProperty("cardRarity", "Secret");
+        List<YugiohCard> cards = cardDao.getAllByProperty("cardRarity", "Secret");
         assertEquals(1, cards.size());
-
-        logger.info("List of returned cards by rarity: ");
-        for (YugiohCard card : cards) {
-            logger.info(card.getCardName());
-        }
-        logger.info("------------------------------------------");
     }
 
     @Test
     void getCardsByCardSet() {
-        List<YugiohCard> cards = projectDao.getAllByProperty("cardSet", "LOB");
+
+        List<YugiohCard> cards = cardDao.getAllByProperty("cardSet", "LOB");
         assertEquals(1, cards.size());
-
-        logger.info("List of returned cards by card set: ");
-        for (YugiohCard card : cards) {
-            logger.info(card.getCardName());
-        }
-        logger.info("------------------------------------------");
-
     }
 
 
     /**
-     * verify successful insert
+     * verify successful insert with user and timestamp (yugiohcardHistory) success
      */
     @Test
-    void insertWithUserSuccess() {
+    void insertWithUserAndTimeStampSuccess() {
+
+        Date date = new Date();
+        long time = date.getTime();
+        Timestamp ts = new Timestamp(time);
+
         User updateUser = (User)userDao.getById(1);
-        YugiohCard newCard = new YugiohCard("Buster Blader", "Monster", "Ultra", "PSV", "EN0035", 52.00, 1, "not sold", "hello", updateUser);
+        YugiohCard newCard = new YugiohCard("Buster Blader", "Monster", "Ultra", "PSV", "EN035", 52.00, 1, "not sold", "hello", updateUser);
+        YugiohCardHistory entry = new YugiohCardHistory(80.00, newCard, ts);
         updateUser.addCard(newCard);
-        int id = projectDao.insert(newCard);
+        newCard.addEntry(entry);
+        int id = cardDao.insert(newCard);
+        int entryId = tsDao.insert(entry);
 
-        logger.info(updateUser.getCards().size());
-        logger.info("List of returned cards by user: " + updateUser.getUserName());
-        for (YugiohCard card : updateUser.getCards()) {
-            logger.info(card.getCardName());
-        }
-        logger.info("------------------------------------------");
-
+        //assertEquals(0, id);
+        //assertEquals(0, entryId);
+        assertEquals(3, updateUser.getCards().size());
 
     }
 

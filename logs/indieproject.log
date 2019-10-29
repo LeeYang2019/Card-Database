@@ -183,3 +183,15 @@ quantity : 1]
 [INFO ] 2019-10-29 10:33:19.523 [main] YugiohCardDaoTest - Dark Magician
 [INFO ] 2019-10-29 10:33:19.523 [main] YugiohCardDaoTest - Dark Magician Girl
 [INFO ] 2019-10-29 10:33:19.523 [main] YugiohCardDaoTest - ------------------------------------------
+[INFO ] 2019-10-29 10:45:22.814 [main] YugiohCardDaoTest - 3
+[INFO ] 2019-10-29 10:45:22.815 [main] YugiohCardDaoTest - List of returned cards by user: leeyang2019
+[INFO ] 2019-10-29 10:45:22.815 [main] YugiohCardDaoTest - Dark Magician Girl
+[INFO ] 2019-10-29 10:45:22.815 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-29 10:45:22.815 [main] YugiohCardDaoTest - Buster Blader
+[INFO ] 2019-10-29 10:45:22.815 [main] YugiohCardDaoTest - ------------------------------------------
+[INFO ] 2019-10-29 10:57:17.333 [main] YugiohCardDaoTest - 3
+[INFO ] 2019-10-29 10:57:17.336 [main] YugiohCardDaoTest - List of returned cards by user: leeyang2019
+[INFO ] 2019-10-29 10:57:17.336 [main] YugiohCardDaoTest - Buster Blader
+[INFO ] 2019-10-29 10:57:17.336 [main] YugiohCardDaoTest - Dark Magician
+[INFO ] 2019-10-29 10:57:17.336 [main] YugiohCardDaoTest - Dark Magician Girl
+[INFO ] 2019-10-29 10:57:17.336 [main] YugiohCardDaoTest - ------------------------------------------

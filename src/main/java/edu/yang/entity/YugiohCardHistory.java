@@ -5,8 +5,9 @@ import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
+import java.sql.Time;
 import java.sql.Timestamp;
-import java.util.Date;
+
 
 /**
  * YugiohCardHistory object
@@ -40,10 +41,12 @@ public class YugiohCardHistory {
      * arg constructor
      * @param price
      * @param yugiohCard
+     * @param ts
      */
-    public YugiohCardHistory(double price, YugiohCard yugiohCard) {
+    public YugiohCardHistory(double price, YugiohCard yugiohCard, Timestamp ts) {
         this.price = price;
         this.yugiohCard = yugiohCard;
+        this.ts = ts;
     }
 
     /**
@@ -63,6 +66,14 @@ public class YugiohCardHistory {
     }
 
     /**
+     * sets timestamp
+     * @param ts
+     */
+    public void setTimeStamp(Timestamp ts) {
+        this.ts = ts;
+    }
+
+    /**
      * gets id
      * @return
      */
@@ -74,7 +85,7 @@ public class YugiohCardHistory {
      * gets timeStamp
      * @return
      */
-    public Date getTimeStamp() {
+    public Timestamp getTimeStamp() {
         return this.ts;
     }
 

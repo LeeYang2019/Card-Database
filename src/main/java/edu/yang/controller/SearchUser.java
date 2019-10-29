@@ -1,7 +1,5 @@
 package edu.yang.controller;
 
-import edu.yang.persistence.YugiohCardDao;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
