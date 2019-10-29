@@ -41,9 +41,10 @@ public class User {
      * @param userName
      * @param password
      */
-    public User(String userName, String password) {
+    public User(String userName, String password, String role) {
         this.userName = userName;
         this.password = password;
+        this.role = role;
     }
 
     /**

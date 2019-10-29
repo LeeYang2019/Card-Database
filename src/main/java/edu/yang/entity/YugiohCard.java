@@ -39,6 +39,9 @@ public class YugiohCard {
     @Column(name = "status")
     private String status;
 
+    @Column(name = "image")
+    private String image;
+
     @ManyToOne
     private User user;
 
@@ -64,7 +67,7 @@ public class YugiohCard {
      * @param user
      */
     public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet,
-                      double price, int quantity, String status, User user) {
+                      double price, int quantity, String status, String image, User user) {
         this.cardName = cardName;
         this.cardType = cardType;
         this.cardRarity = cardRarity;
@@ -72,6 +75,7 @@ public class YugiohCard {
         this.price = price;
         this.quantity = quantity;
         this.status = status;
+        this.image = image;
         this.user = user;
     }
 
@@ -125,6 +129,14 @@ public class YugiohCard {
      */
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    /**
+     * sets image
+     * @param image
+     */
+    public void setImage(String image) {
+        this.image = image;
     }
 
     /**
@@ -186,6 +198,15 @@ public class YugiohCard {
     public String getStatus() {
         return this.status;
     }
+
+    /**
+     * gets image
+     * @return image
+     */
+    public String getImage() {
+        return this.image;
+    }
+
 
     /**
      * gets user

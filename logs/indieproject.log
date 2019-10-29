@@ -9,3 +9,13 @@
 [INFO ] 2019-10-22 11:01:35.473 [main] YugiohCardDaoTest - [edu.yang.entity.YugiohCard@f559c74, edu.yang.entity.YugiohCard@63917fe1]
 [INFO ] 2019-10-22 11:03:02.932 [main] YugiohCardDaoTest - Dark Magician
 [INFO ] 2019-10-22 11:03:03.210 [main] YugiohCardDaoTest - [edu.yang.entity.YugiohCard@2aa5bd48, edu.yang.entity.YugiohCard@7cfb8e98]
+[ERROR] 2019-10-29 08:44:11.328 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2019-10-29 08:44:12.981 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2019-10-29 08:44:13.128 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2019-10-29 08:44:13.179 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2019-10-29 08:44:13.252 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2019-10-29 08:44:13.332 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2019-10-29 08:46:25.908 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2019-10-29 08:46:29.378 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2019-10-29 08:46:29.523 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2019-10-29 08:46:29.610 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
