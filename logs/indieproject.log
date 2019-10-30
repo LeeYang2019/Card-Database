@@ -979,3 +979,43 @@ quantity : 2
 [INFO ] 2019-10-30 16:24:05.246 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-10-30 16:24:05.0
 [INFO ] 2019-10-30 16:24:58.475 [http-nio-8080-exec-4] SearchCards - searchTerm: dark
 [INFO ] 2019-10-30 16:24:58.480 [http-nio-8080-exec-4] SearchCards - searchType: cardName
+[INFO ] 2019-10-30 16:32:16.927 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-10-30 16:32:17.395 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-10-30 16:32:17.599 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-10-30 16:32:17.754 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-10-30 16:32:17.755 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-10-30 16:32:17.755 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-10-30 16:32:17.868 [main] YugiohCardDaoTest - this entry's card id : 1
+[INFO ] 2019-10-30 16:32:17.869 [main] YugiohCardDaoTest - current collection size: 2
+[INFO ] 2019-10-30 16:32:17.869 [main] YugiohCardDaoTest - current collection size: 2
+[INFO ] 2019-10-30 16:32:17.897 [main] YugiohCardDaoTest - current collection size after delete: 2
+[INFO ] 2019-10-30 16:32:18.225 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-10-30 16:32:18.225 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-10-30 16:32:18.260 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-10-30 16:32:18.386 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-10-30 16:32:18.386 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-10-30 16:32:18.387 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-10-30 16:32:18.0

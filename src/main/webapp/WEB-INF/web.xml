@@ -28,11 +28,11 @@
     </auth-constraint>
   </security-constraint>
 
-  <!-- Protect everything in the adminOnly directory -->
+  <!-- Protect everything in the userOnly directory -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>admin</web-resource-name>
-      <url-pattern>/adminOnly/*</url-pattern>
+      <web-resource-name>user</web-resource-name>
+      <url-pattern>/userOnly/*</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>general</role-name>
