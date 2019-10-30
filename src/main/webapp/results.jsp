@@ -11,9 +11,12 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for cards.." title="Type in a card">
+            </div>
+            <div class="row">
                     <c:choose>
                         <c:when test="${!empty(cards)}">
-                            <table class="table table-dark table-hover">
+                            <table id="myTable" class="table table-dark table-hover">
                                 <thead>
                                     <tr>
                                         <th>Name</th>
@@ -47,6 +50,24 @@
                 User Database
             </footer>
         </div>
+        <script>
+            function myFunction() {
+                var input, filter, table, td, a, i, txtValue;
+                input = document.getElementById("myTable");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("myUL");
+                td = table.getElementsByTagName("td");
+                for (i = 0; i < td.length; i++) {
+                    a = td[i].getElementsByTagName("a")[0];
+                    txtValue = a.textContent || a.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        td[i].style.display = "";
+                    } else {
+                        td[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
     </body>
 </html>
 
