@@ -39,12 +39,12 @@ public class SearchCards extends HttpServlet {
         //if there is not an input, searchTerm is null
         if (searchTerm != null) {
             try {
-                req.setAttribute("users", newYugiohCardDao.getAllByPropertyLike(searchType, searchTerm));
+                req.setAttribute("cards", newYugiohCardDao.getAllByPropertyLike(searchType, searchTerm));
             } catch (Exception e) {
                 e.printStackTrace();
             }
         } else {
-            req.setAttribute("users", newYugiohCardDao.getAll()); //for view all users
+            req.setAttribute("cards", newYugiohCardDao.getAll()); //for view all users
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");

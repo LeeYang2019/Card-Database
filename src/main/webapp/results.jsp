@@ -4,9 +4,11 @@
 <html>
     <body>
         <div class="container">
-            <%@include file="header.jsp"%>
             <div class="row">
                 <c:import url="header.jsp"/>
+            </div>
+            <div class="row">
+                <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
                     <c:choose>
@@ -14,11 +16,13 @@
                             <table class="table table-dark table-hover">
                                 <thead>
                                     <tr>
-                                        <th>Card Name</th>
-                                        <th>Card Type</th>
-                                        <th>Card Rarity</th>
-                                        <th>Card Set</th>
-                                        <th>Card Price</th>
+                                        <th>Name</th>
+                                        <th>Type</th>
+                                        <th>Rarity</th>
+                                        <th>Set</th>
+                                        <th>No.</th>
+                                        <th>Price</th>
+                                        <th>Qty</th>
                                     </tr>
                                 </thead>
                                 <c:forEach var="card" items="${cards}">

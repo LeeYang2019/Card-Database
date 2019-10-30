@@ -12,30 +12,27 @@
             <c:import url="header.jsp"/>
         </div>
         <div class="row">
-            <form action="searchUser" method="GET" class="needs-validation" novalidate>
+            <form action="searchCards" method="GET" class="needs-validation" novalidate>
 
                 <div class="form-group">
-                    <label for="YugiohCard">Please enter a search word:</label>
-                    <input type="text" class="form-control" id="searchTerm" name="searchTerm" required>
-                    <div class="valid-feedback">Valid.</div>
-                    <div class="invalid-feedback">Please fill out this field.</div>
+                    <label for="searchTerm">Please enter a search word:</label>
+                    <input type="text" class="form-control" id="searchTerm" name="searchTerm">
                 </div>
 
 
-                <label for="YugiohCard">Search Type:</label><br/>
                 <div class="form-check-inline">
-                    <label class="form-check-label" for="radio1">
-                        <input type="radio" class="form-check-input" id="home" name="searchType" value="Card Name" checked="checked">Card Name
+                    <label class="form-check-label" >
+                        <input type="radio" class="form-check-input" id="home" name="searchType" value="cardName" checked="checked">Card Name
                     </label>
                 </div>
                 <div class="form-check-inline">
-                    <label class="form-check-label" for="radio2">
-                        <input type="radio" class="form-check-input" id="cell" name="searchType" value="Card Type">Card Type
+                    <label class="form-check-label" >
+                        <input type="radio" class="form-check-input" id="cell" name="searchType" value="cardType">Card Type
                     </label>
                 </div>
                 <div class="form-check-inline">
                     <label class="form-check-label">
-                        <input type="radio" class="form-check-input" id="work" name="searchType" value="Card Rarity">Card Rarity
+                        <input type="radio" class="form-check-input" id="work" name="searchType" value="cardRarity">Card Rarity
                     </label>
                 </div>
                 <br/>

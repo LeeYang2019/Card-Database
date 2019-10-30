@@ -1,5 +1,5 @@
 <!DOCTYPE html>
 
-<div class="header">
-
-</div>
+<header class="jumbotron">
+   <!-- <img src="images/gp_logo.png" alt="Golden Pulp" /> -->
+</header>
