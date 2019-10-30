@@ -15,8 +15,8 @@
             <form action="searchUser" method="GET" class="needs-validation" novalidate>
 
                 <div class="form-group">
-                    <label for="cardSearch">Please enter a search word:</label>
-                    <input type="text" class="form-control" id="pwd" required>
+                    <label for="YugiohCard">Please enter a search word:</label>
+                    <input type="text" class="form-control" id="searchTerm" name="searchTerm" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>

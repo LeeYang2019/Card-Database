@@ -357,3 +357,128 @@ cardSet : LOB
 price : 35.0
 quantity : 2
 [INFO ] 2019-10-29 16:52:20.673 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-10-29 16:52:20.0
+[ERROR] 2019-10-29 18:29:56.159 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2019-10-29 18:30:32.063 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2019-10-29 18:31:03.815 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2019-10-29 18:31:35.419 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2019-10-29 18:32:06.899 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-10-29 18:33:15.731 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-10-29 18:33:16.445 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-10-29 18:33:16.732 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-10-29 18:33:16.916 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-10-29 18:33:16.916 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-10-29 18:33:16.916 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-10-29 18:33:17.050 [main] YugiohCardDaoTest - this entry's card id : 1
+[INFO ] 2019-10-29 18:33:17.050 [main] YugiohCardDaoTest - current collection size: 2
+[INFO ] 2019-10-29 18:33:17.050 [main] YugiohCardDaoTest - current collection size: 2
+[INFO ] 2019-10-29 18:33:17.079 [main] YugiohCardDaoTest - current collection size after delete: 2
+[INFO ] 2019-10-29 18:33:17.464 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-10-29 18:33:17.464 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-10-29 18:33:17.488 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-10-29 18:33:17.612 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-10-29 18:33:17.612 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-10-29 18:33:17.612 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-10-29 18:33:17.0
+[INFO ] 2019-10-29 18:46:52.685 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-10-29 18:46:53.320 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-10-29 18:46:53.541 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-10-29 18:46:53.726 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-10-29 18:46:53.726 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-10-29 18:46:53.726 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-10-29 18:46:53.850 [main] YugiohCardDaoTest - this entry's card id : 1
+[INFO ] 2019-10-29 18:46:53.850 [main] YugiohCardDaoTest - current collection size: 2
+[INFO ] 2019-10-29 18:46:53.850 [main] YugiohCardDaoTest - current collection size: 2
+[INFO ] 2019-10-29 18:46:53.881 [main] YugiohCardDaoTest - current collection size after delete: 2
+[INFO ] 2019-10-29 18:46:54.301 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-10-29 18:46:54.302 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-10-29 18:46:54.329 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-10-29 18:46:54.463 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-10-29 18:46:54.463 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-10-29 18:46:54.464 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-10-29 18:46:54.0
+[INFO ] 2019-10-29 18:50:28.169 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-10-29 18:50:28.773 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-10-29 18:50:28.999 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-10-29 18:50:29.167 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-10-29 18:50:29.167 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-10-29 18:50:29.167 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-10-29 18:50:29.305 [main] YugiohCardDaoTest - this entry's card id : 1
+[INFO ] 2019-10-29 18:50:29.305 [main] YugiohCardDaoTest - current collection size: 2
+[INFO ] 2019-10-29 18:50:29.305 [main] YugiohCardDaoTest - current collection size: 2
+[INFO ] 2019-10-29 18:50:29.333 [main] YugiohCardDaoTest - current collection size after delete: 2
+[INFO ] 2019-10-29 18:50:29.766 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-10-29 18:50:29.766 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-10-29 18:50:29.793 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-10-29 18:50:29.917 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-10-29 18:50:29.917 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-10-29 18:50:29.917 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-10-29 18:50:29.0

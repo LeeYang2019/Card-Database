@@ -27,7 +27,9 @@
                                         <td class="tbColumns">${card.cardType}</td>
                                         <td class="tbColumns">${card.cardRarity}</td>
                                         <td class="tbColumns">${card.cardSet}</td>
-                                        <td class="tbColumns">${card.cardPrice}</td>
+                                        <td class="tbColumns">${card.cardIndex}</td>
+                                        <td class="tbColumns">${card.price}</td>
+                                        <td class="tbColumns">${card.quantity}</td>
                                     </tr>
                                 </c:forEach>
                             </table>

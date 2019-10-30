@@ -21,29 +21,32 @@ import java.io.IOException;
 )
 
 public class SearchCards extends HttpServlet {
+
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
-        //final Logger logger = LogManager.getLogger(this.getClass());
 
         //get user input
         String searchTerm = req.getParameter("searchTerm");
         String searchType = req.getParameter("searchType");
 
-        System.out.println("searchTerm: " + searchTerm);
-        System.out.println("searchType: " + searchType);
+        logger.info("searchTerm: " + searchTerm);
+        logger.info("searchType: " + searchType);
 
         //if there is not an input, searchTerm is null
         if (searchTerm != null) {
             try {
-                req.setAttribute("users", newYugiohCardDao.getAllByPropertyLike(searchTerm, searchType));
+                req.setAttribute("users", newYugiohCardDao.getAllByPropertyLike(searchType, searchTerm));
             } catch (Exception e) {
                 e.printStackTrace();
             }
         } else {
             req.setAttribute("users", newYugiohCardDao.getAll()); //for view all users
         }
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
 
