@@ -11,8 +11,12 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for cards.." title="Type in a card">
-            </div>
+                <div class="form-group">
+                    <input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="Search for cards.." title="Type in a card" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+            </div><br />
             <div class="row">
                     <c:choose>
                         <c:when test="${!empty(cards)}">
@@ -47,23 +51,27 @@
                     </c:choose>
             </div>
             <footer class="row">
-                User Database
+                <c:import url="footer.jsp"/>
             </footer>
         </div>
         <script>
             function myFunction() {
-                var input, filter, table, td, a, i, txtValue;
-                input = document.getElementById("myTable");
+                var input, filter, table, tr, td, i, txtValue;
+                input = document.getElementById("myInput");
                 filter = input.value.toUpperCase();
-                table = document.getElementById("myUL");
-                td = table.getElementsByTagName("td");
+                table = document.getElementById("myTable");
+                tr = table.getElementsByTagName("tr");
+
                 for (i = 0; i < td.length; i++) {
-                    a = td[i].getElementsByTagName("a")[0];
-                    txtValue = a.textContent || a.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        td[i].style.display = "";
-                    } else {
-                        td[i].style.display = "none";
+                    td = tr[i].getElementsByTagName("td")[0];
+
+                    if (td) {
+                        txtValue = a.textContent || a.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
                     }
                 }
             }
