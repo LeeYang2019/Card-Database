@@ -1,5 +1,6 @@
 body {
-    background-color: #c1f9c6;
+ /**   background-color: #c1f9c6; **/
+    background-color: blue;
 }
 
 .container {
@@ -8,8 +9,8 @@ body {
 }
 
 .jumbotron {
-    background-image: url('images/yugioh1.png');
-    background-repeat: no-repeat;
+ /**background-image: url("images/yugioh1.png");
+    background-repeat: no-repeat; **/
     width: 100%;
     height: auto;
     margin-bottom: 0px;
@@ -20,9 +21,8 @@ body {
     margin-bottom: 10px;
 }
 
-h1, #comicpanel {
-    width: 100%;
-    height: auto;
+#myForm {
+    margin: auto;
 }
 
 #next {

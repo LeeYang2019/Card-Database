@@ -13,7 +13,7 @@
             <c:import url="navbar.jsp"/>
         </div>
         <div class="row">
-            <FORM ACTION="j_security_check" METHOD="POST">
+            <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
 
                 <div class="form-group">
                     <label for="uname">Username:</label>

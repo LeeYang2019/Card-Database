@@ -34,9 +34,15 @@ public class SearchCards extends HttpServlet {
 
         ProjectDao userDao = new ProjectDao(User.class);
 
-        User loggedInUser = (User) userDao.getById((Integer) session.getAttribute("userID"));
+        String id = session.getId();
+        logger.info("this user's id is : " + id);
 
-        logger.info("this user_id: " + loggedInUser.getId());
+        Integer userId = (Integer)session.getAttribute("userID");
+        logger.info("this user's id is : " + userId);
+
+        //User loggedInUser = (User) userDao.getById((int)session.getAttribute("id"));
+
+        //logger.info("this user_id: " + loggedInUser.getId());
 
 
         //card dao being used
@@ -44,7 +50,8 @@ public class SearchCards extends HttpServlet {
 
         //get user input
         String searchTerm = req.getParameter("searchTerm");
-        String searchType = req.getParameter("searchType");
+        //String searchType = req.getParameter("searchType");
+        String searchType = "cardName";
 
         //get cards with the search parameters
         if (searchTerm != null) {
@@ -54,7 +61,7 @@ public class SearchCards extends HttpServlet {
                 e.printStackTrace();
             }
         } else {
-            req.setAttribute("cards", loggedInUser.getCards()); //return all cards in the user collection
+            req.setAttribute("cards", newYugiohCardDao.getAll()); //return all cards in the user collection
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");

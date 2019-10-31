@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:import url="head.jsp"/>
 <html>
+    <c:import url="head.jsp"/>
     <body>
         <div class="container">
             <div class="row">
@@ -15,7 +15,7 @@
                         <div class="input-group mb-3">
                             <input type="searchTerm" class="form-control" id="searchTerm" placeholder="Search Card" name="searchTerm" aria-label="card" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button">Submit</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
                             </div>
                         </div>
 
@@ -25,7 +25,7 @@
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
--->
+
                         <div class="form-check-inline">
                             <label class="form-check-label" >
                                 <input type="radio" class="form-check-input" id="home" name="searchType" value="cardName" checked="checked">Card Name
@@ -42,7 +42,7 @@
                             </label>
                         </div><br/>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Submit</button> -->
                     </form>
 
             <footer class="row">
