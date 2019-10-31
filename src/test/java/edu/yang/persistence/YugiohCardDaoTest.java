@@ -145,32 +145,8 @@ class YugiohCardDaoTest {
     @Test
     void deleteWithUserAndYugiohCardUpdateHistorySuccess() {
 
-        //get card
         YugiohCard deleteCard = (YugiohCard) cardDao.getById(2); //dark magician girl
-
-        //get user to whom card belongs
-        int id = deleteCard.getUser().getId(); //belongs to leeyang2019
-        User updatedUser = (User) userDao.getById(id);
-
-        logger.info("this entry's card id : " + id);
-        logger.info("current collection size: " + updatedUser.getCards().size()); //should be 2
-
-        //delete card from user to whom card belongs
-        updatedUser.removeCard(deleteCard);
-
-        logger.info("current collection size: " + updatedUser.getCards().size()); //should be 2
-
-        //delete each entry in the collection from the yugiohcardHistory table
-        //for (YugiohCardHistory entry : deleteCard.getEntries()) {
-          //  tsDao.delete(entry);
-        //}
-
-        //delete card
         cardDao.delete(deleteCard);
 
-
-
-        assertEquals(2, updatedUser.getCards().size()); //this card should have one entry left
-        logger.info("current collection size after delete: " + updatedUser.getCards().size());
     }
 }
