@@ -64,6 +64,20 @@ class UserDaoTest {
     }
 
     /**
+     * verify successful get of cards by user
+     */
+    @Test
+    void getAllCardsByUserSuccess() {
+        User newUser = (User)projectDao.getById(1);
+        newUser.getCards();
+        assertEquals(2, newUser.getCards().size());
+
+        for (YugiohCard card : newUser.getCards()) {
+            logger.info(card.getCardName());
+        }
+    }
+
+    /**
      * verify successful get general users
      */
     @Test

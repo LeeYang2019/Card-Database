@@ -148,7 +148,7 @@ public class ProjectDao<T> {
      * @oaran value value of property
      * @return list of entities
      */
-    public List<T> getAllByProperty(String property, T value) {
+    public List<T> getAllByProperty(String property, String value) {
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);

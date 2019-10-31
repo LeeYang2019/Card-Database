@@ -2137,3 +2137,5 @@ cardSet : LOB
 price : 35.0
 quantity : 2
 [INFO ] 2019-10-31 11:20:32.682 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-10-31 11:20:32.0
+[INFO ] 2019-10-31 11:53:36.284 [main] UserDaoTest - Dark Magician Girl
+[INFO ] 2019-10-31 11:53:36.284 [main] UserDaoTest - Dark Magician
