@@ -14,7 +14,7 @@ body {
     margin-bottom: 0px;
 }
 
-.navbar, #myInput, #mySearch {
+.navbar, #mySearch {
     width: 100%;
     margin-bottom: 10px;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 #myTable, #myInput, #mySearch {
-    padding: 1em;
+    margin: 1em;
 }
 
 #next {

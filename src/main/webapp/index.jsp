@@ -4,7 +4,9 @@
     <c:import url="head.jsp"/>
     <body>
         <div class="container">
-            <c:import url="header.jsp"/>
+            <div class="row">
+                <c:import url="header.jsp"/>
+            </div>
             <div class="row">
                 <c:import url="navbar.jsp"/>
             </div>

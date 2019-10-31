@@ -28,12 +28,6 @@
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
                 <button type="submit" class="btn btn-primary" value="log in">Submit</button><br />
-                <!--
-                <TABLE>
-                    <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
-                    <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
-                    <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
-                </TABLE>-->
             </FORM>
         </div>
         <footer class="row">

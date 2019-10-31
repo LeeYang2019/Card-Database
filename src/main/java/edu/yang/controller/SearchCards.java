@@ -34,16 +34,11 @@ public class SearchCards extends HttpServlet {
 
         ProjectDao userDao = new ProjectDao(User.class);
 
-        String id = session.getId();
-        logger.info("this user's id is : " + id);
+       logger.info("this user is : " + req.getRemoteUser());
 
-        Integer userId = (Integer)session.getAttribute("userID");
-        logger.info("this user's id is : " + userId);
+       User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
 
-        //User loggedInUser = (User) userDao.getById((int)session.getAttribute("id"));
-
-        //logger.info("this user_id: " + loggedInUser.getId());
-
+       logger.info("this user id is : " + loggedInUser.getId());
 
         //card dao being used
         ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);

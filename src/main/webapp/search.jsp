@@ -43,7 +43,7 @@
                         </div><br/>
 
                         <button type="submit" class="btn btn-primary">Submit</button> -->
-                    </form>
+                    </form><br/>
 
             <footer class="row">
                 <c:import url="footer.jsp"/>
