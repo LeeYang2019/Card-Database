@@ -9,16 +9,23 @@
             <div class="row">
                 <c:import url="navbar.jsp"/>
             </div>
-            <div class="row">
-                    <form action="searchCards" method="GET" class="needs-validation" novalidate>
 
+                    <form class="form-check-inline" action="searchCards" method="GET" class="needs-validation" novalidate>
+
+                        <div class="input-group mb-3">
+                            <input type="searchTerm" class="form-control" id="searchTerm" placeholder="Search Card" name="searchTerm" aria-label="card" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button">Submit</button>
+                            </div>
+                        </div>
+
+<!--
                         <div class="form-group">
-                            <label for="searchTerm">Search Card</label>
                             <input type="searchTerm" class="form-control" id="searchTerm" placeholder="Enter a card" name="searchTerm" required>
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
-
+-->
                         <div class="form-check-inline">
                             <label class="form-check-label" >
                                 <input type="radio" class="form-check-input" id="home" name="searchType" value="cardName" checked="checked">Card Name
@@ -36,9 +43,8 @@
                         </div><br/>
 
                         <button type="submit" class="btn btn-primary">Submit</button>
-                        <button type="reset" class="btn btn-danger">Cancel</button>
                     </form>
-            </div>
+
             <footer class="row">
                 <c:import url="footer.jsp"/>
             </footer>

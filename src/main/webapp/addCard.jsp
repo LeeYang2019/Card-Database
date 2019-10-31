@@ -3,15 +3,11 @@
 <html>
     <body>
         <div class="container">
-            <div class="row">
-                <c:import url="header.jsp"/>
-            </div>
+            <c:import url="header.jsp"/>
             <div class="row">
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
-                <div class="row">
-
                     <form action="searchCards" method="GET" class="needs-validation" novalidate>
 
                         <div class="form-group">
@@ -40,7 +36,6 @@
                         <button type="submit" class="btn btn-primary">Submit</button>
                         <button type="reset" class="btn btn-danger">Cancel</button>
                     </form>
-                </div>
             </div>
             <footer class="row">
                 <c:import url="footer.jsp"/>
