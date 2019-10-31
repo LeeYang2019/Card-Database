@@ -44,7 +44,7 @@ public class AddCards extends HttpServlet {
 
 
         //create a card object
-        YugiohCard newCard = new YugiohCard()
+        YugiohCard newCard = new YugiohCard();
 
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");

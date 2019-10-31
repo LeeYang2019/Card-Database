@@ -99,6 +99,12 @@ class YugiohCardDaoTest {
         logger.info(cards.toString());
     }
 
+    @Test
+    void getAllCardsByUserIdSuccess() {
+        int userId = 1;
+        List<YugiohCard> cards = cardDao.getAllByProperty("user_id", userId);
+        assertEquals(2, cards.size());
+    }
 
     /**
      * verify successful insert with user and timestamp (yugiohcardHistory) success

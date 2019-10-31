@@ -14,11 +14,26 @@
         </div>
         <div class="row">
             <FORM ACTION="j_security_check" METHOD="POST">
+
+                <div class="form-group">
+                    <label for="uname">Username:</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="j_username" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="j_password" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <button type="submit" class="btn btn-primary" value="log in">Submit</button>
+                <!--
                 <TABLE>
                     <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
                     <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
                     <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
-                </TABLE>
+                </TABLE>-->
             </FORM>
         </div>
         <footer class="row">
