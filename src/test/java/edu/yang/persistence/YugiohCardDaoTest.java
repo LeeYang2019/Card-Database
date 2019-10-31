@@ -86,7 +86,7 @@ class YugiohCardDaoTest {
     @Test
     void getCardsByCardStatusSuccess() {
         List<YugiohCard> cards = cardDao.getAllByProperty("status", "sold");
-        assertEquals(1, cards.size());
+        assertEquals(0, cards.size());
     }
 
     /**

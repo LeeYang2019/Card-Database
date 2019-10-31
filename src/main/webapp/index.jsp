@@ -1,12 +1,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@include file="head.jsp"%>
 
 <html>
+<%@include file="head.jsp"%>
+
     <body>
         <div class="container">
-            <div class="row">
-                <c:import url="header.jsp"/>
-            </div>
+            <c:import url="header.jsp"/>
             <div class="row">
                 <c:import url="navbar.jsp"/>
             </div>
