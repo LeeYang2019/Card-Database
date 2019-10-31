@@ -54,7 +54,7 @@ public class SearchCards extends HttpServlet {
                 e.printStackTrace();
             }
         } else {
-            req.setAttribute("cards", newYugiohCardDao.getById(loggedInUser.getId())); //return all cards in the user collection
+            req.setAttribute("cards", loggedInUser.getCards()); //return all cards in the user collection
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");

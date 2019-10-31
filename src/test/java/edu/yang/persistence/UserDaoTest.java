@@ -66,8 +66,8 @@ class UserDaoTest {
     /**
      * verify successful get of cards by user
      */
-    @Test
-    void getAllCardsByUserSuccess() {
+    @dfgsTest
+    //void getAllCardsByUserSuccess() {
         User newUser = (User)projectDao.getById(1);
         newUser.getCards();
         assertEquals(2, newUser.getCards().size());
