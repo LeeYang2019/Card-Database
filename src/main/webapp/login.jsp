@@ -14,7 +14,7 @@
         </div>
         <div class="row">
             <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
-
+                <p>Please first login</p>
                 <div class="form-group">
                     <label for="uname">Username:</label>
                     <input type="text" class="form-control" id="uname" placeholder="Enter username" name="j_username" required>
@@ -27,7 +27,7 @@
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
-                <button type="submit" class="btn btn-primary" value="log in">Submit</button>
+                <button type="submit" class="btn btn-primary" value="log in">Submit</button><br />
                 <!--
                 <TABLE>
                     <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">

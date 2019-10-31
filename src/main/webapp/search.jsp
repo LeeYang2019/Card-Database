@@ -12,7 +12,7 @@
 
                     <form class="form-check-inline" action="searchCards" method="GET" class="needs-validation" novalidate>
 
-                        <div class="input-group mb-3">
+                        <div id="mySearch" class="input-group mb-3">
                             <input type="searchTerm" class="form-control" id="searchTerm" placeholder="Search Card" name="searchTerm" aria-label="card" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <button type="submit" class="btn btn-primary">Submit</button>

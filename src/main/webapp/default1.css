@@ -1,6 +1,5 @@
 body {
- /**   background-color: #c1f9c6; **/
-    background-color: blue;
+  background-color: #c1f9c6;
 }
 
 .container {
@@ -9,20 +8,23 @@ body {
 }
 
 .jumbotron {
- /**background-image: url("images/yugioh1.png");
-    background-repeat: no-repeat; **/
+    background-image: url("images/yugioh1.png");
     width: 100%;
     height: auto;
     margin-bottom: 0px;
 }
 
-.navbar {
+.navbar, #myInput, #mySearch {
     width: 100%;
     margin-bottom: 10px;
 }
 
 #myForm {
     margin: auto;
+}
+
+#myTable, #myInput, #mySearch {
+    padding: 1em;
 }
 
 #next {
