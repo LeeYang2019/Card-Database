@@ -9,45 +9,56 @@
             </div>
             <div class="row">
                 <form action="http://itins3.madisoncollege.edu/echo.php" class="needs-validation" novalidate>
-                    <div class="form-group">
-                        <label for="cardName">Name:</label>
-                        <input type="cardName" class="form-control" id="cardName" placeholder="Enter Card Name" name="firstName" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
-                    </div>
-
-                    <div class="input-group">
-                        <input type="cardType" class="form-control" aria-label="Text input with dropdown button">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Common</a>
-                                <a class="dropdown-item" href="#">Rare</a>
-                                <a class="dropdown-item" href="#">Super</a>
-                                <a class="dropdown-item" href="#">Ultra</a>
-                                <a class="dropdown-item" href="#">Secret</a>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="cardName">Name:</label>
+                            <input type="cardName" class="form-control" id="cardName" placeholder="Enter a card name" name="firstName" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="col">
+                            <div class="col">
+                                <label for="cardType">Type:</label>
+                                <input type="cardType" class="form-control" id="cardType" placeholder="Enter a card type" name="cardType" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
                             </div>
                         </div>
+                        <div class="col">
+                            <label for="cardRarity">Rarity:</label>
+                            <input type="cardRarity" class="form-control" id="cardRarity" placeholder="Enter a card rarity" name="cardRarity" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
                     </div>
-
-                    <div class="form-group">
-                        <label for="lastName">Type:</label>
-                        <input type="lastName" class="form-control" id="lastName" placeholder="Enter Last Name" name="lastName" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="cardSet">Set:</label>
+                            <input type="cardSet" class="form-control" id="cardSet" placeholder="Enter a card set" name="cardSet" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="col">
+                            <label for="cardIndex">No:</label>
+                            <input type="cardIndex" class="form-control" id="cardIndex" placeholder="Enter a card no." name="cardIndex" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Set:</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter Email Address" name="email" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="cardPrice">Price:</label>
+                            <input type="cardPrice" class="form-control" id="cardPrice" placeholder="Enter a price" name="cardPrice" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="col">
+                            <label for="cardQuantity">Quantity:</label>
+                            <input type="cardQuantity" class="form-control" id="cardQuantity" placeholder="Enter a quantity." name="cardQuantity" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="pwd">Phone Number:</label>
-                        <input type="password" class="form-control" id="pwd" placeholder="(###) ###-####" name="pswd" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
-                    </div><br />
                     <button type="submit" class="btn btn-primary">Submit</button>
                     <button type="reset" class="btn btn-danger">Cancel</button>
                 </form>

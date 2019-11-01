@@ -11,7 +11,7 @@
             </div>
             <div class="row">
                 <div class="form-group">
-                    <input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="Search for cards.." title="Type in a card" required>
+                    <input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="Filter Search Results" title="Type in a card" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>

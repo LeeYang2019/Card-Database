@@ -24,7 +24,8 @@ body {
 }
 
 #myTable, #myInput, #mySearch {
-    margin: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #next {
