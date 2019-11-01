@@ -8,11 +8,11 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
-                <form action="http://itins3.madisoncollege.edu/echo.php" class="needs-validation" novalidate>
+                <form id="cardForm" action="addCards" class="needs-validation" novalidate>
                     <div class="form-row">
                         <div class="col">
                             <label for="cardName">Name:</label>
-                            <input type="cardName" class="form-control" id="cardName" placeholder="Enter a card name" name="firstName" required>
+                            <input type="cardName" class="form-control" id="cardName" placeholder="Enter a card name" name="cardName" required>
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
@@ -59,11 +59,11 @@
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Add</button>
                     <button type="reset" class="btn btn-danger">Cancel</button>
                 </form>
                 <br/>
-            </div>
+            </div><br/>
             <footer class="row">
                 <c:import url="footer.jsp"/>
             </footer>

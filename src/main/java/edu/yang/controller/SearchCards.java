@@ -31,7 +31,6 @@ public class SearchCards extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         HttpSession session = req.getSession();
-
         ProjectDao userDao = new ProjectDao(User.class);
 
        logger.info("this user is : " + req.getRemoteUser());

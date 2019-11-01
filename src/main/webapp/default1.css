@@ -19,7 +19,7 @@ body {
     margin-bottom: 10px;
 }
 
-#myForm {
+#myForm, #cardForm {
     margin: auto;
 }
 

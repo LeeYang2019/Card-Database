@@ -16,8 +16,8 @@
             <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
                 <p>Please first login</p>
                 <div class="form-group">
-                    <label for="uname">Username:</label>
-                    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="j_username" required>
+                    <label for="j_username">Username:</label>
+                    <input type="text" class="form-control" id="j_username" placeholder="Enter username" name="j_username" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
