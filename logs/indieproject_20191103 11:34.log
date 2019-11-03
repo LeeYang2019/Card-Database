@@ -1,0 +1,1277 @@
+[DEBUG] 2019-11-03 11:34:40.616 [http-nio-8080-exec-4] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2019-11-03 11:34:40.620 [http-nio-8080-exec-4] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2019-11-03 11:34:40.624 [http-nio-8080-exec-4] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2019-11-03 11:34:40.797 [http-nio-8080-exec-4] Version - HHH000412: Hibernate Core {5.4.4.Final}
+[DEBUG] 2019-11-03 11:34:40.802 [http-nio-8080-exec-4] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2019-11-03 11:34:41.176 [http-nio-8080-exec-4] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2019-11-03 11:34:41.177 [http-nio-8080-exec-4] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2019-11-03 11:34:41.240 [http-nio-8080-exec-4] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2019-11-03 11:34:42.107 [http-nio-8080-exec-4] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2019-11-03 11:34:42.150 [http-nio-8080-exec-4] RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[DEBUG] 2019-11-03 11:34:42.151 [http-nio-8080-exec-4] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2019-11-03 11:34:42.193 [http-nio-8080-exec-4] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[DEBUG] 2019-11-03 11:34:42.244 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@8d3c1d6
+[DEBUG] 2019-11-03 11:34:42.244 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@8d3c1d6
+[DEBUG] 2019-11-03 11:34:42.245 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@8d3c1d6
+[DEBUG] 2019-11-03 11:34:42.246 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@51b87161
+[DEBUG] 2019-11-03 11:34:42.247 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@1ce297d4
+[DEBUG] 2019-11-03 11:34:42.247 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@416a74ea
+[DEBUG] 2019-11-03 11:34:42.248 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@443225c3
+[DEBUG] 2019-11-03 11:34:42.248 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@443225c3
+[DEBUG] 2019-11-03 11:34:42.248 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@443225c3
+[DEBUG] 2019-11-03 11:34:42.249 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@49ab28aa
+[DEBUG] 2019-11-03 11:34:42.249 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@49ab28aa
+[DEBUG] 2019-11-03 11:34:42.249 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@49ab28aa
+[DEBUG] 2019-11-03 11:34:42.250 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@2f65c80d
+[DEBUG] 2019-11-03 11:34:42.251 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@2f65c80d
+[DEBUG] 2019-11-03 11:34:42.251 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2f65c80d
+[DEBUG] 2019-11-03 11:34:42.252 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@51164832
+[DEBUG] 2019-11-03 11:34:42.252 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@51164832
+[DEBUG] 2019-11-03 11:34:42.252 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@51164832
+[DEBUG] 2019-11-03 11:34:42.253 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@a301a0b
+[DEBUG] 2019-11-03 11:34:42.253 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@a301a0b
+[DEBUG] 2019-11-03 11:34:42.254 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@a301a0b
+[DEBUG] 2019-11-03 11:34:42.255 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@329d2df7
+[DEBUG] 2019-11-03 11:34:42.255 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@329d2df7
+[DEBUG] 2019-11-03 11:34:42.255 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@329d2df7
+[DEBUG] 2019-11-03 11:34:42.255 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@6a11781
+[DEBUG] 2019-11-03 11:34:42.256 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@6a11781
+[DEBUG] 2019-11-03 11:34:42.256 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6a11781
+[DEBUG] 2019-11-03 11:34:42.257 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@2a8bfb6a
+[DEBUG] 2019-11-03 11:34:42.257 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@2a8bfb6a
+[DEBUG] 2019-11-03 11:34:42.258 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@437696fd
+[DEBUG] 2019-11-03 11:34:42.258 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@437696fd
+[DEBUG] 2019-11-03 11:34:42.259 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@ab7bf80
+[DEBUG] 2019-11-03 11:34:42.259 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@ab7bf80
+[DEBUG] 2019-11-03 11:34:42.259 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@41b50e18
+[DEBUG] 2019-11-03 11:34:42.260 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@24ef83ba
+[DEBUG] 2019-11-03 11:34:42.261 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@39895bda
+[DEBUG] 2019-11-03 11:34:42.261 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@39895bda
+[DEBUG] 2019-11-03 11:34:42.262 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@684a15c3
+[DEBUG] 2019-11-03 11:34:42.262 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@684a15c3
+[DEBUG] 2019-11-03 11:34:42.269 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@5226ec94
+[DEBUG] 2019-11-03 11:34:42.269 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5226ec94
+[DEBUG] 2019-11-03 11:34:42.273 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2fb15bd1
+[DEBUG] 2019-11-03 11:34:42.273 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2fb15bd1
+[DEBUG] 2019-11-03 11:34:42.274 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@37729090
+[DEBUG] 2019-11-03 11:34:42.274 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@37729090
+[DEBUG] 2019-11-03 11:34:42.276 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@690867cf
+[DEBUG] 2019-11-03 11:34:42.276 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@690867cf
+[DEBUG] 2019-11-03 11:34:42.277 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7d21e2ae
+[DEBUG] 2019-11-03 11:34:42.278 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7d21e2ae
+[DEBUG] 2019-11-03 11:34:42.279 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@71c2341b
+[DEBUG] 2019-11-03 11:34:42.279 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@71c2341b
+[DEBUG] 2019-11-03 11:34:42.280 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@66555e20
+[DEBUG] 2019-11-03 11:34:42.281 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@66555e20
+[DEBUG] 2019-11-03 11:34:42.282 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@1218942b
+[DEBUG] 2019-11-03 11:34:42.282 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1218942b
+[DEBUG] 2019-11-03 11:34:42.283 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@82f9b2a
+[DEBUG] 2019-11-03 11:34:42.283 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@82f9b2a
+[DEBUG] 2019-11-03 11:34:42.284 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@47609df4
+[DEBUG] 2019-11-03 11:34:42.284 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@47609df4
+[DEBUG] 2019-11-03 11:34:42.284 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@47609df4
+[DEBUG] 2019-11-03 11:34:42.286 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1d2ead5b
+[DEBUG] 2019-11-03 11:34:42.290 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@ff64cce
+[DEBUG] 2019-11-03 11:34:42.290 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@ff64cce
+[DEBUG] 2019-11-03 11:34:42.290 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@ff64cce
+[DEBUG] 2019-11-03 11:34:42.291 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@50815fde
+[DEBUG] 2019-11-03 11:34:42.292 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@47332725
+[DEBUG] 2019-11-03 11:34:42.292 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@47332725
+[DEBUG] 2019-11-03 11:34:42.293 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@400ca4e4
+[DEBUG] 2019-11-03 11:34:42.294 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@400ca4e4
+[DEBUG] 2019-11-03 11:34:42.295 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@576de1fb
+[DEBUG] 2019-11-03 11:34:42.295 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@576de1fb
+[DEBUG] 2019-11-03 11:34:42.295 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@3832ac56
+[DEBUG] 2019-11-03 11:34:42.296 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3832ac56
+[DEBUG] 2019-11-03 11:34:42.296 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@284ccc9b
+[DEBUG] 2019-11-03 11:34:42.296 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@284ccc9b
+[DEBUG] 2019-11-03 11:34:42.298 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@44284261
+[DEBUG] 2019-11-03 11:34:42.299 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@1fd89ede
+[DEBUG] 2019-11-03 11:34:42.300 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@1fd89ede
+[DEBUG] 2019-11-03 11:34:42.300 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@1fd89ede
+[DEBUG] 2019-11-03 11:34:42.302 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7775a0d0
+[DEBUG] 2019-11-03 11:34:42.302 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7775a0d0
+[DEBUG] 2019-11-03 11:34:42.302 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7775a0d0
+[DEBUG] 2019-11-03 11:34:42.303 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@1d7ba3d4
+[DEBUG] 2019-11-03 11:34:42.303 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@63639e67
+[DEBUG] 2019-11-03 11:34:42.304 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@1ad0a8d8
+[DEBUG] 2019-11-03 11:34:42.304 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@1ad0a8d8
+[DEBUG] 2019-11-03 11:34:42.304 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@1ad0a8d8
+[DEBUG] 2019-11-03 11:34:42.305 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@f1ced6b
+[DEBUG] 2019-11-03 11:34:42.305 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@f1ced6b
+[DEBUG] 2019-11-03 11:34:42.305 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@f1ced6b
+[DEBUG] 2019-11-03 11:34:42.306 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@39d9d921
+[DEBUG] 2019-11-03 11:34:42.306 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@2729d566
+[DEBUG] 2019-11-03 11:34:42.310 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@28014284
+[DEBUG] 2019-11-03 11:34:42.310 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@28014284
+[DEBUG] 2019-11-03 11:34:42.311 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@616640b4
+[DEBUG] 2019-11-03 11:34:42.312 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@3145fd61
+[DEBUG] 2019-11-03 11:34:42.312 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3145fd61
+[DEBUG] 2019-11-03 11:34:42.313 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@1d7fa9da
+[DEBUG] 2019-11-03 11:34:42.313 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1d7fa9da
+[DEBUG] 2019-11-03 11:34:42.313 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7bb54e66
+[DEBUG] 2019-11-03 11:34:42.314 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@77358498
+[DEBUG] 2019-11-03 11:34:42.316 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@3fb5b1fb
+[DEBUG] 2019-11-03 11:34:42.320 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@74f28f56
+[DEBUG] 2019-11-03 11:34:42.320 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@74f28f56
+[DEBUG] 2019-11-03 11:34:42.320 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@422f7d38
+[DEBUG] 2019-11-03 11:34:42.321 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@588ea20b
+[DEBUG] 2019-11-03 11:34:42.321 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@466bc00e
+[DEBUG] 2019-11-03 11:34:42.321 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5ac0e94c
+[DEBUG] 2019-11-03 11:34:42.321 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@633f8991
+[DEBUG] 2019-11-03 11:34:42.324 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4e8cf107
+[DEBUG] 2019-11-03 11:34:42.324 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@567f3368
+[DEBUG] 2019-11-03 11:34:42.324 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@b283a62
+[DEBUG] 2019-11-03 11:34:42.369 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2019-11-03 11:34:42.370 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2019-11-03 11:34:42.370 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2019-11-03 11:34:42.372 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2019-11-03 11:34:42.372 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2019-11-03 11:34:42.373 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2019-11-03 11:34:42.374 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2019-11-03 11:34:42.375 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2019-11-03 11:34:42.375 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2019-11-03 11:34:42.377 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2019-11-03 11:34:42.377 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2019-11-03 11:34:42.377 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2019-11-03 11:34:42.377 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2019-11-03 11:34:42.378 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[INFO ] 2019-11-03 11:34:42.384 [http-nio-8080-exec-4] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/yugioh_card_db
+[INFO ] 2019-11-03 11:34:42.384 [http-nio-8080-exec-4] C3P0ConnectionProvider - HHH10001001: Connection properties: {password=****, user=root}
+[INFO ] 2019-11-03 11:34:42.384 [http-nio-8080-exec-4] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2019-11-03 11:34:42.745 [http-nio-8080-exec-4] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2019-11-03 11:34:43.242 [http-nio-8080-exec-4] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 8.0.17
+      major : 8
+      minor : 0
+[DEBUG] 2019-11-03 11:34:43.251 [http-nio-8080-exec-4] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0
+[DEBUG] 2019-11-03 11:34:43.252 [http-nio-8080-exec-4] JdbcEnvironmentInitiator - JDBC version : 4.2
+[INFO ] 2019-11-03 11:34:43.355 [http-nio-8080-exec-4] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[DEBUG] 2019-11-03 11:34:43.465 [http-nio-8080-exec-4] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2019-11-03 11:34:43.546 [http-nio-8080-exec-4] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2019-11-03 11:34:43.643 [http-nio-8080-exec-4] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2019-11-03 11:34:43.651 [http-nio-8080-exec-4] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4a7d73ef] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@77a6128e]
+[DEBUG] 2019-11-03 11:34:43.760 [http-nio-8080-exec-4] AnnotationBinder - Binding entity from annotated class: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-03 11:34:43.789 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2019-11-03 11:34:43.810 [http-nio-8080-exec-4] EntityBinder - Import with entity name YugiohCard
+[DEBUG] 2019-11-03 11:34:43.822 [http-nio-8080-exec-4] EntityBinder - Bind entity edu.yang.entity.YugiohCard on table yugioh_card
+[DEBUG] 2019-11-03 11:34:43.878 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.890 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2019-11-03 11:34:43.893 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:id]
+[DEBUG] 2019-11-03 11:34:43.901 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2019-11-03 11:34:43.907 [http-nio-8080-exec-4] PropertyBinder - Building property id
+[DEBUG] 2019-11-03 11:34:43.921 [http-nio-8080-exec-4] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2019-11-03 11:34:43.922 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_index, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.925 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property cardIndex with lazy=false
+[DEBUG] 2019-11-03 11:34:43.926 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardIndex]
+[DEBUG] 2019-11-03 11:34:43.926 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for cardIndex
+[DEBUG] 2019-11-03 11:34:43.926 [http-nio-8080-exec-4] PropertyBinder - Building property cardIndex
+[DEBUG] 2019-11-03 11:34:43.926 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.926 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property cardName with lazy=false
+[DEBUG] 2019-11-03 11:34:43.926 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardName]
+[DEBUG] 2019-11-03 11:34:43.926 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for cardName
+[DEBUG] 2019-11-03 11:34:43.927 [http-nio-8080-exec-4] PropertyBinder - Building property cardName
+[DEBUG] 2019-11-03 11:34:43.929 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_rarity, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.931 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property cardRarity with lazy=false
+[DEBUG] 2019-11-03 11:34:43.931 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardRarity]
+[DEBUG] 2019-11-03 11:34:43.931 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for cardRarity
+[DEBUG] 2019-11-03 11:34:43.931 [http-nio-8080-exec-4] PropertyBinder - Building property cardRarity
+[DEBUG] 2019-11-03 11:34:43.931 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_set, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.933 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property cardSet with lazy=false
+[DEBUG] 2019-11-03 11:34:43.937 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardSet]
+[DEBUG] 2019-11-03 11:34:43.937 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for cardSet
+[DEBUG] 2019-11-03 11:34:43.937 [http-nio-8080-exec-4] PropertyBinder - Building property cardSet
+[DEBUG] 2019-11-03 11:34:43.937 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_type, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.937 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property cardType with lazy=false
+[DEBUG] 2019-11-03 11:34:43.937 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardType]
+[DEBUG] 2019-11-03 11:34:43.938 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for cardType
+[DEBUG] 2019-11-03 11:34:43.939 [http-nio-8080-exec-4] PropertyBinder - Building property cardType
+[DEBUG] 2019-11-03 11:34:43.945 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='yugiohCard'}
+[DEBUG] 2019-11-03 11:34:43.945 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=entries, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.949 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.961 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.961 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=entries_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.963 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='entries_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-11-03 11:34:43.966 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='yugiohCard'}
+[DEBUG] 2019-11-03 11:34:43.966 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='yugiohCard'}
+[DEBUG] 2019-11-03 11:34:43.966 [http-nio-8080-exec-4] CollectionBinder - Collection role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:43.973 [http-nio-8080-exec-4] PropertyBinder - Building property entries
+[DEBUG] 2019-11-03 11:34:43.978 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=image, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.978 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property image with lazy=false
+[DEBUG] 2019-11-03 11:34:43.979 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:image]
+[DEBUG] 2019-11-03 11:34:43.979 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for image
+[DEBUG] 2019-11-03 11:34:43.979 [http-nio-8080-exec-4] PropertyBinder - Building property image
+[DEBUG] 2019-11-03 11:34:43.979 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=price, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.979 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property price with lazy=false
+[DEBUG] 2019-11-03 11:34:43.979 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:price]
+[DEBUG] 2019-11-03 11:34:43.983 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for price
+[DEBUG] 2019-11-03 11:34:43.983 [http-nio-8080-exec-4] PropertyBinder - Building property price
+[DEBUG] 2019-11-03 11:34:43.983 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=qty, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.984 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property quantity with lazy=false
+[DEBUG] 2019-11-03 11:34:43.984 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:quantity]
+[DEBUG] 2019-11-03 11:34:43.984 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for quantity
+[DEBUG] 2019-11-03 11:34:43.984 [http-nio-8080-exec-4] PropertyBinder - Building property quantity
+[DEBUG] 2019-11-03 11:34:43.984 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=status, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.986 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property status with lazy=false
+[DEBUG] 2019-11-03 11:34:43.987 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:status]
+[DEBUG] 2019-11-03 11:34:43.988 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for status
+[DEBUG] 2019-11-03 11:34:43.988 [http-nio-8080-exec-4] PropertyBinder - Building property status
+[DEBUG] 2019-11-03 11:34:43.988 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-11-03 11:34:43.988 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:43.990 [http-nio-8080-exec-4] PropertyBinder - Building property user
+[DEBUG] 2019-11-03 11:34:43.992 [http-nio-8080-exec-4] AnnotationBinder - Binding entity from annotated class: edu.yang.entity.User
+[DEBUG] 2019-11-03 11:34:43.992 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2019-11-03 11:34:43.993 [http-nio-8080-exec-4] EntityBinder - Import with entity name User
+[DEBUG] 2019-11-03 11:34:43.993 [http-nio-8080-exec-4] EntityBinder - Bind entity edu.yang.entity.User on table user
+[DEBUG] 2019-11-03 11:34:44.002 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.002 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2019-11-03 11:34:44.002 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:id]
+[DEBUG] 2019-11-03 11:34:44.002 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2019-11-03 11:34:44.002 [http-nio-8080-exec-4] PropertyBinder - Building property id
+[DEBUG] 2019-11-03 11:34:44.002 [http-nio-8080-exec-4] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2019-11-03 11:34:44.002 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2019-11-03 11:34:44.003 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=cards, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.003 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.006 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.006 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=cards_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.006 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='cards_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-11-03 11:34:44.006 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2019-11-03 11:34:44.006 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2019-11-03 11:34:44.006 [http-nio-8080-exec-4] CollectionBinder - Collection role: edu.yang.entity.User.cards
+[DEBUG] 2019-11-03 11:34:44.006 [http-nio-8080-exec-4] PropertyBinder - Building property cards
+[DEBUG] 2019-11-03 11:34:44.007 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.007 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2019-11-03 11:34:44.007 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:password]
+[DEBUG] 2019-11-03 11:34:44.007 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for password
+[DEBUG] 2019-11-03 11:34:44.007 [http-nio-8080-exec-4] PropertyBinder - Building property password
+[DEBUG] 2019-11-03 11:34:44.007 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_role, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.009 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property role with lazy=false
+[DEBUG] 2019-11-03 11:34:44.010 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:role]
+[DEBUG] 2019-11-03 11:34:44.010 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for role
+[DEBUG] 2019-11-03 11:34:44.010 [http-nio-8080-exec-4] PropertyBinder - Building property role
+[DEBUG] 2019-11-03 11:34:44.011 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.011 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+[DEBUG] 2019-11-03 11:34:44.011 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:userName]
+[DEBUG] 2019-11-03 11:34:44.012 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for userName
+[DEBUG] 2019-11-03 11:34:44.013 [http-nio-8080-exec-4] PropertyBinder - Building property userName
+[DEBUG] 2019-11-03 11:34:44.013 [http-nio-8080-exec-4] AnnotationBinder - Binding entity from annotated class: edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-03 11:34:44.013 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2019-11-03 11:34:44.013 [http-nio-8080-exec-4] EntityBinder - Import with entity name YugiohCardHistory
+[DEBUG] 2019-11-03 11:34:44.013 [http-nio-8080-exec-4] EntityBinder - Bind entity edu.yang.entity.YugiohCardHistory on table yugioh_card_history
+[DEBUG] 2019-11-03 11:34:44.015 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.015 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2019-11-03 11:34:44.015 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCardHistory:id]
+[DEBUG] 2019-11-03 11:34:44.015 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2019-11-03 11:34:44.015 [http-nio-8080-exec-4] PropertyBinder - Building property id
+[DEBUG] 2019-11-03 11:34:44.015 [http-nio-8080-exec-4] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2019-11-03 11:34:44.016 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=price, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.016 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property price with lazy=false
+[DEBUG] 2019-11-03 11:34:44.017 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCardHistory:price]
+[DEBUG] 2019-11-03 11:34:44.017 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for price
+[DEBUG] 2019-11-03 11:34:44.017 [http-nio-8080-exec-4] PropertyBinder - Building property price
+[DEBUG] 2019-11-03 11:34:44.017 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=update_date, insertable=true, updatable=false, unique=false}
+[DEBUG] 2019-11-03 11:34:44.017 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property ts with lazy=false
+[DEBUG] 2019-11-03 11:34:44.017 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCardHistory:ts]
+[DEBUG] 2019-11-03 11:34:44.017 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for ts
+[DEBUG] 2019-11-03 11:34:44.018 [http-nio-8080-exec-4] PropertyBinder - Building property ts
+[DEBUG] 2019-11-03 11:34:44.030 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-11-03 11:34:44.030 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=yugiohCard, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-03 11:34:44.030 [http-nio-8080-exec-4] PropertyBinder - Building property yugiohCard
+[DEBUG] 2019-11-03 11:34:44.036 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2019-11-03 11:34:44.037 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for cardIndex
+[DEBUG] 2019-11-03 11:34:44.037 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for cardName
+[DEBUG] 2019-11-03 11:34:44.037 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for cardRarity
+[DEBUG] 2019-11-03 11:34:44.037 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for cardSet
+[DEBUG] 2019-11-03 11:34:44.037 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for cardType
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for image
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for price
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for quantity
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for status
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for role
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for userName
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for price
+[DEBUG] 2019-11-03 11:34:44.038 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for ts
+[DEBUG] 2019-11-03 11:34:44.043 [http-nio-8080-exec-4] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [yugioh_card]
+[DEBUG] 2019-11-03 11:34:44.043 [http-nio-8080-exec-4] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[DEBUG] 2019-11-03 11:34:44.043 [http-nio-8080-exec-4] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [yugioh_card_history]
+[DEBUG] 2019-11-03 11:34:44.043 [http-nio-8080-exec-4] CollectionSecondPass - Second pass for collection: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:44.044 [http-nio-8080-exec-4] CollectionBinder - Binding a OneToMany: edu.yang.entity.YugiohCard.entries through a foreign key
+[DEBUG] 2019-11-03 11:34:44.045 [http-nio-8080-exec-4] CollectionBinder - Mapping collection: edu.yang.entity.YugiohCard.entries -> yugioh_card_history
+[DEBUG] 2019-11-03 11:34:44.046 [http-nio-8080-exec-4] TableBinder - Retrieving property edu.yang.entity.YugiohCardHistory.yugiohCard
+[DEBUG] 2019-11-03 11:34:44.047 [http-nio-8080-exec-4] CollectionSecondPass - Mapped collection key: yugiohCard_id, one-to-many: edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-03 11:34:44.047 [http-nio-8080-exec-4] CollectionSecondPass - Second pass for collection: edu.yang.entity.User.cards
+[DEBUG] 2019-11-03 11:34:44.047 [http-nio-8080-exec-4] CollectionBinder - Binding a OneToMany: edu.yang.entity.User.cards through a foreign key
+[DEBUG] 2019-11-03 11:34:44.050 [http-nio-8080-exec-4] CollectionBinder - Mapping collection: edu.yang.entity.User.cards -> yugioh_card
+[DEBUG] 2019-11-03 11:34:44.051 [http-nio-8080-exec-4] TableBinder - Retrieving property edu.yang.entity.YugiohCard.user
+[DEBUG] 2019-11-03 11:34:44.052 [http-nio-8080-exec-4] CollectionSecondPass - Mapped collection key: user_id, one-to-many: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-03 11:34:44.053 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.User
+[DEBUG] 2019-11-03 11:34:44.055 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-03 11:34:44.060 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.User
+[DEBUG] 2019-11-03 11:34:44.061 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-03 11:34:44.161 [http-nio-8080-exec-4] SessionFactoryImpl - Building session factory
+[DEBUG] 2019-11-03 11:34:44.162 [http-nio-8080-exec-4] Settings - SessionFactory name : null
+[DEBUG] 2019-11-03 11:34:44.162 [http-nio-8080-exec-4] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Statistics: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Default entity-mode: pojo
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Default batch fetch size: -1
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Maximum outer join fetch depth: 2
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Default null ordering: NONE
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - JTA Track by Thread: enabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Query language substitutions: {}
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Named query checking : enabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Second-level cache: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Second-level query cache: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Second-level query cache factory: null
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Second-level cache region prefix: null
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2019-11-03 11:34:44.163 [http-nio-8080-exec-4] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2019-11-03 11:34:44.164 [http-nio-8080-exec-4] Settings - JDBC batch size: 15
+[DEBUG] 2019-11-03 11:34:44.164 [http-nio-8080-exec-4] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2019-11-03 11:34:44.164 [http-nio-8080-exec-4] Settings - Scrollable result sets: enabled
+[DEBUG] 2019-11-03 11:34:44.164 [http-nio-8080-exec-4] Settings - Wrap result sets: disabled
+[DEBUG] 2019-11-03 11:34:44.164 [http-nio-8080-exec-4] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2019-11-03 11:34:44.164 [http-nio-8080-exec-4] Settings - JDBC result set fetch size: null
+[DEBUG] 2019-11-03 11:34:44.164 [http-nio-8080-exec-4] Settings - Connection release mode: AFTER_TRANSACTION
+[DEBUG] 2019-11-03 11:34:44.167 [http-nio-8080-exec-4] Settings - Generate SQL with comments: disabled
+[DEBUG] 2019-11-03 11:34:44.167 [http-nio-8080-exec-4] Settings - JPA compliance - query : 
+[DEBUG] 2019-11-03 11:34:44.167 [http-nio-8080-exec-4] Settings - JPA compliance - closed-handling : 
+[DEBUG] 2019-11-03 11:34:44.167 [http-nio-8080-exec-4] Settings - JPA compliance - lists : 
+[DEBUG] 2019-11-03 11:34:44.167 [http-nio-8080-exec-4] Settings - JPA compliance - transactions : 
+[INFO ] 2019-11-03 11:34:44.291 [http-nio-8080-exec-4] beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[DEBUG] 2019-11-03 11:34:44.353 [http-nio-8080-exec-4] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2019-11-03 11:34:44.353 [http-nio-8080-exec-4] SessionFactoryImpl - Instantiating session factory with properties: {awt.toolkit=sun.awt.X11.XToolkit, java.specification.version=11, sun.cpu.isalist=, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.min_size=5, sun.arch.data.model=64, java.vendor.url=https://ubuntu.com/, catalina.useNaming=true, openejb.provider.default=org.apache.tomee, sun.boot.library.path=/usr/lib/jvm/java-11-openjdk-amd64/lib, com.sun.management.jmxremote.ssl=false, sun.java.command=org.apache.catalina.startup.Bootstrap start, jdk.debug=release, java.specification.vendor=Oracle Corporation, java.naming.factory.url.pkgs=org.apache.naming:org.apache.openejb.core.ivm.naming, openejb.embedder.source=ServerListener, java.version.date=2019-07-16, java.home=/usr/lib/jvm/java-11-openjdk-amd64, ignore.endorsed.dirs=, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, hibernate.c3p0.timeout=300, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, openejb.scan.webapp.container=true, com.sun.management.jmxremote.password.file=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject/jmxremote.password, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., openejb.deployments.classpath.filter.systemapps=false, jdk.tls.ephemeralDHKeySize=2048, java.util.logging.config.file=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject/conf/logging.properties, java.protocol.handler.pkgs=org.apache.catalina.webresources, connection.password=student, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, openejb.scan.webapp.container.excludes=, java.runtime.version=11.0.4+11-post-Ubuntu-1ubuntu218.04.3, user.name=student, org.apache.johnzon.max-string-length=8192, file.encoding=UTF-8, derby.system.home=/home/student/tomcat/bin, org.apache.catalina.security.SecurityListener.UMASK=0027, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.io.tmpdir=/home/student/tomcat/temp, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-taglib*.jar,log4j-web*.jar,log4javascript*.jar,slf4j-taglib*.jar, java.version=11.0.4, com.sun.management.jmxremote.port=1099, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=annotations-api.jar,ant-junit*.jar,ant-launcher.jar,ant.jar,asm-*.jar,aspectj*.jar,bootstrap.jar,catalina-ant.jar,catalina-ha.jar,catalina-jmx-remote.jar,catalina-storeconfig.jar,catalina-tribes.jar,catalina-ws.jar,catalina.jar,cglib-*.jar,cobertura-*.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-daemon.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,dom4j-*.jar,easymock-*.jar,ecj-*.jar,el-api.jar,geronimo-spec-jaxrpc*.jar,h2*.jar,hamcrest-*.jar,hibernate*.jar,httpclient*.jar,icu4j-*.jar,jasper-el.jar,jasper.jar,jaspic-api.jar,jaxb-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,jmx-tools.jar,jmx.jar,jsp-api.jar,jstl.jar,jta*.jar,junit-*.jar,junit.jar,log4j*.jar,mail*.jar,objenesis-*.jar,oraclepki.jar,oro-*.jar,servlet-api-*.jar,servlet-api.jar,slf4j*.jar,taglibs-standard-spec-*.jar,tagsoup-*.jar,tomcat-api.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-i18n-*.jar,tomcat-jdbc.jar,tomcat-jni.jar,tomcat-juli-adapters.jar,tomcat-juli.jar,tomcat-util-scan.jar,tomcat-util.jar,tomcat-websocket.jar,tools.jar,websocket-api.jar,wsdl4j*.jar,xercesImpl.jar,xml-apis.jar,xmlParserAPIs-*.jar,xmlParserAPIs.jar,xom-*.jar, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, sun.os.patch.level=unknown, connection.driver_class=com.mysql.cj.jdbc.Driver, tomcat.built=May 4 2019 09:17:16 UTC, java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor=Ubuntu, tomee.version=7.1.1, java.rmi.server.randomIDs=true, sun.io.unicode.encoding=UnicodeLittle, tomcat.util.buf.StringCache.byte.enabled=true, sun.desktop=gnome, java.class.path=/home/student/tomcat/bin/bootstrap.jar:/home/student/tomcat/bin/tomcat-juli.jar, tomcat.version=8.5.41.0, java.vm.vendor=Ubuntu, openejb.home=/home/student/tomcat, openejb.system.apps=true, user.timezone=America/Chicago, os.name=Linux, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=US, openejb.base=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject, com.sun.management.jmxremote=, sun.cpu.endian=little, user.home=/home/student, hibernate.c3p0.max_statements=50, user.language=en, openejb.deployments.classpath=false, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.tomcat., openejb.loader=tomcat-system, server.loader=, com.sun.management.jmxremote.access.file=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject/jmxremote.access, hibernate.c3p0.max_size=20, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, path.separator=:, org.apache.openejb.core.security.JaccProvider=org.apache.openejb.core.security.jacc.BasicJaccProvider, common.loader="/home/student/tomcat/lib","/home/student/tomcat/lib/*.jar","/home/student/tomcat/lib","/home/student/tomcat/lib/*.jar", hibernate.connection.username=****, os.version=5.0.0-32-generic, openejb.version=7.1.1, org.apache.security.jacc.EJBMethodPermission.methodInterfaces=BusinessLocalHome,BusinessRemoteHome,BusinessRemote,BusinessLocal, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/yugioh_card_db, java.vm.name=OpenJDK 64-Bit Server VM, openejb.scan.webapp.container.includes=.*(geronimo|mp-jwt|failsafe).*, java.vendor.url.bug=https://bugs.launchpad.net/ubuntu/+source/openjdk-lts, tomee.remote.support=true, catalina.home=/home/student/tomcat, user.dir=/home/student/tomcat/bin, bval.in-container=true, os.arch=amd64, openjpa.Log=org.apache.openejb.openjpa.JULOpenJPALogFactory, hibernate.connection.password=****, tomee.serialization.class.blacklist=-, tomee.serialization.class.whitelist=, shared.loader=, catalina.base=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@789bf4dd, noBanner=true, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, org.apache.webbeans.logger.WebBeansLoggerFacade=org.apache.openejb.cdi.logging.ContainerJULLoggerFactory, java.vm.info=mixed mode, sharing, java.vm.version=11.0.4+11-post-Ubuntu-1ubuntu218.04.3, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.hostname=127.0.0.1, javax.security.jacc.PolicyConfigurationFactory.provider=org.apache.openejb.core.security.JaccProvider$Factory, connection.url=jdbc:mysql://localhost:3306/yugioh_card_db, java.class.version=55.0, authconfigprovider.factory=false}
+[DEBUG] 2019-11-03 11:34:44.439 [http-nio-8080-exec-4] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.User] is safe
+[DEBUG] 2019-11-03 11:34:44.443 [http-nio-8080-exec-4] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.User
+[DEBUG] 2019-11-03 11:34:44.498 [http-nio-8080-exec-4] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCard] is safe
+[DEBUG] 2019-11-03 11:34:44.499 [http-nio-8080-exec-4] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-03 11:34:44.508 [http-nio-8080-exec-4] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCardHistory] is safe
+[DEBUG] 2019-11-03 11:34:44.508 [http-nio-8080-exec-4] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-03 11:34:44.516 [http-nio-8080-exec-4] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2019-11-03 11:34:44.518 [http-nio-8080-exec-4] SessionFactoryImpl - Instantiated session factory
+[DEBUG] 2019-11-03 11:34:44.518 [http-nio-8080-exec-4] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4a7d73ef] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@4b2081ca]
+[DEBUG] 2019-11-03 11:34:44.625 [http-nio-8080-exec-4] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.User] is safe
+[DEBUG] 2019-11-03 11:34:44.625 [http-nio-8080-exec-4] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.User
+[DEBUG] 2019-11-03 11:34:44.693 [http-nio-8080-exec-4] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.User] is safe
+[DEBUG] 2019-11-03 11:34:44.693 [http-nio-8080-exec-4] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.User
+[DEBUG] 2019-11-03 11:34:45.244 [http-nio-8080-exec-4] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCard] is safe
+[DEBUG] 2019-11-03 11:34:45.248 [http-nio-8080-exec-4] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-03 11:34:45.252 [http-nio-8080-exec-4] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCard] is safe
+[DEBUG] 2019-11-03 11:34:45.252 [http-nio-8080-exec-4] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-03 11:34:45.339 [http-nio-8080-exec-4] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCardHistory] is safe
+[DEBUG] 2019-11-03 11:34:45.339 [http-nio-8080-exec-4] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-03 11:34:45.349 [http-nio-8080-exec-4] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCardHistory] is safe
+[DEBUG] 2019-11-03 11:34:45.349 [http-nio-8080-exec-4] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-03 11:34:45.435 [http-nio-8080-exec-4] AbstractCollectionPersister - Static SQL for collection: edu.yang.entity.User.cards
+[DEBUG] 2019-11-03 11:34:45.436 [http-nio-8080-exec-4] AbstractCollectionPersister -  Row insert: update yugioh_card set user_id=? where id=?
+[DEBUG] 2019-11-03 11:34:45.436 [http-nio-8080-exec-4] AbstractCollectionPersister -  Row update: update yugioh_card set  where id=?
+[DEBUG] 2019-11-03 11:34:45.436 [http-nio-8080-exec-4] AbstractCollectionPersister -  Row delete: update yugioh_card set user_id=null where user_id=? and id=?
+[DEBUG] 2019-11-03 11:34:45.436 [http-nio-8080-exec-4] AbstractCollectionPersister -  One-shot delete: update yugioh_card set user_id=null where user_id=?
+[DEBUG] 2019-11-03 11:34:45.445 [http-nio-8080-exec-4] AbstractCollectionPersister - Static SQL for collection: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:45.448 [http-nio-8080-exec-4] AbstractCollectionPersister -  Row insert: update yugioh_card_history set yugiohCard_id=? where id=?
+[DEBUG] 2019-11-03 11:34:45.448 [http-nio-8080-exec-4] AbstractCollectionPersister -  Row update: update yugioh_card_history set  where id=?
+[DEBUG] 2019-11-03 11:34:45.451 [http-nio-8080-exec-4] AbstractCollectionPersister -  Row delete: update yugioh_card_history set yugiohCard_id=null where yugiohCard_id=? and id=?
+[DEBUG] 2019-11-03 11:34:45.452 [http-nio-8080-exec-4] AbstractCollectionPersister -  One-shot delete: update yugioh_card_history set yugiohCard_id=null where yugiohCard_id=?
+[DEBUG] 2019-11-03 11:34:45.479 [http-nio-8080-exec-4] AbstractEntityPersister - Static SQL for entity: edu.yang.entity.User
+[DEBUG] 2019-11-03 11:34:45.511 [http-nio-8080-exec-4] AbstractEntityPersister -  Version select: select id from user where id =?
+[DEBUG] 2019-11-03 11:34:45.511 [http-nio-8080-exec-4] AbstractEntityPersister -  Snapshot select: select user_.id, user_.user_password as user_pas2_0_, user_.user_role as user_rol3_0_, user_.user_name as user_nam4_0_ from user user_ where user_.id=?
+[DEBUG] 2019-11-03 11:34:45.511 [http-nio-8080-exec-4] AbstractEntityPersister -  Insert 0: insert into user (user_password, user_role, user_name, id) values (?, ?, ?, ?)
+[DEBUG] 2019-11-03 11:34:45.511 [http-nio-8080-exec-4] AbstractEntityPersister -  Update 0: update user set user_password=?, user_role=?, user_name=? where id=?
+[DEBUG] 2019-11-03 11:34:45.512 [http-nio-8080-exec-4] AbstractEntityPersister -  Delete 0: delete from user where id=?
+[DEBUG] 2019-11-03 11:34:45.512 [http-nio-8080-exec-4] AbstractEntityPersister -  Identity insert: insert into user (user_password, user_role, user_name) values (?, ?, ?)
+[DEBUG] 2019-11-03 11:34:45.708 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5aac3088]
+[DEBUG] 2019-11-03 11:34:45.713 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards
+[DEBUG] 2019-11-03 11:34:45.745 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3a694248]
+[DEBUG] 2019-11-03 11:34:45.753 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@27cc28e]
+[DEBUG] 2019-11-03 11:34:45.755 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardIndex
+[DEBUG] 2019-11-03 11:34:45.755 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardName
+[DEBUG] 2019-11-03 11:34:45.755 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardRarity
+[DEBUG] 2019-11-03 11:34:45.755 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardSet
+[DEBUG] 2019-11-03 11:34:45.756 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardType
+[DEBUG] 2019-11-03 11:34:45.756 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.entries
+[DEBUG] 2019-11-03 11:34:45.756 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5cd0f8ce]
+[DEBUG] 2019-11-03 11:34:45.756 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35e62838]
+[DEBUG] 2019-11-03 11:34:45.760 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.entries.price
+[DEBUG] 2019-11-03 11:34:45.760 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.entries.ts
+[DEBUG] 2019-11-03 11:34:45.760 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.entries.yugiohCard
+[DEBUG] 2019-11-03 11:34:45.771 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : cards.entries.yugiohCard
+[DEBUG] 2019-11-03 11:34:45.772 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.image
+[DEBUG] 2019-11-03 11:34:45.772 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.price
+[DEBUG] 2019-11-03 11:34:45.773 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.quantity
+[DEBUG] 2019-11-03 11:34:45.773 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.status
+[DEBUG] 2019-11-03 11:34:45.773 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.user
+[DEBUG] 2019-11-03 11:34:45.773 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : cards.user
+[DEBUG] 2019-11-03 11:34:45.773 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2019-11-03 11:34:45.776 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : role
+[DEBUG] 2019-11-03 11:34:45.777 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2019-11-03 11:34:45.777 [http-nio-8080-exec-4] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-03 11:34:45.834 [http-nio-8080-exec-4] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-03 11:34:45.846 [http-nio-8080-exec-4] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:0>, path=edu.yang.entity.User)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.User.cards, querySpaceUid=<gen:1>, path=edu.yang.entity.User.cards)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:2>, path=edu.yang.entity.User.cards.<elements>)
+                - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:3>, path=edu.yang.entity.User.cards.<elements>.entries)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:4>, path=edu.yang.entity.User.cards.<elements>.entries.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(cards)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.User.cards)
+                - SQL table alias mapping - cards1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id11_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCard)
+                      - SQL table alias mapping - cards1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(entries)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=edu.yang.entity.YugiohCard.entries)
+                            - SQL table alias mapping - entries2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {yugiohCa4_2_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_2_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=edu.yang.entity.YugiohCardHistory)
+                                  - SQL table alias mapping - entries2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_2_4_}
+
+[DEBUG] 2019-11-03 11:34:45.851 [http-nio-8080-exec-4] EntityLoader - Static select for entity edu.yang.entity.User [NONE]: select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_role as user_rol3_0_0_, user0_.user_name as user_nam4_0_0_, cards1_.user_id as user_id11_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_index as card_ind2_1_2_, cards1_.card_name as card_nam3_1_2_, cards1_.card_rarity as card_rar4_1_2_, cards1_.card_set as card_set5_1_2_, cards1_.card_type as card_typ6_1_2_, cards1_.image as image7_1_2_, cards1_.price as price8_1_2_, cards1_.qty as qty9_1_2_, cards1_.status as status10_1_2_, cards1_.user_id as user_id11_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-11-03 11:34:45.851 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@52552388]
+[DEBUG] 2019-11-03 11:34:45.851 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards
+[DEBUG] 2019-11-03 11:34:45.852 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2f6396af]
+[DEBUG] 2019-11-03 11:34:45.852 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@539f20a1]
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardIndex
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardName
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardRarity
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardSet
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.cardType
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.entries
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3df23cf1]
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@17c299c6]
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.entries.price
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.entries.ts
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.entries.yugiohCard
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : cards.entries.yugiohCard
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.image
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.price
+[DEBUG] 2019-11-03 11:34:45.856 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.quantity
+[DEBUG] 2019-11-03 11:34:45.858 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.status
+[DEBUG] 2019-11-03 11:34:45.858 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cards.user
+[DEBUG] 2019-11-03 11:34:45.858 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : cards.user
+[DEBUG] 2019-11-03 11:34:45.858 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2019-11-03 11:34:45.858 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : role
+[DEBUG] 2019-11-03 11:34:45.858 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2019-11-03 11:34:45.858 [http-nio-8080-exec-4] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-03 11:34:45.859 [http-nio-8080-exec-4] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-03 11:34:45.860 [http-nio-8080-exec-4] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:0>, path=edu.yang.entity.User)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.User.cards, querySpaceUid=<gen:1>, path=edu.yang.entity.User.cards)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:2>, path=edu.yang.entity.User.cards.<elements>)
+                - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:3>, path=edu.yang.entity.User.cards.<elements>.entries)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:4>, path=edu.yang.entity.User.cards.<elements>.entries.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(cards)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.User.cards)
+                - SQL table alias mapping - cards1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id11_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCard)
+                      - SQL table alias mapping - cards1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(entries)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=edu.yang.entity.YugiohCard.entries)
+                            - SQL table alias mapping - entries2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {yugiohCa4_2_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_2_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=edu.yang.entity.YugiohCardHistory)
+                                  - SQL table alias mapping - entries2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_2_4_}
+
+[DEBUG] 2019-11-03 11:34:45.861 [http-nio-8080-exec-4] EntityLoader - Static select for entity edu.yang.entity.User [READ]: select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_role as user_rol3_0_0_, user0_.user_name as user_nam4_0_0_, cards1_.user_id as user_id11_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_index as card_ind2_1_2_, cards1_.card_name as card_nam3_1_2_, cards1_.card_rarity as card_rar4_1_2_, cards1_.card_set as card_set5_1_2_, cards1_.card_type as card_typ6_1_2_, cards1_.image as image7_1_2_, cards1_.price as price8_1_2_, cards1_.qty as qty9_1_2_, cards1_.status as status10_1_2_, cards1_.user_id as user_id11_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-11-03 11:34:45.880 [http-nio-8080-exec-4] Loader - Static select for action ACTION_MERGE on entity edu.yang.entity.User: select user0_.id as id1_0_1_, user0_.user_password as user_pas2_0_1_, user0_.user_role as user_rol3_0_1_, user0_.user_name as user_nam4_0_1_, cards1_.user_id as user_id11_1_3_, cards1_.id as id1_1_3_, cards1_.id as id1_1_0_, cards1_.card_index as card_ind2_1_0_, cards1_.card_name as card_nam3_1_0_, cards1_.card_rarity as card_rar4_1_0_, cards1_.card_set as card_set5_1_0_, cards1_.card_type as card_typ6_1_0_, cards1_.image as image7_1_0_, cards1_.price as price8_1_0_, cards1_.qty as qty9_1_0_, cards1_.status as status10_1_0_, cards1_.user_id as user_id11_1_0_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id where user0_.id=?
+[DEBUG] 2019-11-03 11:34:45.881 [http-nio-8080-exec-4] Loader - Static select for action ACTION_REFRESH on entity edu.yang.entity.User: select user0_.id as id1_0_1_, user0_.user_password as user_pas2_0_1_, user0_.user_role as user_rol3_0_1_, user0_.user_name as user_nam4_0_1_, cards1_.user_id as user_id11_1_3_, cards1_.id as id1_1_3_, cards1_.id as id1_1_0_, cards1_.card_index as card_ind2_1_0_, cards1_.card_name as card_nam3_1_0_, cards1_.card_rarity as card_rar4_1_0_, cards1_.card_set as card_set5_1_0_, cards1_.card_type as card_typ6_1_0_, cards1_.image as image7_1_0_, cards1_.price as price8_1_0_, cards1_.qty as qty9_1_0_, cards1_.status as status10_1_0_, cards1_.user_id as user_id11_1_0_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id where user0_.id=?
+[DEBUG] 2019-11-03 11:34:45.882 [http-nio-8080-exec-4] AbstractEntityPersister - Static SQL for entity: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-03 11:34:45.882 [http-nio-8080-exec-4] AbstractEntityPersister -  Version select: select id from yugioh_card where id =?
+[DEBUG] 2019-11-03 11:34:45.882 [http-nio-8080-exec-4] AbstractEntityPersister -  Snapshot select: select yugiohcard_.id, yugiohcard_.card_index as card_ind2_1_, yugiohcard_.card_name as card_nam3_1_, yugiohcard_.card_rarity as card_rar4_1_, yugiohcard_.card_set as card_set5_1_, yugiohcard_.card_type as card_typ6_1_, yugiohcard_.image as image7_1_, yugiohcard_.price as price8_1_, yugiohcard_.qty as qty9_1_, yugiohcard_.status as status10_1_, yugiohcard_.user_id as user_id11_1_ from yugioh_card yugiohcard_ where yugiohcard_.id=?
+[DEBUG] 2019-11-03 11:34:45.882 [http-nio-8080-exec-4] AbstractEntityPersister -  Insert 0: insert into yugioh_card (card_index, card_name, card_rarity, card_set, card_type, image, price, qty, status, user_id, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-11-03 11:34:45.882 [http-nio-8080-exec-4] AbstractEntityPersister -  Update 0: update yugioh_card set card_index=?, card_name=?, card_rarity=?, card_set=?, card_type=?, image=?, price=?, qty=?, status=?, user_id=? where id=?
+[DEBUG] 2019-11-03 11:34:45.882 [http-nio-8080-exec-4] AbstractEntityPersister -  Delete 0: delete from yugioh_card where id=?
+[DEBUG] 2019-11-03 11:34:45.882 [http-nio-8080-exec-4] AbstractEntityPersister -  Identity insert: insert into yugioh_card (card_index, card_name, card_rarity, card_set, card_type, image, price, qty, status, user_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-11-03 11:34:45.882 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@199b978b]
+[DEBUG] 2019-11-03 11:34:45.882 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardIndex
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardName
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardRarity
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardSet
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardType
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : entries
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7045e69b]
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@172e6672]
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : entries.price
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : entries.ts
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : entries.yugiohCard
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : entries.yugiohCard
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : image
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : quantity
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : status
+[DEBUG] 2019-11-03 11:34:45.883 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2019-11-03 11:34:45.884 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4b528c60]
+[DEBUG] 2019-11-03 11:34:45.884 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user.cards
+[DEBUG] 2019-11-03 11:34:45.885 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : user.cards
+[DEBUG] 2019-11-03 11:34:45.885 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2019-11-03 11:34:45.885 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user.role
+[DEBUG] 2019-11-03 11:34:45.885 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2019-11-03 11:34:45.885 [http-nio-8080-exec-4] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-03 11:34:45.885 [http-nio-8080-exec-4] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-03 11:34:45.886 [http-nio-8080-exec-4] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCard)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCard)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCard.entries)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCard.entries.<elements>)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:3>, path=edu.yang.entity.YugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCard)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(entries)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.YugiohCard.entries)
+                - SQL table alias mapping - entries1_
+                - alias suffix - 1_
+                - suffixed key columns - {yugiohCa4_2_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCardHistory)
+                      - SQL table alias mapping - entries1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=edu.yang.entity.User)
+                - SQL table alias mapping - user2_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_0_3_}
+
+[DEBUG] 2019-11-03 11:34:45.886 [http-nio-8080-exec-4] EntityLoader - Static select for entity edu.yang.entity.YugiohCard [NONE]: select yugiohcard0_.id as id1_1_0_, yugiohcard0_.card_index as card_ind2_1_0_, yugiohcard0_.card_name as card_nam3_1_0_, yugiohcard0_.card_rarity as card_rar4_1_0_, yugiohcard0_.card_set as card_set5_1_0_, yugiohcard0_.card_type as card_typ6_1_0_, yugiohcard0_.image as image7_1_0_, yugiohcard0_.price as price8_1_0_, yugiohcard0_.qty as qty9_1_0_, yugiohcard0_.status as status10_1_0_, yugiohcard0_.user_id as user_id11_1_0_, entries1_.yugiohCard_id as yugiohCa4_2_1_, entries1_.id as id1_2_1_, entries1_.id as id1_2_2_, entries1_.price as price2_2_2_, entries1_.update_date as update_d3_2_2_, entries1_.yugiohCard_id as yugiohCa4_2_2_, user2_.id as id1_0_3_, user2_.user_password as user_pas2_0_3_, user2_.user_role as user_rol3_0_3_, user2_.user_name as user_nam4_0_3_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id left outer join user user2_ on yugiohcard0_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-11-03 11:34:45.886 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67cb6157]
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardIndex
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardName
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardRarity
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardSet
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardType
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : entries
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4d0bf5e4]
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3b397e53]
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : entries.price
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : entries.ts
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : entries.yugiohCard
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : entries.yugiohCard
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : image
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : quantity
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : status
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@238e954b]
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user.cards
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : user.cards
+[DEBUG] 2019-11-03 11:34:45.887 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2019-11-03 11:34:45.889 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user.role
+[DEBUG] 2019-11-03 11:34:45.894 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2019-11-03 11:34:45.894 [http-nio-8080-exec-4] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-03 11:34:45.895 [http-nio-8080-exec-4] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-03 11:34:45.895 [http-nio-8080-exec-4] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCard)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCard)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCard.entries)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCard.entries.<elements>)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:3>, path=edu.yang.entity.YugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCard)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(entries)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.YugiohCard.entries)
+                - SQL table alias mapping - entries1_
+                - alias suffix - 1_
+                - suffixed key columns - {yugiohCa4_2_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCardHistory)
+                      - SQL table alias mapping - entries1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=edu.yang.entity.User)
+                - SQL table alias mapping - user2_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_0_3_}
+
+[DEBUG] 2019-11-03 11:34:45.895 [http-nio-8080-exec-4] EntityLoader - Static select for entity edu.yang.entity.YugiohCard [READ]: select yugiohcard0_.id as id1_1_0_, yugiohcard0_.card_index as card_ind2_1_0_, yugiohcard0_.card_name as card_nam3_1_0_, yugiohcard0_.card_rarity as card_rar4_1_0_, yugiohcard0_.card_set as card_set5_1_0_, yugiohcard0_.card_type as card_typ6_1_0_, yugiohcard0_.image as image7_1_0_, yugiohcard0_.price as price8_1_0_, yugiohcard0_.qty as qty9_1_0_, yugiohcard0_.status as status10_1_0_, yugiohcard0_.user_id as user_id11_1_0_, entries1_.yugiohCard_id as yugiohCa4_2_1_, entries1_.id as id1_2_1_, entries1_.id as id1_2_2_, entries1_.price as price2_2_2_, entries1_.update_date as update_d3_2_2_, entries1_.yugiohCard_id as yugiohCa4_2_2_, user2_.id as id1_0_3_, user2_.user_password as user_pas2_0_3_, user2_.user_role as user_rol3_0_3_, user2_.user_name as user_nam4_0_3_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id left outer join user user2_ on yugiohcard0_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-11-03 11:34:45.896 [http-nio-8080-exec-4] Loader - Static select for action ACTION_MERGE on entity edu.yang.entity.YugiohCard: select yugiohcard0_.id as id1_1_1_, yugiohcard0_.card_index as card_ind2_1_1_, yugiohcard0_.card_name as card_nam3_1_1_, yugiohcard0_.card_rarity as card_rar4_1_1_, yugiohcard0_.card_set as card_set5_1_1_, yugiohcard0_.card_type as card_typ6_1_1_, yugiohcard0_.image as image7_1_1_, yugiohcard0_.price as price8_1_1_, yugiohcard0_.qty as qty9_1_1_, yugiohcard0_.status as status10_1_1_, yugiohcard0_.user_id as user_id11_1_1_, entries1_.yugiohCard_id as yugiohCa4_2_3_, entries1_.id as id1_2_3_, entries1_.id as id1_2_0_, entries1_.price as price2_2_0_, entries1_.update_date as update_d3_2_0_, entries1_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id where yugiohcard0_.id=?
+[DEBUG] 2019-11-03 11:34:45.896 [http-nio-8080-exec-4] Loader - Static select for action ACTION_REFRESH on entity edu.yang.entity.YugiohCard: select yugiohcard0_.id as id1_1_1_, yugiohcard0_.card_index as card_ind2_1_1_, yugiohcard0_.card_name as card_nam3_1_1_, yugiohcard0_.card_rarity as card_rar4_1_1_, yugiohcard0_.card_set as card_set5_1_1_, yugiohcard0_.card_type as card_typ6_1_1_, yugiohcard0_.image as image7_1_1_, yugiohcard0_.price as price8_1_1_, yugiohcard0_.qty as qty9_1_1_, yugiohcard0_.status as status10_1_1_, yugiohcard0_.user_id as user_id11_1_1_, entries1_.yugiohCard_id as yugiohCa4_2_3_, entries1_.id as id1_2_3_, entries1_.id as id1_2_0_, entries1_.price as price2_2_0_, entries1_.update_date as update_d3_2_0_, entries1_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id where yugiohcard0_.id=?
+[DEBUG] 2019-11-03 11:34:45.896 [http-nio-8080-exec-4] AbstractEntityPersister - Static SQL for entity: edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-03 11:34:45.896 [http-nio-8080-exec-4] AbstractEntityPersister -  Version select: select id from yugioh_card_history where id =?
+[DEBUG] 2019-11-03 11:34:45.896 [http-nio-8080-exec-4] AbstractEntityPersister -  Snapshot select: select yugiohcard_.id, yugiohcard_.price as price2_2_, yugiohcard_.yugiohCard_id as yugiohCa4_2_ from yugioh_card_history yugiohcard_ where yugiohcard_.id=?
+[DEBUG] 2019-11-03 11:34:45.896 [http-nio-8080-exec-4] AbstractEntityPersister -  Insert 0: insert into yugioh_card_history (price, update_date, yugiohCard_id, id) values (?, ?, ?, ?)
+[DEBUG] 2019-11-03 11:34:45.896 [http-nio-8080-exec-4] AbstractEntityPersister -  Update 0: update yugioh_card_history set price=?, yugiohCard_id=? where id=?
+[DEBUG] 2019-11-03 11:34:45.896 [http-nio-8080-exec-4] AbstractEntityPersister -  Delete 0: delete from yugioh_card_history where id=?
+[DEBUG] 2019-11-03 11:34:45.896 [http-nio-8080-exec-4] AbstractEntityPersister -  Identity insert: insert into yugioh_card_history (price, update_date, yugiohCard_id) values (?, ?, ?)
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77d85ef2]
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : ts
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@567789f8]
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardIndex
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardName
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardRarity
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardSet
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardType
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.entries
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.entries
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.image
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.price
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.quantity
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.status
+[DEBUG] 2019-11-03 11:34:45.899 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user
+[DEBUG] 2019-11-03 11:34:45.900 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1d42624a]
+[DEBUG] 2019-11-03 11:34:45.901 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.cards
+[DEBUG] 2019-11-03 11:34:45.901 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.user.cards
+[DEBUG] 2019-11-03 11:34:45.901 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.password
+[DEBUG] 2019-11-03 11:34:45.901 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.role
+[DEBUG] 2019-11-03 11:34:45.901 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.userName
+[DEBUG] 2019-11-03 11:34:45.901 [http-nio-8080-exec-4] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-03 11:34:45.901 [http-nio-8080-exec-4] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-03 11:34:45.907 [http-nio-8080-exec-4] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCardHistory)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCardHistory)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCardHistory.yugiohCard)
+             - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCardHistory.yugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCardHistory)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(yugiohCard)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCard)
+                - SQL table alias mapping - yugiohcard1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(user)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.User)
+                      - SQL table alias mapping - user2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2019-11-03 11:34:45.907 [http-nio-8080-exec-4] EntityLoader - Static select for entity edu.yang.entity.YugiohCardHistory [NONE]: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_, yugiohcard1_.id as id1_1_1_, yugiohcard1_.card_index as card_ind2_1_1_, yugiohcard1_.card_name as card_nam3_1_1_, yugiohcard1_.card_rarity as card_rar4_1_1_, yugiohcard1_.card_set as card_set5_1_1_, yugiohcard1_.card_type as card_typ6_1_1_, yugiohcard1_.image as image7_1_1_, yugiohcard1_.price as price8_1_1_, yugiohcard1_.qty as qty9_1_1_, yugiohcard1_.status as status10_1_1_, yugiohcard1_.user_id as user_id11_1_1_, user2_.id as id1_0_2_, user2_.user_password as user_pas2_0_2_, user2_.user_role as user_rol3_0_2_, user2_.user_name as user_nam4_0_2_ from yugioh_card_history yugiohcard0_ left outer join yugioh_card yugiohcard1_ on yugiohcard0_.yugiohCard_id=yugiohcard1_.id left outer join user user2_ on yugiohcard1_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-11-03 11:34:45.907 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@55b48171]
+[DEBUG] 2019-11-03 11:34:45.907 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-03 11:34:45.908 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : ts
+[DEBUG] 2019-11-03 11:34:45.908 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard
+[DEBUG] 2019-11-03 11:34:45.908 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@37ed7b9a]
+[DEBUG] 2019-11-03 11:34:45.908 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardIndex
+[DEBUG] 2019-11-03 11:34:45.908 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardName
+[DEBUG] 2019-11-03 11:34:45.908 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardRarity
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardSet
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardType
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.entries
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.entries
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.image
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.price
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.quantity
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.status
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4e740453]
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.cards
+[DEBUG] 2019-11-03 11:34:45.909 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.user.cards
+[DEBUG] 2019-11-03 11:34:45.911 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.password
+[DEBUG] 2019-11-03 11:34:45.911 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.role
+[DEBUG] 2019-11-03 11:34:45.911 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.userName
+[DEBUG] 2019-11-03 11:34:45.911 [http-nio-8080-exec-4] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-03 11:34:45.911 [http-nio-8080-exec-4] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-03 11:34:45.911 [http-nio-8080-exec-4] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCardHistory)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCardHistory)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCardHistory.yugiohCard)
+             - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCardHistory.yugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCardHistory)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(yugiohCard)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCard)
+                - SQL table alias mapping - yugiohcard1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(user)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.User)
+                      - SQL table alias mapping - user2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2019-11-03 11:34:45.912 [http-nio-8080-exec-4] EntityLoader - Static select for entity edu.yang.entity.YugiohCardHistory [READ]: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_, yugiohcard1_.id as id1_1_1_, yugiohcard1_.card_index as card_ind2_1_1_, yugiohcard1_.card_name as card_nam3_1_1_, yugiohcard1_.card_rarity as card_rar4_1_1_, yugiohcard1_.card_set as card_set5_1_1_, yugiohcard1_.card_type as card_typ6_1_1_, yugiohcard1_.image as image7_1_1_, yugiohcard1_.price as price8_1_1_, yugiohcard1_.qty as qty9_1_1_, yugiohcard1_.status as status10_1_1_, yugiohcard1_.user_id as user_id11_1_1_, user2_.id as id1_0_2_, user2_.user_password as user_pas2_0_2_, user2_.user_role as user_rol3_0_2_, user2_.user_name as user_nam4_0_2_ from yugioh_card_history yugiohcard0_ left outer join yugioh_card yugiohcard1_ on yugiohcard0_.yugiohCard_id=yugiohcard1_.id left outer join user user2_ on yugiohcard1_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-11-03 11:34:45.912 [http-nio-8080-exec-4] Loader - Static select for action ACTION_MERGE on entity edu.yang.entity.YugiohCardHistory: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card_history yugiohcard0_ where yugiohcard0_.id=?
+[DEBUG] 2019-11-03 11:34:45.912 [http-nio-8080-exec-4] Loader - Static select for action ACTION_REFRESH on entity edu.yang.entity.YugiohCardHistory: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card_history yugiohcard0_ where yugiohcard0_.id=?
+[DEBUG] 2019-11-03 11:34:45.924 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@50632b54]
+[DEBUG] 2019-11-03 11:34:45.924 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@79dbb96d]
+[DEBUG] 2019-11-03 11:34:45.925 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardIndex
+[DEBUG] 2019-11-03 11:34:45.925 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardName
+[DEBUG] 2019-11-03 11:34:45.925 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardRarity
+[DEBUG] 2019-11-03 11:34:45.925 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardSet
+[DEBUG] 2019-11-03 11:34:45.926 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : cardType
+[DEBUG] 2019-11-03 11:34:45.926 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : entries
+[DEBUG] 2019-11-03 11:34:45.926 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7896b6c7]
+[DEBUG] 2019-11-03 11:34:45.929 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5c227869]
+[DEBUG] 2019-11-03 11:34:45.930 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : image
+[DEBUG] 2019-11-03 11:34:45.930 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-03 11:34:45.930 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : quantity
+[DEBUG] 2019-11-03 11:34:45.930 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : status
+[DEBUG] 2019-11-03 11:34:45.930 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2019-11-03 11:34:45.930 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : user
+[DEBUG] 2019-11-03 11:34:45.931 [http-nio-8080-exec-4] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-03 11:34:45.935 [http-nio-8080-exec-4] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-03 11:34:45.935 [http-nio-8080-exec-4] LoadPlanTreePrinter - LoadPlan(collection=edu.yang.entity.User.cards)
+    - Returns
+       - CollectionReturnImpl(collection=edu.yang.entity.User.cards, querySpaceUid=<gen:0>, path=[edu.yang.entity.User.cards])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:1>, path=[edu.yang.entity.User.cards].<elements>)
+             - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:2>, path=[edu.yang.entity.User.cards].<elements>.entries)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:3>, path=[edu.yang.entity.User.cards].<elements>.entries.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=edu.yang.entity.User.cards)
+          - SQL table alias mapping - cards0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id11_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCard)
+                - SQL table alias mapping - cards0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+[DEBUG] 2019-11-03 11:34:45.937 [http-nio-8080-exec-4] CollectionLoader - Static select for collection edu.yang.entity.User.cards: select cards0_.user_id as user_id11_1_0_, cards0_.id as id1_1_0_, cards0_.id as id1_1_1_, cards0_.card_index as card_ind2_1_1_, cards0_.card_name as card_nam3_1_1_, cards0_.card_rarity as card_rar4_1_1_, cards0_.card_set as card_set5_1_1_, cards0_.card_type as card_typ6_1_1_, cards0_.image as image7_1_1_, cards0_.price as price8_1_1_, cards0_.qty as qty9_1_1_, cards0_.status as status10_1_1_, cards0_.user_id as user_id11_1_1_ from yugioh_card cards0_ where cards0_.user_id=?
+[DEBUG] 2019-11-03 11:34:45.937 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6835e8cd]
+[DEBUG] 2019-11-03 11:34:45.937 [http-nio-8080-exec-4] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44c8b36a]
+[DEBUG] 2019-11-03 11:34:45.938 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-03 11:34:45.938 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : ts
+[DEBUG] 2019-11-03 11:34:45.938 [http-nio-8080-exec-4] MetamodelGraphWalker - Visiting attribute path : yugiohCard
+[DEBUG] 2019-11-03 11:34:45.938 [http-nio-8080-exec-4] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard
+[DEBUG] 2019-11-03 11:34:45.938 [http-nio-8080-exec-4] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-03 11:34:45.938 [http-nio-8080-exec-4] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-03 11:34:45.939 [http-nio-8080-exec-4] LoadPlanTreePrinter - LoadPlan(collection=edu.yang.entity.YugiohCard.entries)
+    - Returns
+       - CollectionReturnImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:0>, path=[edu.yang.entity.YugiohCard.entries])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:1>, path=[edu.yang.entity.YugiohCard.entries].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=edu.yang.entity.YugiohCard.entries)
+          - SQL table alias mapping - entries0_
+          - alias suffix - 0_
+          - suffixed key columns - {yugiohCa4_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCardHistory)
+                - SQL table alias mapping - entries0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+[DEBUG] 2019-11-03 11:34:45.939 [http-nio-8080-exec-4] CollectionLoader - Static select for collection edu.yang.entity.YugiohCard.entries: select entries0_.yugiohCard_id as yugiohCa4_2_0_, entries0_.id as id1_2_0_, entries0_.id as id1_2_1_, entries0_.price as price2_2_1_, entries0_.update_date as update_d3_2_1_, entries0_.yugiohCard_id as yugiohCa4_2_1_ from yugioh_card_history entries0_ where entries0_.yugiohCard_id=?
+[DEBUG] 2019-11-03 11:34:46.018 [http-nio-8080-exec-4] SchemaManagementToolCoordinator - No actions specified; doing nothing
+[DEBUG] 2019-11-03 11:34:46.020 [http-nio-8080-exec-4] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[DEBUG] 2019-11-03 11:34:46.021 [http-nio-8080-exec-4] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2019-11-03 11:34:46.040 [http-nio-8080-exec-4] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2019-11-03 11:34:46.040 [http-nio-8080-exec-4] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2019-11-03 11:34:46.041 [http-nio-8080-exec-4] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2019-11-03 11:34:46.042 [http-nio-8080-exec-4] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2019-11-03 11:34:46.049 [http-nio-8080-exec-4] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@1c8340a0
+[DEBUG] 2019-11-03 11:34:46.055 [http-nio-8080-exec-4] SessionFactoryRegistry - Registering SessionFactory: b251ec3c-7080-4989-ba33-ae8e7be359d6 (<unnamed>)
+[DEBUG] 2019-11-03 11:34:46.055 [http-nio-8080-exec-4] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[DEBUG] 2019-11-03 11:34:46.278 [http-nio-8080-exec-4] StatisticsInitiator - Statistics initialized [enabled=false]
+[DEBUG] 2019-11-03 11:34:46.342 [http-nio-8080-exec-4] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.userName like :param0
+[DEBUG] 2019-11-03 11:34:46.363 [http-nio-8080-exec-4] QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@705fcc4f
+[DEBUG] 2019-11-03 11:34:46.395 [http-nio-8080-exec-4] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from edu.yang.entity.User as generatedAlias0 where generatedAlias0.userName like :param0
+[DEBUG] 2019-11-03 11:34:46.412 [http-nio-8080-exec-4] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2019-11-03 11:34:46.449 [http-nio-8080-exec-4] QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[IDENT] Node: 'edu'
+    |  |     |  |  |  \-[IDENT] Node: 'yang'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'User'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[LIKE] Node: 'like'
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'userName'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+[DEBUG] 2019-11-03 11:34:46.574 [http-nio-8080-exec-4] HqlSqlBaseWalker - select << begin [level=1, statement=select]
+[DEBUG] 2019-11-03 11:34:46.628 [http-nio-8080-exec-4] FromElement - FromClause{level=1} : edu.yang.entity.User (generatedAlias0) -> user0_
+[DEBUG] 2019-11-03 11:34:46.633 [http-nio-8080-exec-4] FromReferenceNode - Resolved : generatedAlias0 -> user0_.id
+[DEBUG] 2019-11-03 11:34:46.643 [http-nio-8080-exec-4] FromReferenceNode - Resolved : generatedAlias0 -> user0_.id
+[DEBUG] 2019-11-03 11:34:46.648 [http-nio-8080-exec-4] DotNode - getDataType() : userName -> org.hibernate.type.StringType@ab7bf80
+[DEBUG] 2019-11-03 11:34:46.651 [http-nio-8080-exec-4] FromReferenceNode - Resolved : generatedAlias0.userName -> user0_.user_name
+[DEBUG] 2019-11-03 11:34:46.655 [http-nio-8080-exec-4] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+[DEBUG] 2019-11-03 11:34:46.656 [http-nio-8080-exec-4] HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} user0_.id ) ( FromClause{level=1} user user0_ ) ( where ( like ( user0_.user_name user0_.id userName ) ? ) ) )
+[DEBUG] 2019-11-03 11:34:46.691 [http-nio-8080-exec-4] JoinProcessor - Using FROM fragment [user user0_]
+[DEBUG] 2019-11-03 11:34:46.693 [http-nio-8080-exec-4] HqlSqlBaseWalker - select >> end [level=1, statement=select]
+[DEBUG] 2019-11-03 11:34:46.693 [http-nio-8080-exec-4] QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.id as id1_0_' {alias=generatedAlias0, className=edu.yang.entity.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.user_password as user_pas2_0_, user0_.user_role as user_rol3_0_, user0_.user_name as user_nam4_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=edu.yang.entity.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[LIKE] BinaryLogicOperatorNode: 'like'
+          +-[DOT] DotNode: 'user0_.user_name' {propertyName=userName,dereferenceType=PRIMITIVE,getPropertyPath=userName,path=generatedAlias0.userName,tableAlias=user0_,className=edu.yang.entity.User,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'user0_.id' {alias=generatedAlias0, className=edu.yang.entity.User, tableAlias=user0_}
+          |  \-[IDENT] IdentNode: 'userName' {originalText=userName}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@ab7bf80}
+
+[DEBUG] 2019-11-03 11:34:46.693 [http-nio-8080-exec-4] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2019-11-03 11:34:46.710 [http-nio-8080-exec-4] QueryTranslatorImpl - HQL: select generatedAlias0 from edu.yang.entity.User as generatedAlias0 where generatedAlias0.userName like :param0
+[DEBUG] 2019-11-03 11:34:46.710 [http-nio-8080-exec-4] QueryTranslatorImpl - SQL: select user0_.id as id1_0_, user0_.user_password as user_pas2_0_, user0_.user_role as user_rol3_0_, user0_.user_name as user_nam4_0_ from user user0_ where user0_.user_name like ?
+[DEBUG] 2019-11-03 11:34:46.710 [http-nio-8080-exec-4] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2019-11-03 11:34:46.770 [http-nio-8080-exec-4] SQL - select user0_.id as id1_0_, user0_.user_password as user_pas2_0_, user0_.user_role as user_rol3_0_, user0_.user_name as user_nam4_0_ from user user0_ where user0_.user_name like ?
+[DEBUG] 2019-11-03 11:34:46.809 [http-nio-8080-exec-4] Loader - Result set row: 0
+[DEBUG] 2019-11-03 11:34:46.812 [http-nio-8080-exec-4] Loader - Result row: EntityKey[edu.yang.entity.User#1]
+[DEBUG] 2019-11-03 11:34:46.826 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.User#1]
+[DEBUG] 2019-11-03 11:34:46.827 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cards` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-03 11:34:46.827 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cards`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.835 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `password` : value = greenbayPackers
+[DEBUG] 2019-11-03 11:34:46.837 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`password`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.837 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `role` : value = general
+[DEBUG] 2019-11-03 11:34:46.837 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`role`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.837 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `userName` : value = leeyang2019
+[DEBUG] 2019-11-03 11:34:46.837 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.837 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.User#1]
+[DEBUG] 2019-11-03 11:34:46.840 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [edu.yang.entity.User.cards#1]
+[DEBUG] 2019-11-03 11:34:46.840 [http-nio-8080-exec-4] SQL - select cards0_.user_id as user_id11_1_0_, cards0_.id as id1_1_0_, cards0_.id as id1_1_1_, cards0_.card_index as card_ind2_1_1_, cards0_.card_name as card_nam3_1_1_, cards0_.card_rarity as card_rar4_1_1_, cards0_.card_set as card_set5_1_1_, cards0_.card_type as card_typ6_1_1_, cards0_.image as image7_1_1_, cards0_.price as price8_1_1_, cards0_.qty as qty9_1_1_, cards0_.status as status10_1_1_, cards0_.user_id as user_id11_1_1_ from yugioh_card cards0_ where cards0_.user_id=?
+[DEBUG] 2019-11-03 11:34:46.850 [http-nio-8080-exec-4] ResultSetProcessorImpl - Preparing collection initializer : [edu.yang.entity.User.cards#1]
+[DEBUG] 2019-11-03 11:34:46.854 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2019-11-03 11:34:46.858 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#1]
+[DEBUG] 2019-11-03 11:34:46.862 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #1
+[DEBUG] 2019-11-03 11:34:46.863 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#1]
+[DEBUG] 2019-11-03 11:34:46.863 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #2
+[DEBUG] 2019-11-03 11:34:46.863 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#1]
+[DEBUG] 2019-11-03 11:34:46.865 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #3
+[DEBUG] 2019-11-03 11:34:46.866 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#1]
+[DEBUG] 2019-11-03 11:34:46.866 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #4
+[DEBUG] 2019-11-03 11:34:46.866 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#1]
+[DEBUG] 2019-11-03 11:34:46.866 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #5
+[DEBUG] 2019-11-03 11:34:46.867 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#1]
+[DEBUG] 2019-11-03 11:34:46.867 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#1]
+[DEBUG] 2019-11-03 11:34:46.867 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN035
+[DEBUG] 2019-11-03 11:34:46.868 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.868 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardName` : value = Dark Magician
+[DEBUG] 2019-11-03 11:34:46.868 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.868 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardRarity` : value = Ultra
+[DEBUG] 2019-11-03 11:34:46.868 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.868 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardSet` : value = LOB
+[DEBUG] 2019-11-03 11:34:46.868 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.870 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardType` : value = Monster
+[DEBUG] 2019-11-03 11:34:46.870 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.870 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-03 11:34:46.870 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.870 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-03 11:34:46.870 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.870 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 35.0
+[DEBUG] 2019-11-03 11:34:46.871 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.871 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `quantity` : value = 2
+[DEBUG] 2019-11-03 11:34:46.874 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.874 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `status` : value = unsold
+[DEBUG] 2019-11-03 11:34:46.874 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.876 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2019-11-03 11:34:46.876 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#1]
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#2]
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN000
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardName` : value = Dark Magician Girl
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardRarity` : value = Secret
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardSet` : value = MFC
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.878 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardType` : value = Monster
+[DEBUG] 2019-11-03 11:34:46.879 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.879 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-03 11:34:46.879 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.879 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-03 11:34:46.879 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.879 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 100.0
+[DEBUG] 2019-11-03 11:34:46.879 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.880 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `quantity` : value = 1
+[DEBUG] 2019-11-03 11:34:46.884 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.884 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `status` : value = unsold
+[DEBUG] 2019-11-03 11:34:46.884 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.884 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2019-11-03 11:34:46.885 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.885 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#2]
+[DEBUG] 2019-11-03 11:34:46.885 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#3]
+[DEBUG] 2019-11-03 11:34:46.885 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN035
+[DEBUG] 2019-11-03 11:34:46.885 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.885 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardName` : value = Buster Blader
+[DEBUG] 2019-11-03 11:34:46.885 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.887 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardRarity` : value = Ultra
+[DEBUG] 2019-11-03 11:34:46.887 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.887 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardSet` : value = LON
+[DEBUG] 2019-11-03 11:34:46.887 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.887 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardType` : value = Monster
+[DEBUG] 2019-11-03 11:34:46.887 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.887 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-03 11:34:46.887 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.887 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 35.0
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `quantity` : value = 2
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `status` : value = unsold
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.888 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#3]
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#4]
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN035
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardName` : value = Buster Blader
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardRarity` : value = Ultra
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardSet` : value = LON
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardType` : value = Monster
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 35.0
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `quantity` : value = 9
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `status` : value = unsold
+[DEBUG] 2019-11-03 11:34:46.889 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.890 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2019-11-03 11:34:46.890 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.890 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#4]
+[DEBUG] 2019-11-03 11:34:46.890 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#5]
+[DEBUG] 2019-11-03 11:34:46.890 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN001
+[DEBUG] 2019-11-03 11:34:46.891 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.891 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardName` : value = Chaos Emperor Dragon Envoy of the End
+[DEBUG] 2019-11-03 11:34:46.896 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardRarity` : value = Ultra
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardSet` : value = IOC
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardType` : value = Monster
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 100.0
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `quantity` : value = 2
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `status` : value = unsold
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2019-11-03 11:34:46.899 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.900 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#5]
+[DEBUG] 2019-11-03 11:34:46.900 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#6]
+[DEBUG] 2019-11-03 11:34:46.900 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN048
+[DEBUG] 2019-11-03 11:34:46.900 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.900 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardName` : value = Cyber Dragon
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardRarity` : value = Ultra
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardSet` : value = BLRR
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `cardType` : value = Monster
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 1.0
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `quantity` : value = 1
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `status` : value = unsold
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2019-11-03 11:34:46.901 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.902 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#6]
+[DEBUG] 2019-11-03 11:34:46.904 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections were found in result set for role: edu.yang.entity.User.cards
+[DEBUG] 2019-11-03 11:34:46.905 [http-nio-8080-exec-4] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.User.cards#1]
+[DEBUG] 2019-11-03 11:34:46.905 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections initialized for role: edu.yang.entity.User.cards
+[DEBUG] 2019-11-03 11:34:46.911 [http-nio-8080-exec-4] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-11-03 11:34:46.911 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2019-11-03 11:34:46.911 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [edu.yang.entity.YugiohCard.entries#6]
+[DEBUG] 2019-11-03 11:34:46.911 [http-nio-8080-exec-4] SQL - select entries0_.yugiohCard_id as yugiohCa4_2_0_, entries0_.id as id1_2_0_, entries0_.id as id1_2_1_, entries0_.price as price2_2_1_, entries0_.update_date as update_d3_2_1_, entries0_.yugiohCard_id as yugiohCa4_2_1_ from yugioh_card_history entries0_ where entries0_.yugiohCard_id=?
+[DEBUG] 2019-11-03 11:34:46.925 [http-nio-8080-exec-4] ResultSetProcessorImpl - Preparing collection initializer : [edu.yang.entity.YugiohCard.entries#6]
+[DEBUG] 2019-11-03 11:34:46.925 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#6]
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #1
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#6]
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#10]
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 1.0
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-03 09:24:11.0
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 6
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#10]
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#11]
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 1.0
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-03 09:24:11.0
+[DEBUG] 2019-11-03 11:34:46.927 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.928 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 6
+[DEBUG] 2019-11-03 11:34:46.928 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.928 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#11]
+[DEBUG] 2019-11-03 11:34:46.928 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections were found in result set for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:46.928 [http-nio-8080-exec-4] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#6]
+[DEBUG] 2019-11-03 11:34:46.928 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections initialized for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:46.939 [http-nio-8080-exec-4] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-11-03 11:34:46.939 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2019-11-03 11:34:46.939 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [edu.yang.entity.YugiohCard.entries#5]
+[DEBUG] 2019-11-03 11:34:46.939 [http-nio-8080-exec-4] SQL - select entries0_.yugiohCard_id as yugiohCa4_2_0_, entries0_.id as id1_2_0_, entries0_.id as id1_2_1_, entries0_.price as price2_2_1_, entries0_.update_date as update_d3_2_1_, entries0_.yugiohCard_id as yugiohCa4_2_1_ from yugioh_card_history entries0_ where entries0_.yugiohCard_id=?
+[DEBUG] 2019-11-03 11:34:46.942 [http-nio-8080-exec-4] ResultSetProcessorImpl - Preparing collection initializer : [edu.yang.entity.YugiohCard.entries#5]
+[DEBUG] 2019-11-03 11:34:46.942 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2019-11-03 11:34:46.945 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#5]
+[DEBUG] 2019-11-03 11:34:46.945 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #1
+[DEBUG] 2019-11-03 11:34:46.945 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#5]
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#8]
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 100.0
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-03 09:22:36.0
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 5
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#8]
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#9]
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 100.0
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-03 09:22:36.0
+[DEBUG] 2019-11-03 11:34:46.946 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.948 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 5
+[DEBUG] 2019-11-03 11:34:46.948 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.948 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#9]
+[DEBUG] 2019-11-03 11:34:46.949 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections were found in result set for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:46.949 [http-nio-8080-exec-4] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#5]
+[DEBUG] 2019-11-03 11:34:46.949 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections initialized for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:46.949 [http-nio-8080-exec-4] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-11-03 11:34:46.949 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2019-11-03 11:34:46.949 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [edu.yang.entity.YugiohCard.entries#4]
+[DEBUG] 2019-11-03 11:34:46.949 [http-nio-8080-exec-4] SQL - select entries0_.yugiohCard_id as yugiohCa4_2_0_, entries0_.id as id1_2_0_, entries0_.id as id1_2_1_, entries0_.price as price2_2_1_, entries0_.update_date as update_d3_2_1_, entries0_.yugiohCard_id as yugiohCa4_2_1_ from yugioh_card_history entries0_ where entries0_.yugiohCard_id=?
+[DEBUG] 2019-11-03 11:34:46.951 [http-nio-8080-exec-4] ResultSetProcessorImpl - Preparing collection initializer : [edu.yang.entity.YugiohCard.entries#4]
+[DEBUG] 2019-11-03 11:34:46.951 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2019-11-03 11:34:46.953 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#4]
+[DEBUG] 2019-11-03 11:34:46.953 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #1
+[DEBUG] 2019-11-03 11:34:46.953 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#4]
+[DEBUG] 2019-11-03 11:34:46.953 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#6]
+[DEBUG] 2019-11-03 11:34:46.953 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 35.0
+[DEBUG] 2019-11-03 11:34:46.955 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.955 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-03 09:22:11.0
+[DEBUG] 2019-11-03 11:34:46.955 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.955 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 4
+[DEBUG] 2019-11-03 11:34:46.955 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.955 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#6]
+[DEBUG] 2019-11-03 11:34:46.955 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#7]
+[DEBUG] 2019-11-03 11:34:46.956 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 35.0
+[DEBUG] 2019-11-03 11:34:46.956 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.956 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-03 09:22:11.0
+[DEBUG] 2019-11-03 11:34:46.956 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.956 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 4
+[DEBUG] 2019-11-03 11:34:46.956 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.956 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#7]
+[DEBUG] 2019-11-03 11:34:46.957 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections were found in result set for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:46.957 [http-nio-8080-exec-4] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#4]
+[DEBUG] 2019-11-03 11:34:46.957 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections initialized for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:46.957 [http-nio-8080-exec-4] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-11-03 11:34:46.957 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2019-11-03 11:34:46.957 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [edu.yang.entity.YugiohCard.entries#3]
+[DEBUG] 2019-11-03 11:34:46.962 [http-nio-8080-exec-4] SQL - select entries0_.yugiohCard_id as yugiohCa4_2_0_, entries0_.id as id1_2_0_, entries0_.id as id1_2_1_, entries0_.price as price2_2_1_, entries0_.update_date as update_d3_2_1_, entries0_.yugiohCard_id as yugiohCa4_2_1_ from yugioh_card_history entries0_ where entries0_.yugiohCard_id=?
+[DEBUG] 2019-11-03 11:34:46.972 [http-nio-8080-exec-4] ResultSetProcessorImpl - Preparing collection initializer : [edu.yang.entity.YugiohCard.entries#3]
+[DEBUG] 2019-11-03 11:34:46.972 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2019-11-03 11:34:46.973 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#3]
+[DEBUG] 2019-11-03 11:34:46.974 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #1
+[DEBUG] 2019-11-03 11:34:46.974 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#3]
+[DEBUG] 2019-11-03 11:34:46.974 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#4]
+[DEBUG] 2019-11-03 11:34:46.974 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 35.0
+[DEBUG] 2019-11-03 11:34:46.974 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.974 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-01 15:09:09.0
+[DEBUG] 2019-11-03 11:34:46.974 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.981 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 3
+[DEBUG] 2019-11-03 11:34:46.982 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.982 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#4]
+[DEBUG] 2019-11-03 11:34:46.982 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#5]
+[DEBUG] 2019-11-03 11:34:46.982 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 35.0
+[DEBUG] 2019-11-03 11:34:46.982 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.982 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-01 15:09:09.0
+[DEBUG] 2019-11-03 11:34:46.982 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.982 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 3
+[DEBUG] 2019-11-03 11:34:46.982 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.985 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#5]
+[DEBUG] 2019-11-03 11:34:46.985 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections were found in result set for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:46.985 [http-nio-8080-exec-4] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#3]
+[DEBUG] 2019-11-03 11:34:46.985 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections initialized for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:46.985 [http-nio-8080-exec-4] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-11-03 11:34:46.986 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2019-11-03 11:34:46.986 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [edu.yang.entity.YugiohCard.entries#2]
+[DEBUG] 2019-11-03 11:34:46.986 [http-nio-8080-exec-4] SQL - select entries0_.yugiohCard_id as yugiohCa4_2_0_, entries0_.id as id1_2_0_, entries0_.id as id1_2_1_, entries0_.price as price2_2_1_, entries0_.update_date as update_d3_2_1_, entries0_.yugiohCard_id as yugiohCa4_2_1_ from yugioh_card_history entries0_ where entries0_.yugiohCard_id=?
+[DEBUG] 2019-11-03 11:34:46.990 [http-nio-8080-exec-4] ResultSetProcessorImpl - Preparing collection initializer : [edu.yang.entity.YugiohCard.entries#2]
+[DEBUG] 2019-11-03 11:34:46.990 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2019-11-03 11:34:46.994 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#2]
+[DEBUG] 2019-11-03 11:34:46.994 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#3]
+[DEBUG] 2019-11-03 11:34:46.994 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 150.0
+[DEBUG] 2019-11-03 11:34:46.994 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.994 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-01 15:05:44.0
+[DEBUG] 2019-11-03 11:34:46.994 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:46.994 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 2
+[DEBUG] 2019-11-03 11:34:46.994 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:47.002 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#3]
+[DEBUG] 2019-11-03 11:34:47.002 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections were found in result set for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:47.002 [http-nio-8080-exec-4] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#2]
+[DEBUG] 2019-11-03 11:34:47.002 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections initialized for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:47.002 [http-nio-8080-exec-4] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-11-03 11:34:47.003 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2019-11-03 11:34:47.003 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [edu.yang.entity.YugiohCard.entries#1]
+[DEBUG] 2019-11-03 11:34:47.003 [http-nio-8080-exec-4] SQL - select entries0_.yugiohCard_id as yugiohCa4_2_0_, entries0_.id as id1_2_0_, entries0_.id as id1_2_1_, entries0_.price as price2_2_1_, entries0_.update_date as update_d3_2_1_, entries0_.yugiohCard_id as yugiohCa4_2_1_ from yugioh_card_history entries0_ where entries0_.yugiohCard_id=?
+[DEBUG] 2019-11-03 11:34:47.009 [http-nio-8080-exec-4] ResultSetProcessorImpl - Preparing collection initializer : [edu.yang.entity.YugiohCard.entries#1]
+[DEBUG] 2019-11-03 11:34:47.009 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2019-11-03 11:34:47.009 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#1]
+[DEBUG] 2019-11-03 11:34:47.009 [http-nio-8080-exec-4] ResultSetProcessorImpl - Starting ResultSet row #1
+[DEBUG] 2019-11-03 11:34:47.009 [http-nio-8080-exec-4] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.YugiohCard.entries#1]
+[DEBUG] 2019-11-03 11:34:47.011 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#1]
+[DEBUG] 2019-11-03 11:34:47.011 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 50.0
+[DEBUG] 2019-11-03 11:34:47.011 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:47.011 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-01 15:05:43.0
+[DEBUG] 2019-11-03 11:34:47.011 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:47.011 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 1
+[DEBUG] 2019-11-03 11:34:47.011 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#1]
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCardHistory#2]
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `price` : value = 70.0
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `ts` : value = 2019-11-01 15:05:43.0
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`ts`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] TwoPhaseLoad - Processing attribute `yugiohCard` : value = 1
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] TwoPhaseLoad - Attribute (`yugiohCard`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCardHistory#2]
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections were found in result set for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#1]
+[DEBUG] 2019-11-03 11:34:47.012 [http-nio-8080-exec-4] CollectionLoadContext - 1 collections initialized for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-03 11:34:47.014 [http-nio-8080-exec-4] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-11-03 11:34:47.014 [http-nio-8080-exec-4] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2019-11-03 11:34:47.022 [http-nio-8080-exec-4] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2019-11-03 11:34:47.044 [http-nio-8080-exec-4] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from YugiohCard as generatedAlias0 where generatedAlias0.cardName like :param0
+[DEBUG] 2019-11-03 11:34:47.045 [http-nio-8080-exec-4] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from edu.yang.entity.YugiohCard as generatedAlias0 where generatedAlias0.cardName like :param0
+[DEBUG] 2019-11-03 11:34:47.054 [http-nio-8080-exec-4] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2019-11-03 11:34:47.057 [http-nio-8080-exec-4] QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[IDENT] Node: 'edu'
+    |  |     |  |  |  \-[IDENT] Node: 'yang'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'YugiohCard'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[LIKE] Node: 'like'
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'cardName'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+[DEBUG] 2019-11-03 11:34:47.057 [http-nio-8080-exec-4] HqlSqlBaseWalker - select << begin [level=1, statement=select]
+[DEBUG] 2019-11-03 11:34:47.058 [http-nio-8080-exec-4] FromElement - FromClause{level=1} : edu.yang.entity.YugiohCard (generatedAlias0) -> yugiohcard0_
+[DEBUG] 2019-11-03 11:34:47.058 [http-nio-8080-exec-4] FromReferenceNode - Resolved : generatedAlias0 -> yugiohcard0_.id
+[DEBUG] 2019-11-03 11:34:47.058 [http-nio-8080-exec-4] FromReferenceNode - Resolved : generatedAlias0 -> yugiohcard0_.id
+[DEBUG] 2019-11-03 11:34:47.058 [http-nio-8080-exec-4] DotNode - getDataType() : cardName -> org.hibernate.type.StringType@ab7bf80
+[DEBUG] 2019-11-03 11:34:47.058 [http-nio-8080-exec-4] FromReferenceNode - Resolved : generatedAlias0.cardName -> yugiohcard0_.card_name
+[DEBUG] 2019-11-03 11:34:47.060 [http-nio-8080-exec-4] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+[DEBUG] 2019-11-03 11:34:47.060 [http-nio-8080-exec-4] HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} yugiohcard0_.id ) ( FromClause{level=1} yugioh_card yugiohcard0_ ) ( where ( like ( yugiohcard0_.card_name yugiohcard0_.id cardName ) ? ) ) )
+[DEBUG] 2019-11-03 11:34:47.062 [http-nio-8080-exec-4] JoinProcessor - Using FROM fragment [yugioh_card yugiohcard0_]
+[DEBUG] 2019-11-03 11:34:47.062 [http-nio-8080-exec-4] HqlSqlBaseWalker - select >> end [level=1, statement=select]
+[DEBUG] 2019-11-03 11:34:47.062 [http-nio-8080-exec-4] QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (yugioh_card)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'yugiohcard0_.id as id1_1_' {alias=generatedAlias0, className=edu.yang.entity.YugiohCard, tableAlias=yugiohcard0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'yugiohcard0_.card_index as card_ind2_1_, yugiohcard0_.card_name as card_nam3_1_, yugiohcard0_.card_rarity as card_rar4_1_, yugiohcard0_.card_set as card_set5_1_, yugiohcard0_.card_type as card_typ6_1_, yugiohcard0_.image as image7_1_, yugiohcard0_.price as price8_1_, yugiohcard0_.qty as qty9_1_, yugiohcard0_.status as status10_1_, yugiohcard0_.user_id as user_id11_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[yugiohcard0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'yugioh_card yugiohcard0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=yugioh_card,tableAlias=yugiohcard0_,origin=null,columns={,className=edu.yang.entity.YugiohCard}}
+    \-[WHERE] SqlNode: 'where'
+       \-[LIKE] BinaryLogicOperatorNode: 'like'
+          +-[DOT] DotNode: 'yugiohcard0_.card_name' {propertyName=cardName,dereferenceType=PRIMITIVE,getPropertyPath=cardName,path=generatedAlias0.cardName,tableAlias=yugiohcard0_,className=edu.yang.entity.YugiohCard,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'yugiohcard0_.id' {alias=generatedAlias0, className=edu.yang.entity.YugiohCard, tableAlias=yugiohcard0_}
+          |  \-[IDENT] IdentNode: 'cardName' {originalText=cardName}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@ab7bf80}
+
+[DEBUG] 2019-11-03 11:34:47.062 [http-nio-8080-exec-4] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2019-11-03 11:34:47.062 [http-nio-8080-exec-4] QueryTranslatorImpl - HQL: select generatedAlias0 from edu.yang.entity.YugiohCard as generatedAlias0 where generatedAlias0.cardName like :param0
+[DEBUG] 2019-11-03 11:34:47.062 [http-nio-8080-exec-4] QueryTranslatorImpl - SQL: select yugiohcard0_.id as id1_1_, yugiohcard0_.card_index as card_ind2_1_, yugiohcard0_.card_name as card_nam3_1_, yugiohcard0_.card_rarity as card_rar4_1_, yugiohcard0_.card_set as card_set5_1_, yugiohcard0_.card_type as card_typ6_1_, yugiohcard0_.image as image7_1_, yugiohcard0_.price as price8_1_, yugiohcard0_.qty as qty9_1_, yugiohcard0_.status as status10_1_, yugiohcard0_.user_id as user_id11_1_ from yugioh_card yugiohcard0_ where yugiohcard0_.card_name like ?
+[DEBUG] 2019-11-03 11:34:47.062 [http-nio-8080-exec-4] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2019-11-03 11:34:47.064 [http-nio-8080-exec-4] SQL - select yugiohcard0_.id as id1_1_, yugiohcard0_.card_index as card_ind2_1_, yugiohcard0_.card_name as card_nam3_1_, yugiohcard0_.card_rarity as card_rar4_1_, yugiohcard0_.card_set as card_set5_1_, yugiohcard0_.card_type as card_typ6_1_, yugiohcard0_.image as image7_1_, yugiohcard0_.price as price8_1_, yugiohcard0_.qty as qty9_1_, yugiohcard0_.status as status10_1_, yugiohcard0_.user_id as user_id11_1_ from yugioh_card yugiohcard0_ where yugiohcard0_.card_name like ?
+[DEBUG] 2019-11-03 11:34:47.077 [http-nio-8080-exec-4] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

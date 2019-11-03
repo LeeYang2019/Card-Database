@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.*;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * A simple servlet to search.
@@ -53,10 +54,19 @@ public class SearchCards extends HttpServlet {
         if (!searchTerm.isEmpty()) {
             try {
 
-                newYugiohCardDao.getAllByIDAndProperty(loggedInUser.getI)
+                List<YugiohCard> userCards = newYugiohCardDao.getAllByProperty(searchType, searchTerm);
+
+                logger.info("the size: " + userCards.size());
+
+                for (YugiohCard card : userCards) {
+                    if (!loggedInUser.getCards().contains(card)) {
+                        logger.info("user collection contains this card: " + loggedInUser.getCards().contains(card));
+                        userCards.remove(card);
+                    }
+                }
 
                 //this returns all cards of a type; needs to be all cards of a type belonging to user
-                req.setAttribute("cards", newYugiohCardDao.getAllByPropertyLike(searchType, searchTerm));
+                req.setAttribute("cards", userCards);
             } catch (Exception e) {
                 e.printStackTrace();
             }
