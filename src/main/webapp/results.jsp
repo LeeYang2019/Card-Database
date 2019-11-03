@@ -45,7 +45,7 @@
                             </table>
                         </c:when>
                         <c:otherwise>
-                            <p>No users were found</p>
+                            <p class="validations">No cards were found</p>
                         </c:otherwise>
                     </c:choose>
             </div>

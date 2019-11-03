@@ -28,9 +28,8 @@ body {
     margin-right: 1em;
 }
 
-#next {
-    max-width: 100%;
-    height: auto;
+.validations {
+    margin-left: 1em;
 }
 
 

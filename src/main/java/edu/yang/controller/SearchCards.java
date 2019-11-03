@@ -47,14 +47,20 @@ public class SearchCards extends HttpServlet {
         //String searchType = req.getParameter("searchType");
         String searchType = "cardName";
 
-        //get cards with the search parameters
-        if (searchTerm != null) {
+        logger.info("the value of searchTerm is " + searchTerm.isEmpty());
+
+        //if user input is provided, return results matching the input
+        if (!searchTerm.isEmpty()) {
             try {
+
+                newYugiohCardDao.getAllByIDAndProperty(loggedInUser.getI)
+
+                //this returns all cards of a type; needs to be all cards of a type belonging to user
                 req.setAttribute("cards", newYugiohCardDao.getAllByPropertyLike(searchType, searchTerm));
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        } else {
+        } else { //return all cards in the users collection
             req.setAttribute("cards", loggedInUser.getCards()); //return all cards in the user collection
         }
 

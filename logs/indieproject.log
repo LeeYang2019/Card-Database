@@ -3887,3 +3887,257 @@ cardSet : LOB
 price : 35.0
 quantity : 2
 [INFO ] 2019-11-01 15:30:05.434 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-01 15:30:05.0
+[INFO ] 2019-11-03 09:19:12.590 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-03 09:19:13.718 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-03 09:19:14.578 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-03 09:19:14.894 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-03 09:19:14.894 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-03 09:19:14.894 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-03 09:19:15.988 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-03 09:19:15.989 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-03 09:19:16.034 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-03 09:19:16.232 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-03 09:19:16.233 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-03 09:19:16.233 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-03 09:19:16.0
+[INFO ] 2019-11-03 09:21:40.918 [http-nio-8080-exec-8] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:21:50.129 [http-nio-8080-exec-8] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:22:10.252 [http-nio-8080-exec-1] AddCards - this user id is : 1
+[INFO ] 2019-11-03 09:22:13.401 [http-nio-8080-exec-3] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:22:13.519 [http-nio-8080-exec-3] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:22:36.385 [http-nio-8080-exec-9] AddCards - this user id is : 1
+[INFO ] 2019-11-03 09:22:39.173 [http-nio-8080-exec-10] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:22:39.341 [http-nio-8080-exec-10] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:24:10.910 [http-nio-8080-exec-6] AddCards - this user id is : 1
+[INFO ] 2019-11-03 09:24:28.092 [http-nio-8080-exec-9] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:24:28.256 [http-nio-8080-exec-9] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:25:59.148 [http-nio-8080-exec-9] SearchCards - this user is : johnBones2019
+[INFO ] 2019-11-03 09:25:59.199 [http-nio-8080-exec-9] SearchCards - this user id is : 2
+[INFO ] 2019-11-03 09:32:31.726 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-03 09:32:32.264 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-03 09:32:32.490 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-03 09:32:32.684 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-03 09:32:32.685 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-03 09:32:32.686 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-03 09:32:33.405 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-03 09:32:33.405 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-03 09:32:33.446 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-03 09:32:33.586 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-03 09:32:33.588 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-03 09:32:33.588 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-03 09:32:33.0
+[INFO ] 2019-11-03 09:34:56.275 [http-nio-8080-exec-5] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:35:03.342 [http-nio-8080-exec-5] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:35:19.652 [http-nio-8080-exec-8] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:35:19.819 [http-nio-8080-exec-8] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:36:49.350 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-03 09:36:49.794 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-03 09:36:50.013 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-03 09:36:50.170 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-03 09:36:50.171 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-03 09:36:50.171 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-03 09:36:50.691 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-03 09:36:50.691 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-03 09:36:50.714 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-03 09:36:50.834 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-03 09:36:50.835 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-03 09:36:50.835 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-03 09:36:50.0
+[INFO ] 2019-11-03 09:37:37.003 [http-nio-8080-exec-4] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:37:44.026 [http-nio-8080-exec-4] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:37:44.026 [http-nio-8080-exec-4] SearchCards - the value of searchTerm is 
+[INFO ] 2019-11-03 09:39:25.772 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-03 09:39:26.222 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-03 09:39:26.447 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-03 09:39:26.595 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-03 09:39:26.595 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-03 09:39:26.595 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-03 09:39:27.117 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-03 09:39:27.119 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-03 09:39:27.144 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-03 09:39:27.252 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-03 09:39:27.253 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-03 09:39:27.253 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-03 09:39:27.0
+[INFO ] 2019-11-03 09:40:10.182 [http-nio-8080-exec-4] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:40:18.117 [http-nio-8080-exec-4] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:40:18.121 [http-nio-8080-exec-4] SearchCards - the value of searchTerm is true
+[INFO ] 2019-11-03 09:42:37.235 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-03 09:42:37.714 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-03 09:42:37.942 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-03 09:42:38.098 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-03 09:42:38.098 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-03 09:42:38.098 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-03 09:42:38.594 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-03 09:42:38.594 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-03 09:42:38.619 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-03 09:42:38.734 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-03 09:42:38.735 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-03 09:42:38.736 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-03 09:42:38.0
+[INFO ] 2019-11-03 09:43:28.142 [http-nio-8080-exec-4] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:43:34.905 [http-nio-8080-exec-4] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:43:34.906 [http-nio-8080-exec-4] SearchCards - the value of searchTerm is false
+[INFO ] 2019-11-03 09:43:41.674 [http-nio-8080-exec-7] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:43:41.846 [http-nio-8080-exec-7] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:43:41.849 [http-nio-8080-exec-7] SearchCards - the value of searchTerm is true
+[INFO ] 2019-11-03 09:44:04.353 [http-nio-8080-exec-4] SearchCards - this user is : johnBones2019
+[INFO ] 2019-11-03 09:44:04.396 [http-nio-8080-exec-4] SearchCards - this user id is : 2
+[INFO ] 2019-11-03 09:44:04.398 [http-nio-8080-exec-4] SearchCards - the value of searchTerm is false
+[INFO ] 2019-11-03 09:44:08.086 [http-nio-8080-exec-5] SearchCards - this user is : johnBones2019
+[INFO ] 2019-11-03 09:44:08.128 [http-nio-8080-exec-5] SearchCards - this user id is : 2
+[INFO ] 2019-11-03 09:44:08.128 [http-nio-8080-exec-5] SearchCards - the value of searchTerm is true
+[INFO ] 2019-11-03 09:46:15.168 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-03 09:46:15.649 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-03 09:46:15.871 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-03 09:46:16.030 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-03 09:46:16.031 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-03 09:46:16.031 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-03 09:46:16.508 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-03 09:46:16.508 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-03 09:46:16.534 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-03 09:46:16.657 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-03 09:46:16.658 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-03 09:46:16.658 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-03 09:46:16.0
+[INFO ] 2019-11-03 09:47:07.949 [http-nio-8080-exec-5] SearchCards - this user is : leeyang2019
+[INFO ] 2019-11-03 09:47:15.448 [http-nio-8080-exec-5] SearchCards - this user id is : 1
+[INFO ] 2019-11-03 09:47:15.448 [http-nio-8080-exec-5] SearchCards - the value of searchTerm is true

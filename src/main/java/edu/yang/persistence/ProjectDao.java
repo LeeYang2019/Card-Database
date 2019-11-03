@@ -7,10 +7,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Expression;
-import javax.persistence.criteria.Root;
+import javax.persistence.criteria.*;
 import java.util.List;
 
 /**
@@ -159,4 +156,26 @@ public class ProjectDao<T> {
         session.close();
         return list;
     }
+
+    public List<T> getAllByIDAndProperty(String idProperty, int id, String property, String value) {
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+
+        Expression<String> idPath = root.get(idProperty);
+        Expression<String> propertyPath = root.get(property);
+
+        Predicate predicateID = builder.equal(idPath, String.valueOf(id));
+        Predicate predicateProperty = builder.like(propertyPath, "%" + property + "%");
+
+        query.where(builder.and(predicateID, predicateProperty));
+
+
+        List<T> list = session.createQuery( query ).getResultList();
+        session.close();
+        return list;
+    }
+
+
 }
