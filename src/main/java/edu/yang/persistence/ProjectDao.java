@@ -156,17 +156,17 @@ public class ProjectDao<T> {
         session.close();
         return list;
     }
-
-    public List<T> getAllByIDAndProperty(String idProperty, int id, String property, String value) {
+/**
+    public List<T> getAllByIDAndProperty(String user, T entity, String property, String value) {
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
 
-        Expression<String> idPath = root.get(idProperty);
+        Expression<String> userPath = root.get(user);
         Expression<String> propertyPath = root.get(property);
 
-        Predicate predicateID = builder.equal(idPath, String.valueOf(id));
+        Predicate predicateID = builder.equal(user, entity);
         Predicate predicateProperty = builder.like(propertyPath, "%" + property + "%");
 
         query.where(builder.and(predicateID, predicateProperty));
@@ -176,6 +176,6 @@ public class ProjectDao<T> {
         session.close();
         return list;
     }
-
+**/
 
 }
