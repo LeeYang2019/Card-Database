@@ -4,6 +4,7 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.annotation.security.DeclareRoles;
 import javax.persistence.*;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -141,6 +142,22 @@ public class User {
         return "id : " + this.id + "\n"
                 + "first name : " + this.userName + "\n"
                 + "last name : " + this.password;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return id == user.id &&
+                userName.equals(user.userName) &&
+                password.equals(user.password) &&
+                role.equals(user.role);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, userName, password, role);
     }
 }
 

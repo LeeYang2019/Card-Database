@@ -3,6 +3,7 @@ package edu.yang.entity;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -290,5 +291,27 @@ public class YugiohCard {
                 "quantity : " + this.quantity;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        YugiohCard card = (YugiohCard) o;
+        return id == card.id &&
+                Double.compare(card.price, price) == 0 &&
+                quantity == card.quantity &&
+                cardName.equals(card.cardName) &&
+                cardType.equals(card.cardType) &&
+                cardRarity.equals(card.cardRarity) &&
+                cardSet.equals(card.cardSet) &&
+                cardIndex.equals(card.cardIndex) &&
+                status.equals(card.status) &&
+                image.equals(card.image) &&
+                user.equals(card.user);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, cardName, cardType, cardRarity, cardSet, cardIndex, price, quantity, status, image, user);
+    }
 }
 

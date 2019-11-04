@@ -7,6 +7,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import javax.persistence.*;
 import java.sql.Time;
 import java.sql.Timestamp;
+import java.util.Objects;
 
 
 /**
@@ -112,4 +113,19 @@ public class YugiohCardHistory {
                 "price: " + this.price;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        YugiohCardHistory that = (YugiohCardHistory) o;
+        return id == that.id &&
+                Double.compare(that.price, price) == 0 &&
+                ts.equals(that.ts) &&
+                yugiohCard.equals(that.yugiohCard);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, ts, price, yugiohCard);
+    }
 }
