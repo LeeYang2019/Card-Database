@@ -39,10 +39,17 @@ public class Login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        //get a session
         HttpSession session = req.getSession();
+
         ProjectDao userDao = new ProjectDao(User.class);
+
+        //get the user from the session
         User loggedInUser = (User)userDao.getByProperty("userName", req.getRemoteUser());
+
+        //set the user id into the session
         session.setAttribute("id", loggedInUser.getId());
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
     }

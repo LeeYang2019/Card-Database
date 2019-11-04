@@ -16,9 +16,8 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * A simple servlet to search.
+ * A simple servlet to search and return cards in the user's database
  */
-
 @WebServlet(
         urlPatterns = {"/searchCards"}
 )
@@ -33,49 +32,29 @@ public class SearchCards extends HttpServlet {
 
         HttpSession session = req.getSession();
         ProjectDao userDao = new ProjectDao(User.class);
+        ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
 
-       logger.info("this user is : " + req.getRemoteUser());
-
-       User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
-
-       logger.info("this user id is : " + loggedInUser.getId());
-
-        //card dao being used
-        ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
+        User loggedInUser = (User)userDao.getByProperty("userName", req.getRemoteUser());
 
         //get user input
         String searchTerm = req.getParameter("searchTerm");
-        //String searchType = req.getParameter("searchType");
-        String searchType = "cardName";
-
-        logger.info("the value of searchTerm is " + searchTerm.isEmpty());
+        logger.info("the searched term is " + searchTerm);
 
         //if user input is provided, return results matching the input
         if (!searchTerm.isEmpty()) {
             try {
 
-                List<YugiohCard> userCards = newYugiohCardDao.getAllByProperty(searchType, searchTerm);
-
-                logger.info("the size: " + userCards.size());
-
-                for (YugiohCard card : userCards) {
-                    if (!loggedInUser.getCards().contains(card)) {
-                        logger.info("user collection contains this card: " + loggedInUser.getCards().contains(card));
-                        userCards.remove(card);
-                    }
-                }
-
-                //this returns all cards of a type; needs to be all cards of a type belonging to user
+                List<YugiohCard> userCards = yugiohCardDao.getAllByPropertyLike("cardName", searchTerm);
                 req.setAttribute("cards", userCards);
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        } else { //return all cards in the users collection
-            req.setAttribute("cards", loggedInUser.getCards()); //return all cards in the user collection
+        } else { //otherwise, return all cards in the user's database
+            req.setAttribute("cards", loggedInUser.getCards());
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
-
     }
 }

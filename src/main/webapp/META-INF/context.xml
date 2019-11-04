@@ -4,5 +4,9 @@
            connectionURL="jdbc:mysql://localhost:3306/yugioh_card_db?user=root&amp;password=student"
            userTable="user" userNameCol="user_name" userCredCol="user_password"
            userRoleTable="user" roleNameCol="user_role" >
+          <!-- <CredentialHandler
+                className="org.apache.catalina.realm.MessageDigestCredentialHandler"
+                algorithm="sha-256"
+                encoding="UTF-8" /> -->
     </Realm>
 </Context>
