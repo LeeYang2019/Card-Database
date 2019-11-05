@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Restrictions;
 
 import javax.persistence.criteria.*;
 import java.util.List;
@@ -152,6 +153,26 @@ public class ProjectDao<T> {
         Root<T> root = query.from(type);
         Expression<String> propertyPath = root.get(property);
         query.where(builder.like(propertyPath, value));
+        List<T> list = session.createQuery( query ).getResultList();
+        session.close();
+        return list;
+    }
+
+    public List<T> getAllbyUserWithProperty(String property, String value, String propertyTwo, Object valueTwo) {
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+
+        Expression<String> propertyPath = root.get(property);
+        Expression<String> propertyPathTwo = root.get(propertyTwo);
+
+        Predicate predicateA = builder.like(propertyPath, "%" + value + "%");
+        Predicate predicateB = builder.equal(propertyPathTwo, valueTwo);
+        Predicate predicateAB = builder.and(predicateA, predicateB);
+
+        query.where(predicateAB);
+
         List<T> list = session.createQuery( query ).getResultList();
         session.close();
         return list;

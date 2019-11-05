@@ -148,4 +148,20 @@ class YugiohCardDaoTest {
         cardDao.delete(deleteCard);
 
     }
+
+    @Test
+    void getAllCardsWithPropertySuccess() {
+
+        User newUser = (User) userDao.getById(1);
+        logger.info("this user is " + newUser.getUserName());
+        logger.info("this user id is " + newUser.getId());
+
+        List<YugiohCard> cards = cardDao.getAllbyUserWithProperty("cardName", "Dark", "user", newUser);
+
+        logger.info(cards.size());
+        for (YugiohCard card : cards) {
+            logger.info(card.getCardName());
+            logger.info(card.getUser().getId());
+        }
+    }
 }
