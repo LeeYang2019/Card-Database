@@ -11,23 +11,21 @@
             </div>
 
             <form class="form-check-inline" action="searchCards" method="GET" class="needs-validation" novalidate>
-
                 <div id="mySearch" class="input-group mb-3">
 
-               <!--     <div class="input-group-prepend">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                All
-                            </button>
-                            <div class="dropdown-menu">
-                                <select id="searchType" name="searchType">
-                                    <select class="dropdown-item" value="Monster">Monster</select>
-                                    <select class="dropdown-item" value="Spell">Spell</select>
-                                    <select class="dropdown-item" value="Trap">Trap</select>
+                <div class="input-group-prepend">
+                       <!-- <div class="btn-group"> -->
+                           <!-- <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+                                <select id="searchType" class="dropdown-menu" name="searchType">
+                                    <option class="dropdown-item" value="All">All</option>
+                                    <option class="dropdown-item" value="Monster">Monster</option>
+                                    <option class="dropdown-item" value="Spell">Spell</option>
+                                    <option class="dropdown-item" value="Trap">Trap</option>
                                 </select>
-                            </div>
-                        </div>
-                    </div> -->
+                        <!--    </button> -->
+
+                      <!--  </div> -->
+                    </div>
 
                     <input type="searchTerm" class="form-control" id="searchTerm" placeholder="Search Card" name="searchTerm" aria-label="card" aria-describedby="basic-addon2">
                     <div class="input-group-append">

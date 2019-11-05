@@ -38,7 +38,9 @@ public class SearchCards extends HttpServlet {
 
         //get user input
         String searchTerm = req.getParameter("searchTerm");
+        String searchType = req.getParameter("searchType");
         logger.info("the searched term is " + searchTerm);
+        logger.info("the search type is " + searchType);
 
         //if user input is provided, return results matching the input
         if (!searchTerm.isEmpty()) {

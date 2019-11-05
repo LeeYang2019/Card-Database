@@ -167,11 +167,15 @@ public class ProjectDao<T> {
         Expression<String> propertyPath = root.get(property);
         Expression<String> propertyPathTwo = root.get(propertyTwo);
 
-        Predicate predicateA = builder.like(propertyPath, "%" + value + "%");
-        Predicate predicateB = builder.equal(propertyPathTwo, valueTwo);
-        Predicate predicateAB = builder.and(predicateA, predicateB);
+        Predicate[] selStatements = new Predicate[2];
+        selStatements[0] = builder.like(propertyPath, "%" + value + "%");
+        selStatements[1] = builder.equal(propertyPathTwo, valueTwo);
 
-        query.where(predicateAB);
+        //Predicate predicateA = builder.like(propertyPath, "%" + value + "%");
+        //Predicate predicateB = builder.equal(propertyPathTwo, valueTwo);
+        //Predicate predicateAB = builder.and(predicateA, predicateB);
+
+        query.select(root).where(selStatements);
 
         List<T> list = session.createQuery( query ).getResultList();
         session.close();
