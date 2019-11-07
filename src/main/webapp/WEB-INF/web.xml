@@ -8,6 +8,23 @@
          version="3.1">
   <display-name>Archetype Created Web Application</display-name>
 
+  <!-- Define the -->
+  <servlet>
+    <servlet-name>edu.yang.controller.Login</servlet-name>
+    <servlet-class>edu.yang.controller.Login</servlet-class>
+  </servlet>
+
+  <!-- Map -->
+  <servlet-mapping>
+    <servlet-name>edu.yang.controller.Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <!--set login as homepage then forward to login.jsp then login then index -->
+    <welcome-file>login</welcome-file>
+  </welcome-file-list>
+
   <!-- Tell the server to use form-based authentication. -->
   <login-config>
     <auth-method>FORM</auth-method>
@@ -50,18 +67,7 @@
     </auth-constraint>
   </security-constraint>
 
-
-  <!-- Protect everything in the userOnly directory -->
-  <security-constraint>
-    <web-resource-collection>
-      <web-resource-name>user</web-resource-name>
-      <url-pattern>/userOnly/*</url-pattern>
-    </web-resource-collection>
-    <auth-constraint>
-      <role-name>general</role-name>
-    </auth-constraint>
-  </security-constraint>
-
+  <!-- defined roles -->
   <security-role>
     <role-name>general</role-name>
   </security-role>

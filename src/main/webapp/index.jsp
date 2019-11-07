@@ -11,6 +11,7 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
+                <h2>hello ${id}</h2>
                <h2>This page is under construction</h2>
             </div>
             <footer class="row">

@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.validation.constraints.Null;
 import java.io.IOException;
 
 /**
@@ -44,11 +45,20 @@ public class Login extends HttpServlet {
 
         ProjectDao userDao = new ProjectDao(User.class);
 
-        //get the user from the session
-        User loggedInUser = (User)userDao.getByProperty("userName", req.getRemoteUser());
+        logger.info("this login servlet was entered");
 
-        //set the user id into the session
-        session.setAttribute("id", loggedInUser.getId());
+        //IF NOT NULL
+        if (req.getRemoteUser() != null) {
+
+            //get the user from the session
+            User loggedInUser = (User)userDao.getByProperty("userName", req.getRemoteUser());
+
+            //set the user id into the session
+            session.setAttribute("id", loggedInUser.getId());
+
+            logger.info("this user id was set : " + session.getAttribute("id"));
+
+        }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
