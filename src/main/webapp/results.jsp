@@ -33,7 +33,7 @@
                                 </thead>
                                 <c:forEach var="card" items="${cards}">
                                     <tr>
-                                        <td class="tbColumns">${card.cardName}</td>
+                                        <td class="tbColumns"><a href="displayCard?param=${card.id}">${card.cardName}</a></td>
                                         <td class="tbColumns">${card.cardType}</td>
                                         <td class="tbColumns">${card.cardRarity}</td>
                                         <td class="tbColumns">${card.cardSet}</td>
