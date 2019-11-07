@@ -43,22 +43,26 @@ public class Login extends HttpServlet {
         //get a session
         HttpSession session = req.getSession();
 
-        ProjectDao userDao = new ProjectDao(User.class);
+        logger.info("entered login servlet");
 
-        logger.info("this login servlet was entered");
+        String userName = req.getRemoteUser();
 
-        //IF NOT NULL
-        if (req.getRemoteUser() != null) {
+        if (userName != null) {
+
+            ProjectDao userDao = new ProjectDao(User.class);
+
+            logger.info("this user : " + userName);
 
             //get the user from the session
-            User loggedInUser = (User)userDao.getByProperty("userName", req.getRemoteUser());
+            User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
+
+            logger.info("this user is " + loggedInUser.getUserName() + "; ID: " + loggedInUser.getId());
 
             //set the user id into the session
             session.setAttribute("id", loggedInUser.getId());
-
-            logger.info("this user id was set : " + session.getAttribute("id"));
-
         }
+
+        logger.info("leaving login servlet");
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);

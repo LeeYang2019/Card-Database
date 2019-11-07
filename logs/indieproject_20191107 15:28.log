@@ -1,0 +1,846 @@
+[DEBUG] 2019-11-07 15:28:27.137 [http-nio-8080-exec-6] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2019-11-07 15:28:27.145 [http-nio-8080-exec-6] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2019-11-07 15:28:27.163 [http-nio-8080-exec-6] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2019-11-07 15:28:27.486 [http-nio-8080-exec-6] Version - HHH000412: Hibernate Core {5.4.4.Final}
+[DEBUG] 2019-11-07 15:28:27.494 [http-nio-8080-exec-6] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2019-11-07 15:28:27.808 [http-nio-8080-exec-6] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2019-11-07 15:28:27.812 [http-nio-8080-exec-6] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2019-11-07 15:28:27.859 [http-nio-8080-exec-6] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2019-11-07 15:28:28.684 [http-nio-8080-exec-6] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2019-11-07 15:28:28.719 [http-nio-8080-exec-6] RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[DEBUG] 2019-11-07 15:28:28.720 [http-nio-8080-exec-6] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2019-11-07 15:28:28.785 [http-nio-8080-exec-6] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[DEBUG] 2019-11-07 15:28:28.898 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@523fd8f
+[DEBUG] 2019-11-07 15:28:28.899 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@523fd8f
+[DEBUG] 2019-11-07 15:28:28.900 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@523fd8f
+[DEBUG] 2019-11-07 15:28:28.901 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1293311e
+[DEBUG] 2019-11-07 15:28:28.902 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@257f001a
+[DEBUG] 2019-11-07 15:28:28.904 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@38b71222
+[DEBUG] 2019-11-07 15:28:28.905 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@4a61103b
+[DEBUG] 2019-11-07 15:28:28.905 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@4a61103b
+[DEBUG] 2019-11-07 15:28:28.905 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4a61103b
+[DEBUG] 2019-11-07 15:28:28.912 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@4e31ec13
+[DEBUG] 2019-11-07 15:28:28.913 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@4e31ec13
+[DEBUG] 2019-11-07 15:28:28.913 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@4e31ec13
+[DEBUG] 2019-11-07 15:28:28.915 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@67b0c317
+[DEBUG] 2019-11-07 15:28:28.916 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@67b0c317
+[DEBUG] 2019-11-07 15:28:28.916 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@67b0c317
+[DEBUG] 2019-11-07 15:28:28.918 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@6649ec78
+[DEBUG] 2019-11-07 15:28:28.918 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@6649ec78
+[DEBUG] 2019-11-07 15:28:28.918 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6649ec78
+[DEBUG] 2019-11-07 15:28:28.919 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@8e14c3d
+[DEBUG] 2019-11-07 15:28:28.919 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@8e14c3d
+[DEBUG] 2019-11-07 15:28:28.919 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@8e14c3d
+[DEBUG] 2019-11-07 15:28:28.920 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@46e4198e
+[DEBUG] 2019-11-07 15:28:28.920 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@46e4198e
+[DEBUG] 2019-11-07 15:28:28.920 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@46e4198e
+[DEBUG] 2019-11-07 15:28:28.921 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@2a2b5a83
+[DEBUG] 2019-11-07 15:28:28.921 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@2a2b5a83
+[DEBUG] 2019-11-07 15:28:28.922 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2a2b5a83
+[DEBUG] 2019-11-07 15:28:28.923 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@34b2aeed
+[DEBUG] 2019-11-07 15:28:28.923 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@34b2aeed
+[DEBUG] 2019-11-07 15:28:28.924 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@206c38e5
+[DEBUG] 2019-11-07 15:28:28.925 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@206c38e5
+[DEBUG] 2019-11-07 15:28:28.926 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@4e5d5325
+[DEBUG] 2019-11-07 15:28:28.926 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@4e5d5325
+[DEBUG] 2019-11-07 15:28:28.927 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@19d4e06b
+[DEBUG] 2019-11-07 15:28:28.927 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1778a703
+[DEBUG] 2019-11-07 15:28:28.928 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@20d4c383
+[DEBUG] 2019-11-07 15:28:28.928 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@20d4c383
+[DEBUG] 2019-11-07 15:28:28.929 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@7286eda8
+[DEBUG] 2019-11-07 15:28:28.930 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@7286eda8
+[DEBUG] 2019-11-07 15:28:28.935 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@51efee20
+[DEBUG] 2019-11-07 15:28:28.936 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@51efee20
+[DEBUG] 2019-11-07 15:28:28.937 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@11713971
+[DEBUG] 2019-11-07 15:28:28.937 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@11713971
+[DEBUG] 2019-11-07 15:28:28.938 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@31407779
+[DEBUG] 2019-11-07 15:28:28.938 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@31407779
+[DEBUG] 2019-11-07 15:28:28.939 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@1b95f831
+[DEBUG] 2019-11-07 15:28:28.940 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@1b95f831
+[DEBUG] 2019-11-07 15:28:28.941 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6c642857
+[DEBUG] 2019-11-07 15:28:28.941 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6c642857
+[DEBUG] 2019-11-07 15:28:28.945 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@4e105f81
+[DEBUG] 2019-11-07 15:28:28.945 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@4e105f81
+[DEBUG] 2019-11-07 15:28:28.947 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@57fc269d
+[DEBUG] 2019-11-07 15:28:28.968 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@57fc269d
+[DEBUG] 2019-11-07 15:28:28.970 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@7cb34f92
+[DEBUG] 2019-11-07 15:28:28.970 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@7cb34f92
+[DEBUG] 2019-11-07 15:28:28.971 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@281f15e9
+[DEBUG] 2019-11-07 15:28:28.971 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@281f15e9
+[DEBUG] 2019-11-07 15:28:28.973 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@1c39ca7e
+[DEBUG] 2019-11-07 15:28:28.973 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1c39ca7e
+[DEBUG] 2019-11-07 15:28:28.974 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1c39ca7e
+[DEBUG] 2019-11-07 15:28:28.975 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@521eac60
+[DEBUG] 2019-11-07 15:28:28.977 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@4d7a5654
+[DEBUG] 2019-11-07 15:28:28.977 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4d7a5654
+[DEBUG] 2019-11-07 15:28:28.977 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4d7a5654
+[DEBUG] 2019-11-07 15:28:28.980 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@17acaa9e
+[DEBUG] 2019-11-07 15:28:28.981 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@281a21a8
+[DEBUG] 2019-11-07 15:28:28.981 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@281a21a8
+[DEBUG] 2019-11-07 15:28:28.983 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@7db5cd1c
+[DEBUG] 2019-11-07 15:28:28.983 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7db5cd1c
+[DEBUG] 2019-11-07 15:28:28.984 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@502eb98
+[DEBUG] 2019-11-07 15:28:28.985 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@502eb98
+[DEBUG] 2019-11-07 15:28:28.986 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@a629ebe
+[DEBUG] 2019-11-07 15:28:28.988 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@a629ebe
+[DEBUG] 2019-11-07 15:28:28.993 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1808122d
+[DEBUG] 2019-11-07 15:28:28.993 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1808122d
+[DEBUG] 2019-11-07 15:28:28.993 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7f378648
+[DEBUG] 2019-11-07 15:28:28.994 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@1fb3d464
+[DEBUG] 2019-11-07 15:28:28.994 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@1fb3d464
+[DEBUG] 2019-11-07 15:28:28.994 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@1fb3d464
+[DEBUG] 2019-11-07 15:28:28.995 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@468e2c1b
+[DEBUG] 2019-11-07 15:28:28.995 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@468e2c1b
+[DEBUG] 2019-11-07 15:28:28.996 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@468e2c1b
+[DEBUG] 2019-11-07 15:28:28.996 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@71f5dca3
+[DEBUG] 2019-11-07 15:28:28.997 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@1bf8fbab
+[DEBUG] 2019-11-07 15:28:28.998 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@31348b6
+[DEBUG] 2019-11-07 15:28:28.998 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@31348b6
+[DEBUG] 2019-11-07 15:28:28.998 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@31348b6
+[DEBUG] 2019-11-07 15:28:29.002 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@cfee31f
+[DEBUG] 2019-11-07 15:28:29.002 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@cfee31f
+[DEBUG] 2019-11-07 15:28:29.002 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@cfee31f
+[DEBUG] 2019-11-07 15:28:29.002 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@645b851
+[DEBUG] 2019-11-07 15:28:29.003 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@8af9b9f
+[DEBUG] 2019-11-07 15:28:29.004 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@afb0b51
+[DEBUG] 2019-11-07 15:28:29.004 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@afb0b51
+[DEBUG] 2019-11-07 15:28:29.005 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3c2c1ab1
+[DEBUG] 2019-11-07 15:28:29.014 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@3a2e7c17
+[DEBUG] 2019-11-07 15:28:29.014 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3a2e7c17
+[DEBUG] 2019-11-07 15:28:29.015 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@7d51aa93
+[DEBUG] 2019-11-07 15:28:29.016 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@7d51aa93
+[DEBUG] 2019-11-07 15:28:29.016 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1fd1435f
+[DEBUG] 2019-11-07 15:28:29.016 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@46705dfb
+[DEBUG] 2019-11-07 15:28:29.018 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@27fbb170
+[DEBUG] 2019-11-07 15:28:29.023 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@6422b5c5
+[DEBUG] 2019-11-07 15:28:29.023 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6422b5c5
+[DEBUG] 2019-11-07 15:28:29.023 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@26f99a5c
+[DEBUG] 2019-11-07 15:28:29.023 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@b72ed5f
+[DEBUG] 2019-11-07 15:28:29.023 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3da835ac
+[DEBUG] 2019-11-07 15:28:29.024 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4e5098cc
+[DEBUG] 2019-11-07 15:28:29.024 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2411c020
+[DEBUG] 2019-11-07 15:28:29.029 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3815c9e8
+[DEBUG] 2019-11-07 15:28:29.029 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@446c9e13
+[DEBUG] 2019-11-07 15:28:29.030 [http-nio-8080-exec-6] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@e30f8aa
+[DEBUG] 2019-11-07 15:28:29.083 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2019-11-07 15:28:29.084 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2019-11-07 15:28:29.085 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2019-11-07 15:28:29.085 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2019-11-07 15:28:29.085 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2019-11-07 15:28:29.086 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2019-11-07 15:28:29.087 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2019-11-07 15:28:29.088 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2019-11-07 15:28:29.091 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2019-11-07 15:28:29.091 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2019-11-07 15:28:29.093 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2019-11-07 15:28:29.093 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2019-11-07 15:28:29.093 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2019-11-07 15:28:29.094 [http-nio-8080-exec-6] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[INFO ] 2019-11-07 15:28:29.136 [http-nio-8080-exec-6] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/yugioh_card_db
+[INFO ] 2019-11-07 15:28:29.136 [http-nio-8080-exec-6] C3P0ConnectionProvider - HHH10001001: Connection properties: {password=****, user=root}
+[INFO ] 2019-11-07 15:28:29.136 [http-nio-8080-exec-6] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2019-11-07 15:28:29.445 [http-nio-8080-exec-6] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2019-11-07 15:28:30.000 [http-nio-8080-exec-6] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 8.0.17
+      major : 8
+      minor : 0
+[DEBUG] 2019-11-07 15:28:30.003 [http-nio-8080-exec-6] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0
+[DEBUG] 2019-11-07 15:28:30.003 [http-nio-8080-exec-6] JdbcEnvironmentInitiator - JDBC version : 4.2
+[INFO ] 2019-11-07 15:28:30.137 [http-nio-8080-exec-6] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[DEBUG] 2019-11-07 15:28:30.190 [http-nio-8080-exec-6] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2019-11-07 15:28:30.324 [http-nio-8080-exec-6] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2019-11-07 15:28:30.412 [http-nio-8080-exec-6] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2019-11-07 15:28:30.415 [http-nio-8080-exec-6] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@68a5903b] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@61687270]
+[DEBUG] 2019-11-07 15:28:30.538 [http-nio-8080-exec-6] AnnotationBinder - Binding entity from annotated class: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-07 15:28:30.568 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2019-11-07 15:28:30.619 [http-nio-8080-exec-6] EntityBinder - Import with entity name YugiohCard
+[DEBUG] 2019-11-07 15:28:30.625 [http-nio-8080-exec-6] EntityBinder - Bind entity edu.yang.entity.YugiohCard on table yugioh_card
+[DEBUG] 2019-11-07 15:28:30.681 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.686 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2019-11-07 15:28:30.688 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:id]
+[DEBUG] 2019-11-07 15:28:30.692 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2019-11-07 15:28:30.697 [http-nio-8080-exec-6] PropertyBinder - Building property id
+[DEBUG] 2019-11-07 15:28:30.704 [http-nio-8080-exec-6] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2019-11-07 15:28:30.706 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_index, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.706 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property cardIndex with lazy=false
+[DEBUG] 2019-11-07 15:28:30.706 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardIndex]
+[DEBUG] 2019-11-07 15:28:30.707 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for cardIndex
+[DEBUG] 2019-11-07 15:28:30.707 [http-nio-8080-exec-6] PropertyBinder - Building property cardIndex
+[DEBUG] 2019-11-07 15:28:30.707 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.710 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property cardName with lazy=false
+[DEBUG] 2019-11-07 15:28:30.710 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardName]
+[DEBUG] 2019-11-07 15:28:30.710 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for cardName
+[DEBUG] 2019-11-07 15:28:30.711 [http-nio-8080-exec-6] PropertyBinder - Building property cardName
+[DEBUG] 2019-11-07 15:28:30.711 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_rarity, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.712 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property cardRarity with lazy=false
+[DEBUG] 2019-11-07 15:28:30.712 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardRarity]
+[DEBUG] 2019-11-07 15:28:30.712 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for cardRarity
+[DEBUG] 2019-11-07 15:28:30.712 [http-nio-8080-exec-6] PropertyBinder - Building property cardRarity
+[DEBUG] 2019-11-07 15:28:30.712 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_set, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.713 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property cardSet with lazy=false
+[DEBUG] 2019-11-07 15:28:30.720 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardSet]
+[DEBUG] 2019-11-07 15:28:30.720 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for cardSet
+[DEBUG] 2019-11-07 15:28:30.720 [http-nio-8080-exec-6] PropertyBinder - Building property cardSet
+[DEBUG] 2019-11-07 15:28:30.720 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=card_type, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.720 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property cardType with lazy=false
+[DEBUG] 2019-11-07 15:28:30.721 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:cardType]
+[DEBUG] 2019-11-07 15:28:30.721 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for cardType
+[DEBUG] 2019-11-07 15:28:30.721 [http-nio-8080-exec-6] PropertyBinder - Building property cardType
+[DEBUG] 2019-11-07 15:28:30.726 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='yugiohCard'}
+[DEBUG] 2019-11-07 15:28:30.727 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=entries, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.730 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.742 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.743 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=entries_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.744 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='entries_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-11-07 15:28:30.746 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='yugiohCard'}
+[DEBUG] 2019-11-07 15:28:30.746 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='yugiohCard'}
+[DEBUG] 2019-11-07 15:28:30.746 [http-nio-8080-exec-6] CollectionBinder - Collection role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-07 15:28:30.749 [http-nio-8080-exec-6] PropertyBinder - Building property entries
+[DEBUG] 2019-11-07 15:28:30.749 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=image, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.750 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property image with lazy=false
+[DEBUG] 2019-11-07 15:28:30.750 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:image]
+[DEBUG] 2019-11-07 15:28:30.750 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for image
+[DEBUG] 2019-11-07 15:28:30.750 [http-nio-8080-exec-6] PropertyBinder - Building property image
+[DEBUG] 2019-11-07 15:28:30.750 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=price, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.750 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property price with lazy=false
+[DEBUG] 2019-11-07 15:28:30.750 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:price]
+[DEBUG] 2019-11-07 15:28:30.750 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for price
+[DEBUG] 2019-11-07 15:28:30.751 [http-nio-8080-exec-6] PropertyBinder - Building property price
+[DEBUG] 2019-11-07 15:28:30.751 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=qty, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.751 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property quantity with lazy=false
+[DEBUG] 2019-11-07 15:28:30.751 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:quantity]
+[DEBUG] 2019-11-07 15:28:30.751 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for quantity
+[DEBUG] 2019-11-07 15:28:30.751 [http-nio-8080-exec-6] PropertyBinder - Building property quantity
+[DEBUG] 2019-11-07 15:28:30.751 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=status, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.752 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property status with lazy=false
+[DEBUG] 2019-11-07 15:28:30.756 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCard:status]
+[DEBUG] 2019-11-07 15:28:30.758 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for status
+[DEBUG] 2019-11-07 15:28:30.758 [http-nio-8080-exec-6] PropertyBinder - Building property status
+[DEBUG] 2019-11-07 15:28:30.758 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-11-07 15:28:30.759 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.761 [http-nio-8080-exec-6] PropertyBinder - Building property user
+[DEBUG] 2019-11-07 15:28:30.763 [http-nio-8080-exec-6] AnnotationBinder - Binding entity from annotated class: edu.yang.entity.User
+[DEBUG] 2019-11-07 15:28:30.763 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2019-11-07 15:28:30.763 [http-nio-8080-exec-6] EntityBinder - Import with entity name User
+[DEBUG] 2019-11-07 15:28:30.763 [http-nio-8080-exec-6] EntityBinder - Bind entity edu.yang.entity.User on table user
+[DEBUG] 2019-11-07 15:28:30.765 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.765 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2019-11-07 15:28:30.765 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:id]
+[DEBUG] 2019-11-07 15:28:30.765 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2019-11-07 15:28:30.765 [http-nio-8080-exec-6] PropertyBinder - Building property id
+[DEBUG] 2019-11-07 15:28:30.765 [http-nio-8080-exec-6] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2019-11-07 15:28:30.765 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2019-11-07 15:28:30.765 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=cards, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.765 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.766 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.766 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=cards_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.766 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='cards_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-11-07 15:28:30.766 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2019-11-07 15:28:30.766 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2019-11-07 15:28:30.766 [http-nio-8080-exec-6] CollectionBinder - Collection role: edu.yang.entity.User.cards
+[DEBUG] 2019-11-07 15:28:30.766 [http-nio-8080-exec-6] PropertyBinder - Building property cards
+[DEBUG] 2019-11-07 15:28:30.766 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.766 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2019-11-07 15:28:30.767 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:password]
+[DEBUG] 2019-11-07 15:28:30.767 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for password
+[DEBUG] 2019-11-07 15:28:30.767 [http-nio-8080-exec-6] PropertyBinder - Building property password
+[DEBUG] 2019-11-07 15:28:30.767 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_role, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.773 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property role with lazy=false
+[DEBUG] 2019-11-07 15:28:30.773 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:role]
+[DEBUG] 2019-11-07 15:28:30.773 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for role
+[DEBUG] 2019-11-07 15:28:30.774 [http-nio-8080-exec-6] PropertyBinder - Building property role
+[DEBUG] 2019-11-07 15:28:30.775 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.778 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+[DEBUG] 2019-11-07 15:28:30.778 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.User:userName]
+[DEBUG] 2019-11-07 15:28:30.778 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for userName
+[DEBUG] 2019-11-07 15:28:30.780 [http-nio-8080-exec-6] PropertyBinder - Building property userName
+[DEBUG] 2019-11-07 15:28:30.780 [http-nio-8080-exec-6] AnnotationBinder - Binding entity from annotated class: edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-07 15:28:30.780 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2019-11-07 15:28:30.780 [http-nio-8080-exec-6] EntityBinder - Import with entity name YugiohCardHistory
+[DEBUG] 2019-11-07 15:28:30.780 [http-nio-8080-exec-6] EntityBinder - Bind entity edu.yang.entity.YugiohCardHistory on table yugioh_card_history
+[DEBUG] 2019-11-07 15:28:30.783 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.783 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2019-11-07 15:28:30.783 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCardHistory:id]
+[DEBUG] 2019-11-07 15:28:30.784 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2019-11-07 15:28:30.784 [http-nio-8080-exec-6] PropertyBinder - Building property id
+[DEBUG] 2019-11-07 15:28:30.784 [http-nio-8080-exec-6] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=price, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property price with lazy=false
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCardHistory:price]
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for price
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] PropertyBinder - Building property price
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=update_date, insertable=true, updatable=false, unique=false}
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] PropertyBinder - MetadataSourceProcessor property ts with lazy=false
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.yang.entity.YugiohCardHistory:ts]
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] SimpleValueBinder - building SimpleValue for ts
+[DEBUG] 2019-11-07 15:28:30.785 [http-nio-8080-exec-6] PropertyBinder - Building property ts
+[DEBUG] 2019-11-07 15:28:30.838 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2019-11-07 15:28:30.840 [http-nio-8080-exec-6] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(yugioh_card_history), mappingColumn=yugiohCard, insertable=true, updatable=true, unique=false}
+[DEBUG] 2019-11-07 15:28:30.840 [http-nio-8080-exec-6] PropertyBinder - Building property yugiohCard
+[DEBUG] 2019-11-07 15:28:30.847 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2019-11-07 15:28:30.847 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for cardIndex
+[DEBUG] 2019-11-07 15:28:30.847 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for cardName
+[DEBUG] 2019-11-07 15:28:30.847 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for cardRarity
+[DEBUG] 2019-11-07 15:28:30.847 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for cardSet
+[DEBUG] 2019-11-07 15:28:30.847 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for cardType
+[DEBUG] 2019-11-07 15:28:30.847 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for image
+[DEBUG] 2019-11-07 15:28:30.848 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for price
+[DEBUG] 2019-11-07 15:28:30.848 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for quantity
+[DEBUG] 2019-11-07 15:28:30.848 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for status
+[DEBUG] 2019-11-07 15:28:30.849 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2019-11-07 15:28:30.849 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2019-11-07 15:28:30.857 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for role
+[DEBUG] 2019-11-07 15:28:30.857 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for userName
+[DEBUG] 2019-11-07 15:28:30.857 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2019-11-07 15:28:30.857 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for price
+[DEBUG] 2019-11-07 15:28:30.857 [http-nio-8080-exec-6] SimpleValueBinder - Starting fillSimpleValue for ts
+[DEBUG] 2019-11-07 15:28:30.867 [http-nio-8080-exec-6] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [yugioh_card]
+[DEBUG] 2019-11-07 15:28:30.868 [http-nio-8080-exec-6] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[DEBUG] 2019-11-07 15:28:30.868 [http-nio-8080-exec-6] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [yugioh_card_history]
+[DEBUG] 2019-11-07 15:28:30.869 [http-nio-8080-exec-6] CollectionSecondPass - Second pass for collection: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-07 15:28:30.869 [http-nio-8080-exec-6] CollectionBinder - Binding a OneToMany: edu.yang.entity.YugiohCard.entries through a foreign key
+[DEBUG] 2019-11-07 15:28:30.871 [http-nio-8080-exec-6] CollectionBinder - Mapping collection: edu.yang.entity.YugiohCard.entries -> yugioh_card_history
+[DEBUG] 2019-11-07 15:28:30.873 [http-nio-8080-exec-6] TableBinder - Retrieving property edu.yang.entity.YugiohCardHistory.yugiohCard
+[DEBUG] 2019-11-07 15:28:30.873 [http-nio-8080-exec-6] CollectionSecondPass - Mapped collection key: yugiohCard_id, one-to-many: edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-07 15:28:30.873 [http-nio-8080-exec-6] CollectionSecondPass - Second pass for collection: edu.yang.entity.User.cards
+[DEBUG] 2019-11-07 15:28:30.873 [http-nio-8080-exec-6] CollectionBinder - Binding a OneToMany: edu.yang.entity.User.cards through a foreign key
+[DEBUG] 2019-11-07 15:28:30.873 [http-nio-8080-exec-6] CollectionBinder - Mapping collection: edu.yang.entity.User.cards -> yugioh_card
+[DEBUG] 2019-11-07 15:28:30.874 [http-nio-8080-exec-6] TableBinder - Retrieving property edu.yang.entity.YugiohCard.user
+[DEBUG] 2019-11-07 15:28:30.874 [http-nio-8080-exec-6] CollectionSecondPass - Mapped collection key: user_id, one-to-many: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-07 15:28:30.874 [http-nio-8080-exec-6] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.User
+[DEBUG] 2019-11-07 15:28:30.878 [http-nio-8080-exec-6] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-07 15:28:30.880 [http-nio-8080-exec-6] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.User
+[DEBUG] 2019-11-07 15:28:30.880 [http-nio-8080-exec-6] InFlightMetadataCollectorImpl - Resolving reference to class: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-07 15:28:30.921 [http-nio-8080-exec-6] SessionFactoryImpl - Building session factory
+[DEBUG] 2019-11-07 15:28:30.922 [http-nio-8080-exec-6] Settings - SessionFactory name : null
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Statistics: disabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Default entity-mode: pojo
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Default batch fetch size: -1
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Maximum outer join fetch depth: 2
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Default null ordering: NONE
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - JTA Track by Thread: enabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Query language substitutions: {}
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Named query checking : enabled
+[DEBUG] 2019-11-07 15:28:30.925 [http-nio-8080-exec-6] Settings - Second-level cache: disabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Second-level query cache: disabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Second-level query cache factory: null
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Second-level cache region prefix: null
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - JDBC batch size: 15
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Scrollable result sets: enabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Wrap result sets: disabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - JDBC result set fetch size: null
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Connection release mode: AFTER_TRANSACTION
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - Generate SQL with comments: disabled
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - JPA compliance - query : 
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - JPA compliance - closed-handling : 
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - JPA compliance - lists : 
+[DEBUG] 2019-11-07 15:28:30.926 [http-nio-8080-exec-6] Settings - JPA compliance - transactions : 
+[INFO ] 2019-11-07 15:28:31.017 [http-nio-8080-exec-6] beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[DEBUG] 2019-11-07 15:28:31.077 [http-nio-8080-exec-6] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2019-11-07 15:28:31.077 [http-nio-8080-exec-6] SessionFactoryImpl - Instantiating session factory with properties: {awt.toolkit=sun.awt.X11.XToolkit, java.specification.version=11, sun.cpu.isalist=, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.min_size=5, sun.arch.data.model=64, java.vendor.url=https://ubuntu.com/, catalina.useNaming=true, openejb.provider.default=org.apache.tomee, sun.boot.library.path=/usr/lib/jvm/java-11-openjdk-amd64/lib, com.sun.management.jmxremote.ssl=false, sun.java.command=org.apache.catalina.startup.Bootstrap start, jdk.debug=release, java.specification.vendor=Oracle Corporation, java.naming.factory.url.pkgs=org.apache.naming:org.apache.openejb.core.ivm.naming, openejb.embedder.source=ServerListener, java.version.date=2019-07-16, java.home=/usr/lib/jvm/java-11-openjdk-amd64, ignore.endorsed.dirs=, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, hibernate.c3p0.timeout=300, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, openejb.scan.webapp.container=true, com.sun.management.jmxremote.password.file=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject/jmxremote.password, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., openejb.deployments.classpath.filter.systemapps=false, jdk.tls.ephemeralDHKeySize=2048, java.util.logging.config.file=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject/conf/logging.properties, java.protocol.handler.pkgs=org.apache.catalina.webresources, connection.password=student, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, openejb.scan.webapp.container.excludes=, java.runtime.version=11.0.4+11-post-Ubuntu-1ubuntu218.04.3, user.name=student, org.apache.johnzon.max-string-length=8192, file.encoding=UTF-8, derby.system.home=/home/student/tomcat/bin, org.apache.catalina.security.SecurityListener.UMASK=0027, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.io.tmpdir=/home/student/tomcat/temp, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-taglib*.jar,log4j-web*.jar,log4javascript*.jar,slf4j-taglib*.jar, java.version=11.0.4, com.sun.management.jmxremote.port=1099, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=annotations-api.jar,ant-junit*.jar,ant-launcher.jar,ant.jar,asm-*.jar,aspectj*.jar,bootstrap.jar,catalina-ant.jar,catalina-ha.jar,catalina-jmx-remote.jar,catalina-storeconfig.jar,catalina-tribes.jar,catalina-ws.jar,catalina.jar,cglib-*.jar,cobertura-*.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-daemon.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,dom4j-*.jar,easymock-*.jar,ecj-*.jar,el-api.jar,geronimo-spec-jaxrpc*.jar,h2*.jar,hamcrest-*.jar,hibernate*.jar,httpclient*.jar,icu4j-*.jar,jasper-el.jar,jasper.jar,jaspic-api.jar,jaxb-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,jmx-tools.jar,jmx.jar,jsp-api.jar,jstl.jar,jta*.jar,junit-*.jar,junit.jar,log4j*.jar,mail*.jar,objenesis-*.jar,oraclepki.jar,oro-*.jar,servlet-api-*.jar,servlet-api.jar,slf4j*.jar,taglibs-standard-spec-*.jar,tagsoup-*.jar,tomcat-api.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-i18n-*.jar,tomcat-jdbc.jar,tomcat-jni.jar,tomcat-juli-adapters.jar,tomcat-juli.jar,tomcat-util-scan.jar,tomcat-util.jar,tomcat-websocket.jar,tools.jar,websocket-api.jar,wsdl4j*.jar,xercesImpl.jar,xml-apis.jar,xmlParserAPIs-*.jar,xmlParserAPIs.jar,xom-*.jar, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, sun.os.patch.level=unknown, connection.driver_class=com.mysql.cj.jdbc.Driver, tomcat.built=May 4 2019 09:17:16 UTC, java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor=Ubuntu, tomee.version=7.1.1, java.rmi.server.randomIDs=true, sun.io.unicode.encoding=UnicodeLittle, tomcat.util.buf.StringCache.byte.enabled=true, sun.desktop=gnome, java.class.path=/home/student/tomcat/bin/bootstrap.jar:/home/student/tomcat/bin/tomcat-juli.jar, tomcat.version=8.5.41.0, java.vm.vendor=Ubuntu, openejb.home=/home/student/tomcat, openejb.system.apps=true, user.timezone=America/Chicago, os.name=Linux, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=US, openejb.base=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject, com.sun.management.jmxremote=, sun.cpu.endian=little, user.home=/home/student, hibernate.c3p0.max_statements=50, user.language=en, openejb.deployments.classpath=false, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.tomcat., openejb.loader=tomcat-system, server.loader=, com.sun.management.jmxremote.access.file=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject/jmxremote.access, hibernate.c3p0.max_size=20, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, path.separator=:, org.apache.openejb.core.security.JaccProvider=org.apache.openejb.core.security.jacc.BasicJaccProvider, common.loader="/home/student/tomcat/lib","/home/student/tomcat/lib/*.jar","/home/student/tomcat/lib","/home/student/tomcat/lib/*.jar", hibernate.connection.username=****, os.version=5.0.0-32-generic, openejb.version=7.1.1, org.apache.security.jacc.EJBMethodPermission.methodInterfaces=BusinessLocalHome,BusinessRemoteHome,BusinessRemote,BusinessLocal, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/yugioh_card_db, java.vm.name=OpenJDK 64-Bit Server VM, openejb.scan.webapp.container.includes=.*(geronimo|mp-jwt|failsafe).*, java.vendor.url.bug=https://bugs.launchpad.net/ubuntu/+source/openjdk-lts, tomee.remote.support=true, catalina.home=/home/student/tomcat, user.dir=/home/student/tomcat/bin, bval.in-container=true, os.arch=amd64, openjpa.Log=org.apache.openejb.openjpa.JULOpenJPALogFactory, hibernate.connection.password=****, tomee.serialization.class.blacklist=-, tomee.serialization.class.whitelist=, shared.loader=, catalina.base=/home/student/.IntelliJIdea2019.1/system/tomcat/Unnamed_indieproject, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@dc21a60, noBanner=true, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, org.apache.webbeans.logger.WebBeansLoggerFacade=org.apache.openejb.cdi.logging.ContainerJULLoggerFactory, java.vm.info=mixed mode, sharing, java.vm.version=11.0.4+11-post-Ubuntu-1ubuntu218.04.3, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.hostname=127.0.0.1, javax.security.jacc.PolicyConfigurationFactory.provider=org.apache.openejb.core.security.JaccProvider$Factory, connection.url=jdbc:mysql://localhost:3306/yugioh_card_db, java.class.version=55.0, authconfigprovider.factory=false}
+[DEBUG] 2019-11-07 15:28:31.132 [http-nio-8080-exec-6] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.User] is safe
+[DEBUG] 2019-11-07 15:28:31.132 [http-nio-8080-exec-6] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.User
+[DEBUG] 2019-11-07 15:28:31.178 [http-nio-8080-exec-6] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCard] is safe
+[DEBUG] 2019-11-07 15:28:31.179 [http-nio-8080-exec-6] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-07 15:28:31.195 [http-nio-8080-exec-6] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCardHistory] is safe
+[DEBUG] 2019-11-07 15:28:31.195 [http-nio-8080-exec-6] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-07 15:28:31.212 [http-nio-8080-exec-6] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2019-11-07 15:28:31.218 [http-nio-8080-exec-6] SessionFactoryImpl - Instantiated session factory
+[DEBUG] 2019-11-07 15:28:31.218 [http-nio-8080-exec-6] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@68a5903b] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@2c284d29]
+[DEBUG] 2019-11-07 15:28:31.505 [http-nio-8080-exec-6] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.User] is safe
+[DEBUG] 2019-11-07 15:28:31.505 [http-nio-8080-exec-6] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.User
+[DEBUG] 2019-11-07 15:28:31.568 [http-nio-8080-exec-6] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.User] is safe
+[DEBUG] 2019-11-07 15:28:31.568 [http-nio-8080-exec-6] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.User
+[DEBUG] 2019-11-07 15:28:32.106 [http-nio-8080-exec-6] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCard] is safe
+[DEBUG] 2019-11-07 15:28:32.107 [http-nio-8080-exec-6] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-07 15:28:32.107 [http-nio-8080-exec-6] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCard] is safe
+[DEBUG] 2019-11-07 15:28:32.107 [http-nio-8080-exec-6] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-07 15:28:32.209 [http-nio-8080-exec-6] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCardHistory] is safe
+[DEBUG] 2019-11-07 15:28:32.209 [http-nio-8080-exec-6] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-07 15:28:32.210 [http-nio-8080-exec-6] ClassLoaderAccessImpl - Not known whether passed class name [edu.yang.entity.YugiohCardHistory] is safe
+[DEBUG] 2019-11-07 15:28:32.210 [http-nio-8080-exec-6] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-07 15:28:32.261 [http-nio-8080-exec-6] AbstractCollectionPersister - Static SQL for collection: edu.yang.entity.User.cards
+[DEBUG] 2019-11-07 15:28:32.262 [http-nio-8080-exec-6] AbstractCollectionPersister -  Row insert: update yugioh_card set user_id=? where id=?
+[DEBUG] 2019-11-07 15:28:32.263 [http-nio-8080-exec-6] AbstractCollectionPersister -  Row update: update yugioh_card set  where id=?
+[DEBUG] 2019-11-07 15:28:32.265 [http-nio-8080-exec-6] AbstractCollectionPersister -  Row delete: update yugioh_card set user_id=null where user_id=? and id=?
+[DEBUG] 2019-11-07 15:28:32.265 [http-nio-8080-exec-6] AbstractCollectionPersister -  One-shot delete: update yugioh_card set user_id=null where user_id=?
+[DEBUG] 2019-11-07 15:28:32.266 [http-nio-8080-exec-6] AbstractCollectionPersister - Static SQL for collection: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-07 15:28:32.266 [http-nio-8080-exec-6] AbstractCollectionPersister -  Row insert: update yugioh_card_history set yugiohCard_id=? where id=?
+[DEBUG] 2019-11-07 15:28:32.266 [http-nio-8080-exec-6] AbstractCollectionPersister -  Row update: update yugioh_card_history set  where id=?
+[DEBUG] 2019-11-07 15:28:32.266 [http-nio-8080-exec-6] AbstractCollectionPersister -  Row delete: update yugioh_card_history set yugiohCard_id=null where yugiohCard_id=? and id=?
+[DEBUG] 2019-11-07 15:28:32.266 [http-nio-8080-exec-6] AbstractCollectionPersister -  One-shot delete: update yugioh_card_history set yugiohCard_id=null where yugiohCard_id=?
+[DEBUG] 2019-11-07 15:28:32.272 [http-nio-8080-exec-6] AbstractEntityPersister - Static SQL for entity: edu.yang.entity.User
+[DEBUG] 2019-11-07 15:28:32.273 [http-nio-8080-exec-6] AbstractEntityPersister -  Version select: select id from user where id =?
+[DEBUG] 2019-11-07 15:28:32.274 [http-nio-8080-exec-6] AbstractEntityPersister -  Snapshot select: select user_.id, user_.user_password as user_pas2_0_, user_.user_role as user_rol3_0_, user_.user_name as user_nam4_0_ from user user_ where user_.id=?
+[DEBUG] 2019-11-07 15:28:32.274 [http-nio-8080-exec-6] AbstractEntityPersister -  Insert 0: insert into user (user_password, user_role, user_name, id) values (?, ?, ?, ?)
+[DEBUG] 2019-11-07 15:28:32.274 [http-nio-8080-exec-6] AbstractEntityPersister -  Update 0: update user set user_password=?, user_role=?, user_name=? where id=?
+[DEBUG] 2019-11-07 15:28:32.274 [http-nio-8080-exec-6] AbstractEntityPersister -  Delete 0: delete from user where id=?
+[DEBUG] 2019-11-07 15:28:32.274 [http-nio-8080-exec-6] AbstractEntityPersister -  Identity insert: insert into user (user_password, user_role, user_name) values (?, ?, ?)
+[DEBUG] 2019-11-07 15:28:32.379 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@8b985ba]
+[DEBUG] 2019-11-07 15:28:32.381 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards
+[DEBUG] 2019-11-07 15:28:32.398 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@36654c7c]
+[DEBUG] 2019-11-07 15:28:32.417 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2edc3c53]
+[DEBUG] 2019-11-07 15:28:32.420 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardIndex
+[DEBUG] 2019-11-07 15:28:32.420 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardName
+[DEBUG] 2019-11-07 15:28:32.420 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardRarity
+[DEBUG] 2019-11-07 15:28:32.420 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardSet
+[DEBUG] 2019-11-07 15:28:32.421 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardType
+[DEBUG] 2019-11-07 15:28:32.421 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.entries
+[DEBUG] 2019-11-07 15:28:32.421 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@40cadcb9]
+[DEBUG] 2019-11-07 15:28:32.421 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@46050fce]
+[DEBUG] 2019-11-07 15:28:32.422 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.entries.price
+[DEBUG] 2019-11-07 15:28:32.423 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.entries.ts
+[DEBUG] 2019-11-07 15:28:32.423 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.entries.yugiohCard
+[DEBUG] 2019-11-07 15:28:32.423 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : cards.entries.yugiohCard
+[DEBUG] 2019-11-07 15:28:32.425 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.image
+[DEBUG] 2019-11-07 15:28:32.425 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.price
+[DEBUG] 2019-11-07 15:28:32.425 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.quantity
+[DEBUG] 2019-11-07 15:28:32.425 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.status
+[DEBUG] 2019-11-07 15:28:32.425 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.user
+[DEBUG] 2019-11-07 15:28:32.425 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : cards.user
+[DEBUG] 2019-11-07 15:28:32.425 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2019-11-07 15:28:32.426 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : role
+[DEBUG] 2019-11-07 15:28:32.426 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2019-11-07 15:28:32.426 [http-nio-8080-exec-6] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-07 15:28:32.539 [http-nio-8080-exec-6] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-07 15:28:32.558 [http-nio-8080-exec-6] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:0>, path=edu.yang.entity.User)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.User.cards, querySpaceUid=<gen:1>, path=edu.yang.entity.User.cards)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:2>, path=edu.yang.entity.User.cards.<elements>)
+                - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:3>, path=edu.yang.entity.User.cards.<elements>.entries)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:4>, path=edu.yang.entity.User.cards.<elements>.entries.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(cards)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.User.cards)
+                - SQL table alias mapping - cards1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id11_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCard)
+                      - SQL table alias mapping - cards1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(entries)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=edu.yang.entity.YugiohCard.entries)
+                            - SQL table alias mapping - entries2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {yugiohCa4_2_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_2_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=edu.yang.entity.YugiohCardHistory)
+                                  - SQL table alias mapping - entries2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_2_4_}
+
+[DEBUG] 2019-11-07 15:28:32.562 [http-nio-8080-exec-6] EntityLoader - Static select for entity edu.yang.entity.User [NONE]: select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_role as user_rol3_0_0_, user0_.user_name as user_nam4_0_0_, cards1_.user_id as user_id11_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_index as card_ind2_1_2_, cards1_.card_name as card_nam3_1_2_, cards1_.card_rarity as card_rar4_1_2_, cards1_.card_set as card_set5_1_2_, cards1_.card_type as card_typ6_1_2_, cards1_.image as image7_1_2_, cards1_.price as price8_1_2_, cards1_.qty as qty9_1_2_, cards1_.status as status10_1_2_, cards1_.user_id as user_id11_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-11-07 15:28:32.562 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@79b7707e]
+[DEBUG] 2019-11-07 15:28:32.564 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards
+[DEBUG] 2019-11-07 15:28:32.564 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7e0e62e9]
+[DEBUG] 2019-11-07 15:28:32.564 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@8c647b7]
+[DEBUG] 2019-11-07 15:28:32.564 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardIndex
+[DEBUG] 2019-11-07 15:28:32.564 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardName
+[DEBUG] 2019-11-07 15:28:32.564 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardRarity
+[DEBUG] 2019-11-07 15:28:32.564 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardSet
+[DEBUG] 2019-11-07 15:28:32.564 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.cardType
+[DEBUG] 2019-11-07 15:28:32.564 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.entries
+[DEBUG] 2019-11-07 15:28:32.565 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@574b9e95]
+[DEBUG] 2019-11-07 15:28:32.565 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6d8a9034]
+[DEBUG] 2019-11-07 15:28:32.565 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.entries.price
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.entries.ts
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.entries.yugiohCard
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : cards.entries.yugiohCard
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.image
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.price
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.quantity
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.status
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cards.user
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : cards.user
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : role
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2019-11-07 15:28:32.566 [http-nio-8080-exec-6] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-07 15:28:32.567 [http-nio-8080-exec-6] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-07 15:28:32.568 [http-nio-8080-exec-6] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:0>, path=edu.yang.entity.User)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.User.cards, querySpaceUid=<gen:1>, path=edu.yang.entity.User.cards)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:2>, path=edu.yang.entity.User.cards.<elements>)
+                - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:3>, path=edu.yang.entity.User.cards.<elements>.entries)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:4>, path=edu.yang.entity.User.cards.<elements>.entries.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(cards)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.User.cards)
+                - SQL table alias mapping - cards1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id11_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCard)
+                      - SQL table alias mapping - cards1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(entries)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=edu.yang.entity.YugiohCard.entries)
+                            - SQL table alias mapping - entries2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {yugiohCa4_2_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_2_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=edu.yang.entity.YugiohCardHistory)
+                                  - SQL table alias mapping - entries2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_2_4_}
+
+[DEBUG] 2019-11-07 15:28:32.572 [http-nio-8080-exec-6] EntityLoader - Static select for entity edu.yang.entity.User [READ]: select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_role as user_rol3_0_0_, user0_.user_name as user_nam4_0_0_, cards1_.user_id as user_id11_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_index as card_ind2_1_2_, cards1_.card_name as card_nam3_1_2_, cards1_.card_rarity as card_rar4_1_2_, cards1_.card_set as card_set5_1_2_, cards1_.card_type as card_typ6_1_2_, cards1_.image as image7_1_2_, cards1_.price as price8_1_2_, cards1_.qty as qty9_1_2_, cards1_.status as status10_1_2_, cards1_.user_id as user_id11_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-11-07 15:28:32.633 [http-nio-8080-exec-6] Loader - Static select for action ACTION_MERGE on entity edu.yang.entity.User: select user0_.id as id1_0_1_, user0_.user_password as user_pas2_0_1_, user0_.user_role as user_rol3_0_1_, user0_.user_name as user_nam4_0_1_, cards1_.user_id as user_id11_1_3_, cards1_.id as id1_1_3_, cards1_.id as id1_1_0_, cards1_.card_index as card_ind2_1_0_, cards1_.card_name as card_nam3_1_0_, cards1_.card_rarity as card_rar4_1_0_, cards1_.card_set as card_set5_1_0_, cards1_.card_type as card_typ6_1_0_, cards1_.image as image7_1_0_, cards1_.price as price8_1_0_, cards1_.qty as qty9_1_0_, cards1_.status as status10_1_0_, cards1_.user_id as user_id11_1_0_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id where user0_.id=?
+[DEBUG] 2019-11-07 15:28:32.637 [http-nio-8080-exec-6] Loader - Static select for action ACTION_REFRESH on entity edu.yang.entity.User: select user0_.id as id1_0_1_, user0_.user_password as user_pas2_0_1_, user0_.user_role as user_rol3_0_1_, user0_.user_name as user_nam4_0_1_, cards1_.user_id as user_id11_1_3_, cards1_.id as id1_1_3_, cards1_.id as id1_1_0_, cards1_.card_index as card_ind2_1_0_, cards1_.card_name as card_nam3_1_0_, cards1_.card_rarity as card_rar4_1_0_, cards1_.card_set as card_set5_1_0_, cards1_.card_type as card_typ6_1_0_, cards1_.image as image7_1_0_, cards1_.price as price8_1_0_, cards1_.qty as qty9_1_0_, cards1_.status as status10_1_0_, cards1_.user_id as user_id11_1_0_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id where user0_.id=?
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] AbstractEntityPersister - Static SQL for entity: edu.yang.entity.YugiohCard
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] AbstractEntityPersister -  Version select: select id from yugioh_card where id =?
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] AbstractEntityPersister -  Snapshot select: select yugiohcard_.id, yugiohcard_.card_index as card_ind2_1_, yugiohcard_.card_name as card_nam3_1_, yugiohcard_.card_rarity as card_rar4_1_, yugiohcard_.card_set as card_set5_1_, yugiohcard_.card_type as card_typ6_1_, yugiohcard_.image as image7_1_, yugiohcard_.price as price8_1_, yugiohcard_.qty as qty9_1_, yugiohcard_.status as status10_1_, yugiohcard_.user_id as user_id11_1_ from yugioh_card yugiohcard_ where yugiohcard_.id=?
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] AbstractEntityPersister -  Insert 0: insert into yugioh_card (card_index, card_name, card_rarity, card_set, card_type, image, price, qty, status, user_id, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] AbstractEntityPersister -  Update 0: update yugioh_card set card_index=?, card_name=?, card_rarity=?, card_set=?, card_type=?, image=?, price=?, qty=?, status=?, user_id=? where id=?
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] AbstractEntityPersister -  Delete 0: delete from yugioh_card where id=?
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] AbstractEntityPersister -  Identity insert: insert into yugioh_card (card_index, card_name, card_rarity, card_set, card_type, image, price, qty, status, user_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3cb56b88]
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardIndex
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardName
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardRarity
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardSet
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardType
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : entries
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@f30ec59]
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2fb309dc]
+[DEBUG] 2019-11-07 15:28:32.638 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : entries.price
+[DEBUG] 2019-11-07 15:28:32.639 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : entries.ts
+[DEBUG] 2019-11-07 15:28:32.639 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : entries.yugiohCard
+[DEBUG] 2019-11-07 15:28:32.639 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : entries.yugiohCard
+[DEBUG] 2019-11-07 15:28:32.639 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : image
+[DEBUG] 2019-11-07 15:28:32.639 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-07 15:28:32.639 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : quantity
+[DEBUG] 2019-11-07 15:28:32.639 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : status
+[DEBUG] 2019-11-07 15:28:32.639 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2019-11-07 15:28:32.642 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@13b407b8]
+[DEBUG] 2019-11-07 15:28:32.645 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user.cards
+[DEBUG] 2019-11-07 15:28:32.645 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : user.cards
+[DEBUG] 2019-11-07 15:28:32.645 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2019-11-07 15:28:32.645 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user.role
+[DEBUG] 2019-11-07 15:28:32.645 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2019-11-07 15:28:32.645 [http-nio-8080-exec-6] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-07 15:28:32.646 [http-nio-8080-exec-6] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-07 15:28:32.648 [http-nio-8080-exec-6] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCard)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCard)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCard.entries)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCard.entries.<elements>)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:3>, path=edu.yang.entity.YugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCard)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(entries)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.YugiohCard.entries)
+                - SQL table alias mapping - entries1_
+                - alias suffix - 1_
+                - suffixed key columns - {yugiohCa4_2_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCardHistory)
+                      - SQL table alias mapping - entries1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=edu.yang.entity.User)
+                - SQL table alias mapping - user2_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_0_3_}
+
+[DEBUG] 2019-11-07 15:28:32.648 [http-nio-8080-exec-6] EntityLoader - Static select for entity edu.yang.entity.YugiohCard [NONE]: select yugiohcard0_.id as id1_1_0_, yugiohcard0_.card_index as card_ind2_1_0_, yugiohcard0_.card_name as card_nam3_1_0_, yugiohcard0_.card_rarity as card_rar4_1_0_, yugiohcard0_.card_set as card_set5_1_0_, yugiohcard0_.card_type as card_typ6_1_0_, yugiohcard0_.image as image7_1_0_, yugiohcard0_.price as price8_1_0_, yugiohcard0_.qty as qty9_1_0_, yugiohcard0_.status as status10_1_0_, yugiohcard0_.user_id as user_id11_1_0_, entries1_.yugiohCard_id as yugiohCa4_2_1_, entries1_.id as id1_2_1_, entries1_.id as id1_2_2_, entries1_.price as price2_2_2_, entries1_.update_date as update_d3_2_2_, entries1_.yugiohCard_id as yugiohCa4_2_2_, user2_.id as id1_0_3_, user2_.user_password as user_pas2_0_3_, user2_.user_role as user_rol3_0_3_, user2_.user_name as user_nam4_0_3_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id left outer join user user2_ on yugiohcard0_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-11-07 15:28:32.648 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a02223]
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardIndex
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardName
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardRarity
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardSet
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardType
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : entries
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@63124585]
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72f6f92b]
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : entries.price
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : entries.ts
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : entries.yugiohCard
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : entries.yugiohCard
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : image
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : quantity
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : status
+[DEBUG] 2019-11-07 15:28:32.649 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2019-11-07 15:28:32.652 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3e96bfd2]
+[DEBUG] 2019-11-07 15:28:32.652 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user.cards
+[DEBUG] 2019-11-07 15:28:32.654 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : user.cards
+[DEBUG] 2019-11-07 15:28:32.654 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2019-11-07 15:28:32.657 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user.role
+[DEBUG] 2019-11-07 15:28:32.657 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2019-11-07 15:28:32.657 [http-nio-8080-exec-6] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-07 15:28:32.657 [http-nio-8080-exec-6] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-07 15:28:32.663 [http-nio-8080-exec-6] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCard)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCard)
+          - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCard.entries)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCard.entries.<elements>)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:3>, path=edu.yang.entity.YugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCard)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(entries)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.yang.entity.YugiohCard.entries)
+                - SQL table alias mapping - entries1_
+                - alias suffix - 1_
+                - suffixed key columns - {yugiohCa4_2_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.YugiohCardHistory)
+                      - SQL table alias mapping - entries1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=edu.yang.entity.User)
+                - SQL table alias mapping - user2_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_0_3_}
+
+[DEBUG] 2019-11-07 15:28:32.663 [http-nio-8080-exec-6] EntityLoader - Static select for entity edu.yang.entity.YugiohCard [READ]: select yugiohcard0_.id as id1_1_0_, yugiohcard0_.card_index as card_ind2_1_0_, yugiohcard0_.card_name as card_nam3_1_0_, yugiohcard0_.card_rarity as card_rar4_1_0_, yugiohcard0_.card_set as card_set5_1_0_, yugiohcard0_.card_type as card_typ6_1_0_, yugiohcard0_.image as image7_1_0_, yugiohcard0_.price as price8_1_0_, yugiohcard0_.qty as qty9_1_0_, yugiohcard0_.status as status10_1_0_, yugiohcard0_.user_id as user_id11_1_0_, entries1_.yugiohCard_id as yugiohCa4_2_1_, entries1_.id as id1_2_1_, entries1_.id as id1_2_2_, entries1_.price as price2_2_2_, entries1_.update_date as update_d3_2_2_, entries1_.yugiohCard_id as yugiohCa4_2_2_, user2_.id as id1_0_3_, user2_.user_password as user_pas2_0_3_, user2_.user_role as user_rol3_0_3_, user2_.user_name as user_nam4_0_3_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id left outer join user user2_ on yugiohcard0_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-11-07 15:28:32.664 [http-nio-8080-exec-6] Loader - Static select for action ACTION_MERGE on entity edu.yang.entity.YugiohCard: select yugiohcard0_.id as id1_1_1_, yugiohcard0_.card_index as card_ind2_1_1_, yugiohcard0_.card_name as card_nam3_1_1_, yugiohcard0_.card_rarity as card_rar4_1_1_, yugiohcard0_.card_set as card_set5_1_1_, yugiohcard0_.card_type as card_typ6_1_1_, yugiohcard0_.image as image7_1_1_, yugiohcard0_.price as price8_1_1_, yugiohcard0_.qty as qty9_1_1_, yugiohcard0_.status as status10_1_1_, yugiohcard0_.user_id as user_id11_1_1_, entries1_.yugiohCard_id as yugiohCa4_2_3_, entries1_.id as id1_2_3_, entries1_.id as id1_2_0_, entries1_.price as price2_2_0_, entries1_.update_date as update_d3_2_0_, entries1_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id where yugiohcard0_.id=?
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] Loader - Static select for action ACTION_REFRESH on entity edu.yang.entity.YugiohCard: select yugiohcard0_.id as id1_1_1_, yugiohcard0_.card_index as card_ind2_1_1_, yugiohcard0_.card_name as card_nam3_1_1_, yugiohcard0_.card_rarity as card_rar4_1_1_, yugiohcard0_.card_set as card_set5_1_1_, yugiohcard0_.card_type as card_typ6_1_1_, yugiohcard0_.image as image7_1_1_, yugiohcard0_.price as price8_1_1_, yugiohcard0_.qty as qty9_1_1_, yugiohcard0_.status as status10_1_1_, yugiohcard0_.user_id as user_id11_1_1_, entries1_.yugiohCard_id as yugiohCa4_2_3_, entries1_.id as id1_2_3_, entries1_.id as id1_2_0_, entries1_.price as price2_2_0_, entries1_.update_date as update_d3_2_0_, entries1_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card yugiohcard0_ left outer join yugioh_card_history entries1_ on yugiohcard0_.id=entries1_.yugiohCard_id where yugiohcard0_.id=?
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] AbstractEntityPersister - Static SQL for entity: edu.yang.entity.YugiohCardHistory
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] AbstractEntityPersister -  Version select: select id from yugioh_card_history where id =?
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] AbstractEntityPersister -  Snapshot select: select yugiohcard_.id, yugiohcard_.price as price2_2_, yugiohcard_.yugiohCard_id as yugiohCa4_2_ from yugioh_card_history yugiohcard_ where yugiohcard_.id=?
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] AbstractEntityPersister -  Insert 0: insert into yugioh_card_history (price, update_date, yugiohCard_id, id) values (?, ?, ?, ?)
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] AbstractEntityPersister -  Update 0: update yugioh_card_history set price=?, yugiohCard_id=? where id=?
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] AbstractEntityPersister -  Delete 0: delete from yugioh_card_history where id=?
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] AbstractEntityPersister -  Identity insert: insert into yugioh_card_history (price, update_date, yugiohCard_id) values (?, ?, ?)
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@29198297]
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : ts
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@228dcfc8]
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardIndex
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardName
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardRarity
+[DEBUG] 2019-11-07 15:28:32.666 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardSet
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardType
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.entries
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.entries
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.image
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.price
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.quantity
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.status
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d27d5d1]
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.cards
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.user.cards
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.password
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.role
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.userName
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-07 15:28:32.667 [http-nio-8080-exec-6] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-07 15:28:32.668 [http-nio-8080-exec-6] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCardHistory)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCardHistory)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCardHistory.yugiohCard)
+             - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCardHistory.yugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCardHistory)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(yugiohCard)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCard)
+                - SQL table alias mapping - yugiohcard1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(user)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.User)
+                      - SQL table alias mapping - user2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2019-11-07 15:28:32.673 [http-nio-8080-exec-6] EntityLoader - Static select for entity edu.yang.entity.YugiohCardHistory [NONE]: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_, yugiohcard1_.id as id1_1_1_, yugiohcard1_.card_index as card_ind2_1_1_, yugiohcard1_.card_name as card_nam3_1_1_, yugiohcard1_.card_rarity as card_rar4_1_1_, yugiohcard1_.card_set as card_set5_1_1_, yugiohcard1_.card_type as card_typ6_1_1_, yugiohcard1_.image as image7_1_1_, yugiohcard1_.price as price8_1_1_, yugiohcard1_.qty as qty9_1_1_, yugiohcard1_.status as status10_1_1_, yugiohcard1_.user_id as user_id11_1_1_, user2_.id as id1_0_2_, user2_.user_password as user_pas2_0_2_, user2_.user_role as user_rol3_0_2_, user2_.user_name as user_nam4_0_2_ from yugioh_card_history yugiohcard0_ left outer join yugioh_card yugiohcard1_ on yugiohcard0_.yugiohCard_id=yugiohcard1_.id left outer join user user2_ on yugiohcard1_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-11-07 15:28:32.673 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c43e9e8]
+[DEBUG] 2019-11-07 15:28:32.673 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-07 15:28:32.673 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : ts
+[DEBUG] 2019-11-07 15:28:32.674 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard
+[DEBUG] 2019-11-07 15:28:32.674 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@680a9ca8]
+[DEBUG] 2019-11-07 15:28:32.674 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardIndex
+[DEBUG] 2019-11-07 15:28:32.674 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardName
+[DEBUG] 2019-11-07 15:28:32.675 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardRarity
+[DEBUG] 2019-11-07 15:28:32.675 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardSet
+[DEBUG] 2019-11-07 15:28:32.675 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.cardType
+[DEBUG] 2019-11-07 15:28:32.675 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.entries
+[DEBUG] 2019-11-07 15:28:32.675 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.entries
+[DEBUG] 2019-11-07 15:28:32.675 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.image
+[DEBUG] 2019-11-07 15:28:32.676 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.price
+[DEBUG] 2019-11-07 15:28:32.676 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.quantity
+[DEBUG] 2019-11-07 15:28:32.676 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.status
+[DEBUG] 2019-11-07 15:28:32.676 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user
+[DEBUG] 2019-11-07 15:28:32.676 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f60e1ca]
+[DEBUG] 2019-11-07 15:28:32.676 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.cards
+[DEBUG] 2019-11-07 15:28:32.676 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard.user.cards
+[DEBUG] 2019-11-07 15:28:32.678 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.password
+[DEBUG] 2019-11-07 15:28:32.678 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.role
+[DEBUG] 2019-11-07 15:28:32.678 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard.user.userName
+[DEBUG] 2019-11-07 15:28:32.678 [http-nio-8080-exec-6] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-07 15:28:32.678 [http-nio-8080-exec-6] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-07 15:28:32.679 [http-nio-8080-exec-6] LoadPlanTreePrinter - LoadPlan(entity=edu.yang.entity.YugiohCardHistory)
+    - Returns
+       - EntityReturnImpl(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:0>, path=edu.yang.entity.YugiohCardHistory)
+          - EntityAttributeFetchImpl(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:1>, path=edu.yang.entity.YugiohCardHistory.yugiohCard)
+             - EntityAttributeFetchImpl(entity=edu.yang.entity.User, querySpaceUid=<gen:2>, path=edu.yang.entity.YugiohCardHistory.yugiohCard.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.yang.entity.YugiohCardHistory)
+          - SQL table alias mapping - yugiohcard0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(yugiohCard)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCard)
+                - SQL table alias mapping - yugiohcard1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(user)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.yang.entity.User)
+                      - SQL table alias mapping - user2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2019-11-07 15:28:32.680 [http-nio-8080-exec-6] EntityLoader - Static select for entity edu.yang.entity.YugiohCardHistory [READ]: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_, yugiohcard1_.id as id1_1_1_, yugiohcard1_.card_index as card_ind2_1_1_, yugiohcard1_.card_name as card_nam3_1_1_, yugiohcard1_.card_rarity as card_rar4_1_1_, yugiohcard1_.card_set as card_set5_1_1_, yugiohcard1_.card_type as card_typ6_1_1_, yugiohcard1_.image as image7_1_1_, yugiohcard1_.price as price8_1_1_, yugiohcard1_.qty as qty9_1_1_, yugiohcard1_.status as status10_1_1_, yugiohcard1_.user_id as user_id11_1_1_, user2_.id as id1_0_2_, user2_.user_password as user_pas2_0_2_, user2_.user_role as user_rol3_0_2_, user2_.user_name as user_nam4_0_2_ from yugioh_card_history yugiohcard0_ left outer join yugioh_card yugiohcard1_ on yugiohcard0_.yugiohCard_id=yugiohcard1_.id left outer join user user2_ on yugiohcard1_.user_id=user2_.id where yugiohcard0_.id=?
+[DEBUG] 2019-11-07 15:28:32.684 [http-nio-8080-exec-6] Loader - Static select for action ACTION_MERGE on entity edu.yang.entity.YugiohCardHistory: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card_history yugiohcard0_ where yugiohcard0_.id=?
+[DEBUG] 2019-11-07 15:28:32.684 [http-nio-8080-exec-6] Loader - Static select for action ACTION_REFRESH on entity edu.yang.entity.YugiohCardHistory: select yugiohcard0_.id as id1_2_0_, yugiohcard0_.price as price2_2_0_, yugiohcard0_.update_date as update_d3_2_0_, yugiohcard0_.yugiohCard_id as yugiohCa4_2_0_ from yugioh_card_history yugiohcard0_ where yugiohcard0_.id=?
+[DEBUG] 2019-11-07 15:28:32.696 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2aa12830]
+[DEBUG] 2019-11-07 15:28:32.696 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@399b5d2d]
+[DEBUG] 2019-11-07 15:28:32.699 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardIndex
+[DEBUG] 2019-11-07 15:28:32.699 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardName
+[DEBUG] 2019-11-07 15:28:32.699 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardRarity
+[DEBUG] 2019-11-07 15:28:32.699 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardSet
+[DEBUG] 2019-11-07 15:28:32.699 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : cardType
+[DEBUG] 2019-11-07 15:28:32.699 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : entries
+[DEBUG] 2019-11-07 15:28:32.699 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3f76f1f2]
+[DEBUG] 2019-11-07 15:28:32.702 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5c67a104]
+[DEBUG] 2019-11-07 15:28:32.702 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : image
+[DEBUG] 2019-11-07 15:28:32.702 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-07 15:28:32.702 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : quantity
+[DEBUG] 2019-11-07 15:28:32.702 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : status
+[DEBUG] 2019-11-07 15:28:32.702 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2019-11-07 15:28:32.702 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : user
+[DEBUG] 2019-11-07 15:28:32.703 [http-nio-8080-exec-6] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-07 15:28:32.713 [http-nio-8080-exec-6] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-07 15:28:32.714 [http-nio-8080-exec-6] LoadPlanTreePrinter - LoadPlan(collection=edu.yang.entity.User.cards)
+    - Returns
+       - CollectionReturnImpl(collection=edu.yang.entity.User.cards, querySpaceUid=<gen:0>, path=[edu.yang.entity.User.cards])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCard, querySpaceUid=<gen:1>, path=[edu.yang.entity.User.cards].<elements>)
+             - CollectionAttributeFetchImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:2>, path=[edu.yang.entity.User.cards].<elements>.entries)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:3>, path=[edu.yang.entity.User.cards].<elements>.entries.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=edu.yang.entity.User.cards)
+          - SQL table alias mapping - cards0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id11_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCard)
+                - SQL table alias mapping - cards0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+[DEBUG] 2019-11-07 15:28:32.716 [http-nio-8080-exec-6] CollectionLoader - Static select for collection edu.yang.entity.User.cards: select cards0_.user_id as user_id11_1_0_, cards0_.id as id1_1_0_, cards0_.id as id1_1_1_, cards0_.card_index as card_ind2_1_1_, cards0_.card_name as card_nam3_1_1_, cards0_.card_rarity as card_rar4_1_1_, cards0_.card_set as card_set5_1_1_, cards0_.card_type as card_typ6_1_1_, cards0_.image as image7_1_1_, cards0_.price as price8_1_1_, cards0_.qty as qty9_1_1_, cards0_.status as status10_1_1_, cards0_.user_id as user_id11_1_1_ from yugioh_card cards0_ where cards0_.user_id=?
+[DEBUG] 2019-11-07 15:28:32.716 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7f1cea93]
+[DEBUG] 2019-11-07 15:28:32.716 [http-nio-8080-exec-6] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f686dae]
+[DEBUG] 2019-11-07 15:28:32.717 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2019-11-07 15:28:32.717 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : ts
+[DEBUG] 2019-11-07 15:28:32.717 [http-nio-8080-exec-6] MetamodelGraphWalker - Visiting attribute path : yugiohCard
+[DEBUG] 2019-11-07 15:28:32.717 [http-nio-8080-exec-6] MetamodelGraphWalker - Property path deemed to be circular : yugiohCard
+[DEBUG] 2019-11-07 15:28:32.717 [http-nio-8080-exec-6] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2019-11-07 15:28:32.719 [http-nio-8080-exec-6] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2019-11-07 15:28:32.719 [http-nio-8080-exec-6] LoadPlanTreePrinter - LoadPlan(collection=edu.yang.entity.YugiohCard.entries)
+    - Returns
+       - CollectionReturnImpl(collection=edu.yang.entity.YugiohCard.entries, querySpaceUid=<gen:0>, path=[edu.yang.entity.YugiohCard.entries])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=edu.yang.entity.YugiohCardHistory, querySpaceUid=<gen:1>, path=[edu.yang.entity.YugiohCard.entries].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=edu.yang.entity.YugiohCard.entries)
+          - SQL table alias mapping - entries0_
+          - alias suffix - 0_
+          - suffixed key columns - {yugiohCa4_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.yang.entity.YugiohCardHistory)
+                - SQL table alias mapping - entries0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+[DEBUG] 2019-11-07 15:28:32.720 [http-nio-8080-exec-6] CollectionLoader - Static select for collection edu.yang.entity.YugiohCard.entries: select entries0_.yugiohCard_id as yugiohCa4_2_0_, entries0_.id as id1_2_0_, entries0_.id as id1_2_1_, entries0_.price as price2_2_1_, entries0_.update_date as update_d3_2_1_, entries0_.yugiohCard_id as yugiohCa4_2_1_ from yugioh_card_history entries0_ where entries0_.yugiohCard_id=?
+[DEBUG] 2019-11-07 15:28:32.835 [http-nio-8080-exec-6] SchemaManagementToolCoordinator - No actions specified; doing nothing
+[DEBUG] 2019-11-07 15:28:32.840 [http-nio-8080-exec-6] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[DEBUG] 2019-11-07 15:28:32.843 [http-nio-8080-exec-6] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2019-11-07 15:28:32.872 [http-nio-8080-exec-6] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2019-11-07 15:28:32.873 [http-nio-8080-exec-6] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2019-11-07 15:28:32.873 [http-nio-8080-exec-6] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2019-11-07 15:28:32.874 [http-nio-8080-exec-6] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2019-11-07 15:28:32.884 [http-nio-8080-exec-6] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@17b48d17
+[DEBUG] 2019-11-07 15:28:32.889 [http-nio-8080-exec-6] SessionFactoryRegistry - Registering SessionFactory: 6d855e79-7124-4b45-a60f-3af622059547 (<unnamed>)
+[DEBUG] 2019-11-07 15:28:32.889 [http-nio-8080-exec-6] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[DEBUG] 2019-11-07 15:28:33.175 [http-nio-8080-exec-6] StatisticsInitiator - Statistics initialized [enabled=false]
+[DEBUG] 2019-11-07 15:28:33.201 [http-nio-8080-exec-6] TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[DEBUG] 2019-11-07 15:28:33.203 [http-nio-8080-exec-6] TransactionImpl - begin
+[DEBUG] 2019-11-07 15:28:33.269 [http-nio-8080-exec-6] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2019-11-07 15:28:33.308 [http-nio-8080-exec-6] SQL - insert into user (user_password, user_role, user_name) values (?, ?, ?)
+[DEBUG] 2019-11-07 15:28:33.391 [http-nio-8080-exec-6] IdentifierGeneratorHelper - Natively generated identity: 9
+[DEBUG] 2019-11-07 15:28:33.394 [http-nio-8080-exec-6] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-11-07 15:28:33.407 [http-nio-8080-exec-6] TransactionImpl - committing
+[DEBUG] 2019-11-07 15:28:33.407 [http-nio-8080-exec-6] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2019-11-07 15:28:33.410 [http-nio-8080-exec-6] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2019-11-07 15:28:33.426 [http-nio-8080-exec-6] Collections - Collection found: [edu.yang.entity.User.cards#9], was: [<unreferenced>] (initialized)
+[DEBUG] 2019-11-07 15:28:33.428 [http-nio-8080-exec-6] AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] 2019-11-07 15:28:33.428 [http-nio-8080-exec-6] AbstractFlushingEventListener - Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+[DEBUG] 2019-11-07 15:28:33.429 [http-nio-8080-exec-6] EntityPrinter - Listing entities:
+[DEBUG] 2019-11-07 15:28:33.430 [http-nio-8080-exec-6] EntityPrinter - edu.yang.entity.User{password=august2016, cards=[], role=general, id=9, userName=samson123}
+[DEBUG] 2019-11-07 15:28:33.436 [http-nio-8080-exec-6] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2019-11-07 15:28:33.438 [http-nio-8080-exec-6] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

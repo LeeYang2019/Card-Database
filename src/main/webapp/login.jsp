@@ -12,7 +12,7 @@
         <div class="row">
             <c:import url="navbar.jsp"/>
         </div>
-        <div class="row">
+
             <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
 
                 <p>Please first login</p>
@@ -32,10 +32,9 @@
                 </div>
 
                 <p><a href="signup.jsp">I do not have an account.</a></p>
-
                 <button type="submit" class="btn btn-primary" value="log in">Submit</button><br />
             </FORM>
-        </div>
+
         <footer class="row">
             <c:import url="footer.jsp"/>
         </footer>

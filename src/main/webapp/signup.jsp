@@ -13,15 +13,15 @@
             <FORM id="myForm" ACTION="signup" METHOD="POST">
 
                 <div class="form-group">
-                    <label for="j_username">Username:</label>
-                    <input type="text" class="form-control" id="j_username" placeholder="Enter username" name="j_username" required>
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username" name="username" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
 
                 <div class="form-group">
-                    <label for="pwd">Password:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="j_password" required>
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>

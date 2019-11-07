@@ -8,22 +8,22 @@
          version="3.1">
   <display-name>Archetype Created Web Application</display-name>
 
-  <!-- Define the -->
+
   <servlet>
     <servlet-name>edu.yang.controller.Login</servlet-name>
     <servlet-class>edu.yang.controller.Login</servlet-class>
   </servlet>
 
-  <!-- Map -->
+
   <servlet-mapping>
     <servlet-name>edu.yang.controller.Login</servlet-name>
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
 
   <welcome-file-list>
-    <!--set login as homepage then forward to login.jsp then login then index -->
     <welcome-file>login</welcome-file>
   </welcome-file-list>
+
 
   <!-- Tell the server to use form-based authentication. -->
   <login-config>
