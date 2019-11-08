@@ -38,6 +38,9 @@
     <maven-compiler-plugin-version>3.8.1</maven-compiler-plugin-version>
     <maven-surefire-plugin-version>2.19</maven-surefire-plugin-version>
     <mysql-version>8.0.16</mysql-version>
+    <!-- Jersey property -->
+    <jersey-version>2.29.1</jersey-version>
+    <jackson-version>2.10.0</jackson-version>
   </properties>
 
   <!--
@@ -190,6 +193,54 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>${mysql-version}</version>
+    </dependency>
+
+    <!-- Jersey Dependencies -->
+    <dependency>
+      <groupId>org.glassfish.jersey.core</groupId>
+      <artifactId>jersey-client</artifactId>
+      <version>${jersey-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.glassfish.jersey.inject</groupId>
+      <artifactId>jersey-hk2</artifactId>
+      <version>${jersey-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.glassfish.jersey.containers</groupId>
+      <artifactId>jersey-container-servlet</artifactId>
+      <version>${jersey-version}</version>
+    </dependency>
+
+    <!--
+        <dependency>
+          <groupId>org.glassfish.jersey.inject</groupId>
+          <artifactId>jersey-hk2</artifactId>
+          <version>${jersey-version}</version>
+        </dependency>
+    -->
+
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${jackson-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>${jackson-version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${jackson-version}</version>
     </dependency>
   </dependencies>
 
