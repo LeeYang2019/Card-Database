@@ -11,7 +11,10 @@ import edu.yang.testUtils.Database;
 
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -156,7 +159,11 @@ class YugiohCardDaoTest {
         logger.info("this user is " + newUser.getUserName());
         logger.info("this user id is " + newUser.getId());
 
-        List<YugiohCard> cards = cardDao.getAllbyUserWithProperty("cardName", "Dark", "user", newUser);
+        Map<String, Object> propsAndValues = new HashMap<>();
+        propsAndValues.put("cardName", "Dark");
+        propsAndValues.put("user", newUser);
+
+        List<YugiohCard> cards = cardDao.findByPropertyEqual(propsAndValues);
 
         logger.info(cards.size());
         for (YugiohCard card : cards) {
