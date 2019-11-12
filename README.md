@@ -2,7 +2,7 @@
 
 ### Presentation Description/Overview
 
-Buying and selling trading cards is something I enjoy doing, especially a card game called Yugioh. It started as a silly game my friends and I played in highschool to kill time, as we waited for our parents to come pick us up after school. Short of an obsession, Yugioh has become for me a life-long hobby that I spend a lot of time on. Although I do not play the game as much anymore, I spend a lot of time scouring the internet and local card stores looking for Yugioh cards and selling them online. 
+Buying and selling Yu-Gi-Oh! trading cards is something I enjoy doing. It's a passion of mine which began when I was in high school. To kill time, my friends and I would play Yu-Gi-Oh! as we waited for our parents to come pick us up from school. Now many years later, I don't play the game as much anymore but what I do I spend a lot of time scouring buying and selling cards. I would scour the internet and local card stores looking for Yu-Gi-Oh! cards and sell them online. 
 
 One issue I have with buying and selling Yugioh cards, is keeping tracking of and knowing when to sell a card, and selling the card in bulk. As a collector and seller of Yugioh cards, I pride myself in my ability to find "diamonds in the rough" and selling them when their prices have gone up. 
 
