@@ -47,6 +47,8 @@ public class Login extends HttpServlet {
 
         String userName = req.getRemoteUser();
 
+        logger.info(userName);
+
         if (userName != null) {
 
             ProjectDao userDao = new ProjectDao(User.class);

@@ -9,7 +9,9 @@ import org.hibernate.Transaction;
 import org.hibernate.criterion.Restrictions;
 
 import javax.persistence.criteria.*;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * projectDao object
@@ -158,27 +160,26 @@ public class ProjectDao<T> {
         return list;
     }
 
-    public List<T> getAllbyUserWithProperty(String property, String value, String propertyTwo, Object valueTwo) {
+    /**
+     * Finds entities by multiple properties.
+     * Inspired by https://stackoverflow.com/questions/11138118/really-dynamic-jpa-criteriabuilder
+
+     * @param propertyMap property and value pairs
+     * @return entities with properties equal to those passed in the map
+     *
+     *
+     */
+    public List<T> findByPropertyEqual(Map<String, Object> propertyMap) {
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
+        List<Predicate> predicates = new ArrayList<Predicate>();
+        for (Map.Entry entry: propertyMap.entrySet()) {
+            predicates.add(builder.equal(root.get((String) entry.getKey()), entry.getValue()));
+        }
+        query.select(root).where(builder.and(predicates.toArray(new Predicate[predicates.size()])));
 
-        Expression<String> propertyPath = root.get(property);
-        Expression<String> propertyPathTwo = root.get(propertyTwo);
-
-        Predicate[] selStatements = new Predicate[2];
-        selStatements[0] = builder.like(propertyPath, "%" + value + "%");
-        selStatements[1] = builder.equal(propertyPathTwo, valueTwo);
-
-        //Predicate predicateA = builder.like(propertyPath, "%" + value + "%");
-        //Predicate predicateB = builder.equal(propertyPathTwo, valueTwo);
-        //Predicate predicateAB = builder.and(predicateA, predicateB);
-
-        query.select(root).where(selStatements);
-
-        List<T> list = session.createQuery( query ).getResultList();
-        session.close();
-        return list;
+        return session.createQuery(query).getResultList();
     }
 }

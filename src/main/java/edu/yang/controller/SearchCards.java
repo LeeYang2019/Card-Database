@@ -36,30 +36,21 @@ public class SearchCards extends HttpServlet {
 
         User loggedInUser = (User)userDao.getByProperty("userName", req.getRemoteUser());
 
-        //get user input
         String searchTerm = req.getParameter("searchTerm");
         String searchType = req.getParameter("searchType");
-        logger.info("the searched term is " + searchTerm);
-        logger.info("the search type is " + searchType);
+
+        logger.info("searchTerm : " + searchTerm);
+        logger.info("searchType : " + searchType);
 
         //if user input is provided, return results matching the input
         if (!searchTerm.isEmpty()) {
             try {
 
-                List<YugiohCard> userCards = yugiohCardDao.getAllbyUserWithProperty("cardName", searchTerm,"user", loggedInUser);
+                List<YugiohCard> userCards =
+                        yugiohCardDao.getAllbyUserWithProperty("cardName", searchTerm,"user", loggedInUser);
 
                 logger.info("this collection size is " + userCards.size());
 
-                /**
-                for (YugiohCard card : userCards) {
-                    if (card.getUser().getId() != loggedInUser.getId()) {
-                        logger.info("this card's user id is " + card.getUser().getId());
-                        logger.info("this card belonging to user " + card.getUser() + " is being removed");
-                        userCards.remove(card);
-                    }
-                }
-
-**/
                 req.setAttribute("cards", userCards);
 
             } catch (Exception e) {
