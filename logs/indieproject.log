@@ -7939,3 +7939,13 @@ quantity : 2
 [INFO ] 2019-11-11 20:02:13.297 [http-nio-8080-exec-1] SearchCards - searchType : monster
 [INFO ] 2019-11-11 20:02:13.297 [http-nio-8080-exec-1] SearchCards - false
 [INFO ] 2019-11-11 20:02:13.392 [http-nio-8080-exec-1] SearchCards - this collection size is 0
+[INFO ] 2019-11-11 20:05:07.830 [http-nio-8080-exec-8] SearchCards - searchTerm : 
+[INFO ] 2019-11-11 20:05:07.831 [http-nio-8080-exec-8] SearchCards - searchType : Choose...
+[INFO ] 2019-11-11 20:05:15.840 [http-nio-8080-exec-7] DisplayCard - entered displayCard servlet
+[INFO ] 2019-11-11 20:05:15.842 [http-nio-8080-exec-7] DisplayCard - this card id is 5
+[INFO ] 2019-11-11 20:05:15.996 [http-nio-8080-exec-7] DisplayCard - this cardName isChaos Emperor Dragon Envoy of the End
+[INFO ] 2019-11-11 20:05:57.153 [http-nio-8080-exec-4] SearchCards - searchTerm : 
+[INFO ] 2019-11-11 20:05:57.153 [http-nio-8080-exec-4] SearchCards - searchType : Choose...
+[INFO ] 2019-11-11 20:05:58.940 [http-nio-8080-exec-5] DisplayCard - entered displayCard servlet
+[INFO ] 2019-11-11 20:05:58.944 [http-nio-8080-exec-5] DisplayCard - this card id is 5
+[INFO ] 2019-11-11 20:05:59.065 [http-nio-8080-exec-5] DisplayCard - this cardName isChaos Emperor Dragon Envoy of the End
