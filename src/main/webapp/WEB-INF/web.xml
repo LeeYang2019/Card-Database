@@ -34,6 +34,17 @@
     </form-login-config>
   </login-config>
 
+  <!-- Protect the Login Servlet -->
+  <security-constraint>
+  <web-resource-collection>
+    <web-resource-name>login</web-resource-name>
+    <url-pattern>/login</url-pattern>
+  </web-resource-collection>
+  <auth-constraint>
+    <role-name>general</role-name>
+  </auth-constraint>
+  </security-constraint>
+
   <!-- Protect the index page. -->
   <security-constraint>
     <web-resource-collection>
