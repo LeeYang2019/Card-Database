@@ -8,12 +8,11 @@
          version="3.1">
   <display-name>Archetype Created Web Application</display-name>
 
-
+  <!-- set login servlet as the homepage -->
   <servlet>
     <servlet-name>edu.yang.controller.Login</servlet-name>
     <servlet-class>edu.yang.controller.Login</servlet-class>
   </servlet>
-
 
   <servlet-mapping>
     <servlet-name>edu.yang.controller.Login</servlet-name>

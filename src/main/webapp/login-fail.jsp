@@ -11,19 +11,30 @@
         <div class="row">
             <c:import url="navbar.jsp"/>
         </div>
-        <div class="row">
-            <FORM ACTION="j_security_check" METHOD="POST">
-                <TABLE>
-                    <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
-                    <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
-                    <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
-                </TABLE>
-            </FORM>
-        </div>
+        <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
+
+            <p>Authentication Failed. Please try logging in again.</p>
+
+            <div class="form-group">
+                <label for="j_username">Username:</label>
+                <input type="text" class="form-control" id="j_username" placeholder="Enter username" name="j_username" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="j_password" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <p><a href="signup.jsp">I do not have an account.</a></p>
+            <button type="submit" class="btn btn-primary" value="log in">Submit</button><br />
+        </FORM>
         <footer class="row">
             <c:import url="footer.jsp"/>
         </footer>
     </div>
 </body>
 </html>
-<%@include file="footer.jsp"%>
