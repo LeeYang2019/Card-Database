@@ -38,13 +38,8 @@ public class DisplayCard extends HttpServlet {
 
         int id = Integer.parseInt(input);
 
-        logger.info("this card id is " + id);
-
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
-
         YugiohCard newYugiohCard = (YugiohCard)yugiohCardDao.getById(id);
-
-        logger.info("this cardName is" + newYugiohCard.getCardName());
 
         req.setAttribute("card", newYugiohCard);
 
