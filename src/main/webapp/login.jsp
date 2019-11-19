@@ -15,7 +15,7 @@
 
             <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
 
-                <p>This web application uses an Ebay Account Authenticator. If you already have an Ebay account, you have and account
+                <p>If you already have an Ebay account, you have and account
                     on this website. If you don't have an account, please sign-up with Ebay first.
                 </p>
 
@@ -33,7 +33,7 @@
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
 
-                <p><a href="signup.jsp">I do not have an account.</a></p>
+                <p><a href="ebay.com">I do not have an account.</a></p>
                 <button type="submit" class="btn btn-primary" value="log in">Submit</button><br />
             </FORM>
 
