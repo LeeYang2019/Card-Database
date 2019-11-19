@@ -8205,3 +8205,50 @@ price : 35.0
 quantity : 2
 [INFO ] 2019-11-13 17:23:38.748 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-13 17:23:38.0
 [INFO ] 2019-11-13 17:26:28.018 [http-nio-8080-exec-3] Login - Logging in for user: leeyang2019
+[INFO ] 2019-11-18 18:30:30.121 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-18 18:30:30.332 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-11-18 18:30:30.332 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-11-18 18:30:30.390 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-11-18 18:30:30.845 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-18 18:30:31.058 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-18 18:30:31.234 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-18 18:30:31.234 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-18 18:30:31.234 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-18 18:30:31.697 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-18 18:30:31.697 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-18 18:30:31.735 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-18 18:30:31.849 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-18 18:30:31.850 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-18 18:30:31.850 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-18 18:30:31.0
+[INFO ] 2019-11-18 18:31:36.051 [http-nio-8080-exec-5] Login - Logging in for user: leeyang2019
+[INFO ] 2019-11-18 18:31:46.547 [http-nio-8080-exec-1] SearchCards - searchTerm : 
+[INFO ] 2019-11-18 18:31:46.549 [http-nio-8080-exec-1] SearchCards - searchType : Choose...
+[INFO ] 2019-11-18 18:31:49.566 [http-nio-8080-exec-3] DisplayCard - entered displayCard servlet
+[INFO ] 2019-11-18 18:31:49.569 [http-nio-8080-exec-3] DisplayCard - this card id is 6
+[INFO ] 2019-11-18 18:31:49.784 [http-nio-8080-exec-3] DisplayCard - this cardName isCyber Dragon
+[INFO ] 2019-11-18 18:32:01.765 [http-nio-8080-exec-7] SearchCards - searchTerm : 
+[INFO ] 2019-11-18 18:32:01.766 [http-nio-8080-exec-7] SearchCards - searchType : Choose...
