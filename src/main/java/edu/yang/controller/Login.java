@@ -17,7 +17,8 @@ import javax.validation.constraints.Null;
 import java.io.IOException;
 
 /**
- * A simple servlet to search.
+ * Login servlet to get the remote user and store it in the session
+ * @author Lee Yang
  */
 
 @WebServlet(
@@ -26,7 +27,6 @@ import java.io.IOException;
 
 public class Login extends HttpServlet {
 
-    //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
@@ -40,25 +40,29 @@ public class Login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        //get a session
+        logger.info("entering Login servlet");
+
+        //create session
         HttpSession session = req.getSession();
+
+        //get remote user
         String userName = req.getRemoteUser();
 
-        if (userName != null) {
-            ProjectDao userDao = new ProjectDao(User.class);
-            User loggedInUser = (User) userDao.getByProperty("userName", userName);
+        //get user from db
+        ProjectDao userDao = new ProjectDao(User.class);
+        User loggedInUser = (User) userDao.getByProperty("userName", userName);
 
-            logger.info("Logging in for user: " + userName);
+        logger.info("Logging in for user: " + userName);
 
-            session.setAttribute("id", loggedInUser.getId());
+        //store user in session
+        session.setAttribute("user", loggedInUser);
 
-            //make service call
-            //getUser cards by price
+        //make service call
+        //getUser cards by price
 
-            //if the user collection size is 0
-            if (loggedInUser.getCards().size() == 0) {
-                RequestDispatcher dispatcher = req.getRequestDispatcher("/fileupload.jsp");
-            }
+        //if the user collection size is 0
+        if (loggedInUser.getCards().size() == 0) {
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/fileupload.jsp");
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
