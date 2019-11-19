@@ -40,6 +40,9 @@ public class SearchCards extends HttpServlet {
         String searchTerm = req.getParameter("searchTerm");
         String searchType = req.getParameter("searchType");
 
+        logger.info("searchTerm is :" + searchTerm);
+        logger.info("searchType is :" + searchType);
+
         List<YugiohCard> list = getList(session, searchTerm, searchType);
 
         session.setAttribute("cards", list);
@@ -63,45 +66,48 @@ public class SearchCards extends HttpServlet {
         //get user from session
         User loggedInUser = (User)session.getAttribute("user");
 
+        //if searchTerm is not empty and searchType is choose, return all cards by searchTerm
         if (!searchTerm.isEmpty()) {
 
-            propsAndValues.put("cardName", searchTerm);
-            propsAndValues.put("user", loggedInUser);
+            if (searchType.equalsIgnoreCase("Choose...")) {
 
-            try {
+                logger.info("searchTerm is " + searchTerm + " and searchType is choose");
+                propsAndValues.put("cardName", searchTerm);
+                propsAndValues.put("user", loggedInUser);
+                userCards = yugiohCardDao.findByPropertyLike(propsAndValues);
 
-                if (searchType.equals("Monster")) {
-                    propsAndValues.put("cardType", searchType);
-                } else if (searchType.equals("Spell")) {
-                    propsAndValues.put("cardType", searchType);
-                } else if (searchType.equals("Traps")) {
-                    propsAndValues.put("cardType", searchType);
-                }
-
-                userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
-                logger.info("this collection size is " + userCards.size());
+                logger.info("the size of the list is " + userCards.size());
                 return userCards;
 
-            } catch (Exception e) {
-                e.printStackTrace();
+            } else if (!searchType.equalsIgnoreCase("Choose...")) {
+
+                logger.info("searchTerm is " + searchTerm + " and searchType is " + searchType);
+                propsAndValues.put("cardName", searchTerm);
+                propsAndValues.put("cardType", searchType);
+                propsAndValues.put("user", loggedInUser);
+                userCards = yugiohCardDao.findByPropertyLike(propsAndValues);
+
+                logger.info("the size of the list is " + userCards.size());
+                return userCards;
+
             }
 
         } else {
 
-            propsAndValues.put("user", loggedInUser);
+            if (!searchType.equalsIgnoreCase("Choose...")) {
 
-            if (searchType.equals("Monster")) {
+                logger.info("searchTerm is empty and searchType is choose...");
                 propsAndValues.put("cardType", searchType);
-            } else if (searchType.equals("Spell")) {
-                propsAndValues.put("cardType", searchType);
-            } else if (searchType.equals("Traps")) {
-                propsAndValues.put("cardType", searchType);
+                propsAndValues.put("user", loggedInUser);
+                userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
+                return userCards;
             }
-
-            userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
-            return userCards;
         }
 
-        return null;
+        //DEFAULT: searchTerm is empty and searchType is choose, return call cards
+        logger.info("searchTerm is empty and searchType is choose...");
+        propsAndValues.put("user", loggedInUser);
+        userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
+        return userCards;
     }
 }

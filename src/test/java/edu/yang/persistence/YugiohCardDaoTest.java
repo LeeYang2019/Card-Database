@@ -61,7 +61,9 @@ class YugiohCardDaoTest {
      */
     @Test
     void getCardsByCardTypeSuccess() {
-        List<YugiohCard> cards = cardDao.getAllByProperty("cardType", "Monster");
+        Map<String, Object> propsAndValues = new HashMap<>();
+        propsAndValues.put("cardType", "Monster");
+        List<YugiohCard> cards = cardDao.findByPropertyEqual(propsAndValues);
         assertEquals(2, cards.size());
     }
 
@@ -70,7 +72,9 @@ class YugiohCardDaoTest {
      */
     @Test
     void getCardsByCardRaritySuccess() {
-        List<YugiohCard> cards = cardDao.getAllByProperty("cardRarity", "Secret");
+        Map<String, Object> propsAndValues = new HashMap<>();
+        propsAndValues.put("cardRarity", "Secret");
+        List<YugiohCard> cards = cardDao.findByPropertyEqual(propsAndValues);
         assertEquals(1, cards.size());
     }
 
@@ -79,7 +83,9 @@ class YugiohCardDaoTest {
      */
     @Test
     void getCardsByCardSetSuccess() {
-        List<YugiohCard> cards = cardDao.getAllByProperty("cardSet", "LOB");
+        Map<String, Object> propsAndValues = new HashMap<>();
+        propsAndValues.put("cardSet", "Lob");
+        List<YugiohCard> cards = cardDao.findByPropertyEqual(propsAndValues);
         assertEquals(1, cards.size());
     }
 
@@ -88,7 +94,9 @@ class YugiohCardDaoTest {
      */
     @Test
     void getCardsByCardStatusSuccess() {
-        List<YugiohCard> cards = cardDao.getAllByProperty("status", "sold");
+        Map<String, Object> propsAndValues = new HashMap<>();
+        propsAndValues.put("status", "sold");
+        List<YugiohCard> cards = cardDao.findByPropertyEqual(propsAndValues);
         assertEquals(0, cards.size());
     }
 

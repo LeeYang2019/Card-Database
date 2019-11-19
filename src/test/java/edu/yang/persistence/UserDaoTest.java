@@ -8,7 +8,11 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import edu.yang.testUtils.Database;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -82,8 +86,10 @@ class UserDaoTest {
      */
     @Test
      void getAllUsersByGeneralRoleSuccess() {
-         List<User> users = projectDao.getAllByProperty("role", "general");
-         assertEquals(2, users.size());
+        Map<String, Object> propsAndValues = new HashMap<>();
+        propsAndValues.put("role", "general");
+        List<User> users = projectDao.findByPropertyEqual(propsAndValues);
+        assertEquals(2, users.size());
      }
 
     /**
@@ -91,7 +97,9 @@ class UserDaoTest {
      */
     @Test
      void getAllUsersByAdminRoleSuccess() {
-        List<User> users = projectDao.getAllByProperty("role", "admin");
+        Map<String, Object> propsAndValues = new HashMap<>();
+        propsAndValues.put("role", "admin");
+        List<User> users = projectDao.findByPropertyEqual(propsAndValues);
         assertEquals(1, users.size());
      }
 
