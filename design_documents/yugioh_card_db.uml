@@ -18,8 +18,10 @@
       <point x="0.0" y="61.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="109.0" y="310.0" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="439.0" y="330.0" />
+  <SelectedNodes>
+    <node>7888e296-d485-4094-b7ae-b0b7e2629a1e.TABLE:yugioh_card_db.yugioh_card</node>
+  </SelectedNodes>
   <Categories>
     <Category>Key columns</Category>
     <Category>Columns</Category>
