@@ -242,7 +242,24 @@
       <artifactId>jackson-databind</artifactId>
       <version>${jackson-version}</version>
     </dependency>
+
+    <!--reading Excel spreadsheet -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>4.1.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>4.1.1</version>
+    </dependency>
+
+
+
   </dependencies>
+
 
   <build>
     <finalName>YourIndieProject</finalName>

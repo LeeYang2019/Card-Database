@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>7888e296-d485-4094-b7ae-b0b7e2629a1e.SCHEMA:yugioh_card_db</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">7888e296-d485-4094-b7ae-b0b7e2629a1e.TABLE:yugioh_card_db.user</node>
+    <node x="9.0" y="514.0">7888e296-d485-4094-b7ae-b0b7e2629a1e.TABLE:yugioh_card_db.yugioh_card_history</node>
+    <node x="14.0" y="173.0">7888e296-d485-4094-b7ae-b0b7e2629a1e.TABLE:yugioh_card_db.yugioh_card</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="7888e296-d485-4094-b7ae-b0b7e2629a1e.TABLE:yugioh_card_db.yugioh_card_history" target="7888e296-d485-4094-b7ae-b0b7e2629a1e.TABLE:yugioh_card_db.yugioh_card">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="145.5" />
+    </edge>
+    <edge source="7888e296-d485-4094-b7ae-b0b7e2629a1e.TABLE:yugioh_card_db.yugioh_card" target="7888e296-d485-4094-b7ae-b0b7e2629a1e.TABLE:yugioh_card_db.user">
+      <point x="0.0" y="-145.5" />
+      <point x="0.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="109.0" y="310.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
