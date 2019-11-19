@@ -15,7 +15,9 @@
 
             <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
 
-                <p>Please first login</p>
+                <p>This web application uses an Ebay Account Authenticator. If you already have an Ebay account, you have and account
+                    on this website. If you don't have an account, please sign-up with Ebay first.
+                </p>
 
                 <div class="form-group">
                     <label for="j_username">Username:</label>

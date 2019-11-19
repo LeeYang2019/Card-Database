@@ -9,8 +9,11 @@
             <div class="row">
                 <c:import url="navbar.jsp"/>
             </div>
+            <div class="row">
+                <p>This page is for uploading files</p>
+            </div>
 
-            <form class="form-check-inline" action="searchCards" method="GET" class="needs-validation" novalidate>
+<!--            <form class="form-check-inline" action="searchCards" method="GET" class="needs-validation" novalidate>
                 <div id="mySearch" class="input-group mb-3">
 
                     <select id="searchType" class="dropdown-menu" name="searchType">
@@ -25,7 +28,7 @@
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
                 </div>
-            </form>
+            </form> -->
 
             <footer class="row">
                 <c:import url="footer.jsp"/>

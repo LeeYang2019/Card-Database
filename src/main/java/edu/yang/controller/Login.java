@@ -55,6 +55,10 @@ public class Login extends HttpServlet {
             //make service call
             //getUser cards by price
 
+            //if the user collection size is 0
+            if (loggedInUser.getCards().size() == 0) {
+                RequestDispatcher dispatcher = req.getRequestDispatcher("/fileupload.jsp");
+            }
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
