@@ -9049,3 +9049,55 @@ quantity : 2
 [INFO ] 2019-11-19 12:25:58.387 [http-nio-8080-exec-8] SearchCards - searchTerm is dark and searchType is monster
 [INFO ] 2019-11-19 12:25:58.638 [http-nio-8080-exec-8] SearchCards - the size of the list is 2
 [INFO ] 2019-11-19 12:26:02.697 [http-nio-8080-exec-10] DisplayCard - entered displayCard servlet
+[INFO ] 2019-11-19 18:28:03.031 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-19 18:28:03.283 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-11-19 18:28:03.283 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-11-19 18:28:03.349 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-11-19 18:28:03.901 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-19 18:28:04.153 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-19 18:28:04.336 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-19 18:28:04.336 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-19 18:28:04.336 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-19 18:28:04.964 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-19 18:28:04.965 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-19 18:28:05.049 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-19 18:28:05.281 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-19 18:28:05.281 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-19 18:28:05.282 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-19 18:28:05.0
+[INFO ] 2019-11-19 18:29:37.395 [http-nio-8080-exec-6] Login - entering Login servlet
+[INFO ] 2019-11-19 18:29:45.203 [http-nio-8080-exec-6] Login - Logging in for user: leeyang2019
+[INFO ] 2019-11-19 18:29:50.979 [http-nio-8080-exec-8] SearchCards - searchTerm is :
+[INFO ] 2019-11-19 18:29:50.983 [http-nio-8080-exec-8] SearchCards - searchType is :Choose...
+[INFO ] 2019-11-19 18:29:50.983 [http-nio-8080-exec-8] SearchCards - searchTerm is empty and searchType is choose...
+[INFO ] 2019-11-19 18:29:59.836 [http-nio-8080-exec-10] SearchCards - searchTerm is :
+[INFO ] 2019-11-19 18:29:59.842 [http-nio-8080-exec-10] SearchCards - searchType is :monster
+[INFO ] 2019-11-19 18:29:59.842 [http-nio-8080-exec-10] SearchCards - searchTerm is empty and searchType is choose...
+[INFO ] 2019-11-19 18:30:04.283 [http-nio-8080-exec-1] SearchCards - searchTerm is :dark
+[INFO ] 2019-11-19 18:30:04.290 [http-nio-8080-exec-1] SearchCards - searchType is :monster
+[INFO ] 2019-11-19 18:30:04.313 [http-nio-8080-exec-1] SearchCards - searchTerm is dark and searchType is monster
+[INFO ] 2019-11-19 18:30:04.606 [http-nio-8080-exec-1] SearchCards - the size of the list is 2
+[INFO ] 2019-11-19 18:30:06.092 [http-nio-8080-exec-3] DisplayCard - entered displayCard servlet
