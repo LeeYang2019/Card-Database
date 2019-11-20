@@ -12,13 +12,14 @@
 
             <form class="form-check-inline" action="searchCards" method="GET" class="needs-validation" novalidate>
                 <div id="mySearch" class="input-group mb-3">
-
-                    <select class="custom-select" id="searchType" name="searchType">
-                        <option selected>Choose...</option>
-                        <option value="monster">Monster</option>
-                        <option value="spell">Spell</option>
-                        <option value="trap">Trap</option>
-                    </select>
+                    <div class=""form-group>
+                        <select class="form-control" id="searchType" name="searchType">
+                            <option selected>Choose...</option>
+                            <option value="monster">Monster</option>
+                            <option value="spell">Spell</option>
+                            <option value="trap">Trap</option>
+                        </select>
+                    </div>
 
                     <input type="searchTerm" class="form-control" id="searchTerm" placeholder="Search Card" name="searchTerm" aria-label="card" aria-describedby="basic-addon2">
                     <div class="input-group-append">

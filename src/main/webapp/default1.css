@@ -28,8 +28,9 @@ body {
     margin-right: 1em;
 }
 
-.validations {
-    margin-left: 1em;
+.imageSection, .infoSection {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25em;
 }
 
 a {
