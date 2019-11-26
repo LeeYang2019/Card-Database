@@ -11,6 +11,9 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
+                <h1>in index jsp</h1>
+            </div>
+            <div class="row">
                 <c:choose>
                     <c:when test="${!empty(cards)}">
                         <table id="myTable" class="table table-dark table-hover">

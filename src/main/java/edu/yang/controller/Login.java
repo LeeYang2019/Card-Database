@@ -44,6 +44,7 @@ public class Login extends HttpServlet {
 
         //create session
         HttpSession session = req.getSession();
+        RequestDispatcher dispatcher;
 
         //get remote user
         String userName = req.getRemoteUser();
@@ -52,7 +53,7 @@ public class Login extends HttpServlet {
         ProjectDao userDao = new ProjectDao(User.class);
         User loggedInUser = (User) userDao.getByProperty("userName", userName);
 
-        logger.info("Logging in for user: " + userName);
+        logger.info("Logging in for user: " + loggedInUser.getUserName());
 
         //store user in session
         session.setAttribute("user", loggedInUser);
@@ -61,11 +62,15 @@ public class Login extends HttpServlet {
         //getUser cards by price
 
         //if the user collection size is 0
+        logger.info("this user's card collection size is : " + loggedInUser.getCards().size());
+
         if (loggedInUser.getCards().size() == 0) {
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/fileupload.jsp");
+            logger.info("entering file upload page");
+            dispatcher = req.getRequestDispatcher("/fileupload.jsp");
+        } else {
+            dispatcher = req.getRequestDispatcher("/index.jsp");
         }
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
     }
 }

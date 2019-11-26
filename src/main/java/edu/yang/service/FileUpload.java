@@ -8,64 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileUpload {
-/*
-    public List<Book> readBooksFromExcelFile(String excelFilePath) throws IOException {
-        List<Book> listBooks = new ArrayList<>();
-        FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
 
-        Workbook workbook = new XSSFWorkbook(inputStream);
-        Sheet firstSheet = workbook.getSheetAt(0);
-        Iterator<Row> iterator = firstSheet.iterator();
-
-        while (iterator.hasNext()) {
-            Row nextRow = iterator.next();
-            Iterator<Cell> cellIterator = nextRow.cellIterator();
-            Book aBook = new Book();
-
-            while (cellIterator.hasNext()) {
-                Cell nextCell = cellIterator.next();
-                int columnIndex = nextCell.getColumnIndex();
-
-                switch (columnIndex) {
-                    case 1:
-                        aBook.setTitle((String) getCellValue(nextCell));
-                        break;
-                    case 2:
-                        aBook.setAuthor((String) getCellValue(nextCell));
-                        break;
-                    case 3:
-                        aBook.setPrice((double) getCellValue(nextCell));
-                        break;
-                }
-
-
-            }
-            listBooks.add(aBook);
-        }
-
-        workbook.close();
-        inputStream.close();
-
-        return listBooks;
-    }
-
-    private Object getCellValue(Cell cell) {
-        switch (cell.getCellType()) {
-            case Cell.CELL_TYPE_STRING:
-                return cell.getStringCellValue();
-
-            case Cell.CELL_TYPE_BOOLEAN:
-                return cell.getBooleanCellValue();
-
-            case Cell.CELL_TYPE_NUMERIC:
-                return cell.getNumericCellValue();
-        }
-
-        return null;
-    }
-*/
     public List<YugiohCard> excelRead(String fileName) {
-
 
         List<YugiohCard> cardList = new ArrayList<>();
 
@@ -78,7 +22,6 @@ public class FileUpload {
 
             //row 0 has headings; begin at row 1; increment rowStart and end + 1
             for (int i = rowStart + 1; i < rowEnd + 1; i++) {
-
 
                 Row row = sheet.getRow(i);
                 YugiohCard newYugiohCard = new YugiohCard();
@@ -114,7 +57,6 @@ public class FileUpload {
                             break;
                     }
 
-                    System.out.println("col : " + col);
                 }
                 cardList.add(newYugiohCard);
             }

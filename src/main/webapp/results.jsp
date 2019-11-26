@@ -9,12 +9,10 @@
             <div class="row">
                 <c:import url="navbar.jsp"/>
             </div>
-            <div class="row">
-                <div class="form-group">
-                    <input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="filter search results by card name" title="Type in a card" required>
-                    <div class="valid-feedback">Valid.</div>
-                    <div class="invalid-feedback">Please fill out this field.</div>
-                </div>
+            <div class="form-group row">
+                <input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="filter search results by card name" title="Type in a card" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
             </div>
             <div class="row">
                 <c:choose>

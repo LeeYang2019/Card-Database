@@ -10,26 +10,17 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
-                <p>This page is for uploading files</p>
+                <h3> Choose File to Upload in Server </h3>
+                <form action="uploadFile" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file" />
+                    <input type="submit" value="upload" />
+                </form>
             </div>
-
-<!--            <form class="form-check-inline" action="searchCards" method="GET" class="needs-validation" novalidate>
-                <div id="mySearch" class="input-group mb-3">
-
-                    <select id="searchType" class="dropdown-menu" name="searchType">
-                        <option class="dropdown-item" value="All">All</option>
-                        <option class="dropdown-item" value="Monster">Monster</option>
-                        <option class="dropdown-item" value="Spell">Spell</option>
-                        <option class="dropdown-item" value="Trap">Trap</option>
-                    </select>
-
-                    <input type="searchTerm" class="form-control" id="searchTerm" placeholder="Search Card" name="searchTerm" aria-label="card" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
+            <div class="row">
+                <div id="result">
+                    <h3>${requestScope["message"]}</h3>
                 </div>
-            </form> -->
-
+            </div>
             <footer class="row">
                 <c:import url="footer.jsp"/>
             </footer>

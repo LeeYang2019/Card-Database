@@ -65,6 +65,7 @@ public class SearchCards extends HttpServlet {
 
         //get user from session
         User loggedInUser = (User)session.getAttribute("user");
+        logger.info("in search servlet, user is : " + loggedInUser.getUserName());
 
         //if searchTerm is not empty and searchType is choose, return all cards by searchTerm
         if (!searchTerm.isEmpty()) {
