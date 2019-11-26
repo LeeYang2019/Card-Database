@@ -17,37 +17,37 @@
                 </div>
             </div>
             <div class="row">
-                    <c:choose>
-                        <c:when test="${!empty(cards)}">
-                            <table id="myTable" class="table table-dark table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Type</th>
-                                        <th>Rarity</th>
-                                        <th>Set</th>
-                                        <th>No.</th>
-                                        <th>Price</th>
-                                        <th>Qty</th>
-                                    </tr>
-                                </thead>
-                                <c:forEach var="card" items="${cards}">
-                                    <tr>
-                                        <td class="tbColumns"><a href="displayCard?param=${card.id}">${card.cardName}</a></td>
-                                        <td class="tbColumns">${card.cardType}</td>
-                                        <td class="tbColumns">${card.cardRarity}</td>
-                                        <td class="tbColumns">${card.cardSet}</td>
-                                        <td class="tbColumns">${card.cardIndex}</td>
-                                        <td class="tbColumns">${card.price}</td>
-                                        <td class="tbColumns">${card.quantity}</td>
-                                    </tr>
-                                </c:forEach>
-                            </table>
-                        </c:when>
-                        <c:otherwise>
-                            <p class="validations">No cards were found</p>
-                        </c:otherwise>
-                    </c:choose>
+                <c:choose>
+                    <c:when test="${!empty(cards)}">
+                        <table id="myTable" class="table table-hover">
+                            <thead class="thead-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Rarity</th>
+                                <th>Set</th>
+                                <th>No.</th>
+                                <th>Price</th>
+                                <th>Qty</th>
+                            </tr>
+                            </thead>
+                            <c:forEach var="card" items="${cards}">
+                                <tr>
+                                    <td class="tbColumns"><a href="displayCard?param=${card.id}">${card.cardName}</a></td>
+                                    <td class="tbColumns">${card.cardType}</td>
+                                    <td class="tbColumns">${card.cardRarity}</td>
+                                    <td class="tbColumns">${card.cardSet}</td>
+                                    <td class="tbColumns">${card.cardIndex}</td>
+                                    <td class="tbColumns">${card.price}</td>
+                                    <td class="tbColumns">${card.quantity}</td>
+                                </tr>
+                            </c:forEach>
+                        </table>
+                    </c:when>
+                    <c:otherwise>
+                        <p class="validations">No cards were found</p>
+                    </c:otherwise>
+                </c:choose>
             </div>
             <footer class="row">
                 <c:import url="footer.jsp"/>

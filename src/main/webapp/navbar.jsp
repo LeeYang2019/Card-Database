@@ -16,17 +16,15 @@
          <li class="nav-item">
             <a class="nav-link" href="addCard.jsp">Add Cards</a>
          </li>
+
+      </ul>
+      <ul class="navbar-nav">
+         <!--<li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user fa-fw"></i>Sign Up</a>
+         </li> -->
          <li class="nav-item">
-            <a class="nav-link" href="logout">Logout</a>
+            <a class="nav-link" href="logout"><i class="fas fa-sign-in-alt fa-fw"></i>Logout</a>
          </li>
-         <!--
-         <li class="nav-item">
-            <a class="nav-link" href="editCard.jsp">Edit Cards</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-         </li>
-         -->
       </ul>
    </div>
 </nav>

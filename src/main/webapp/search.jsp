@@ -14,7 +14,7 @@
                 <div id="mySearch" class="input-group mb-3">
                     <div class=""form-group>
                         <select class="form-control" id="searchType" name="searchType">
-                            <option selected>Choose...</option>
+                            <option selected>All Cards</option>
                             <option value="monster">Monster</option>
                             <option value="spell">Spell</option>
                             <option value="trap">Trap</option>

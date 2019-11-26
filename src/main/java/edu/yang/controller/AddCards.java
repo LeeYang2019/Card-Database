@@ -45,16 +45,29 @@ public class AddCards extends HttpServlet {
 
         //get user input
         String cardName = req.getParameter("cardName");
+        logger.info("cardName is: " + cardName);
+
         String cardType = req.getParameter("cardType");
+        logger.info("cardType is: " + cardType);
+
         String cardRarity = req.getParameter("cardRarity");
+        logger.info("cardRarity is: " + cardRarity);
+
         String cardSet = req.getParameter("cardSet");
+        logger.info("cardSet is: " + cardSet);
+
         String cardIndex = req.getParameter("cardIndex");
+        logger.info("cardIndex is: " + cardIndex);
 
         String cardPrice = req.getParameter("cardPrice");
-        double price = Integer.parseInt(cardPrice);
+        double price = Double.parseDouble(cardPrice);
+
+        logger.info("cardPrice is: " + cardPrice);
 
         String cardQuantity = req.getParameter("cardQuantity");
         int qty = Integer.parseInt(cardQuantity);
+
+        logger.info("cardQuantity is: " + cardQuantity);
 
         //get this user
         HttpSession session = req.getSession();

@@ -69,9 +69,9 @@ public class SearchCards extends HttpServlet {
         //if searchTerm is not empty and searchType is choose, return all cards by searchTerm
         if (!searchTerm.isEmpty()) {
 
-            if (searchType.equalsIgnoreCase("Choose...")) {
+            if (searchType.equalsIgnoreCase("All Cards")) {
 
-                logger.info("searchTerm is " + searchTerm + " and searchType is choose");
+                logger.info("searchTerm is " + searchTerm + " and searchType is All Cards");
                 propsAndValues.put("cardName", searchTerm);
                 propsAndValues.put("user", loggedInUser);
                 userCards = yugiohCardDao.findByPropertyLike(propsAndValues);
@@ -79,7 +79,7 @@ public class SearchCards extends HttpServlet {
                 logger.info("the size of the list is " + userCards.size());
                 return userCards;
 
-            } else if (!searchType.equalsIgnoreCase("Choose...")) {
+            } else if (!searchType.equalsIgnoreCase("All Cards")) {
 
                 logger.info("searchTerm is " + searchTerm + " and searchType is " + searchType);
                 propsAndValues.put("cardName", searchTerm);
@@ -94,9 +94,9 @@ public class SearchCards extends HttpServlet {
 
         } else {
 
-            if (!searchType.equalsIgnoreCase("Choose...")) {
+            if (!searchType.equalsIgnoreCase("All Cards")) {
 
-                logger.info("searchTerm is empty and searchType is choose...");
+                logger.info("searchTerm is empty and searchType is All Cards");
                 propsAndValues.put("cardType", searchType);
                 propsAndValues.put("user", loggedInUser);
                 userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
@@ -105,7 +105,7 @@ public class SearchCards extends HttpServlet {
         }
 
         //DEFAULT: searchTerm is empty and searchType is choose, return call cards
-        logger.info("searchTerm is empty and searchType is choose...");
+        logger.info("searchTerm is empty and searchType is All Cards");
         propsAndValues.put("user", loggedInUser);
         userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
         return userCards;
