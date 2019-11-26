@@ -48,7 +48,6 @@ public class FileUpload extends HttpServlet {
                         String name = new File(item.getName()).getName();
                         logger.info("name of the uploaded file: " + name);
                         FileUpload newTest = new FileUpload();
-
                         item.write( new File(UPLOAD_DIRECTORY + File.separator + name));
                     }
                 }
