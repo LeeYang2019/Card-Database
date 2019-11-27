@@ -1,6 +1,4 @@
-create schema if not exists yugioh_card_db collate utf8mb4_0900_ai_ci;
-
-create table if not exists user
+create table user
 (
     id int auto_increment,
     user_name varchar(50) not null,
@@ -13,7 +11,7 @@ create table if not exists user
 alter table user
     add primary key (id);
 
-create table if not exists yugioh_card
+create table yugioh_card
 (
     id int auto_increment,
     user_id int null,
@@ -22,7 +20,7 @@ create table if not exists yugioh_card
     card_rarity varchar(9) null,
     card_set varchar(6) null,
     card_index varchar(5) null,
-    price double null,
+    price decimal(10,2) null,
     qty int null,
     status varchar(8) null,
     image varchar(64) null,
@@ -37,12 +35,12 @@ create table if not exists yugioh_card
 alter table yugioh_card
     add primary key (id);
 
-create table if not exists yugioh_card_history
+create table yugioh_card_history
 (
     id int auto_increment,
     yugiohCard_id int null,
     update_date timestamp not null,
-    price double null,
+    price decimal(10,2) null,
     constraint update_history_id_uindex
         unique (id),
     constraint update_history_yugioh_card_id_fk

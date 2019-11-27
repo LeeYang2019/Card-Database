@@ -56,7 +56,7 @@ public class FileUpload extends HttpServlet {
                         logger.info("name of the uploaded file: " + name);
                         item.write( new File(UPLOAD_DIRECTORY + File.separator + name));
                         FileReader newReader = new FileReader();
-                        List<YugiohCard> list = newReader.excelRead(name,loggedInUser);
+                        List<YugiohCard> list = newReader.excelRead((UPLOAD_DIRECTORY + File.separator + name),loggedInUser);
                     }
                 }
 
@@ -71,7 +71,6 @@ public class FileUpload extends HttpServlet {
                     "Sorry this Servlet only handles file upload request");
 
         }
-
         req.getRequestDispatcher("/fileupload.jsp").forward(req, resp);
     }
 
