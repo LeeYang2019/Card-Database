@@ -6,25 +6,22 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.io.File;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class FileUploadTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    FileUpload newTest;
+    FileReader newTest;
 
     @BeforeEach
     void setUp() {
-        newTest = new FileUpload();
+        newTest = new FileReader();
     }
 
     @Test
     void excelRead() {
         String excelFilePath = "temp/Cards.xlsx";
-        List<YugiohCard> list = newTest.excelRead(excelFilePath);
+        List<YugiohCard> list = newTest.excelRead(excelFilePath, null);
 
         logger.info("Cards from " + excelFilePath);
         for (YugiohCard card: list) {

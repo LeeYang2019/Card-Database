@@ -1,5 +1,7 @@
 package edu.yang.controller;
 
+import edu.yang.entity.User;
+import edu.yang.service.*;
 import edu.yang.entity.YugiohCard;
 import edu.yang.persistence.ProjectDao;
 import org.apache.logging.log4j.LogManager;
@@ -14,6 +16,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
@@ -21,7 +25,7 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
 
 /**
- * A simple servlet to search and return cards in the user's database
+ * A
  */
 @WebServlet(
         urlPatterns = {"/uploadFile"}
@@ -37,6 +41,9 @@ public class FileUpload extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        HttpSession session = req.getSession();
+        User loggedInUser = (User)session.getAttribute("user");
+
         //process only if its multipart content
         if(ServletFileUpload.isMultipartContent(req)){
             try {
@@ -47,8 +54,9 @@ public class FileUpload extends HttpServlet {
                     if(!item.isFormField()){
                         String name = new File(item.getName()).getName();
                         logger.info("name of the uploaded file: " + name);
-                        FileUpload newTest = new FileUpload();
                         item.write( new File(UPLOAD_DIRECTORY + File.separator + name));
+                        FileReader newReader = new FileReader();
+                        List<YugiohCard> list = newReader.excelRead(name,loggedInUser);
                     }
                 }
 

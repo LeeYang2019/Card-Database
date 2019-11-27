@@ -42,7 +42,6 @@ public class DisplayCard extends HttpServlet {
         YugiohCard newYugiohCard = (YugiohCard)yugiohCardDao.getById(id);
 
         req.setAttribute("card", newYugiohCard);
-
         RequestDispatcher dispatcher = req.getRequestDispatcher("/card.jsp");
         dispatcher.forward(req, resp);
     }

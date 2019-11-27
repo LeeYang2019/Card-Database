@@ -1,15 +1,23 @@
 package edu.yang.service;
 
+import edu.yang.entity.User;
 import edu.yang.entity.YugiohCard;
+import edu.yang.persistence.ProjectDao;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.*;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileUpload {
+public class FileReader {
 
-    public List<YugiohCard> excelRead(String fileName) {
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
+    public List<YugiohCard> excelRead(String fileName, Object user) {
+
+        ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
 
         List<YugiohCard> cardList = new ArrayList<>();
 
@@ -57,8 +65,11 @@ public class FileUpload {
                             break;
                     }
 
+                    newYugiohCard.setUser((User)user);
+                    logger.info(newYugiohCard.toString());
                 }
-                cardList.add(newYugiohCard);
+                int id = newYugiohCardDao.insert(newYugiohCard);
+                logger.info("id : " +  id);
             }
         } catch (Exception e) {
             e.printStackTrace();
