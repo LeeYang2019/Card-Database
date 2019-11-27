@@ -18725,3 +18725,2436 @@ quantity : 1
 [INFO ] 2019-11-27 15:36:01.045 [http-nio-8080-exec-5] SearchCards - in search servlet, user is : benjamin
 [INFO ] 2019-11-27 15:36:01.049 [http-nio-8080-exec-5] SearchCards - searchTerm is empty and searchType is All Cards
 [INFO ] 2019-11-27 15:37:11.809 [http-nio-8080-exec-8] DisplayCard - entered displayCard servlet
+[INFO ] 2019-11-27 16:50:10.243 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-27 16:50:10.406 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-11-27 16:50:10.406 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-11-27 16:50:10.476 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-11-27 16:50:11.096 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-27 16:50:11.357 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-27 16:50:11.511 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-27 16:50:11.511 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-27 16:50:11.511 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-27 16:50:12.148 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-27 16:50:12.149 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-27 16:50:12.185 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-27 16:50:12.335 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-27 16:50:12.335 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-27 16:50:12.335 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-27 16:50:12.0
+[INFO ] 2019-11-27 16:50:13.258 [main] FileReader - name of file coming in: temp/Cards.xlsx
+[INFO ] 2019-11-27 16:50:14.296 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.302 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.303 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.304 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.305 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.305 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.305 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 16:50:14.305 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 16:50:14.313 [main] FileReader - id : 3
+[INFO ] 2019-11-27 16:50:14.314 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.314 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.314 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.314 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.315 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.315 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.316 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 16:50:14.317 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 16:50:14.325 [main] FileReader - id : 4
+[INFO ] 2019-11-27 16:50:14.325 [main] FileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.325 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.327 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.327 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.327 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.328 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.329 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 16:50:14.329 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 16:50:14.336 [main] FileReader - id : 5
+[INFO ] 2019-11-27 16:50:14.336 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.337 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.338 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.338 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.339 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.340 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.340 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 16:50:14.340 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 16:50:14.351 [main] FileReader - id : 6
+[INFO ] 2019-11-27 16:50:14.351 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.351 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.352 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.353 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.353 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.353 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+[INFO ] 2019-11-27 16:50:14.353 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 16:50:14.353 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 16:50:14.360 [main] FileReader - id : 7
+[INFO ] 2019-11-27 16:50:14.505 [main] FileUploadTest - Cards from temp/Cards.xlsx
+[INFO ] 2019-11-27 16:52:51.164 [http-nio-8080-exec-5] Login - entering Login servlet
+[INFO ] 2019-11-27 16:52:57.151 [http-nio-8080-exec-5] Login - Logging in for user: tessa
+[INFO ] 2019-11-27 16:52:57.154 [http-nio-8080-exec-5] Login - this user's card collection size is : 5
+[INFO ] 2019-11-27 16:53:19.471 [http-nio-8080-exec-1] Login - entering Login servlet
+[INFO ] 2019-11-27 16:53:19.504 [http-nio-8080-exec-1] Login - Logging in for user: benjamin
+[INFO ] 2019-11-27 16:53:19.505 [http-nio-8080-exec-1] Login - this user's card collection size is : 0
+[INFO ] 2019-11-27 16:53:19.505 [http-nio-8080-exec-1] Login - entering file upload page
+[INFO ] 2019-11-27 16:53:29.802 [http-nio-8080-exec-4] FileUpload - name of the uploaded file: Cards2.xlsx
+[INFO ] 2019-11-27 16:53:43.872 [http-nio-8080-exec-6] SearchCards - searchTerm is :
+[INFO ] 2019-11-27 16:53:43.878 [http-nio-8080-exec-6] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 16:53:43.878 [http-nio-8080-exec-6] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 16:53:43.878 [http-nio-8080-exec-6] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-11-27 16:54:27.234 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-27 16:54:27.358 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-11-27 16:54:27.358 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-11-27 16:54:27.399 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-11-27 16:54:27.926 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-27 16:54:28.150 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-27 16:54:28.285 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-27 16:54:28.285 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-27 16:54:28.285 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-27 16:54:28.804 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-27 16:54:28.804 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-27 16:54:28.845 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-27 16:54:28.957 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-27 16:54:28.957 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-27 16:54:28.958 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-27 16:54:28.0
+[INFO ] 2019-11-27 16:54:29.746 [main] FileReader - name of file coming in: temp/Cards.xlsx
+[INFO ] 2019-11-27 16:54:30.739 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.741 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.742 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.743 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.743 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.744 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.744 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 16:54:30.744 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 16:54:30.754 [main] FileReader - id : 3
+[INFO ] 2019-11-27 16:54:30.756 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.756 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.757 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.757 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.757 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.757 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.758 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 16:54:30.758 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 16:54:30.765 [main] FileReader - id : 4
+[INFO ] 2019-11-27 16:54:30.765 [main] FileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.765 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.765 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.766 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.766 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.766 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.766 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 16:54:30.766 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 16:54:30.772 [main] FileReader - id : 5
+[INFO ] 2019-11-27 16:54:30.773 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.773 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.774 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.774 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.776 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.777 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.777 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 16:54:30.777 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 16:54:30.788 [main] FileReader - id : 6
+[INFO ] 2019-11-27 16:54:30.788 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.789 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.789 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.789 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.789 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.790 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+[INFO ] 2019-11-27 16:54:30.790 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 16:54:30.790 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 16:54:30.797 [main] FileReader - id : 7
+[INFO ] 2019-11-27 16:54:30.917 [main] FileUploadTest - Cards from temp/Cards.xlsx
+[INFO ] 2019-11-27 16:55:22.328 [http-nio-8080-exec-2] Login - entering Login servlet
+[INFO ] 2019-11-27 16:55:27.745 [http-nio-8080-exec-2] Login - Logging in for user: benjamin
+[INFO ] 2019-11-27 16:55:27.745 [http-nio-8080-exec-2] Login - this user's card collection size is : 0
+[INFO ] 2019-11-27 16:55:27.745 [http-nio-8080-exec-2] Login - entering file upload page
+[INFO ] 2019-11-27 16:55:33.908 [http-nio-8080-exec-4] FileUpload - name of the uploaded file: Cards2.xlsx
+[INFO ] 2019-11-27 16:56:18.622 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-27 16:56:18.738 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-11-27 16:56:18.738 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-11-27 16:56:18.777 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-11-27 16:56:19.265 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-27 16:56:19.459 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-27 16:56:19.587 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-27 16:56:19.587 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-27 16:56:19.587 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-27 16:56:20.093 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-27 16:56:20.093 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-27 16:56:20.128 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-27 16:56:20.237 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-27 16:56:20.237 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-27 16:56:20.237 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-27 16:56:20.0
+[INFO ] 2019-11-27 16:56:20.925 [main] FileReader - name of file coming in: temp/Cards.xlsx
+[INFO ] 2019-11-27 16:56:21.724 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.727 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.727 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.728 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.729 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.733 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.733 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 16:56:21.733 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 16:56:21.739 [main] FileReader - id : 3
+[INFO ] 2019-11-27 16:56:21.741 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.741 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.741 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.741 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.741 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.741 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.741 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 16:56:21.742 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 16:56:21.749 [main] FileReader - id : 4
+[INFO ] 2019-11-27 16:56:21.750 [main] FileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.750 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.752 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.752 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.753 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.753 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.753 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 16:56:21.753 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 16:56:21.757 [main] FileReader - id : 5
+[INFO ] 2019-11-27 16:56:21.758 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.758 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.760 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.760 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.761 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.761 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.761 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 16:56:21.762 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 16:56:21.769 [main] FileReader - id : 6
+[INFO ] 2019-11-27 16:56:21.770 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.770 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.771 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.771 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.771 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.771 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+[INFO ] 2019-11-27 16:56:21.771 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 16:56:21.771 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 16:56:21.776 [main] FileReader - id : 7
+[INFO ] 2019-11-27 16:56:21.886 [main] FileUploadTest - Cards from temp/Cards.xlsx
+[INFO ] 2019-11-27 16:57:20.394 [http-nio-8080-exec-2] Login - entering Login servlet
+[INFO ] 2019-11-27 16:57:28.673 [http-nio-8080-exec-2] Login - Logging in for user: benjamin
+[INFO ] 2019-11-27 16:57:28.679 [http-nio-8080-exec-2] Login - this user's card collection size is : 0
+[INFO ] 2019-11-27 16:57:28.679 [http-nio-8080-exec-2] Login - entering file upload page
+[INFO ] 2019-11-27 16:57:33.819 [http-nio-8080-exec-5] FileUpload - name of the uploaded file: Cards2.xlsx
+[INFO ] 2019-11-27 16:57:33.835 [http-nio-8080-exec-5] FileUpload - filepath: ../temp/Cards2.xlsx
+[INFO ] 2019-11-27 16:57:33.839 [http-nio-8080-exec-5] FileReader - name of file coming in: ../temp/Cards2.xlsx
+[INFO ] 2019-11-27 16:57:35.063 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.064 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.068 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.070 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.070 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.071 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.071 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 16:57:35.071 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 16:57:35.186 [http-nio-8080-exec-5] FileReader - id : 42
+[INFO ] 2019-11-27 16:57:35.187 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.187 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.187 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.187 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.188 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.188 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 2.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.188 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 2.0
+quantity : 25
+[INFO ] 2019-11-27 16:57:35.188 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 2.0
+quantity : 25
+[INFO ] 2019-11-27 16:57:35.205 [http-nio-8080-exec-5] FileReader - id : 43
+[INFO ] 2019-11-27 16:57:35.205 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.206 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.206 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.206 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.206 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.207 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.207 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 16:57:35.207 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 16:57:35.215 [http-nio-8080-exec-5] FileReader - id : 44
+[INFO ] 2019-11-27 16:57:35.216 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.216 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.217 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.217 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.218 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.218 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.218 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 16:57:35.219 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 16:57:35.228 [http-nio-8080-exec-5] FileReader - id : 45
+[INFO ] 2019-11-27 16:57:35.232 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.232 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.232 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.232 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.232 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.232 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+[INFO ] 2019-11-27 16:57:35.232 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 16:57:35.232 [http-nio-8080-exec-5] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 16:57:35.246 [http-nio-8080-exec-5] FileReader - id : 46
+[INFO ] 2019-11-27 17:06:27.486 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-27 17:06:27.604 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-11-27 17:06:27.605 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-11-27 17:06:27.648 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-11-27 17:06:28.441 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-27 17:06:28.988 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-27 17:06:29.139 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-27 17:06:29.139 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-27 17:06:29.139 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-27 17:06:29.665 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-27 17:06:29.665 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-27 17:06:29.692 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-27 17:06:29.819 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-27 17:06:29.820 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-27 17:06:29.820 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-27 17:06:29.0
+[INFO ] 2019-11-27 17:06:30.656 [main] FileReader - name of file coming in: temp/Cards.xlsx
+[INFO ] 2019-11-27 17:06:32.049 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.050 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.050 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.051 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.051 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.052 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.052 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 17:06:32.052 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 17:06:32.062 [main] FileReader - id : 3
+[INFO ] 2019-11-27 17:06:32.062 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.062 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.062 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.062 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.062 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.063 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.064 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 17:06:32.064 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 17:06:32.071 [main] FileReader - id : 4
+[INFO ] 2019-11-27 17:06:32.071 [main] FileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.071 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.073 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.073 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.073 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.073 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.073 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 17:06:32.073 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 17:06:32.080 [main] FileReader - id : 5
+[INFO ] 2019-11-27 17:06:32.080 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.080 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.081 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.083 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.084 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.084 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.084 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 17:06:32.084 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 17:06:32.094 [main] FileReader - id : 6
+[INFO ] 2019-11-27 17:06:32.094 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.095 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.095 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.095 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.095 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.095 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+[INFO ] 2019-11-27 17:06:32.095 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 17:06:32.095 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 17:06:32.104 [main] FileReader - id : 7
+[INFO ] 2019-11-27 17:06:32.223 [main] FileUploadTest - Cards from temp/Cards.xlsx
+[INFO ] 2019-11-27 17:09:12.107 [http-nio-8080-exec-3] Login - entering Login servlet
+[INFO ] 2019-11-27 17:09:21.231 [http-nio-8080-exec-3] Login - Logging in for user: benjamin
+[INFO ] 2019-11-27 17:09:21.232 [http-nio-8080-exec-3] Login - this user's card collection size is : 5
+[INFO ] 2019-11-27 17:10:19.489 [http-nio-8080-exec-1] Login - entering Login servlet
+[INFO ] 2019-11-27 17:10:19.521 [http-nio-8080-exec-1] Login - Logging in for user: benjamin
+[INFO ] 2019-11-27 17:10:19.521 [http-nio-8080-exec-1] Login - this user's card collection size is : 0
+[INFO ] 2019-11-27 17:10:19.521 [http-nio-8080-exec-1] Login - entering file upload page
+[INFO ] 2019-11-27 17:10:25.286 [http-nio-8080-exec-4] FileUpload - name of the uploaded file: Cards2.xlsx
+[INFO ] 2019-11-27 17:11:20.474 [http-nio-8080-exec-8] SearchCards - searchTerm is :
+[INFO ] 2019-11-27 17:11:20.479 [http-nio-8080-exec-8] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 17:11:20.479 [http-nio-8080-exec-8] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 17:11:20.479 [http-nio-8080-exec-8] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-11-27 17:12:48.443 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1]
+[INFO ] 2019-11-27 17:12:48.784 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-11-27 17:12:48.785 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-11-27 17:12:48.833 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-11-27 17:12:49.453 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-11-27 17:12:49.678 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-11-27 17:12:49.859 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-11-27 17:12:49.859 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-11-27 17:12:49.859 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-11-27 17:12:50.606 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-11-27 17:12:50.606 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-11-27 17:12:50.662 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-11-27 17:12:50.809 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-11-27 17:12:50.809 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+[INFO ] 2019-11-27 17:12:50.809 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-11-27 17:12:50.0
+[INFO ] 2019-11-27 17:12:52.210 [main] FileReader - name of file coming in: temp/Cards.xlsx
+[INFO ] 2019-11-27 17:12:53.734 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.734 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.737 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.739 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.739 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.739 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.739 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 17:12:53.739 [main] FileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 17:12:53.750 [main] FileReader - id : 3
+[INFO ] 2019-11-27 17:12:53.750 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.751 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.751 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.751 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.751 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.751 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.751 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 17:12:53.754 [main] FileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+[INFO ] 2019-11-27 17:12:53.763 [main] FileReader - id : 4
+[INFO ] 2019-11-27 17:12:53.764 [main] FileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.764 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.766 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.766 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.767 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.767 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.767 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 17:12:53.768 [main] FileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 17:12:53.776 [main] FileReader - id : 5
+[INFO ] 2019-11-27 17:12:53.778 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.779 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.779 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.780 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.782 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.782 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.782 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 17:12:53.782 [main] FileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 17:12:53.795 [main] FileReader - id : 6
+[INFO ] 2019-11-27 17:12:53.795 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.795 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.795 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.795 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.795 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.795 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+[INFO ] 2019-11-27 17:12:53.795 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 17:12:53.795 [main] FileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 17:12:53.867 [main] FileReader - id : 7
+[INFO ] 2019-11-27 17:12:54.051 [main] FileUploadTest - Cards from temp/Cards.xlsx
+[INFO ] 2019-11-27 17:27:46.441 [http-nio-8080-exec-15] Login - entering Login servlet
+[INFO ] 2019-11-27 17:27:52.547 [http-nio-8080-exec-15] Login - Logging in for user: benjamin
+[INFO ] 2019-11-27 17:27:52.548 [http-nio-8080-exec-15] Login - this user's card collection size is : 0
+[INFO ] 2019-11-27 17:27:52.548 [http-nio-8080-exec-15] Login - entering file upload page
+[INFO ] 2019-11-27 17:27:59.083 [http-nio-8080-exec-17] FileUpload - name of the uploaded file: Cards2.xlsx
+[INFO ] 2019-11-27 17:27:59.084 [http-nio-8080-exec-17] FileUpload - filepath: ../temp/Cards2.xlsx
+[INFO ] 2019-11-27 17:27:59.090 [http-nio-8080-exec-17] FileReader - name of file coming in: ../temp/Cards2.xlsx
+[INFO ] 2019-11-27 17:28:00.591 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.593 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.594 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.596 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.596 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.596 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.597 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 17:28:00.597 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Chaos Emperor Dragon Envoy of the End
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+[INFO ] 2019-11-27 17:28:00.695 [http-nio-8080-exec-17] FileReader - id : 47
+[INFO ] 2019-11-27 17:28:00.695 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.696 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.696 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.696 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.696 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.696 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 2.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.696 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 2.0
+quantity : 25
+[INFO ] 2019-11-27 17:28:00.696 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 2.0
+quantity : 25
+[INFO ] 2019-11-27 17:28:00.702 [http-nio-8080-exec-17] FileReader - id : 48
+[INFO ] 2019-11-27 17:28:00.702 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.702 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.702 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.702 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.702 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.703 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.703 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 17:28:00.703 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+[INFO ] 2019-11-27 17:28:00.711 [http-nio-8080-exec-17] FileReader - id : 49
+[INFO ] 2019-11-27 17:28:00.712 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.713 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.717 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.717 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.718 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.719 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.719 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 17:28:00.719 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+[INFO ] 2019-11-27 17:28:00.742 [http-nio-8080-exec-17] FileReader - id : 50
+[INFO ] 2019-11-27 17:28:00.746 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.747 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.747 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.747 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.748 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.748 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+[INFO ] 2019-11-27 17:28:00.749 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 17:28:00.749 [http-nio-8080-exec-17] FileReader - user: id : 5
+first name : benjamin
+last name : august2016
+cardName : Heavy Storm
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+[INFO ] 2019-11-27 17:28:00.765 [http-nio-8080-exec-17] FileReader - id : 51
+[INFO ] 2019-11-27 17:28:05.004 [http-nio-8080-exec-19] SearchCards - searchTerm is :
+[INFO ] 2019-11-27 17:28:05.007 [http-nio-8080-exec-19] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 17:28:05.010 [http-nio-8080-exec-19] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 17:28:05.010 [http-nio-8080-exec-19] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-11-27 17:29:32.813 [http-nio-8080-exec-20] SearchCards - searchTerm is :
+[INFO ] 2019-11-27 17:29:32.815 [http-nio-8080-exec-20] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 17:29:32.815 [http-nio-8080-exec-20] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 17:29:32.815 [http-nio-8080-exec-20] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-11-27 17:29:41.443 [http-nio-8080-exec-13] SearchCards - searchTerm is :
+[INFO ] 2019-11-27 17:29:41.444 [http-nio-8080-exec-13] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 17:29:41.444 [http-nio-8080-exec-13] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 17:29:41.444 [http-nio-8080-exec-13] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-11-27 17:30:58.750 [http-nio-8080-exec-18] SearchCards - searchTerm is :
+[INFO ] 2019-11-27 17:30:58.757 [http-nio-8080-exec-18] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 17:30:58.757 [http-nio-8080-exec-18] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 17:30:58.757 [http-nio-8080-exec-18] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-11-27 17:46:18.678 [http-nio-8080-exec-16] SearchCards - searchTerm is :dark
+[INFO ] 2019-11-27 17:46:18.681 [http-nio-8080-exec-16] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 17:46:18.681 [http-nio-8080-exec-16] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 17:46:18.681 [http-nio-8080-exec-16] SearchCards - searchTerm is dark and searchType is All Cards
+[INFO ] 2019-11-27 17:46:18.824 [http-nio-8080-exec-16] SearchCards - the size of the list is 1
+[INFO ] 2019-11-27 17:46:37.311 [http-nio-8080-exec-17] SearchCards - searchTerm is :raigeki
+[INFO ] 2019-11-27 17:46:37.311 [http-nio-8080-exec-17] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 17:46:37.311 [http-nio-8080-exec-17] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 17:46:37.311 [http-nio-8080-exec-17] SearchCards - searchTerm is raigeki and searchType is All Cards
+[INFO ] 2019-11-27 17:46:37.372 [http-nio-8080-exec-17] SearchCards - the size of the list is 1
+[INFO ] 2019-11-27 17:47:05.961 [http-nio-8080-exec-13] SearchCards - searchTerm is :
+[INFO ] 2019-11-27 17:47:05.961 [http-nio-8080-exec-13] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 17:47:05.961 [http-nio-8080-exec-13] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 17:47:05.961 [http-nio-8080-exec-13] SearchCards - searchTerm is empty and searchType is All Cards

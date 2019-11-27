@@ -58,7 +58,7 @@ public class FileUpload extends HttpServlet {
 
                 for(FileItem item : multiparts){
                     if(!item.isFormField()){
-                        String name = new File(item.getName()).getName();
+                        String name = new File(item.getName()).getName(); //name of the file
                         logger.info("name of the uploaded file: " + name);
                         item.write( new File(UPLOAD_DIRECTORY + File.separator + name));
                         logger.info("filepath: " + UPLOAD_DIRECTORY + File.separator + name);

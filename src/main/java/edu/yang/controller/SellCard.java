@@ -17,7 +17,7 @@ import java.io.IOException;
  * A simple servlet to search and return cards in the user's database
  */
 @WebServlet(
-        urlPatterns = {"/displayCard"}
+        urlPatterns = {"/sellCard"}
 )
 
 public class SellCard extends HttpServlet {
