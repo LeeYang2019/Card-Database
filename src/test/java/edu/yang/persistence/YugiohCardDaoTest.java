@@ -145,8 +145,10 @@ class YugiohCardDaoTest {
     void saveOrUpdateSuccess() {
         YugiohCard updateCard = (YugiohCard)cardDao.getById(1);
         updateCard.setCardName("Dark Magician of Chaos");
-        assertEquals("Dark Magician of Chaos", updateCard.getCardName());
-        logger.info("updated card: " + updateCard.getCardName());
+        cardDao.saveOrUpdate(updateCard);
+        YugiohCard updatedCard = (YugiohCard)cardDao.getById(1);
+        assertEquals("Dark Magician of Chaos", updatedCard.getCardName());
+        logger.info("updated card: " + updatedCard.getCardName());
     }
 
     /**
