@@ -16,6 +16,9 @@
          <li class="nav-item">
             <a class="nav-link" href="addCard.jsp">Add Cards</a>
          </li>
+         <li class="nav-item">
+            <a class="nav-link" href="selling.jsp">Selling</a>
+         </li>
 
       </ul>
       <ul class="navbar-nav">

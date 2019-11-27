@@ -43,7 +43,13 @@ public class FileUpload extends HttpServlet {
 
         HttpSession session = req.getSession();
         User loggedInUser = (User)session.getAttribute("user");
-
+/*
+        logger.info("files in temp:");
+        File file = new File("temp");
+        for(String fileNames : file.list()) {
+            logger.info(fileNames);
+        }
+*/
         //process only if its multipart content
         if(ServletFileUpload.isMultipartContent(req)){
             try {
@@ -55,10 +61,12 @@ public class FileUpload extends HttpServlet {
                         String name = new File(item.getName()).getName();
                         logger.info("name of the uploaded file: " + name);
                         item.write( new File(UPLOAD_DIRECTORY + File.separator + name));
+                        logger.info("filepath: " + UPLOAD_DIRECTORY + File.separator + name);
                         FileReader newReader = new FileReader();
                         List<YugiohCard> list = newReader.excelRead((UPLOAD_DIRECTORY + File.separator + name),loggedInUser);
                     }
                 }
+
 
                 //File uploaded successfully
                 req.setAttribute("message", "File Uploaded Successfully");
@@ -71,6 +79,13 @@ public class FileUpload extends HttpServlet {
                     "Sorry this Servlet only handles file upload request");
 
         }
+/*
+        logger.info("files in temp:");
+        File fileNew = new File("temp");
+        for(String fileNames : fileNew.list()) {
+            logger.info(fileNames);
+        }
+*/
         req.getRequestDispatcher("/fileupload.jsp").forward(req, resp);
     }
 
