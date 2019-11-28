@@ -7293,3 +7293,179 @@
 [DEBUG] 2019-11-27 17:47:08.458 [http-nio-8080-exec-16] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
 [DEBUG] 2019-11-27 17:47:08.458 [http-nio-8080-exec-16] AbstractLoadPlanBasedEntityLoader - Done entity load : edu.yang.entity.YugiohCard#49
 [DEBUG] 2019-11-27 17:47:08.458 [http-nio-8080-exec-16] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2019-11-27 17:50:15.581 [http-nio-8080-exec-19] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from YugiohCard as generatedAlias0 where generatedAlias0.user=:param0
+[DEBUG] 2019-11-27 17:50:15.582 [http-nio-8080-exec-19] SQL - select yugiohcard0_.id as id1_1_, yugiohcard0_.card_index as card_ind2_1_, yugiohcard0_.card_name as card_nam3_1_, yugiohcard0_.card_rarity as card_rar4_1_, yugiohcard0_.card_set as card_set5_1_, yugiohcard0_.card_type as card_typ6_1_, yugiohcard0_.image as image7_1_, yugiohcard0_.price as price8_1_, yugiohcard0_.qty as qty9_1_, yugiohcard0_.status as status10_1_, yugiohcard0_.user_id as user_id11_1_ from yugioh_card yugiohcard0_ where yugiohcard0_.user_id=?
+[DEBUG] 2019-11-27 17:50:15.591 [http-nio-8080-exec-19] Loader - Result set row: 0
+[DEBUG] 2019-11-27 17:50:15.591 [http-nio-8080-exec-19] Loader - Result row: EntityKey[edu.yang.entity.YugiohCard#47]
+[DEBUG] 2019-11-27 17:50:15.597 [http-nio-8080-exec-19] Loader - Result set row: 1
+[DEBUG] 2019-11-27 17:50:15.597 [http-nio-8080-exec-19] Loader - Result row: EntityKey[edu.yang.entity.YugiohCard#48]
+[DEBUG] 2019-11-27 17:50:15.597 [http-nio-8080-exec-19] Loader - Result set row: 2
+[DEBUG] 2019-11-27 17:50:15.597 [http-nio-8080-exec-19] Loader - Result row: EntityKey[edu.yang.entity.YugiohCard#49]
+[DEBUG] 2019-11-27 17:50:15.597 [http-nio-8080-exec-19] Loader - Result set row: 3
+[DEBUG] 2019-11-27 17:50:15.597 [http-nio-8080-exec-19] Loader - Result row: EntityKey[edu.yang.entity.YugiohCard#50]
+[DEBUG] 2019-11-27 17:50:15.597 [http-nio-8080-exec-19] Loader - Result set row: 4
+[DEBUG] 2019-11-27 17:50:15.597 [http-nio-8080-exec-19] Loader - Result row: EntityKey[edu.yang.entity.YugiohCard#51]
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#47]
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN026
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardName` : value = Chaos Emperor Dragon Envoy of the End
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardRarity` : value = Secret
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardSet` : value = IOC
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardType` : value = Monster
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `price` : value = 10.0
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `quantity` : value = 2
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `status` : value = Not Sold
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `user` : value = 5
+[DEBUG] 2019-11-27 17:50:15.603 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.606 [http-nio-8080-exec-19] SQL - select user0_.id as id1_0_0_, user0_.user_password as user_pas2_0_0_, user0_.user_role as user_rol3_0_0_, user0_.user_name as user_nam4_0_0_, cards1_.user_id as user_id11_1_1_, cards1_.id as id1_1_1_, cards1_.id as id1_1_2_, cards1_.card_index as card_ind2_1_2_, cards1_.card_name as card_nam3_1_2_, cards1_.card_rarity as card_rar4_1_2_, cards1_.card_set as card_set5_1_2_, cards1_.card_type as card_typ6_1_2_, cards1_.image as image7_1_2_, cards1_.price as price8_1_2_, cards1_.qty as qty9_1_2_, cards1_.status as status10_1_2_, cards1_.user_id as user_id11_1_2_, entries2_.yugiohCard_id as yugiohCa4_2_3_, entries2_.id as id1_2_3_, entries2_.id as id1_2_4_, entries2_.price as price2_2_4_, entries2_.update_date as update_d3_2_4_, entries2_.yugiohCard_id as yugiohCa4_2_4_ from user user0_ left outer join yugioh_card cards1_ on user0_.id=cards1_.user_id left outer join yugioh_card_history entries2_ on cards1_.id=entries2_.yugiohCard_id where user0_.id=?
+[DEBUG] 2019-11-27 17:50:15.611 [http-nio-8080-exec-19] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2019-11-27 17:50:15.611 [http-nio-8080-exec-19] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2019-11-27 17:50:15.611 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [edu.yang.entity.YugiohCard.entries#47]
+[DEBUG] 2019-11-27 17:50:15.611 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#5]
+[DEBUG] 2019-11-27 17:50:15.612 [http-nio-8080-exec-19] ResultSetProcessorImpl - Starting ResultSet row #1
+[DEBUG] 2019-11-27 17:50:15.612 [http-nio-8080-exec-19] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2019-11-27 17:50:15.612 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [edu.yang.entity.YugiohCard.entries#48]
+[DEBUG] 2019-11-27 17:50:15.612 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#5]
+[DEBUG] 2019-11-27 17:50:15.613 [http-nio-8080-exec-19] ResultSetProcessorImpl - Starting ResultSet row #2
+[DEBUG] 2019-11-27 17:50:15.613 [http-nio-8080-exec-19] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2019-11-27 17:50:15.613 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [edu.yang.entity.YugiohCard.entries#49]
+[DEBUG] 2019-11-27 17:50:15.613 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#5]
+[DEBUG] 2019-11-27 17:50:15.617 [http-nio-8080-exec-19] ResultSetProcessorImpl - Starting ResultSet row #3
+[DEBUG] 2019-11-27 17:50:15.617 [http-nio-8080-exec-19] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2019-11-27 17:50:15.617 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [edu.yang.entity.YugiohCard.entries#50]
+[DEBUG] 2019-11-27 17:50:15.617 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#5]
+[DEBUG] 2019-11-27 17:50:15.617 [http-nio-8080-exec-19] ResultSetProcessorImpl - Starting ResultSet row #4
+[DEBUG] 2019-11-27 17:50:15.617 [http-nio-8080-exec-19] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2019-11-27 17:50:15.617 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [edu.yang.entity.YugiohCard.entries#51]
+[DEBUG] 2019-11-27 17:50:15.617 [http-nio-8080-exec-19] CollectionReferenceInitializerImpl - Found row of collection: [edu.yang.entity.User.cards#5]
+[DEBUG] 2019-11-27 17:50:15.617 [http-nio-8080-exec-19] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.User#5]
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cards` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cards`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `password` : value = august2016
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`password`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `role` : value = general
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`role`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `userName` : value = benjamin
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] TwoPhaseLoad - Done materializing entity [edu.yang.entity.User#5]
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] CollectionLoadContext - 5 collections were found in result set for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#47]
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#48]
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#49]
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#50]
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.YugiohCard.entries#51]
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] CollectionLoadContext - 5 collections initialized for role: edu.yang.entity.YugiohCard.entries
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] CollectionLoadContext - 1 collections were found in result set for role: edu.yang.entity.User.cards
+[DEBUG] 2019-11-27 17:50:15.618 [http-nio-8080-exec-19] CollectionLoadContext - Collection fully initialized: [edu.yang.entity.User.cards#5]
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] CollectionLoadContext - 1 collections initialized for role: edu.yang.entity.User.cards
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] AbstractLoadPlanBasedEntityLoader - Done entity load : edu.yang.entity.User#5
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#47]
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#48]
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN001
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardName` : value = Dark Magician Girl
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardRarity` : value = Secret
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardSet` : value = IOC
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardType` : value = Monster
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `price` : value = 2.0
+[DEBUG] 2019-11-27 17:50:15.619 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `quantity` : value = 25
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `status` : value = Not Sold
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `user` : value = 5
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#48]
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#49]
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN025
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardName` : value = Raigeki
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardRarity` : value = Super
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardSet` : value = LOB
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardType` : value = Spell
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `price` : value = 1.0
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `quantity` : value = 15
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `status` : value = Not Sold
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `user` : value = 5
+[DEBUG] 2019-11-27 17:50:15.620 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#49]
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#50]
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN001
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardName` : value = Harpie's Feather Duster
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardRarity` : value = Prismatic
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardSet` : value = DDS
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardType` : value = Spell
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `price` : value = 1.0
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `quantity` : value = 75
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `status` : value = Not Sold
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `user` : value = 5
+[DEBUG] 2019-11-27 17:50:15.622 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.624 [http-nio-8080-exec-19] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#50]
+[DEBUG] 2019-11-27 17:50:15.624 [http-nio-8080-exec-19] TwoPhaseLoad - Resolving attributes for [edu.yang.entity.YugiohCard#51]
+[DEBUG] 2019-11-27 17:50:15.624 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardIndex` : value = EN025
+[DEBUG] 2019-11-27 17:50:15.624 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardIndex`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.624 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardName` : value = Heavy Storm
+[DEBUG] 2019-11-27 17:50:15.624 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.624 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardRarity` : value = Super
+[DEBUG] 2019-11-27 17:50:15.624 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardRarity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardSet` : value = LOB
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardSet`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `cardType` : value = Spell
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`cardType`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `entries` : value = NOT NULL COLLECTION
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`entries`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `image` : value = null
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `price` : value = 25.3
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `quantity` : value = 1
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`quantity`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `status` : value = Not Sold
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`status`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Processing attribute `user` : value = 5
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2019-11-27 17:50:15.628 [http-nio-8080-exec-19] TwoPhaseLoad - Done materializing entity [edu.yang.entity.YugiohCard#51]
+[DEBUG] 2019-11-27 17:50:15.634 [http-nio-8080-exec-19] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

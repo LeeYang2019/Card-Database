@@ -21158,3 +21158,7 @@ quantity : 1
 [INFO ] 2019-11-27 17:47:05.961 [http-nio-8080-exec-13] SearchCards - searchType is :All Cards
 [INFO ] 2019-11-27 17:47:05.961 [http-nio-8080-exec-13] SearchCards - in search servlet, user is : benjamin
 [INFO ] 2019-11-27 17:47:05.961 [http-nio-8080-exec-13] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-11-27 17:50:15.578 [http-nio-8080-exec-19] SearchCards - searchTerm is :
+[INFO ] 2019-11-27 17:50:15.581 [http-nio-8080-exec-19] SearchCards - searchType is :All Cards
+[INFO ] 2019-11-27 17:50:15.581 [http-nio-8080-exec-19] SearchCards - in search servlet, user is : benjamin
+[INFO ] 2019-11-27 17:50:15.581 [http-nio-8080-exec-19] SearchCards - searchTerm is empty and searchType is All Cards
