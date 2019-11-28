@@ -44,7 +44,7 @@
   </auth-constraint>
   </security-constraint>
 
-  <!-- Protect the index page. -->
+  <!-- Protect the index page.
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>index</web-resource-name>
@@ -53,9 +53,9 @@
     <auth-constraint>
       <role-name>general</role-name>
     </auth-constraint>
-  </security-constraint>
+  </security-constraint>-->
 
-  <!-- Protect the user search page. -->
+  <!-- Protect the user search page.
 
   <security-constraint>
     <web-resource-collection>
@@ -65,9 +65,9 @@
     <auth-constraint>
       <role-name>general</role-name>
     </auth-constraint>
-  </security-constraint>
+  </security-constraint>-->
 
-  <!-- Protect the add page -->
+  <!-- Protect the add page
 
   <security-constraint>
     <web-resource-collection>
@@ -77,7 +77,7 @@
     <auth-constraint>
       <role-name>general</role-name>
     </auth-constraint>
-  </security-constraint>
+  </security-constraint>-->
 
   <!-- defined roles -->
   <security-role>
