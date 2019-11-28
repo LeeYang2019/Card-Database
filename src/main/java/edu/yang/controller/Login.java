@@ -15,6 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.validation.constraints.Null;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Login servlet to get the remote user and store it in the session
@@ -40,11 +43,14 @@ public class Login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        logger.info("entering Login servlet");
-
         //create session
         HttpSession session = req.getSession();
         RequestDispatcher dispatcher;
+
+        ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
+        Map<String, Object> propsAndValues = new HashMap<>();
+        List<YugiohCard> userCards;
+
 
         //get remote user
         String userName = req.getRemoteUser();
@@ -53,19 +59,17 @@ public class Login extends HttpServlet {
         ProjectDao userDao = new ProjectDao(User.class);
         User loggedInUser = (User) userDao.getByProperty("userName", userName);
 
-        logger.info("Logging in for user: " + loggedInUser.getUserName());
-
         //store user in session
         session.setAttribute("user", loggedInUser);
 
         //make service call
         //getUser cards by price
 
-        //if the user collection size is 0
-        logger.info("this user's card collection size is : " + loggedInUser.getCards().size());
+        propsAndValues.put("user", loggedInUser);
+        userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
+        req.setAttribute("cards", userCards);
 
         if (loggedInUser.getCards().size() == 0) {
-            logger.info("entering file upload page");
             dispatcher = req.getRequestDispatcher("/fileupload.jsp");
         } else {
             dispatcher = req.getRequestDispatcher("/index.jsp");

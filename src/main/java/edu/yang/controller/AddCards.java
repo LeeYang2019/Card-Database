@@ -6,7 +6,6 @@ import edu.yang.entity.YugiohCardHistory;
 import edu.yang.persistence.ProjectDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,7 +18,8 @@ import java.sql.Timestamp;
 import java.util.Date;
 
 /**
- * A simple servlet to add Cards.
+ * A simple servlet to add Cards to the db
+ * @author Yang
  */
 
 @WebServlet(
@@ -45,36 +45,18 @@ public class AddCards extends HttpServlet {
 
         //get user input
         String cardName = req.getParameter("cardName");
-        logger.info("cardName is: " + cardName);
-
         String cardType = req.getParameter("cardType");
-        logger.info("cardType is: " + cardType);
-
         String cardRarity = req.getParameter("cardRarity");
-        logger.info("cardRarity is: " + cardRarity);
-
         String cardSet = req.getParameter("cardSet");
-        logger.info("cardSet is: " + cardSet);
-
         String cardIndex = req.getParameter("cardIndex");
-        logger.info("cardIndex is: " + cardIndex);
-
         String cardPrice = req.getParameter("cardPrice");
         double price = Double.parseDouble(cardPrice);
-
-        logger.info("cardPrice is: " + cardPrice);
-
         String cardQuantity = req.getParameter("cardQuantity");
         int qty = Integer.parseInt(cardQuantity);
-
-        logger.info("cardQuantity is: " + cardQuantity);
 
         //get this user
         HttpSession session = req.getSession();
         User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
-
-        logger.info("this user id is : " + loggedInUser.getId());
-
 
         //create a card object
         YugiohCard newCard = new YugiohCard(cardName, cardType, cardRarity, cardSet, cardIndex, price, qty, "unsold", null, loggedInUser);

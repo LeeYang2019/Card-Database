@@ -40,9 +40,6 @@ public class SearchCards extends HttpServlet {
         String searchTerm = req.getParameter("searchTerm");
         String searchType = req.getParameter("searchType");
 
-        logger.info("searchTerm is :" + searchTerm);
-        logger.info("searchType is :" + searchType);
-
         List<YugiohCard> list = getList(session, searchTerm, searchType);
 
         session.setAttribute("cards", list);

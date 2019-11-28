@@ -24,7 +24,8 @@ import java.util.List;
 
 
 /**
- * A
+ * A simple servlet that pulls the cards file from
+ * @author Yang
  */
 @WebServlet(
         urlPatterns = {"/fileDownload"}
@@ -39,8 +40,6 @@ public class FileDownload extends HttpServlet {
     @Override
     protected void doGet (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        logger.info("entered fileDownload servlet");
-
         resp.setContentType("text/plain");
         resp.setHeader("Content-Disposition","attachment;filename=downloadname.txt");
         ServletContext context = getServletContext();
@@ -49,8 +48,6 @@ public class FileDownload extends HttpServlet {
         int read= -1;
         byte[] bytes = new byte[BYTES_DOWNLOAD];
         OutputStream opStream = resp.getOutputStream();
-
-        logger.info("middle of fileDownload servlet");
 
         while((read = inStream.read(bytes))!= -1){
             opStream.write(bytes, 0, read);
