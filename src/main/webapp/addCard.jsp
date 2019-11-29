@@ -10,7 +10,7 @@
             <div class="row">
                 <c:import url="navbar.jsp"/>
             </div>
-
+            <div class="row">
                 <form id="cardForm" action="addCards" class="needs-validation" novalidate>
 
                     <div class="form-group row">
@@ -91,7 +91,7 @@
                     </div>
 
                 </form>
-
+            </div>
                 <br/>
             <br/>
             <footer class="row">
