@@ -9,16 +9,6 @@
             <div class="row">
                 <c:import url="navbar.jsp"/>
             </div>
-          <!--  <div class="row">
-                <div class="col-10 mx-auto mb-3">
-                    <div class="card border-primary">
-                        <div class="card-header bg-primary">
-                            <h4 class="text-white">Filter Results</h4>
-                        </div>
-
-                    </div>
-                </div>
-            </div> -->
 
             <div class="row">
                 <div class="col-12 mx-auto mb-3">

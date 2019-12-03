@@ -33279,3 +33279,7 @@ quantity : 1
 [INFO ] 2019-12-02 18:49:14.963 [main] FileUploadTest - Cards from temp/Cards.xlsx
 [INFO ] 2019-12-02 18:50:47.601 [http-nio-8080-exec-6] SearchCards - in search servlet, user is : leeyang2019
 [INFO ] 2019-12-02 18:50:47.604 [http-nio-8080-exec-6] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-02 18:54:26.889 [http-nio-8080-exec-3] SearchCards - in search servlet, user is : leeyang2019
+[INFO ] 2019-12-02 18:54:26.889 [http-nio-8080-exec-3] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-02 18:56:41.022 [http-nio-8080-exec-2] SearchCards - in search servlet, user is : leeyang2019
+[INFO ] 2019-12-02 18:56:41.026 [http-nio-8080-exec-2] SearchCards - searchTerm is empty and searchType is All Cards
