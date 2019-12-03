@@ -11,6 +11,7 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
+<<<<<<< HEAD
                 <div class="col-8 mx-auto">
 
                             <form id="cardForm" action="addCards" class="needs-validation" novalidate>
@@ -23,6 +24,9 @@
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
                                 </div>
+=======
+                <form id="cardForm" action="addCards" class="needs-validation" novalidate>
+>>>>>>> 81a43f0bd943a5042ac48ca679fe7b9680748318
 
                                 <div class="form-group row">
                                     <label class="cardLabel" for="cardType" class="col-md-4 col-form-label">Type</label>
@@ -96,7 +100,14 @@
                 </div>
             </div>
 
+<<<<<<< HEAD
 
+=======
+                </form>
+            </div>
+                <br/>
+            <br/>
+>>>>>>> 81a43f0bd943a5042ac48ca679fe7b9680748318
             <footer class="row">
                 <c:import url="footer.jsp"/>
             </footer>
