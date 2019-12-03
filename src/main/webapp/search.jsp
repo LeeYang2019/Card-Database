@@ -9,25 +9,32 @@
             <div class="row">
                 <c:import url="navbar.jsp"/>
             </div>
-
-            <form class="form-check-inline" action="searchCards" method="GET" class="needs-validation" novalidate>
-                <div id="mySearch" class="input-group mb-3">
-                    <div class=""form-group>
-                        <select class="form-control" id="searchType" name="searchType">
-                            <option selected>All Cards</option>
-                            <option value="monster">Monster</option>
-                            <option value="spell">Spell</option>
-                            <option value="trap">Trap</option>
-                        </select>
+            <div class="col-10 mx-auto">
+                <div class="card border-dark mb-3">
+                    <div class="card-header bg-dark">
+                        <h4 class="text-white">Card Search</h4>
                     </div>
+                    <div class="card-body">
+                        <form class="form-group" action="searchCards" method="GET" class="needs-validation" novalidate>
 
-                    <input type="searchTerm" class="form-control" id="searchTerm" placeholder="Search Card" name="searchTerm" aria-label="card" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                            <div class="form-group">
+                                <input type="searchTerm" class="form-control" id="searchTerm" placeholder="Search Card" name="searchTerm" aria-label="card" aria-describedby="basic-addon2">
+                            </div>
+
+                            <div class="form-group">
+                                <select class="form-control" id="searchType" name="searchType">
+                                    <option selected>All Cards</option>
+                                    <option value="monster">Monster</option>
+                                    <option value="spell">Spell</option>
+                                    <option value="trap">Trap</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
                 </div>
-            </form>
-
+            </div>
             <footer class="row">
                 <c:import url="footer.jsp"/>
             </footer>

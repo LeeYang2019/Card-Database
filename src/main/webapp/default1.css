@@ -1,5 +1,6 @@
 body {
-  background-color: #c1f9c6;
+  /*background-color: #c1f9c6;*/
+    background-color: #e9eef5;
 }
 
 .container {
@@ -32,6 +33,16 @@ body {
     border: 1px solid #dee2e6;
     border-radius: 0.25em;
 }
+
+.myCard, .myButtons {
+    margin: auto;
+}
+
+.cardLabel {
+    text-align: right;
+}
+
+
 
 a {
     color: #0060B6;
