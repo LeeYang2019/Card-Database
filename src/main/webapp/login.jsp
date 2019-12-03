@@ -13,8 +13,8 @@
             <c:import url="navbar.jsp"/>
         </div>
         <div class="col-6 mx-auto mb-3">
-            <div class="card border-info">
-                <div class="card-header bg-info">
+            <div class="card border-primary">
+                <div class="card-header bg-primary">
                     <h4 class="text-white">Login</h4>
                 </div>
                 <div class="card-body">
