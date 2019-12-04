@@ -12,9 +12,9 @@
 
             <div class="row">
                 <div class="col-12 mx-auto mb-3">
-                    <div class="card border-success">
-                        <div class="card-header bg-success">
-                            <h4 class="text-white">Search Results</h4>
+                    <div class="card border-muted">
+                        <div class="card-header bg-muted">
+                            <h4 class="text-dark">Search Results</h4>
                         </div>
                         <div class="card-body">
                             <div class="form-group">

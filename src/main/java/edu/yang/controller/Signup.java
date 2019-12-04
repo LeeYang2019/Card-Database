@@ -49,11 +49,13 @@ public class Signup extends HttpServlet {
         logger.info("got data for " + userName);
         logger.info("got data for " + password);
 
-        if (userName != null && password != null) {
-            ProjectDao userDao = new ProjectDao(User.class);
-            User newUser  = new User(userName, password, "general");
-            int id = userDao.insert(newUser);
-        }
+        User user = new User();
+        user.setUserName(userName);
+        user.setPassword(password);
+        user.setRole("general");
+
+        ProjectDao projectDao = new ProjectDao(User.class);
+        projectDao.insert(user);
 
         logger.info("leaving servlet");
 

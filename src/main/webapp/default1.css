@@ -59,6 +59,13 @@ a:hover
 footer {
     background-color: black;
     color: white;
-    line-height: 2em;
+    line-height: 3em;
     justify-content: center;
+}
+
+.footerIcons img {
+    width: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
 }

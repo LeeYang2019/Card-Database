@@ -15,32 +15,38 @@
                         <h4 class="text-white">Login</h4>
                     </div>
                     <div class="card-body">
-                        <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
+                        <FORM id="myForm" ACTION="signup" METHOD="POST">
 
                             <p>To create an account, enter a username and password. Afterwards, you will be navigated back to the login page
                                 and then prompted to provide your newly create username and password to login.
                             </p>
 
                             <div class="form-group">
-                                <label for="j_username">Username:</label>
-                                <input type="text" class="form-control" id="j_username" placeholder="Enter username" name="j_username" required>
-                                <div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">Please fill out this field.</div>
+                                <label for="username">Username:</label>
+                                <input type="text" class="form-control" id="username" placeholder="Enter username" name="username"
+                                       data-error="Please enter a username." required>
+                                <div class="help-block with-errors"></div>
+                                <!--<div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>-->
                             </div>
 
                             <div class="form-group">
-                                <label for="pwd">Password:</label>
-                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="j_password" required>
-                                <div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">Please fill out this field.</div>
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter password" name="password"
+                                       data-error="Please provide a password." required>
+                                <div class="help-block with-errors"></div>
                             </div>
 
                             <div class="form-group">
-                                <label for="pwd">Re-Type Password:</label>
-                                <input type="password" class="form-control" id="pwd2" placeholder="Enter password" name="j_password" required>
-                                <div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">Please fill out this field.</div>
+                                <label for="confirmPwd">Re-Type Password:</label>
+                                <input type="password" class="form-control" id="confirmPwd" placeholder="Enter password" name="confirmPwd"
+                                       equalTo="#password"
+                                       data-match="#password"
+                                       data-match-error="Confirmation password does not match"
+                                       required data-error="Please retype your password.">
+                                <div class="help-block with-errors"></div>
                             </div>
+
 
                             <button type="submit" class="btn btn-primary" value="log in">Submit</button><br />
                         </FORM>

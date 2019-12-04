@@ -11,41 +11,33 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
-<<<<<<< HEAD
-                <div class="col-8 mx-auto">
-
+                <div class="col-12 mx-auto mb-3">
+                    <div class="card border-muted">
+                        <div class="card-header bg-muted">
+                            <h4 class="text-dark">Add Card to Database</h4>
+                        </div>
+                        <div class="card-body">
                             <form id="cardForm" action="addCards" class="needs-validation" novalidate>
 
                                 <div class="form-group row">
-                                    <label class="cardLabel" for="cardName" class="col-md-4 col-form-label">Name</label>
                                     <div class="col-md-6">
-                                        <input type="cardName" class="form-control" id="cardName" placeholder="Enter name of card" name="cardName" required>
+                                        <input type="cardName" class="form-control" id="cardName" placeholder="Name" name="cardName" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
-                                </div>
-=======
-                <form id="cardForm" action="addCards" class="needs-validation" novalidate>
->>>>>>> 81a43f0bd943a5042ac48ca679fe7b9680748318
-
-                                <div class="form-group row">
-                                    <label class="cardLabel" for="cardType" class="col-md-4 col-form-label">Type</label>
-                                    <div class="col-md-6">
-                                        <select class="form-control" id="cardType" name="cardType">
-                                            <option value="">-------</option>
-                                            <option value="Monster">Monster</option>
-                                            <option value="Spell">Spell</option>
-                                            <option value="Trap">Trap</option>
-                                        </select>
+                                    <div class="col">
+                                        <div class="col">
+                                            <select class="form-control" id="cardType" name="cardType">
+                                                <option value="">Type</option>
+                                                <option value="Monster">Monster</option>
+                                                <option value="Spell">Spell</option>
+                                                <option value="Trap">Trap</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="form-group row">
-
-                                    <label class="cardLabel" for="cardRarity" class="col-md-4 col-form-label">Rarity</label>
-                                    <div class="col-md-6">
+                                    <div class="col">
                                         <select class="form-control" id="cardRarity" name="cardRarity">
-                                            <option value="">-------</option>
+                                            <option value="">Rarity</option>
                                             <option value="Common">Common</option>
                                             <option value="Rare">Rare</option>
                                             <option value="Super">Super</option>
@@ -54,38 +46,31 @@
                                             <option value="Prismatic">Prismatic</option>
                                         </select>
                                     </div>
+
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="cardLabel" for="cardSet" class="col-md-4 col-form-label">Set</label>
-                                    <div class="col-md-6">
-                                        <input type="cardSet" class="form-control" id="cardSet" placeholder="Enter a card set" name="cardSet" required>
-                                        <div class="valid-feedback">Valid.</div>
-                                        <div class="invalid-feedback">Please fill out this field.</div>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="cardLabel" for="cardIndex" class="col-md-4 col-form-label">No</label>
-                                    <div class="col-md-6">
-                                        <input type="cardIndex" class="form-control" id="cardIndex" placeholder="Enter a card no." name="cardIndex" required>
-                                        <div class="valid-feedback">Valid.</div>
-                                        <div class="invalid-feedback">Please fill out this field.</div>
-                                    </div>
-                                </div>
 
-                                <div class="form-group row">
-                                    <label class="cardLabel" for="cardPrice" class="col-md-4 col-form-label">Price</label>
-                                    <div class="col-md-6">
-                                        <input type="cardPrice" class="form-control" id="cardPrice" placeholder="Enter a price." name="cardPrice" required>
+                                    <div class="col">
+                                        <input type="cardSet" class="form-control" id="cardSet" placeholder="Set" name="cardSet" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
-                                </div>
 
-                                <div class="form-group row">
-                                    <label class="cardLabel" for="cardQuantity" class="col-md-4 col-form-label">Quantity</label>
-                                    <div class="col-md-6">
-                                        <input type="cardQuantity" class="form-control" id="cardQuantity" placeholder="Enter a quantity." name="cardQuantity" required>
+                                    <div class="col">
+                                        <input type="cardIndex" class="form-control" id="cardIndex" placeholder="Card No." name="cardIndex" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="col">
+                                        <input type="cardPrice" class="form-control" id="cardPrice" placeholder="Price" name="cardPrice" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="col">
+                                        <input type="cardQuantity" class="form-control" id="cardQuantity" placeholder="Qty." name="cardQuantity" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
@@ -97,17 +82,11 @@
                                 </div>
 
                             </form>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-<<<<<<< HEAD
-
-=======
-                </form>
-            </div>
-                <br/>
-            <br/>
->>>>>>> 81a43f0bd943a5042ac48ca679fe7b9680748318
             <footer class="row">
                 <c:import url="footer.jsp"/>
             </footer>

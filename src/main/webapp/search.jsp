@@ -10,9 +10,9 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="col-10 mx-auto">
-                <div class="card border-dark mb-3">
-                    <div class="card-header bg-dark">
-                        <h4 class="text-white">Card Search</h4>
+                <div class="card border-muted mb-3">
+                    <div class="card-header bg-muted">
+                        <h4 class="text-dark">Card Search</h4>
                     </div>
                     <div class="card-body">
                         <form class="form-group" action="searchCards" method="GET" class="needs-validation" novalidate>
