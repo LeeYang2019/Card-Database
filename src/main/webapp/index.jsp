@@ -12,9 +12,9 @@
             </div>
             <div class="row">
                 <div class="col-12 mx-auto mb-3">
-                    <div class="card border-info">
-                        <div class="card-header bg-info">
-                            <h4 class="text-white font-italic font-weight-bold">Top 20 Selling Cards</h4>
+                    <div class="card border-muted rounded-0">
+                        <div class="card-header bg-muted">
+                            <h4 class="text-dark font-italic font-weight-bold">Top 20 Selling Cards</h4>
                         </div>
                         <div class="card-body">
                             <c:choose>

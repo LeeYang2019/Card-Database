@@ -14,7 +14,7 @@
                     <c:when test="${!empty(card)}">
 
                         <div class="col-8 mx-auto mb-3">
-                            <div class="card border-muted">
+                            <div class="card border-muted rounded-0">
                                 <div class="card-header bg-muted">
                                     <h4 class="text-dark">${card.cardName}</h4>
                                 </div>

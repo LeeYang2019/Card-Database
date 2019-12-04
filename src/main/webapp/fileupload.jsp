@@ -10,25 +10,26 @@
                 <c:import url="navbar.jsp"/>
             </div>
             <div class="row">
-            <div class="col-8 mx-auto mb-3">
-                <div class="card border-dark">
-                    <div class="card-header bg-dark">
-                        <h4 class="text-white">Upload a File</h4>
-                    </div>
-                    <div class="card-body">
-                        <form action="uploadFile" method="post" enctype="multipart/form-data">
-                            <input type="file" name="file" />
-                            <input type="submit" value="upload" />
-                        </form>
+                <div class="col-8 mx-auto mb-3">
+                    <div class="card border-dark">
+                        <div class="card-header bg-dark">
+                            <h4 class="text-white">Upload a File</h4>
+                        </div>
+                        <div class="card-body">
+                            <form action="uploadFile" method="post" enctype="multipart/form-data">
+                                <input type="file" name="file" />
+                                <input type="submit" value="upload" />
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <p><a href="fileDownload">I do not have a file.</a></p>
-            </div>
-            <div class="row">
-                <div id="result">
-                    <h3>${requestScope["message"]}</h3>
+                <div class="row">
+                    <p><a href="fileDownload">I do not have a file.</a></p>
+                </div>
+                <div class="row">
+                    <div id="result">
+                        <h3>${requestScope["message"]}</h3>
+                    </div>
                 </div>
             </div>
             <footer class="row">
