@@ -12,7 +12,6 @@
             <div class="row">
                 <c:choose>
                     <c:when test="${!empty(card)}">
-
                         <div class="col-8 mx-auto mb-3">
                             <div class="card border-muted rounded-0">
                                 <div class="card-header bg-muted">

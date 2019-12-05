@@ -43,6 +43,8 @@ public class Login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        logger.info("entering login servlet");
+
         //create session
         HttpSession session = req.getSession();
         RequestDispatcher dispatcher;

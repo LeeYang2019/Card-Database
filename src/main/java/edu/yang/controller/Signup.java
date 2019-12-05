@@ -59,7 +59,8 @@ public class Signup extends HttpServlet {
 
         logger.info("leaving servlet");
 
-        String url = "/login";
+        //String url = "/login.jsp";
+        String url = "singupConfirmation.jsp";
         resp.sendRedirect(url);
         //RequestDispatcher dispatcher = req.getRequestDispatcher("/login");
         //dispatcher.forward(req, resp);

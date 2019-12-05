@@ -56,13 +56,15 @@ public class SearchCards extends HttpServlet {
      */
     public List<YugiohCard> getList(HttpSession session, String searchTerm, String searchType) {
 
+        logger.info("in search servlet");
+
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         Map<String, Object> propsAndValues = new HashMap<>();
         List<YugiohCard> userCards;
 
         //get user from session
         User loggedInUser = (User)session.getAttribute("user");
-        logger.info("in search servlet, user is : " + loggedInUser.getUserName());
+        logger.info("user is : " + loggedInUser.getUserName());
 
         //if searchTerm is not empty and searchType is choose, return all cards by searchTerm
         if (!searchTerm.isEmpty()) {

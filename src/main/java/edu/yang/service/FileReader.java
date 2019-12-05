@@ -18,6 +18,7 @@ public class FileReader {
     public List<YugiohCard> excelRead(String fileName, Object user) {
 
         logger.info("name of file coming in: " + fileName);
+
         ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
 
         List<YugiohCard> cardList = new ArrayList<>();
