@@ -1,0 +1,6 @@
+
+Osquid:S1854k"8Remove this useless assignment to local variable "root".(áÚƒ»
+vsquid:S2293¡"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ë¡àþüÿÿÿÿ
+vsquid:S2293º"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ë¡àþüÿÿÿÿ
+@squid:S1481k")Remove this unused "root" local variable.(áÚƒ»
+Asquid:S1068"*Remove this unused "logger" private field.(æ×âÁ

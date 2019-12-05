@@ -1,0 +1,16 @@
+
+rsquid:S2629A"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Ğ’Ñb
+Msquid:S2629H"7Use the built-in formatting to construct this argument.(Üö†}
+rsquid:S2629M"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÃÄo
+Nsquid:S2629R"7Use the built-in formatting to construct this argument.(öòığ
+rsquid:S2629X"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÃÄo
+fsquid:S1192F"JDefine a constant instead of duplicating this literal "All Cards" 3 times.(šÉÃ¨üÿÿÿÿ
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+dsquid:S2441-"MMake "List" and its parameters serializable or don't store it in the session.(âö™ì
+=squid:S1989/"&Add a "try/catch" block for "forward".(òø½
+=squid:S1989/"&Add a "try/catch" block for "forward".(òø½
+Wsquid:S3457A"AFormat specifiers should be used instead of string concatenation.(Ğ’Ñb
+Wsquid:S3457H"AFormat specifiers should be used instead of string concatenation.(Üö†}
+Wsquid:S3457M"AFormat specifiers should be used instead of string concatenation.(ÃÄo
+Xsquid:S3457R"AFormat specifiers should be used instead of string concatenation.(öòığ
+Wsquid:S3457X"AFormat specifiers should be used instead of string concatenation.(ÃÄo

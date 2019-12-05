@@ -1,0 +1,8 @@
+
+Ssquid:S26291"7Use the built-in formatting to construct this argument.(‘­‰”øÿÿÿÿ
+Nsquid:S26292"7Use the built-in formatting to construct this argument.(¸¤»é
+]squid:S34571"AFormat specifiers should be used instead of string concatenation.(‘­‰”øÿÿÿÿ
+Xsquid:S34572"AFormat specifiers should be used instead of string concatenation.(¸¤»é
+Gsquid:S1989?"+Add a "try/catch" block for "sendRedirect".(Ñúðóùÿÿÿÿ
+asquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(žòm
+bsquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(êïò‹

@@ -1,0 +1,22 @@
+
+dsquid:S2259<"HA "NullPointerException" could be thrown; "connection" is nullable here.(•™ğåıÿÿÿÿ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æ¯”£şÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷õçÂ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈŸÔÄ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£–à™ùÿÿÿÿ
+T
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Æ’ôˆüÿÿÿÿ
+O
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ù§é
+O
+squid:S1064"9Replace this use of System.out or System.err by a logger.(äìÎÆ
+Asquid:S001089")Either remove or fill this block of code.(ï­£Ä
+Fsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+O
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¨«Ü
+T
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
+Asquid:S00108R")Either remove or fill this block of code.(”ı¾
+Dsquid:S1068"(Remove this unused "auth" private field.(£–à™ùÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ûİş¡ÿÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(öÊéòûÿÿÿÿ
