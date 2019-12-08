@@ -1,22 +1,22 @@
 
-T
-squid:S106%"9Replace this use of System.out or System.err by a logger.(Æ’ôˆüÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÛÝþ¡ÿÿÿÿÿ
 T
 squid:S106Q"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
 dsquid:S2259<"HA "NullPointerException" could be thrown; "connection" is nullable here.(•™ðåýÿÿÿÿ
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£–à™ùÿÿÿÿ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÛÝþ¡ÿÿÿÿÿ
-Asquid:S001089")Either remove or fill this block of code.(ï­£Ä
-Asquid:S00108R")Either remove or fill this block of code.(”ý¾
-O
-squid:S106&"9Replace this use of System.out or System.err by a logger.(žù§é
-Dsquid:S1068"(Remove this unused "auth" private field.(£–à™ùÿÿÿÿ
-rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷õçÂ
 O
 squid:S1064"9Replace this use of System.out or System.err by a logger.(äìÎÆ
 gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(öÊéòûÿÿÿÿ
-Fsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+O
+squid:S106&"9Replace this use of System.out or System.err by a logger.(žù§é
+Asquid:S001089")Either remove or fill this block of code.(ï­£Ä
+Dsquid:S1068"(Remove this unused "auth" private field.(£–à™ùÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷õçÂ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈŸÔÄ
+Asquid:S00108R")Either remove or fill this block of code.(”ý¾
 wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æ¯”£þÿÿÿÿ
+T
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Æ’ôˆüÿÿÿÿ
+Fsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
 O
 squid:S106>"9Replace this use of System.out or System.err by a logger.(¨«Üž
-rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈŸÔÄ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£–à™ùÿÿÿÿ
