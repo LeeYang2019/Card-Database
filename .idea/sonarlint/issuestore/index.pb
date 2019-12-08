@@ -6,17 +6,17 @@ W
 d
 4src/main/java/edu/yang/entity/YugiohCardHistory.java,e\3\e34093c5ad018eb7b56d92930da16dd5361636d8
 ]
--src/main/java/edu/yang/service/TcgPlayer.java,8\e\8e64a2e031bd65efe7ac25745ee887b3836cd817
+-src/main/java/edu/yang/service/TcgPlayer.java,8/e/8e64a2e031bd65efe7ac25745ee887b3836cd817
 ^
-.src/main/java/edu/yang/service/FileReader.java,b\6\b687da37a5d51e60cb9598957bb0aa9cf71d8dd3
+.src/main/java/edu/yang/service/FileReader.java,b/6/b687da37a5d51e60cb9598957bb0aa9cf71d8dd3
 \
-,src/main/java/edu/yang/controller/Login.java,8\5\85ef368dfd44887e09ec3b98f75e3ffacfe27420
+,src/main/java/edu/yang/controller/Login.java,8/5/85ef368dfd44887e09ec3b98f75e3ffacfe27420
 ]
 -src/main/java/edu/yang/controller/Logout.java,3\0\30199d4ebc7447fc99c11038520d3af0ff974865
 ]
--src/main/java/edu/yang/controller/Signup.java,e\0\e02fb695192703b370f850250930b9b007cf3e41
+-src/main/java/edu/yang/controller/Signup.java,e/0/e02fb695192703b370f850250930b9b007cf3e41
 _
-/src/main/java/edu/yang/controller/AddCards.java,8\b\8b8cf2213a207ea8ba139ff7c5e83b49529342ec
+/src/main/java/edu/yang/controller/AddCards.java,8/b/8b8cf2213a207ea8ba139ff7c5e83b49529342ec
 _
 /src/main/java/edu/yang/controller/SellCard.java,4\2\42c60a6787ba0df967597ebed9b41b1b9f711dba
 a
@@ -24,7 +24,7 @@ a
 b
 2src/main/java/edu/yang/controller/DisplayCard.java,c\9\c9fb491923872ce7a67df4b2a80a3528fb089d66
 b
-2src/main/java/edu/yang/controller/SearchCards.java,e\5\e50823c135f4480733e3cf951567f66286e08856
+2src/main/java/edu/yang/controller/SearchCards.java,e/5/e50823c135f4480733e3cf951567f66286e08856
 c
 3src/main/java/edu/yang/controller/FileDownload.java,4\7\47a8550b9a60d07061a6ae3e1e2b5aedb1a8ad02
 b
@@ -40,39 +40,35 @@ $src/main/webapp/images/instagram.svg,2\4\242735b4e070376c9121139b50ab091ad9777
 V
 &src/main/webapp/images/github-icon.svg,9\f\9fc589d5a97194d7e1fd178bb092acfb5cfc85ee
 O
-src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 H
-src/main/webapp/card.jsp,a\8\a857209d069e4738db70e1a21eebfa90cc4f1de5
-H
-src/main/webapp/head.jsp,6\c\6c57d9794d63950556f848b93dffc80fc104fc75
+src/main/webapp/head.jsp,6/c/6c57d9794d63950556f848b93dffc80fc104fc75
 T
 $src/main/webapp/META-INF/context.xml,c\b\cbfb0d2e9b2b9fbf9d54374577c894a38643c6d0
 I
 src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
 I
-src/main/webapp/login.jsp,8\5\85ee523d01e5e19376db640e846c91bbcb0a1c22
+src/main/webapp/login.jsp,8/5/85ee523d01e5e19376db640e846c91bbcb0a1c22
 J
 src/main/webapp/footer.jsp,3\8\3819c16e4a27752a128752c506287183b0c69775
 J
-src/main/webapp/header.jsp,0\5\051b0ac501a865704d2b6b36f8cfabfa311becc2
+src/main/webapp/header.jsp,0/5/051b0ac501a865704d2b6b36f8cfabfa311becc2
 J
 src/main/webapp/logout.jsp,e\7\e7a26d636a815ab45217ad388a04d73824e80eff
 J
-src/main/webapp/navbar.jsp,a\7\a7ba207bfa74ca8b935b52012e2659693fd94e87
+src/main/webapp/navbar.jsp,a/7/a7ba207bfa74ca8b935b52012e2659693fd94e87
 J
-src/main/webapp/search.jsp,c\3\c3258cd09374f8ea39c10bd015a25ea37724465b
+src/main/webapp/search.jsp,c/3/c3258cd09374f8ea39c10bd015a25ea37724465b
 J
-src/main/webapp/signup.jsp,e\5\e5522cd3d0b3598d3702de2bf21f10cd7b094ad8
+src/main/webapp/signup.jsp,e/5/e5522cd3d0b3598d3702de2bf21f10cd7b094ad8
 K
-src/main/webapp/addCard.jsp,8\2\82c0f0f4be4f247a727ce6cb3158bef877cb0d30
+src/main/webapp/addCard.jsp,8/2/82c0f0f4be4f247a727ce6cb3158bef877cb0d30
 K
 src/main/webapp/results.jsp,a\0\a047297eff552188f44ca404fb93b1557c6deaad
 K
 src/main/webapp/selling.jsp,4\a\4a684ed7a04f1f9dbc344acd7bc12267991673c7
 L
-src/main/webapp/default1.css,4\8\480fe65224e8e7352a7414d94781f4ebd40b7125
-L
-src/main/webapp/editCard.jsp,f\c\fcbbfb908f48d456306678e6eebce1fa0e186398
+src/main/webapp/editCard.jsp,f/c/fcbbfb908f48d456306678e6eebce1fa0e186398
 N
 src/main/webapp/fileupload.jsp,8\3\839a86e99860db01a6e053e2f9f1f33deca4b42e
 N
@@ -105,3 +101,7 @@ V
 &src/test/resources/database.properties,e\e\ee17659c15c341861988622c179c5b3954a41a48
 ;
 Feedback.md,1\f\1f2b548bc7306fe3317d27529b48709404cbbc35
+_
+/src/main/java/edu/yang/controller/EditCard.java,9/8/98ce149026c032f1b9573299a2dce0ef73a4066a
+O
+src/main/webapp/displayCard.jsp,4/2/4249c8aaa9897591c18735202356600b00afd334
