@@ -86,7 +86,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
             <footer class="row">
                 <c:import url="footer.jsp"/>
             </footer>
