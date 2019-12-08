@@ -49,12 +49,12 @@
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <div class="col-4 mx-auto mb-3">
+                                        <div class="col-md-4 d-none d-md-block mx-auto mb-3">
                                             <div class="card border-muted rounded-0">
                                                 <div class="card-header bg-muted">
                                                     <h4>Action</h4>
                                                 </div>
-                                                <div class="card-body">
+                                                <div class="card-body text-center">
                                                     <form id="cardForm" action="addCards" class="needs-validation" novalidate>
                                                         <div class="col myButtons">
                                                             <button type="submit" class="btn btn-primary">Edit</button>
@@ -64,6 +64,19 @@
                                                             <button type="reset" class="btn btn-danger">Sell</button>
                                                         </div>
                                                     </form>
+                                                    <div class="card-body text-center">
+                                                        <div class="btn-group-vertical">
+                                                            <div class="btn btn-outline-dark btn-lg disabled">
+                                                                students
+                                                            </div>
+                                                            <div class="btn btn-outline-dark btn-lg disabled">
+                                                                Charts & Graphs
+                                                            </div>
+                                                            <div class="btn btn-outline-dark btn-lg disabled">
+                                                                Flags
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
