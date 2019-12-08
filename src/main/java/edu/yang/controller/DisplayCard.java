@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * A simple servlet to gets the id of a card, retrieves the card corresponding to the id and forwards the card to the card.jsp
+ * A simple servlet to gets the id of a card, retrieves the card corresponding to the id and forwards the card to the displayCard.jsp
  * @author Yang
  */
 @WebServlet(
@@ -35,7 +35,7 @@ public class DisplayCard extends HttpServlet {
         YugiohCard newYugiohCard = (YugiohCard)yugiohCardDao.getById(id);
 
         req.setAttribute("card", newYugiohCard);
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/card.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/displayCard.jsp");
         dispatcher.forward(req, resp);
     }
 }

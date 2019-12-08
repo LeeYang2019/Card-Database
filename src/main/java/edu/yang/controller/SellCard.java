@@ -37,7 +37,7 @@ public class SellCard extends HttpServlet {
         yugiohCardDao.saveOrUpdate(newYugiohCard);
 
         req.setAttribute("card", newYugiohCard);
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/card.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/displayCard.jsp");
         dispatcher.forward(req, resp);
     }
 }

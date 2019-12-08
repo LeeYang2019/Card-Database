@@ -24,7 +24,7 @@ import java.util.Date;
  */
 
 @WebServlet(
-        urlPatterns = {"/addCards"}
+        urlPatterns = {"/editCard"}
 )
 
 public class EditCard extends HttpServlet {
