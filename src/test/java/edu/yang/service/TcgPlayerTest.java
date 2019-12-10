@@ -6,8 +6,10 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import javax.json.Json;
 import javax.json.stream.JsonParser;
 
 import java.util.List;
@@ -18,6 +20,18 @@ import static org.junit.jupiter.api.Assertions.*;
 class TcgPlayerTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
+    TcgPlayer tcgPlayerApi;
+    ObjectMapper objMapper;
+
+    /**
+     * run these before each test
+     */
+    @BeforeEach
+    void setUp() {
+       tcgPlayerApi = new TcgPlayer();
+       objMapper = new ObjectMapper();
+    }
+
 
     @Test
     void getClientCredentials() {
@@ -31,25 +45,16 @@ class TcgPlayerTest {
 
     @Test
     void getProductImage() {
-        TcgPlayer newTcgPlayer = new TcgPlayer();
-        ObjectMapper object = new ObjectMapper();
 
         try {
-            JsonNode jsonNode = object.readTree(newTcgPlayer.getProductImage());
+            JsonNode jsonNode = objMapper.readTree(tcgPlayerApi.getProductImage(21876));
             JsonNode resultsNode = jsonNode.get("results");
-            logger.info(resultsNode.toPrettyString());
+            logger.info("results path: " + resultsNode.toPrettyString());
 
-            String url = resultsNode.get("imageUrl").toPrettyString();
+            //String imageUrl = resultsNode.get("imageUrl")
 
-            logger.info(url);
-
-/*
-            for (Map.Entry<String, String> element: map.entrySet()) {
-                //logger.info("key: " + element.getKey() + ", value: " + element.getValue());
-            }
-*/
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            logger.error(e);
         }
 
     }

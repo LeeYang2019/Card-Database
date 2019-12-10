@@ -4124,3 +4124,129 @@ quantity : 1
   "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
   "modifiedOn" : "2013-05-09T12:13:41.653"
 } ]
+[INFO ] 2019-12-09 19:27:37.862 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:30:16.526 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:31:44.757 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:34:25.346 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:34:45.978 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:34:45.993 [main] TcgPlayerTest - null
+[INFO ] 2019-12-09 19:35:33.325 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:35:33.345 [main] TcgPlayerTest - null
+[INFO ] 2019-12-09 19:36:36.826 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:36:36.845 [main] TcgPlayerTest - null
+[INFO ] 2019-12-09 19:37:29.910 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:37:29.927 [main] TcgPlayerTest - null
+[INFO ] 2019-12-09 19:37:53.600 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:37:53.622 [main] TcgPlayerTest - null
+[INFO ] 2019-12-09 19:41:00.025 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:42:49.657 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-09 19:44:57.172 [main] TcgPlayerTest - results path: null
+[INFO ] 2019-12-09 19:46:25.689 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
