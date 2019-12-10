@@ -1,22 +1,12 @@
 
-Dsquid:S1068"(Remove this unused "auth" private field.(£–à™ùÿÿÿÿ
-Asquid:S001089")Either remove or fill this block of code.(ï­£Ä
-O
-squid:S106&"9Replace this use of System.out or System.err by a logger.(ù§é
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æ¯”£şÿÿÿÿ
-Asquid:S00108R")Either remove or fill this block of code.(”ı¾
-Fsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(öÊéòûÿÿÿÿ
-dsquid:S2259<"HA "NullPointerException" could be thrown; "connection" is nullable here.(•™ğåıÿÿÿÿ
-rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈŸÔÄ
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£–à™ùÿÿÿÿ
-rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷õçÂ
-O
-squid:S106>"9Replace this use of System.out or System.err by a logger.(¨«Ü
-O
-squid:S1064"9Replace this use of System.out or System.err by a logger.(äìÎÆ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ûİş¡ÿÿÿÿÿ
-T
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
-T
-squid:S106%"9Replace this use of System.out or System.err by a logger.(Æ’ôˆüÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷õçÂ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ûİş¡ÿÿÿÿÿ
+jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïó õ8—ıÁéî-
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈŸÔÄ
+Jsquid:S1068"'Remove this unused "pat" private field.(Ç«Ãáÿÿÿÿÿ8ß³Ææî-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æ¯”£şÿÿÿÿ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£–à™ùÿÿÿÿ
+Jsquid:S1068",Remove this unused "tokenUrl" private field.(ÈŸÔÄ8ß³Ææî-
+tsquid:S1192U"QDefine a constant instead of duplicating this literal "application/json" 4 times.( áÄ úÿÿÿÿ8ûø—éî-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹½Ñ©8ß³Ææî-
+Dsquid:S1068"(Remove this unused "auth" private field.(£–à™ùÿÿÿÿ

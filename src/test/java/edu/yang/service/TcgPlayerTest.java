@@ -1,7 +1,6 @@
 package edu.yang.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.logging.log4j.LogManager;
@@ -9,18 +8,10 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import javax.json.Json;
-import javax.json.stream.JsonParser;
-
-import java.util.List;
-import java.util.Map;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 class TcgPlayerTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    TcgPlayer tcgPlayerApi;
+    TcgPlayerAPI tcgPlayerApi;
     ObjectMapper objMapper;
 
     /**
@@ -28,7 +19,7 @@ class TcgPlayerTest {
      */
     @BeforeEach
     void setUp() {
-       tcgPlayerApi = new TcgPlayer();
+       tcgPlayerApi = new TcgPlayerAPI();
        objMapper = new ObjectMapper();
     }
 
@@ -39,8 +30,8 @@ class TcgPlayerTest {
 
     @Test
     void useBearerToken() {
-        TcgPlayer newTcgPlayer = new TcgPlayer();
-        logger.info(newTcgPlayer.useBearerToken());
+        TcgPlayerAPI newTcgPlayerAPI = new TcgPlayerAPI();
+        logger.info(newTcgPlayerAPI.useBearerToken());
     }
 
     @Test
@@ -51,11 +42,22 @@ class TcgPlayerTest {
             JsonNode resultsNode = jsonNode.get("results");
             logger.info("results path: " + resultsNode.toPrettyString());
 
-            //String imageUrl = resultsNode.get("imageUrl")
-
         } catch (JsonProcessingException e) {
             logger.error(e);
         }
 
+    }
+
+    @Test
+    void getProductPrice() {
+
+        try {
+            JsonNode jsonNode = objMapper.readTree(tcgPlayerApi.getMarketPrice(21876));
+            JsonNode resultsNode = jsonNode.get("results");
+            logger.info("results path: " + resultsNode.toPrettyString());
+
+        } catch (JsonProcessingException e) {
+            logger.error(e);
+        }
     }
 }
