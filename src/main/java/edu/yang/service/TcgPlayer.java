@@ -1,7 +1,11 @@
 package edu.yang.service;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -9,13 +13,15 @@ import java.util.regex.Pattern;
 
 public class TcgPlayer {
 
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
     private static final Pattern pat = Pattern.compile(".*\"access_token\"\\s*:\\s*\"([^\"]+)\".*");
     private static final String clientId = "1BA51A45-070C-4729-9F0A-EF49A52D98CD";//clientId
     private static final String clientSecret = "4153F817-ADAA-4327-8988-250356C7A389";//client secret
     private static final String tokenUrl = "https://api.tcgplayer.com/token";
     private static final String auth = "&client_id=" + clientId + "&client_secret=" + clientSecret + "\"";
     //private static final String authentication = Base64.getEncoder().encodeToString(auth.getBytes());
-
+/*
     public String getClientCredentials() {
         String content = "grant_type=client_credentials" + "&client_id=" + clientId + "&client_secret=" + clientSecret + "\"";
         BufferedReader reader = null;
@@ -62,26 +68,85 @@ public class TcgPlayer {
         System.out.println(returnValue);
         return returnValue;
     }
+*/
+    public String useBearerToken() {
 
-    public void useBearerToken(String bearerToken) {
+        String autToken2 = "-6_80xFIHbdtKHidNcclVivwwgsGM_Z07eHy7eKJ36caJ7Jle5VQ45YEkMWVR9KFs7u12YY9ZtcbHamSiSM4gExVB3QYLtpWvy1aj88Kt9gm8j1wLek2EDj-pum_OmOstBcNDFoHohmPJHogQDV50FscRQTZ0sUOBQZj6chttHVH_sOrDR1hUd4___dov8BACfGH3raK-QDMUh7IdY9SaMC8I2YZnmOZOXMWL4wh1gBUOfa8NKrwColtjKapZlAqHBMMElaKWnGoVZ04lzxUxv3KI7QcziJhE8CYeYiZ9VoKBCY01uUJqjzzmK5oNT0Aafxpuw";
+        String bearerToken = "bearer " + autToken2;
+        String response;
+
         BufferedReader reader = null;
+
         try {
-            URL url = new URL("http://api.tcgplayer.com/v1.17.0/catalog/categories/24/search/manifest");
-            HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
-            connection.setRequestProperty("Authorization", "Bearer " + bearerToken);
-            connection.setDoOutput(true);
+
+            URL url = new URL("http://api.tcgplayer.com/v1.32.0/catalog/categories/2/search/manifest");
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+
+            connection.setRequestProperty("Accept", "application/json");
+            connection.setRequestProperty("Authorization", bearerToken);
+            connection.setRequestProperty("Content-Type", "application/json");
+
+            connection.setDoOutput(false);
             connection.setRequestMethod("GET");
+
             reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+
             String line = null;
             StringWriter out = new StringWriter(connection.getContentLength() > 0 ? connection.getContentLength() : 2048);
+
             while ((line = reader.readLine()) != null) {
                 out.append(line);
             }
-            String response = out.toString();
-            System.out.println(response);
-        } catch (Exception e) {
+            response = out.toString();
 
+            logger.info(response);
+
+            return response;
+
+        } catch (Exception e) {
+            logger.error(e.getMessage());
         }
+        return "";
     }
 
+    public String getProductImage() {
+        String autToken2 = "-6_80xFIHbdtKHidNcclVivwwgsGM_Z07eHy7eKJ36caJ7Jle5VQ45YEkMWVR9KFs7u12YY9ZtcbHamSiSM4gExVB3QYLtpWvy1aj88Kt9gm8j1wLek2EDj-pum_OmOstBcNDFoHohmPJHogQDV50FscRQTZ0sUOBQZj6chttHVH_sOrDR1hUd4___dov8BACfGH3raK-QDMUh7IdY9SaMC8I2YZnmOZOXMWL4wh1gBUOfa8NKrwColtjKapZlAqHBMMElaKWnGoVZ04lzxUxv3KI7QcziJhE8CYeYiZ9VoKBCY01uUJqjzzmK5oNT0Aafxpuw";
+        String bearerToken = "bearer " + autToken2;
+        String response;
+
+        int productID = 21876;
+
+        BufferedReader reader = null;
+
+        try {
+
+            URL url = new URL("http://api.tcgplayer.com/v1.32.0/catalog/products/" + productID);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+
+            connection.setRequestProperty("Accept", "application/json");
+            connection.setRequestProperty("Authorization", bearerToken);
+            connection.setRequestProperty("Content-Type", "application/json");
+
+            connection.setDoOutput(false);
+            connection.setRequestMethod("GET");
+
+            reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+
+            String line = null;
+            StringWriter out = new StringWriter(connection.getContentLength() > 0 ? connection.getContentLength() : 2048);
+
+            while ((line = reader.readLine()) != null) {
+                out.append(line);
+            }
+            response = out.toString();
+
+            //logger.info(response);
+
+            return response;
+
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+        }
+        return "";
+    }
 }
