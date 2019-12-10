@@ -1,5 +1,7 @@
 package edu.yang.service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -7,6 +9,8 @@ import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -202,11 +206,17 @@ public class TcgPlayerAPI {
 
             connection.setDoOutput(true);
             connection.setRequestMethod("Post");
-/*
-            String jsonInputString = `{"name": "ProductName", "Values": ["${paramOne}"]},` +
-                                     `{'name': 'SetName', 'Values': ['The Legend of Blue Eyes White Dragon']},` +
+
+            Map<String, String> jsonMap = new HashMap<>();
+            jsonMap.put("name", "productName");
+
+            String jsonOutput = new ObjectMapper().writeValueAsString(jsonMap);
+            logger.info(jsonOutput);
+
+                    /*
+                    `{'name': 'SetName', 'Values': ['The Legend of Blue Eyes White Dragon']},` +
                                      `{'name': 'Rarity', 'Values': ['Ultra']}`;
-*/
+
             OutputStream os = connection.getOutputStream();
             byte[] input = jsonInputString.getBytes("utf-8");
             os.write(input, 0, input.length);
@@ -221,7 +231,7 @@ public class TcgPlayerAPI {
             }
 
             return response.toString();
-
+*/
         } catch (Exception e) {
             logger.error(e.getMessage());
         }

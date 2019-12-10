@@ -4309,3 +4309,5 @@ quantity : 1
   "directLowPrice" : null,
   "subTypeName" : "Promo"
 } ]
+[ERROR] 2019-12-10 16:39:10.435 [main] TcgPlayerAPI - Invalid HTTP method: Post
+[ERROR] 2019-12-10 16:39:36.444 [main] TcgPlayerAPI - Invalid HTTP method: Post

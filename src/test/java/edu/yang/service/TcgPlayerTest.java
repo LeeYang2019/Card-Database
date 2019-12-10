@@ -60,4 +60,17 @@ class TcgPlayerTest {
             logger.error(e);
         }
     }
+
+    @Test
+    void searchCard() {
+
+        try {
+            JsonNode jsonNode = objMapper.readTree(tcgPlayerApi.searchCard("hello", "how", "you"));
+            //JsonNode resultsNode = jsonNode.get("results");
+            //logger.info("results path: " + resultsNode.toPrettyString());
+
+        } catch (JsonProcessingException e) {
+            logger.error(e);
+        }
+    }
 }
