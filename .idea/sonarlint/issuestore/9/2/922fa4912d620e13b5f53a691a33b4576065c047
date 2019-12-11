@@ -1,0 +1,22 @@
+
+ksquid:S1192["MDefine a constant instead of duplicating this literal "Content-Type" 4 times.(¿Å¨º8‰÷Ÿï-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£–à™ùÿÿÿÿ
+vsquid:UselessImportCheck"LRemove this unused import 'com.fasterxml.jackson.databind.util.JSONPObject'.(æïœ8²àÊï-
+Jsquid:S1068"'Remove this unused "pat" private field.(Ç«Ãáÿÿÿÿÿ8ß³Ææî-
+fsquid:S1192O"HDefine a constant instead of duplicating this literal "bearer " 4 times.(íÒ¼ò8‰÷Ÿï-
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈŸÔÄ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷õçÂ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ûİş¡ÿÿÿÿÿ
+jsquid:CommentedOutCodeLine’"<This block of commented-out lines of code should be removed.(ïó õ8—ıÁéî-
+jsquid:S1192Y"GDefine a constant instead of duplicating this literal "Accept" 4 times.( áÄ úÿÿÿÿ8‰÷Ÿï-
+vsquid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í‹È¸ÿÿÿÿÿ8İÜï-
+Jsquid:S1172Á"&Remove these unused method parameters.(í‹È¸ÿÿÿÿÿ8İÜï-
+Nsquid:S1481Ä"/Remove this unused "buffReader" local variable.(ÜÁÀû8ø´Öï-
+jsquid:CommentedOutCodeLineÚ"<This block of commented-out lines of code should be removed.(¡Ğœ8Ëòˆï-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹½Ñ©8ß³Ææî-
+«squid:S1192N"‡Define a constant instead of duplicating this literal "-6_80xFIHbdtKHidNcclVivwwgsGM_Z07eHy7eKJ36caJ7Jle5VQ45YEkMWVR9KFs7u12YY9ZtcbHamSiSM4gExVB3QYLtpWvy1aj88Kt9gm8j1wLek2EDj-pum_OmOstBcNDFoHohmPJHogQDV50FscRQTZ0sUOBQZj6chttHVH_sOrDR1hUd4___dov8BACfGH3raK-QDMUh7IdY9SaMC8I2YZnmOZOXMWL4wh1gBUOfa8NKrwColtjKapZlAqHBMMElaKWnGoVZ04lzxUxv3KI7QcziJhE8CYeYiZ9VoKBCY01uUJqjzzmK5oNT0Aafxpuw" 4 times.(æ…Æ“üÿÿÿÿ8‰÷Ÿï-
+tsquid:S1192Y"QDefine a constant instead of duplicating this literal "application/json" 8 times.( áÄ úÿÿÿÿ8ûø—éî-
+Dsquid:S1068"(Remove this unused "auth" private field.(£–à™ùÿÿÿÿ
+lsquid:S1192Z"NDefine a constant instead of duplicating this literal "Authorization" 4 times.(¥ˆÍİ8‰÷Ÿï-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æ¯”£şÿÿÿÿ
+Jsquid:S1068",Remove this unused "tokenUrl" private field.(ÈŸÔÄ8ß³Ææî-

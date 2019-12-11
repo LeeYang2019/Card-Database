@@ -4311,3 +4311,552 @@ quantity : 1
 } ]
 [ERROR] 2019-12-10 16:39:10.435 [main] TcgPlayerAPI - Invalid HTTP method: Post
 [ERROR] 2019-12-10 16:39:36.444 [main] TcgPlayerAPI - Invalid HTTP method: Post
+[INFO ] 2019-12-11 14:39:59.060 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 4.99,
+  "midPrice" : 8.95,
+  "highPrice" : 39.99,
+  "marketPrice" : 10.18,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 199.95,
+  "midPrice" : 199.95,
+  "highPrice" : 349.99,
+  "marketPrice" : 499.99,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Limited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Promo"
+} ]
+[ERROR] 2019-12-11 14:42:53.667 [main] TcgPlayerAPI - Invalid HTTP method: Post
+[ERROR] 2019-12-11 14:44:24.198 [main] TcgPlayerAPI - Invalid HTTP method: Post
+[ERROR] 2019-12-11 14:45:49.949 [main] TcgPlayerAPI - Invalid HTTP method: Post
+[ERROR] 2019-12-11 14:46:17.530 [main] TcgPlayerAPI - Invalid HTTP method: Post
+[ERROR] 2019-12-11 14:46:17.586 [main] TcgPlayerTest - com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hello': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"hello"; line: 1, column: 11]
+[ERROR] 2019-12-11 14:47:03.235 [main] TcgPlayerAPI - Invalid HTTP method: Post
+[ERROR] 2019-12-11 14:47:03.277 [main] TcgPlayerTest - com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hello': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"hello"; line: 1, column: 11]
+[ERROR] 2019-12-11 14:48:01.316 [main] TcgPlayerAPI - Invalid HTTP method: Post
+[ERROR] 2019-12-11 14:48:01.351 [main] TcgPlayerTest - com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hello': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"hello"; line: 1, column: 11]
+[INFO ] 2019-12-11 14:51:55.823 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21876 ]
+}
+[ERROR] 2019-12-11 15:03:08.083 [main] TcgPlayerAPI - cannot write to a URLConnection if doOutput=false - call setDoOutput(true)
+[ERROR] 2019-12-11 15:03:08.132 [main] TcgPlayerTest - com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'There': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"There is no card by that name"; line: 1, column: 6]
+[INFO ] 2019-12-11 15:04:31.021 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21876 ]
+}
+[INFO ] 2019-12-11 15:09:12.133 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21876 ]
+}
+[INFO ] 2019-12-11 15:09:37.197 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21792 ]
+}
+[INFO ] 2019-12-11 15:10:55.281 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21792 ]
+}
+[INFO ] 2019-12-11 15:12:44.118 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21792 ]
+}
+[INFO ] 2019-12-11 15:16:00.847 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21792 ]
+}
+[INFO ] 2019-12-11 15:16:29.910 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21792 ]
+}
+[INFO ] 2019-12-11 15:17:54.435 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21792 ]
+}
+[INFO ] 2019-12-11 15:18:14.058 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21792 ]
+}
+[INFO ] 2019-12-11 15:19:09.483 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21792 ]
+}
+[INFO ] 2019-12-11 15:25:18.611 [main] TcgPlayerTest - {
+  "totalItems" : 1,
+  "success" : true,
+  "errors" : [ ],
+  "results" : [ 21792 ]
+}
+[INFO ] 2019-12-11 15:31:05.342 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 4.99,
+  "midPrice" : 8.95,
+  "highPrice" : 39.99,
+  "marketPrice" : 10.48,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 199.95,
+  "midPrice" : 199.95,
+  "highPrice" : 349.99,
+  "marketPrice" : 499.99,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Limited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Promo"
+} ]
+[INFO ] 2019-12-11 15:31:53.673 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 4.99,
+  "midPrice" : 8.95,
+  "highPrice" : 39.99,
+  "marketPrice" : 10.48,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 199.95,
+  "midPrice" : 199.95,
+  "highPrice" : 349.99,
+  "marketPrice" : 499.99,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Limited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Promo"
+} ]
+[INFO ] 2019-12-11 15:41:50.588 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 4.99,
+  "midPrice" : 8.95,
+  "highPrice" : 39.99,
+  "marketPrice" : 10.48,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 199.95,
+  "midPrice" : 199.95,
+  "highPrice" : 349.99,
+  "marketPrice" : 499.99,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Limited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Promo"
+} ]
+[INFO ] 2019-12-11 15:44:32.747 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 4.99,
+  "midPrice" : 8.95,
+  "highPrice" : 39.99,
+  "marketPrice" : 10.48,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 199.95,
+  "midPrice" : 199.95,
+  "highPrice" : 349.99,
+  "marketPrice" : 499.99,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Limited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Promo"
+} ]
+[INFO ] 2019-12-11 15:44:52.586 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 4.99,
+  "midPrice" : 8.95,
+  "highPrice" : 39.99,
+  "marketPrice" : 10.48,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 199.95,
+  "midPrice" : 199.95,
+  "highPrice" : 349.99,
+  "marketPrice" : 499.99,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Limited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Promo"
+} ]
+[INFO ] 2019-12-11 15:46:22.419 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 4.99,
+  "midPrice" : 8.95,
+  "highPrice" : 39.99,
+  "marketPrice" : 10.48,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 199.95,
+  "midPrice" : 199.95,
+  "highPrice" : 349.99,
+  "marketPrice" : 499.99,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Limited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Promo"
+} ]
+[INFO ] 2019-12-11 15:47:10.728 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[INFO ] 2019-12-11 15:50:19.825 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[ERROR] 2019-12-11 15:50:20.019 [main] TcgPlayerTest - com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `edu.yang.service.ProductDetails` out of START_ARRAY token
+ at [Source: (String)"[{"productId":21876,"name":"Dark Magician","cleanName":"Dark Magician","imageUrl":"https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg","categoryId":2,"groupId":330,"url":"https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician","modifiedOn":"2013-05-09T12:13:41.653"}]"; line: 1, column: 1]
+[INFO ] 2019-12-11 15:50:46.259 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[ERROR] 2019-12-11 15:50:46.458 [main] TcgPlayerTest - com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `edu.yang.service.ProductDetails` out of START_ARRAY token
+ at [Source: (String)"[{"productId":21876,"name":"Dark Magician","cleanName":"Dark Magician","imageUrl":"https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg","categoryId":2,"groupId":330,"url":"https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician","modifiedOn":"2013-05-09T12:13:41.653"}]"; line: 1, column: 1]
+[INFO ] 2019-12-11 15:52:13.149 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[ERROR] 2019-12-11 15:52:13.324 [main] TcgPlayerTest - com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `edu.yang.service.ProductDetails` out of START_ARRAY token
+ at [Source: (String)"[{"productId":21876,"name":"Dark Magician","cleanName":"Dark Magician","imageUrl":"https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg","categoryId":2,"groupId":330,"url":"https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician","modifiedOn":"2013-05-09T12:13:41.653"}]"; line: 1, column: 1]
+[INFO ] 2019-12-11 15:53:15.509 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[ERROR] 2019-12-11 15:53:15.699 [main] TcgPlayerTest - com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `edu.yang.service.ProductDetails` out of START_ARRAY token
+ at [Source: (String)"[{"productId":21876,"name":"Dark Magician","cleanName":"Dark Magician","imageUrl":"https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg","categoryId":2,"groupId":330,"url":"https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician","modifiedOn":"2013-05-09T12:13:41.653"}]"; line: 1, column: 1]
+[INFO ] 2019-12-11 15:54:48.972 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[ERROR] 2019-12-11 15:54:49.137 [main] TcgPlayerTest - com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `edu.yang.service.ProductDetails` out of START_ARRAY token
+ at [Source: (String)"[{"productId":21876,"name":"Dark Magician","cleanName":"Dark Magician","imageUrl":"https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg","categoryId":2,"groupId":330,"url":"https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician","modifiedOn":"2013-05-09T12:13:41.653"}]"; line: 1, column: 1]
+[INFO ] 2019-12-11 15:55:14.261 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 4.99,
+  "midPrice" : 8.95,
+  "highPrice" : 39.99,
+  "marketPrice" : 10.48,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 199.95,
+  "midPrice" : 199.95,
+  "highPrice" : 349.99,
+  "marketPrice" : 499.99,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Limited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Promo"
+} ]

@@ -1,12 +1,0 @@
-
-rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷õçÂ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÛÝþ¡ÿÿÿÿÿ
-jsquid:CommentedOutCodeLineŽ"<This block of commented-out lines of code should be removed.(ïó õ8—ýÁéî-
-rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈŸÔÄ
-Jsquid:S1068"'Remove this unused "pat" private field.(Ç«Ãáÿÿÿÿÿ8ß³Ææî-
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æ¯”£þÿÿÿÿ
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£–à™ùÿÿÿÿ
-Jsquid:S1068",Remove this unused "tokenUrl" private field.(ÈŸÔÄ8ß³Ææî-
-tsquid:S1192U"QDefine a constant instead of duplicating this literal "application/json" 4 times.( áÄ úÿÿÿÿ8ûø—éî-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹½Ñ©8ß³Ææî-
-Dsquid:S1068"(Remove this unused "auth" private field.(£–à™ùÿÿÿÿ
