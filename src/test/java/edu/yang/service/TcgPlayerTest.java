@@ -29,18 +29,13 @@ class TcgPlayerTest {
     }
 
     @Test
-    void useBearerToken() {
-        TcgPlayerAPI newTcgPlayerAPI = new TcgPlayerAPI();
-        logger.info(newTcgPlayerAPI.useBearerToken());
-    }
-
-    @Test
     void getProductImage() {
 
         try {
             JsonNode jsonNode = objMapper.readTree(tcgPlayerApi.getProductImage(21876));
             JsonNode resultsNode = jsonNode.get("results");
             logger.info("results path: " + resultsNode.toPrettyString());
+            System.out.println("results path: " + resultsNode.toPrettyString());
 
         } catch (JsonProcessingException e) {
             logger.error(e);
@@ -55,6 +50,7 @@ class TcgPlayerTest {
             JsonNode jsonNode = objMapper.readTree(tcgPlayerApi.getMarketPrice(21876));
             JsonNode resultsNode = jsonNode.get("results");
             logger.info("results path: " + resultsNode.toPrettyString());
+            System.out.println("results path: " + resultsNode.toPrettyString());
 
         } catch (JsonProcessingException e) {
             logger.error(e);
