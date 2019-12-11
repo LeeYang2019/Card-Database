@@ -44,6 +44,8 @@ class TcgPlayerTest {
 
             ProductDetails newProduct = new ProductDetails();
 
+            System.out.println("clean name: ");
+
             newProduct = objMapper.readValue(resultsNode.toString(), ProductDetails.class);
 
             System.out.println("clean name: ");
@@ -64,6 +66,7 @@ class TcgPlayerTest {
             JsonNode jsonNode = objMapper.readTree(tcgPlayerApi.getMarketPrice(21876));
             JsonNode resultsNode = jsonNode.get("results");
             logger.info(resultsNode.toPrettyString());
+            System.out.println(resultsNode.toPrettyString());
 
             pricingList = objMapper.readValue(resultsNode.toString(), new TypeReference<List<PriceObject>>() {});
 

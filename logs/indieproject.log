@@ -4860,3 +4860,88 @@ quantity : 1
   "directLowPrice" : null,
   "subTypeName" : "Promo"
 } ]
+[INFO ] 2019-12-11 15:59:43.862 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[ERROR] 2019-12-11 15:59:44.022 [main] TcgPlayerTest - com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `edu.yang.service.ProductDetails` out of START_ARRAY token
+ at [Source: (String)"[{"productId":21876,"name":"Dark Magician","cleanName":"Dark Magician","imageUrl":"https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg","categoryId":2,"groupId":330,"url":"https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician","modifiedOn":"2013-05-09T12:13:41.653"}]"; line: 1, column: 1]
+[INFO ] 2019-12-11 16:30:31.359 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[ERROR] 2019-12-11 16:30:31.527 [main] TcgPlayerTest - com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `edu.yang.service.ProductDetails` out of START_ARRAY token
+ at [Source: (String)"[{"productId":21876,"name":"Dark Magician","cleanName":"Dark Magician","imageUrl":"https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg","categoryId":2,"groupId":330,"url":"https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician","modifiedOn":"2013-05-09T12:13:41.653"}]"; line: 1, column: 1]
+[INFO ] 2019-12-11 16:31:35.797 [main] TcgPlayerTest - [ {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 4.99,
+  "midPrice" : 8.95,
+  "highPrice" : 39.99,
+  "marketPrice" : 10.48,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : 199.95,
+  "midPrice" : 199.95,
+  "highPrice" : 349.99,
+  "marketPrice" : 499.99,
+  "directLowPrice" : null,
+  "subTypeName" : "1st Edition"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Unlimited - Ultimate"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Limited"
+}, {
+  "productId" : 21876,
+  "lowPrice" : null,
+  "midPrice" : null,
+  "highPrice" : null,
+  "marketPrice" : null,
+  "directLowPrice" : null,
+  "subTypeName" : "Promo"
+} ]
+[INFO ] 2019-12-11 16:32:08.874 [main] TcgPlayerTest - results path: [ {
+  "productId" : 21876,
+  "name" : "Dark Magician",
+  "cleanName" : "Dark Magician",
+  "imageUrl" : "https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg",
+  "categoryId" : 2,
+  "groupId" : 330,
+  "url" : "https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician",
+  "modifiedOn" : "2013-05-09T12:13:41.653"
+} ]
+[ERROR] 2019-12-11 16:32:09.045 [main] TcgPlayerTest - com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `edu.yang.service.ProductDetails` out of START_ARRAY token
+ at [Source: (String)"[{"productId":21876,"name":"Dark Magician","cleanName":"Dark Magician","imageUrl":"https://6d4be195623157e28848-7697ece4918e0a73861de0eb37d08968.ssl.cf1.rackcdn.com/21876_200w.jpg","categoryId":2,"groupId":330,"url":"https://store.tcgplayer.com/yugioh/the-legend-of-blue-eyes-white-dragon/dark-magician","modifiedOn":"2013-05-09T12:13:41.653"}]"; line: 1, column: 1]
