@@ -1,5 +1,8 @@
 package edu.yang.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.apache.logging.log4j.LogManager;
@@ -10,7 +13,9 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.ProtocolException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -108,12 +113,14 @@ public class TcgPlayerAPI {
             while ((line = reader.readLine()) != null) {
                 out.append(line);
             }
+
             response = out.toString();
+            return response;
 
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
-        return response;
+        return "There is no card by that name";
     }
 
 
@@ -122,9 +129,22 @@ public class TcgPlayerAPI {
      * @param productID
      * @return String imageUrl
      */
-    public String getProductImage(int productID) {
+    public List<ProductDetails> getProductDetails(int productID) {
+
+        ObjectMapper objMapper = new ObjectMapper();
+        List<ProductDetails> productDetailsList = new ArrayList<>();
+
         String urlString = "http://api.tcgplayer.com/v1.32.0/catalog/products/";
-        return processGetRequest(urlString, productID, false, "GET");
+
+        try {
+            JsonNode jsonNode = objMapper.readTree(processGetRequest(urlString, productID, false, "GET"));
+            JsonNode resultsNode = jsonNode.get("results");
+            productDetailsList = objMapper.readValue(resultsNode.toString(), new TypeReference<List<ProductDetails>>() {});
+        } catch (JsonProcessingException e) {
+            logger.error(e);
+        }
+
+        return productDetailsList;
     }
 
     /**
@@ -132,9 +152,22 @@ public class TcgPlayerAPI {
      * @param productID
      * @return double marketPrice
      */
-    public String getMarketPrice(int productID) {
+    public List<PriceObject> getMarketPrice(int productID) {
+
+        ObjectMapper objMapper = new ObjectMapper();
+        List<PriceObject> pricingList = new ArrayList<>();
+
         String urlString = "http://api.tcgplayer.com/v1.32.0/pricing/product/";
-        return processGetRequest(urlString, productID, false, "GET");
+
+        try {
+            JsonNode jsonNode = objMapper.readTree(processGetRequest(urlString, productID, false, "GET"));
+            JsonNode resultsNode = jsonNode.get("results");
+            pricingList = objMapper.readValue(resultsNode.toString(), new TypeReference<List<PriceObject>>() {});
+        } catch (JsonProcessingException e) {
+            logger.error(e);
+       }
+
+        return pricingList;
     }
 
     /**
@@ -144,8 +177,21 @@ public class TcgPlayerAPI {
      * @param productRarity
      * @return int productId
      */
-    public String getCardDetails(String productName, String productSet, String productRarity) {
+    public int getProductId(String productName, String productSet, String productRarity) {
+
+        ObjectMapper objMapper = new ObjectMapper();
+        int productId = 0;
+
         String urlString = "http://api.tcgplayer.com/v1.32.0/catalog/categories/2/search";
-        return processPostRequest(urlString, 0,true, "POST", productName, productSet, productRarity);
+
+        try {
+            JsonNode jsonNode = objMapper.readTree(processPostRequest(urlString, 0,true, "POST", productName, productSet, productRarity));
+            String results = jsonNode.get("results").toPrettyString();
+            results = results.replaceAll("\\p{P}","").trim();
+            productId = Integer.parseInt(results);
+        } catch (JsonProcessingException e) {
+            logger.error(e);
+        }
+        return productId;
     }
 }

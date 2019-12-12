@@ -4,6 +4,9 @@ import edu.yang.entity.User;
 import edu.yang.entity.YugiohCard;
 import edu.yang.entity.YugiohCardHistory;
 import edu.yang.persistence.ProjectDao;
+import edu.yang.service.PriceObject;
+import edu.yang.service.ProductDetails;
+import edu.yang.service.TcgPlayerAPI;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import javax.servlet.RequestDispatcher;
@@ -16,6 +19,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.List;
 
 /**
  * A simple servlet to add Cards to the db
@@ -39,6 +43,9 @@ public class AddCards extends HttpServlet {
         ProjectDao tsDao = new ProjectDao(YugiohCardHistory.class);
         ProjectDao userDao = new ProjectDao(User.class);
 
+
+        TcgPlayerAPI tcgPlayerAPI = new TcgPlayerAPI();
+
         Date date = new Date();
         long time = date.getTime();
         Timestamp ts = new Timestamp(time);
@@ -54,12 +61,32 @@ public class AddCards extends HttpServlet {
         String cardQuantity = req.getParameter("cardQuantity");
         int qty = Integer.parseInt(cardQuantity);
 
+
+        String imageUrl = "";
+
         //get this user
         HttpSession session = req.getSession();
         User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
 
+        //check if exists from web and get information back
+        int cardId = tcgPlayerAPI.getProductId(cardName, "The Legend of Blue Eyes White Dragon", "Ultra");
+        List<ProductDetails> productDetailsList = tcgPlayerAPI.getProductDetails(cardId);
+        List<PriceObject> pricingList = tcgPlayerAPI.getMarketPrice(cardId);
+
+        for (int i = 0; i < productDetailsList.size(); i++) {
+            imageUrl = productDetailsList.get(i).getImageUrl();
+
+        }
+
+        for (int i = 0; i < pricingList.size(); i++) {
+            if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("Unlimited")) {
+                price = (double) pricingList.get(i).getMarketPrice();
+            }
+        }
+
+
         //create a card object
-        YugiohCard newCard = new YugiohCard(cardName, cardType, cardRarity, cardSet, cardIndex, price, qty, "unsold", null, loggedInUser);
+        YugiohCard newCard = new YugiohCard(cardName, cardType, cardRarity, cardSet, cardIndex, price, qty, "unsold", imageUrl, loggedInUser);
         YugiohCardHistory entry = new YugiohCardHistory(price, newCard, ts);
         newCard.addEntry(entry);
 

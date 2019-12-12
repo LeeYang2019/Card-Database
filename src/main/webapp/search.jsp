@@ -1,15 +1,17 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<!--
+
 <html>
-    <c:import url="head.jsp"/>
+    <c: import url="head.jsp"/>
     <body>
         <div class="container">
             <div class="row">
-                <c:import url="header.jsp"/>
+                <cimport url="header.jsp"/>
             </div>
             <div class="row">
-                <c:import url="navbar.jsp"/>
-            </div>
-            <div class="col-10 mx-auto">
+                <cimport url="navbar.jsp"/>
+            </div> -->
+            <div class="col-3 mx-auto">
                 <div class="card border-muted mb-3 rounded-0">
                     <div class="card-header bg-muted">
                         <h4 class="text-dark">Card Search</h4>
@@ -35,9 +37,10 @@
                     </div>
                 </div>
             </div>
+<!--
             <footer class="row">
-                <c:import url="footer.jsp"/>
+                <c: import url="footer.jsp"/>
             </footer>
         </div>
     </body>
-</html>
+</html> -->

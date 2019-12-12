@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import edu.yang.entity.YugiohCard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
@@ -35,71 +36,74 @@ class TcgPlayerTest {
     @Test
     void getProductImage() {
 
+        List<ProductDetails> productDetailsList = new ArrayList<>();
+        productDetailsList = tcgPlayerApi.getProductDetails(21876);
 
-        try {
-            JsonNode jsonNode = objMapper.readTree(tcgPlayerApi.getProductImage(21876));
-            JsonNode resultsNode = jsonNode.get("results");
-            logger.info("results path: " + resultsNode.toPrettyString());
-            System.out.println("results path: " + resultsNode.toPrettyString());
-
-            ProductDetails newProduct = new ProductDetails();
-
-            System.out.println("clean name: ");
-
-            newProduct = objMapper.readValue(resultsNode.toString(), ProductDetails.class);
-
-            System.out.println("clean name: ");
-            System.out.println("imageUrl: " + newProduct.getImageUrl());
-
-        } catch (JsonProcessingException e) {
-            logger.error(e);
+        for (int i = 0; i < productDetailsList.size(); i++) {
+            System.out.println(productDetailsList.get(i).getCleanName());
+            System.out.println(productDetailsList.get(i).getImageUrl());
         }
 
     }
 
     @Test
     void getProductPrice() {
-
         List<PriceObject> pricingList = new ArrayList<>();
+        pricingList = tcgPlayerApi.getMarketPrice(21876);
 
-        try {
-            JsonNode jsonNode = objMapper.readTree(tcgPlayerApi.getMarketPrice(21876));
-            JsonNode resultsNode = jsonNode.get("results");
-            logger.info(resultsNode.toPrettyString());
-            System.out.println(resultsNode.toPrettyString());
-
-            pricingList = objMapper.readValue(resultsNode.toString(), new TypeReference<List<PriceObject>>() {});
-
-            for (int i = 0; i < pricingList.size(); i++) {
-                if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")) {
-                    System.out.println("The marketprice is : " + pricingList.get(i).getMarketPrice());
-                } else if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("unlimited")) {
-                    System.out.println("The marketprice is : " + pricingList.get(i).getMarketPrice());
-                }
+        for (int i = 0; i < pricingList.size(); i++) {
+            if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")) {
+                System.out.println(pricingList.get(i).getMarketPrice());
             }
-
-
-        } catch (JsonProcessingException e) {
-            logger.error(e);
         }
+
     }
 
     @Test
     void searchCard() {
 
-        try {
-            JsonNode jsonNode = objMapper.readTree(tcgPlayerApi.getCardDetails("Blue Eyes White Dragon", "The Legend of Blue Eyes White Dragon", "Ultra"));
-            logger.info(jsonNode.toPrettyString());
-            System.out.println(jsonNode.toPrettyString());
+        int id = tcgPlayerApi.getProductId("Blue Eyes White Dragon", "The Legend of Blue Eyes White Dragon", "Ultra");
+        System.out.println("productId : " + id);
+    }
 
-            String results = jsonNode.get("results").toPrettyString();
-            results = results.replaceAll("\\p{P}","").trim();
+    @Test
+    void getSearchResultsSuccess() {
 
-            int productID = Integer.parseInt(results);
-            System.out.println("returned productID : " + productID);
+        YugiohCard newCard = new YugiohCard();
+        newCard.setUser(null);
+        newCard.setCardName("Dark Magician");
+        newCard.setCardType("Monster");
+        newCard.setCardRarity("Ultra");
 
-        } catch (JsonProcessingException e) {
-            logger.error(e);
+        String cardSet = "The Legend of Blue Eyes White Dragon";
+        newCard.setCardSet("LOB");
+
+        newCard.setIndex("001");
+
+
+        int id = tcgPlayerApi.getProductId(newCard.getCardName(), cardSet, newCard.getCardRarity());
+
+        List<ProductDetails> productDetailsList = tcgPlayerApi.getProductDetails(id);
+
+        List<PriceObject> pricingList  = tcgPlayerApi.getMarketPrice(id);
+
+
+        for (int i = 0; i < productDetailsList.size(); i++) {
+            if (productDetailsList.get(i).getCleanName().equalsIgnoreCase(newCard.getCardName())) {
+                newCard.setImage(productDetailsList.get(i).getImageUrl());
+            }
         }
+
+        for (int i = 0; i < pricingList.size(); i++) {
+            if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")){
+                double marketPrice = (double) pricingList.get(i).getMarketPrice();
+                newCard.setPrice(marketPrice);
+            }
+        }
+
+        newCard.setQuantity(1);
+        newCard.setStatus("Unsold");
+
+        System.out.println(newCard.toString());
     }
 }

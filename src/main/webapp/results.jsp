@@ -1,4 +1,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<script type="text/javascript" class="init">
+    $(document).ready( function () {
+        $('#myTable').DataTable();
+    } );
+</script>
+
 <html>
 <c:import url="head.jsp"/>
     <body>
@@ -11,7 +18,8 @@
             </div>
 
             <div class="row">
-                <div class="col-12 mx-auto mb-3">
+                <c:import url="search.jsp"/>
+                <div class="col mx-auto mb-3">
                     <div class="card border-muted rounded-0">
                         <div class="card-header bg-muted">
                             <h4 class="text-dark">Search Results</h4>
@@ -25,7 +33,7 @@
 
                             <c:choose>
                                 <c:when test="${!empty(cards)}">
-                                    <table id="myTable" class="table table-hover mx-auto">
+                                    <table id="myTable" class="table table-hover mx-auto display" cellspacing="0" width="100%">
                                         <thead class="thead-dark">
                                         <tr>
                                             <th>Name</th>

@@ -288,7 +288,8 @@ public class YugiohCard {
                 "cardRarity : " + this.cardRarity + "\n" +
                 "cardSet : " + this.cardSet + "\n" +
                 "price : " + this.price + "\n" +
-                "quantity : " + this.quantity;
+                "quantity : " + this.quantity + "\n" +
+                "image : " + this.image;
     }
 
     @Override

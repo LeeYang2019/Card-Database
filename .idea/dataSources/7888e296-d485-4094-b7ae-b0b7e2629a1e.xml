@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="yugioh_card_db@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.15">
+    <root id="1">
+      <ServerVersion>8.0.17</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>exact</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="BookSeller">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="cards_directory">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="favorite_places">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="mysql">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="performance_schema">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="sample">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="sys">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="test_BookSeller">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="test_yugioh_card_db">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="yugioh_card_db">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+  </database-model>
+</dataSource>

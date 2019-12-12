@@ -13,7 +13,7 @@
                 <c:choose>
                     <c:when test="${!empty(card)}">
                         <div class="col-12 mx-auto mb-3">
-                            <div class="card border-muted rounded-0">
+                            <div class="card rounded-0">
                                 <div class="card-header bg-muted">
                                     Yu-Gi-Oh! Card
                                 </div>
@@ -25,7 +25,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-4 mx-auto mb-3 border border-dark">
-                                            <h4>Card Image here</h4>
+                                            <img src="${card.image}" class="imageSize">
                                         </div>
                                         <div class="col-4 mx-auto mb-3">
                                             <table id="myTable">
