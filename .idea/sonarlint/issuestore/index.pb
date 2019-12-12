@@ -2,7 +2,7 @@
 W
 'src/main/java/edu/yang/entity/User.java,1\b\1be5ed9cdf49fdce64c095552b3bae1883b966d6
 ]
--src/main/java/edu/yang/entity/YugiohCard.java,8\e\8ebaa0c63d63c455b25b0dfeca4e1b9815b98dfc
+-src/main/java/edu/yang/entity/YugiohCard.java,8/e/8ebaa0c63d63c455b25b0dfeca4e1b9815b98dfc
 d
 4src/main/java/edu/yang/entity/YugiohCardHistory.java,e\3\e34093c5ad018eb7b56d92930da16dd5361636d8
 ^
@@ -20,7 +20,7 @@ _
 a
 1src/main/java/edu/yang/controller/FileUpload.java,e\4\e49f3232a67422b64824c211e7e58b778172a30c
 b
-2src/main/java/edu/yang/controller/DisplayCard.java,c\9\c9fb491923872ce7a67df4b2a80a3528fb089d66
+2src/main/java/edu/yang/controller/DisplayCard.java,c/9/c9fb491923872ce7a67df4b2a80a3528fb089d66
 b
 2src/main/java/edu/yang/controller/SearchCards.java,e/5/e50823c135f4480733e3cf951567f66286e08856
 c
@@ -48,7 +48,7 @@ I
 I
 src/main/webapp/login.jsp,8/5/85ee523d01e5e19376db640e846c91bbcb0a1c22
 J
-src/main/webapp/footer.jsp,3\8\3819c16e4a27752a128752c506287183b0c69775
+src/main/webapp/footer.jsp,3/8/3819c16e4a27752a128752c506287183b0c69775
 J
 src/main/webapp/header.jsp,0/5/051b0ac501a865704d2b6b36f8cfabfa311becc2
 J
@@ -62,7 +62,7 @@ J
 K
 src/main/webapp/addCard.jsp,8/2/82c0f0f4be4f247a727ce6cb3158bef877cb0d30
 K
-src/main/webapp/results.jsp,a\0\a047297eff552188f44ca404fb93b1557c6deaad
+src/main/webapp/results.jsp,a/0/a047297eff552188f44ca404fb93b1557c6deaad
 K
 src/main/webapp/selling.jsp,4\a\4a684ed7a04f1f9dbc344acd7bc12267991673c7
 L
@@ -105,7 +105,9 @@ O
 src/main/webapp/displayCard.jsp,4/2/4249c8aaa9897591c18735202356600b00afd334
 `
 0src/main/java/edu/yang/service/TcgPlayerAPI.java,9/2/922fa4912d620e13b5f53a691a33b4576065c047
-_
-/src/test/java/edu/yang/service/PriceObject.java,2/5/258c4b056d73f146371023b65173d7e0da54b241
 b
-2src/test/java/edu/yang/service/ProductDetails.java,5/1/51c3befcbd736031668a8fc8adcd9d2148a5807e
+2src/main/java/edu/yang/service/ProductDetails.java,c/0/c0eccecff97df806c06977931e70989c7440cf5c
+_
+/src/main/java/edu/yang/service/PriceObject.java,1/3/13de1992585fd4a53e94e9f4093cfeea6d8e06e0
+P
+ src/main/webapp/css/default1.css,1/9/195a42d97ef7c14e19a6dccec35c7bccf12e6776

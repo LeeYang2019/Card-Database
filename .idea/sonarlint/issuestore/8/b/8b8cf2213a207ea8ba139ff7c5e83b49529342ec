@@ -1,12 +1,12 @@
 
-=squid:S1989H"&Add a "try/catch" block for "forward".(òø½
-Rsquid:S1854:";Remove this useless assignment to local variable "session".(ôÜ½¯
-Asquid:S19895"*Add a "try/catch" block for "parseDouble".(œÃú
-Csquid:S19897"'Add a "try/catch" block for "parseInt".(°úÑÂÿÿÿÿÿ
-Qsquid:S1854C";Remove this useless assignment to local variable "entryId".(‡—û#
-Asquid:S1068 "*Remove this unused "logger" private field.(æ×âÁ
-Bsquid:S1481C",Remove this unused "entryId" local variable.(‡—û#
-Rsquid:S1854B"6Remove this useless assignment to local variable "id".(şÁµÃûÿÿÿÿ
-=squid:S1989H"&Add a "try/catch" block for "forward".(òø½
-Csquid:S1481:",Remove this unused "session" local variable.(ôÜ½¯
-Csquid:S1481B"'Remove this unused "id" local variable.(şÁµÃûÿÿÿÿ
+Osquid:S1854";Remove this useless assignment to local variable "entryId".(‡—û#
+Asquid:S1989"'Add a "try/catch" block for "parseInt".(°úÑÂÿÿÿÿÿ
+;squid:S1989"&Add a "try/catch" block for "forward".(òø½
+;squid:S1989"&Add a "try/catch" block for "forward".(òø½
+?squid:S1989"*Add a "try/catch" block for "parseDouble".(œÃú
+?squid:S1068"*Remove this unused "logger" private field.(æ×âÁ
+Asquid:S1481"'Remove this unused "id" local variable.(şÁµÃûÿÿÿÿ
+Psquid:S1854";Remove this useless assignment to local variable "session".(ôÜ½¯
+Asquid:S1481",Remove this unused "session" local variable.(ôÜ½¯
+Psquid:S1854"6Remove this useless assignment to local variable "id".(şÁµÃûÿÿÿÿ
+@squid:S1481",Remove this unused "entryId" local variable.(‡—û#

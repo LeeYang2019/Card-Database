@@ -1,6 +1,6 @@
 
+Psquid:S2441A":Make "User" serializable or don't store it in the session.(úæÛK
 Zsquid:S1155J">Use isEmpty() to check whether the collection is empty or not.(óßƒãüÿÿÿÿ
 =squid:S1989P"&Add a "try/catch" block for "forward".(òø½
-=squid:S1989P"&Add a "try/catch" block for "forward".(òø½
-Psquid:S2441A":Make "User" serializable or don't store it in the session.(úæÛK
 bsquid:UselessImportCheck">Remove this unused import 'javax.validation.constraints.Null'.(ã¥˜
+=squid:S1989P"&Add a "try/catch" block for "forward".(òø½

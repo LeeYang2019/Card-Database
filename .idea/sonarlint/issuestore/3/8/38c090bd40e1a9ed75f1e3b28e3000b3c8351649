@@ -1,5 +1,6 @@
 
-Ksquid:S2699="-Add at least one assertion to this test case.(¢õÿ×8‚“£µï-
-Ksquid:S2699$"-Add at least one assertion to this test case.(‡ø‹8‚“£µï-
-Psquid:S2699X"-Add at least one assertion to this test case.(ô±†»ÿÿÿÿÿ8ç˜Úï-
-Dsquid:S2699 "-Add at least one assertion to this test case.(¤¦¦ó
+Nsquid:S2699"-Add at least one assertion to this test case.(ÇÖæµùÿÿÿÿ8Ù£Œºï-
+Nsquid:S2699"-Add at least one assertion to this test case.(ô±†»ÿÿÿÿÿ8¿Õ¹ï-
+Isquid:S2699"-Add at least one assertion to this test case.(¢õÿ×8¿Õ¹ï-
+Isquid:S2699"-Add at least one assertion to this test case.(‡ø‹8‚“£µï-
+Bsquid:S2699"-Add at least one assertion to this test case.(¤¦¦ó
