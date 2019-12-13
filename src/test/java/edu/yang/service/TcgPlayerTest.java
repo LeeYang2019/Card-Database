@@ -37,7 +37,7 @@ class TcgPlayerTest {
     void getProductImage() {
 
         List<ProductDetails> productDetailsList = new ArrayList<>();
-        productDetailsList = tcgPlayerApi.getProductDetails(21876);
+        productDetailsList = tcgPlayerApi.getProductDetails(200820);
 
         for (int i = 0; i < productDetailsList.size(); i++) {
             System.out.println(productDetailsList.get(i).getCleanName());
@@ -49,7 +49,7 @@ class TcgPlayerTest {
     @Test
     void getProductPrice() {
         List<PriceObject> pricingList = new ArrayList<>();
-        pricingList = tcgPlayerApi.getMarketPrice(21876);
+        pricingList = tcgPlayerApi.getMarketPrice(200820);
 
         for (int i = 0; i < pricingList.size(); i++) {
             if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")) {
@@ -62,7 +62,7 @@ class TcgPlayerTest {
     @Test
     void searchCard() {
 
-        int id = tcgPlayerApi.getProductId("Blue Eyes White Dragon", "The Legend of Blue Eyes White Dragon", "Ultra");
+        int id = tcgPlayerApi.getProductId("Starliege Seyfert", "Chaos Impact", "Secret");
         System.out.println("productId : " + id);
     }
 
