@@ -47,8 +47,8 @@ public class FileUpload extends HttpServlet {
                     if(!item.isFormField()){
                         String name = new File(item.getName()).getName();
                         item.write( new File(UPLOAD_DIRECTORY + File.separator + name));
-                        FileReader newReader = new FileReader();
-                        List<YugiohCard> list = newReader.excelRead((UPLOAD_DIRECTORY + File.separator + name),loggedInUser);
+                        UploadFileReader newReader = new UploadFileReader();
+                        List<YugiohCard> list = newReader.readExcelFile((UPLOAD_DIRECTORY + File.separator + name),loggedInUser);
                         //how should i handle this list or do I not return a list?
                     }
                 }

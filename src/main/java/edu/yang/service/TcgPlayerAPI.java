@@ -4,39 +4,26 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.ProtocolException;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.*;
 
 
-public class TcgPlayerAPI {
+
+public class TcgPlayerAPI implements PropertiesLoader {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-
-    private static final Pattern pat = Pattern.compile(".*\"access_token\"\\s*:\\s*\"([^\"]+)\".*");
-    private static final String clientId = "1BA51A45-070C-4729-9F0A-EF49A52D98CD";//clientId
-    private static final String clientSecret = "4153F817-ADAA-4327-8988-250356C7A389";//client secret
-    private static final String tokenUrl = "https://api.tcgplayer.com/token";
-    private static final String auth = "&client_id=" + clientId + "&client_secret=" + clientSecret + "\"";
+    private Properties properties;
 
     public HttpURLConnection getConnection(String urlString, int parameter, boolean doOutput, String requestMethod) {
 
         String propertiesFile = "/indieproject.properties";
-
-
-        String autToken2 = "-6_80xFIHbdtKHidNcclVivwwgsGM_Z07eHy7eKJ36caJ7Jle5VQ45YEkMWVR9KFs7u12YY9ZtcbHamSiSM4gExVB3QYLtpWvy1aj88Kt9gm8j1wLek2EDj-pum_OmOstBcNDFoHohmPJHogQDV50FscRQTZ0sUOBQZj6chttHVH_sOrDR1hUd4___dov8BACfGH3raK-QDMUh7IdY9SaMC8I2YZnmOZOXMWL4wh1gBUOfa8NKrwColtjKapZlAqHBMMElaKWnGoVZ04lzxUxv3KI7QcziJhE8CYeYiZ9VoKBCY01uUJqjzzmK5oNT0Aafxpuw";
+        properties = loadProperties(propertiesFile);
+        String autToken2 = properties.getProperty("tcgPlayer.authenticationToken");
         String bearerToken = "bearer " + autToken2;
 
         HttpURLConnection connection = null;
