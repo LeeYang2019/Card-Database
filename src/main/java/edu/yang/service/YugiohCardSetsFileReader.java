@@ -2,17 +2,16 @@ package edu.yang.service;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.poi.ss.usermodel.*;
-
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * reads files passed in from FielUpload jsp and yugiohCard cardSets information
+ * reads cardSets.txt file
+ * parses tokens and creates hashMap with key-value pairs
  * @author nyang
  */
-public class YugiohCardSetsFileReader implements PropertiesLoader {
+public class YugiohCardSetsFileReader {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
@@ -31,7 +30,6 @@ public class YugiohCardSetsFileReader implements PropertiesLoader {
             BufferedReader inputReader =
             new BufferedReader(new FileReader(file));
 
-            // while there is a line, store as string and parse
             while (inputReader.ready()) {
                 String line = inputReader.readLine();
                 line = line.replace("\n", ",");
@@ -41,9 +39,9 @@ public class YugiohCardSetsFileReader implements PropertiesLoader {
                 return cardSetsMap;
             }
         } catch (FileNotFoundException fileNotFound) {
-            fileNotFound.printStackTrace();
+            logger.info("fileName: " + fileName + " could not be found.");
         } catch (IOException inputOutputException) {
-            inputOutputException.printStackTrace();
+            logger.info("IOException");
         }
         return cardSetsMap;
     }
