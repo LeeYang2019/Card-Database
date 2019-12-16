@@ -5,8 +5,6 @@ W
 -src/main/java/edu/yang/entity/YugiohCard.java,8/e/8ebaa0c63d63c455b25b0dfeca4e1b9815b98dfc
 d
 4src/main/java/edu/yang/entity/YugiohCardHistory.java,e\3\e34093c5ad018eb7b56d92930da16dd5361636d8
-^
-.src/main/java/edu/yang/service/FileReader.java,b/6/b687da37a5d51e60cb9598957bb0aa9cf71d8dd3
 \
 ,src/main/java/edu/yang/controller/Login.java,8/5/85ef368dfd44887e09ec3b98f75e3ffacfe27420
 ]
@@ -18,7 +16,7 @@ _
 _
 /src/main/java/edu/yang/controller/SellCard.java,4\2\42c60a6787ba0df967597ebed9b41b1b9f711dba
 a
-1src/main/java/edu/yang/controller/FileUpload.java,e\4\e49f3232a67422b64824c211e7e58b778172a30c
+1src/main/java/edu/yang/controller/FileUpload.java,e/4/e49f3232a67422b64824c211e7e58b778172a30c
 b
 2src/main/java/edu/yang/controller/DisplayCard.java,c/9/c9fb491923872ce7a67df4b2a80a3528fb089d66
 b
@@ -80,7 +78,7 @@ $src/main/resources/log4j2.properties,0\5\051489c99c8e54c2d1b772850c431abcc78f2
 a
 1src/test/java/edu/yang/service/TcgPlayerTest.java,3/8/38c090bd40e1a9ed75f1e3b28e3000b3c8351649
 b
-2src/test/java/edu/yang/service/FileUploadTest.java,c\6\c653535b32f86c9ab16d2dd84a0971abdd388f2f
+2src/test/java/edu/yang/service/FileUploadTest.java,c/6/c653535b32f86c9ab16d2dd84a0971abdd388f2f
 ^
 .src/test/java/edu/yang/testUtils/Database.java,8\e\8ef25e5f04f81d0f3a28485f2c1781318c3c45c8
 c
@@ -111,3 +109,9 @@ _
 /src/main/java/edu/yang/service/PriceObject.java,1/3/13de1992585fd4a53e94e9f4093cfeea6d8e06e0
 P
  src/main/webapp/css/default1.css,1/9/195a42d97ef7c14e19a6dccec35c7bccf12e6776
+d
+4src/main/java/edu/yang/service/PropertiesLoader.java,0/6/067fb41619974b451891fcd509349cfc2db8e21b
+d
+4src/main/java/edu/yang/service/UploadFileReader.java,b/1/b1cfa8c455341c30587927de2324305d71aa1be5
+A
+docs/cardSets.txt,3/d/3d0f57469425087c477dde818a51ba930903d855

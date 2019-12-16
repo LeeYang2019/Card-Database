@@ -3,6 +3,7 @@ package edu.yang.controller;
 import edu.yang.entity.User;
 import edu.yang.entity.YugiohCard;
 import edu.yang.persistence.ProjectDao;
+import edu.yang.service.UploadFileReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -53,6 +54,10 @@ public class Login extends HttpServlet {
         Map<String, Object> propsAndValues = new HashMap<>();
         List<YugiohCard> userCards;
 
+        UploadFileReader cardSetReader = new UploadFileReader();
+        Map<String, String> cardSetsMap = cardSetReader.readFile();
+
+        logger.info("Size of the cardSetsMap: " + cardSetsMap.size());
 
         //get remote user
         String userName = req.getRemoteUser();
@@ -63,6 +68,9 @@ public class Login extends HttpServlet {
 
         //store user in session
         session.setAttribute("user", loggedInUser);
+
+        //store cardSetsMap in session
+        session.setAttribute("yugiohSets", cardSetsMap);
 
         //make service call
         //getUser cards by price
@@ -79,4 +87,5 @@ public class Login extends HttpServlet {
 
         dispatcher.forward(req, resp);
     }
+
 }

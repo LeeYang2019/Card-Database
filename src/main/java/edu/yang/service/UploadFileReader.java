@@ -6,15 +6,23 @@ import edu.yang.persistence.ProjectDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.*;
-
 import java.io.*;
 import java.util.*;
 
+/**
+ * reads files passed in from FielUpload jsp and yugiohCard cardSets information
+ * @author nyang
+ */
 public class UploadFileReader implements PropertiesLoader {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    private Properties properties;
 
+    /**
+     * reads upload file from FileUpload jsp and creates YugiohCard objects
+     * @param fileName name of upload file
+     * @param user remoteUser
+     * @return list of yugiohCards
+     */
     public List<YugiohCard> readExcelFile(String fileName, Object user) {
 
 
@@ -67,26 +75,24 @@ public class UploadFileReader implements PropertiesLoader {
                     }
 
                     newYugiohCard.setUser((User)user);
-                    logger.info(newYugiohCard.toString());
+
                 }
                 int id = newYugiohCardDao.insert(newYugiohCard);
-                logger.info("id : " +  id);
+
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e);
         }
         return cardList;
     }
 
+    /**
+     * reads file of yugioh cardSets information
+     * @return map of key value pairs
+     */
     public Map<String, String> readFile() {
 
-        String propertiesFile = "/indieproject.properties";
-        properties = loadProperties(propertiesFile);
-
-        String fileName = "docs/cardSets.txt";//properties.getProperty("yugioh.cardSet");
-
-        System.out.println("reading from fileName : " + propertiesFile);
-        System.out.println("reading from fileName : " + fileName);
+        String fileName = "docs/cardSets.txt";
 
         Map<String, String> cardSetsMap = new HashMap<>();
 
@@ -98,17 +104,11 @@ public class UploadFileReader implements PropertiesLoader {
             // while there is a line, store as string and parse
             while (inputReader.ready()) {
                 String line = inputReader.readLine();
-
-                System.out.println(line);
-
-                String[] tokens = line.split("\n");
-
-                for (int i = 0; i < tokens.length; i ++) {
-                    System.out.println(i + " : " + tokens[i]);
-                }
-
+                line = line.replace("\n", ",");
+                String[] tokens = line.split(",");
 
                 cardSetsMap = createMap(tokens);
+                return cardSetsMap;
             }
         } catch (FileNotFoundException fileNotFound) {
             fileNotFound.printStackTrace();
@@ -118,14 +118,18 @@ public class UploadFileReader implements PropertiesLoader {
         return cardSetsMap;
     }
 
-    public Map<String,String> createMap(String[] tokens) {
+    /**
+     * parse string tokens
+     * @param tokens tokens of card sets information
+     * @return a map of key value pairs
+     */
+    private Map<String,String> createMap(String[] tokens) {
 
         Map<String, String> cardSetsMap = new HashMap<>();
 
-        for (int i = 0; i < tokens.length; i++) {
-            if (i / 2 == 1) {
-                System.out.println("token: " + tokens[i]);
-                cardSetsMap.put(tokens[i],tokens[i + 1]);
+        for (int i = 0; i < tokens.length; i += 2) {
+            if (i != tokens.length - 1) {
+                cardSetsMap.put(tokens[i], tokens[i + 1]);
             }
         }
         return cardSetsMap;

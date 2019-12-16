@@ -1,9 +1,9 @@
 
 dsquid:S11927"HDefine a constant instead of duplicating this literal "message" 3 times.(®ØÄüøÿÿÿÿ
-8squid:S1170 "!Make this final field static too.(Ôç³„
-ssquid:S00116 "[Rename this field "UPLOAD_DIRECTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôç³„
-Tsquid:S18543"8Remove this useless assignment to local variable "list".(³… ûÿÿÿÿ
 =squid:S1989?"&Add a "try/catch" block for "forward".(½‹¿
-=squid:S1989?"&Add a "try/catch" block for "forward".(½‹¿
-Esquid:S14813")Remove this unused "list" local variable.(³… ûÿÿÿÿ
+Tsquid:S18543"8Remove this useless assignment to local variable "list".(å†’şúÿÿÿÿ
 Asquid:S1068"*Remove this unused "logger" private field.(æ×âÁ
+=squid:S1989?"&Add a "try/catch" block for "forward".(½‹¿
+ssquid:S00116 "[Rename this field "UPLOAD_DIRECTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôç³„
+Esquid:S14813")Remove this unused "list" local variable.(å†’şúÿÿÿÿ
+8squid:S1170 "!Make this final field static too.(Ôç³„

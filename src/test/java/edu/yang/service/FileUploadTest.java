@@ -34,6 +34,8 @@ class FileUploadTest {
     void readCardSetFileSuccess() {
        Map<String, String> cardSetsMap = newTest.readFile();
 
+       System.out.println(cardSetsMap.size());
+
        for (Map.Entry<String, String> entry : cardSetsMap.entrySet()) {
            System.out.println("Key = " + entry.getKey() +
                    ", Value = " + entry.getValue());

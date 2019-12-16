@@ -1,15 +1,15 @@
 
-dsquid:S2441-"MMake "List" and its parameters serializable or don't store it in the session.(âö™ì
-Wsquid:S3457O"AFormat specifiers should be used instead of string concatenation.(ÃÄo
-Msquid:S2629J"7Use the built-in formatting to construct this argument.(Üö†}
-Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
-rsquid:S2629Z"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÃÄo
-Nsquid:S2629T"7Use the built-in formatting to construct this argument.(öòığ
-fsquid:S1192H"JDefine a constant instead of duplicating this literal "All Cards" 3 times.(šÉÃ¨üÿÿÿÿ
-rsquid:S2629O"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÃÄo
-Xsquid:S3457T"AFormat specifiers should be used instead of string concatenation.(öòığ
 =squid:S1989/"&Add a "try/catch" block for "forward".(òø½
-Wsquid:S3457J"AFormat specifiers should be used instead of string concatenation.(Üö†}
-]squid:S3457C"AFormat specifiers should be used instead of string concatenation.(ŠŸÉœıÿÿÿÿ
 Wsquid:S3457Z"AFormat specifiers should be used instead of string concatenation.(ÃÄo
+]squid:S3457C"AFormat specifiers should be used instead of string concatenation.(ŠŸÉœıÿÿÿÿ
+rsquid:S2629O"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÃÄo
+Msquid:S2629J"7Use the built-in formatting to construct this argument.(Üö†}
+dsquid:S2441-"MMake "List" and its parameters serializable or don't store it in the session.(âö™ì
+Nsquid:S2629T"7Use the built-in formatting to construct this argument.(öòığ
+rsquid:S2629Z"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÃÄo
+Wsquid:S3457J"AFormat specifiers should be used instead of string concatenation.(Üö†}
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+fsquid:S1192H"JDefine a constant instead of duplicating this literal "All Cards" 3 times.(šÉÃ¨üÿÿÿÿ
+Wsquid:S3457O"AFormat specifiers should be used instead of string concatenation.(ÃÄo
 =squid:S1989/"&Add a "try/catch" block for "forward".(òø½
+Xsquid:S3457T"AFormat specifiers should be used instead of string concatenation.(öòığ

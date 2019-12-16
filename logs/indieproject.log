@@ -10265,3 +10265,2177 @@ image : null
 [INFO ] 2019-12-12 16:59:24.214 [http-nio-8080-exec-8] SearchCards - in search servlet
 [INFO ] 2019-12-12 16:59:24.215 [http-nio-8080-exec-8] SearchCards - user is : leeyang2019
 [INFO ] 2019-12-12 16:59:24.222 [http-nio-8080-exec-8] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-16 13:38:13.984 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:14.027 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:14.032 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:14.034 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:14.034 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:14.035 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:14.036 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 13:38:14.036 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 13:38:31.245 [main] UploadFileReader - id : 8
+[INFO ] 2019-12-16 13:38:31.248 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.291 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.292 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.292 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.293 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.293 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.293 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 13:38:31.294 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 13:38:31.323 [main] UploadFileReader - id : 9
+[INFO ] 2019-12-16 13:38:31.323 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.323 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.324 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.325 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.326 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.326 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.326 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 13:38:31.326 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 13:38:31.339 [main] UploadFileReader - id : 10
+[INFO ] 2019-12-16 13:38:31.341 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.341 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.341 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.342 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.344 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.344 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.345 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 13:38:31.345 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 13:38:31.366 [main] UploadFileReader - id : 11
+[INFO ] 2019-12-16 13:38:31.367 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.367 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.367 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.368 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.368 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.368 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+image : null
+[INFO ] 2019-12-16 13:38:31.368 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 13:38:31.368 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 13:38:31.376 [main] UploadFileReader - id : 12
+[INFO ] 2019-12-16 13:38:31.827 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 14:03:51.154 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 14:03:51.376 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 14:03:51.377 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 14:03:51.436 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 14:03:52.303 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 14:03:52.604 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 14:03:52.839 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 14:03:52.839 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 14:03:52.839 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 14:03:53.959 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 14:03:53.962 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 14:03:53.996 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 14:03:54.272 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 14:03:54.273 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:03:54.273 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 14:03:54.0
+[INFO ] 2019-12-16 14:03:58.073 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.073 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.073 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.075 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.076 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.076 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.076 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:03:58.076 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:03:58.086 [main] UploadFileReader - id : 3
+[INFO ] 2019-12-16 14:03:58.087 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.087 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.088 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.089 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.089 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.089 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.090 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:03:58.091 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:03:58.100 [main] UploadFileReader - id : 4
+[INFO ] 2019-12-16 14:03:58.100 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.100 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.102 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.103 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.103 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.103 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.103 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:03:58.104 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:03:58.111 [main] UploadFileReader - id : 5
+[INFO ] 2019-12-16 14:03:58.111 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.112 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.113 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.113 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.115 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.116 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.116 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:03:58.116 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:03:58.128 [main] UploadFileReader - id : 6
+[INFO ] 2019-12-16 14:03:58.128 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.128 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.128 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.128 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.129 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.129 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:03:58.129 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:03:58.129 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:03:58.178 [main] UploadFileReader - id : 7
+[INFO ] 2019-12-16 14:03:58.444 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 14:06:29.216 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-16 14:09:29.557 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 14:09:29.678 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 14:09:29.678 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 14:09:29.712 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 14:09:30.307 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 14:09:30.554 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 14:09:30.694 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 14:09:30.694 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 14:09:30.694 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 14:09:31.238 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 14:09:31.238 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 14:09:31.282 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 14:09:31.395 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 14:09:31.395 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:09:31.395 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 14:09:31.0
+[INFO ] 2019-12-16 14:09:33.185 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.187 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.187 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.189 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.189 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.189 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.189 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:09:33.190 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:09:33.199 [main] UploadFileReader - id : 3
+[INFO ] 2019-12-16 14:09:33.200 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.200 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.200 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.200 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.200 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.200 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.201 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:09:33.203 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:09:33.212 [main] UploadFileReader - id : 4
+[INFO ] 2019-12-16 14:09:33.212 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.212 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.213 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.213 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.214 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.214 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.215 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:09:33.215 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:09:33.222 [main] UploadFileReader - id : 5
+[INFO ] 2019-12-16 14:09:33.222 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.223 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.223 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.224 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.225 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.225 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.225 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:09:33.226 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:09:33.238 [main] UploadFileReader - id : 6
+[INFO ] 2019-12-16 14:09:33.239 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.239 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.240 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.240 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.240 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.240 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:09:33.240 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:09:33.240 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:09:33.254 [main] UploadFileReader - id : 7
+[INFO ] 2019-12-16 14:09:33.376 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 14:13:37.565 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-16 14:18:02.299 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 14:18:02.481 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 14:18:02.481 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 14:18:02.540 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 14:18:03.194 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 14:18:03.451 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 14:18:03.647 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 14:18:03.648 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 14:18:03.648 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 14:18:04.271 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 14:18:04.271 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 14:18:04.304 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 14:18:04.486 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 14:18:04.487 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:18:04.487 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 14:18:04.0
+[INFO ] 2019-12-16 14:18:06.757 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.758 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.758 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.762 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.762 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.762 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.763 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:18:06.763 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:18:06.772 [main] UploadFileReader - id : 3
+[INFO ] 2019-12-16 14:18:06.772 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.772 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.772 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.772 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.774 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.774 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.776 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:18:06.777 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:18:06.785 [main] UploadFileReader - id : 4
+[INFO ] 2019-12-16 14:18:06.785 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.785 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.786 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.786 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.787 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.788 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.788 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:18:06.788 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:18:06.795 [main] UploadFileReader - id : 5
+[INFO ] 2019-12-16 14:18:06.796 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.797 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.797 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.798 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.800 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.800 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.800 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:18:06.800 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:18:06.823 [main] UploadFileReader - id : 6
+[INFO ] 2019-12-16 14:18:06.824 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.824 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.826 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.827 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.827 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.827 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:18:06.828 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:18:06.829 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:18:06.844 [main] UploadFileReader - id : 7
+[INFO ] 2019-12-16 14:18:06.985 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 14:18:58.936 [http-nio-8080-exec-2] Login - entering login servlet
+[INFO ] 2019-12-16 14:18:59.060 [http-nio-8080-exec-2] Login - Size of the cardSetsMap: 0
+[INFO ] 2019-12-16 14:20:28.605 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 14:20:28.760 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 14:20:28.760 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 14:20:28.802 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 14:20:29.404 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 14:20:29.655 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 14:20:29.829 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 14:20:29.829 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 14:20:29.829 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 14:20:30.375 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 14:20:30.376 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 14:20:30.407 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 14:20:30.555 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 14:20:30.555 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:20:30.557 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 14:20:30.0
+[INFO ] 2019-12-16 14:20:32.799 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.806 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.806 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.808 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.811 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.811 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.811 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:20:32.811 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:20:32.820 [main] UploadFileReader - id : 3
+[INFO ] 2019-12-16 14:20:32.821 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.821 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.821 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.821 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.822 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.823 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.823 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:20:32.825 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:20:32.831 [main] UploadFileReader - id : 4
+[INFO ] 2019-12-16 14:20:32.831 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.832 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.832 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.833 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.834 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.834 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.834 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:20:32.834 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:20:32.841 [main] UploadFileReader - id : 5
+[INFO ] 2019-12-16 14:20:32.842 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.842 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.843 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.843 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.845 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.846 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.846 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:20:32.846 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:20:32.857 [main] UploadFileReader - id : 6
+[INFO ] 2019-12-16 14:20:32.857 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.857 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.858 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.858 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.858 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.858 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:20:32.858 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:20:32.858 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:20:32.869 [main] UploadFileReader - id : 7
+[INFO ] 2019-12-16 14:20:33.024 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 14:21:56.509 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-16 14:21:56.536 [http-nio-8080-exec-3] Login - Size of the cardSetsMap: 0
+[INFO ] 2019-12-16 14:24:47.278 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 14:24:47.395 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 14:24:47.396 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 14:24:47.434 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 14:24:47.914 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 14:24:48.105 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 14:24:48.238 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 14:24:48.238 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 14:24:48.238 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 14:24:48.758 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 14:24:48.758 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 14:24:48.787 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 14:24:48.899 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 14:24:48.900 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:24:48.900 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 14:24:48.0
+[INFO ] 2019-12-16 14:24:50.671 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.708 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.709 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.711 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.711 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.711 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.711 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:24:50.715 [main] UploadFileReader - user: null
+cardName : Lust Soldier Envoy of the Beginning
+cardType : Monster
+cardRarity : Secret
+cardSet : IOC
+price : 10.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 14:24:50.761 [main] UploadFileReader - id : 3
+[INFO ] 2019-12-16 14:24:50.761 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.761 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.761 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.762 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.762 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.762 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.762 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:24:50.763 [main] UploadFileReader - user: null
+cardName : Chaos Sorcerer
+cardType : Monster
+cardRarity : Common
+cardSet : IOC
+price : 2.0
+quantity : 50
+image : null
+[INFO ] 2019-12-16 14:24:50.771 [main] UploadFileReader - id : 4
+[INFO ] 2019-12-16 14:24:50.771 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.771 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.772 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.772 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.773 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.773 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.773 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:24:50.773 [main] UploadFileReader - user: null
+cardName : Raigeki
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 1.0
+quantity : 15
+image : null
+[INFO ] 2019-12-16 14:24:50.780 [main] UploadFileReader - id : 5
+[INFO ] 2019-12-16 14:24:50.780 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.780 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.781 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.782 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.783 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.783 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.783 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:24:50.783 [main] UploadFileReader - user: null
+cardName : Harpie's Feather Duster
+cardType : Spell
+cardRarity : Prismatic
+cardSet : DDS
+price : 1.0
+quantity : 75
+image : null
+[INFO ] 2019-12-16 14:24:50.793 [main] UploadFileReader - id : 6
+[INFO ] 2019-12-16 14:24:50.793 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : null
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.794 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : null
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.794 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : null
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.794 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.794 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 0.0
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.795 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 0
+image : null
+[INFO ] 2019-12-16 14:24:50.795 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:24:50.795 [main] UploadFileReader - user: null
+cardName :  Dark Hole
+cardType : Spell
+cardRarity : Super
+cardSet : LOB
+price : 25.3
+quantity : 1
+image : null
+[INFO ] 2019-12-16 14:24:50.800 [main] UploadFileReader - id : 7
+[INFO ] 2019-12-16 14:24:50.910 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 14:25:38.026 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 14:25:38.041 [http-nio-8080-exec-1] Login - Size of the cardSetsMap: 0

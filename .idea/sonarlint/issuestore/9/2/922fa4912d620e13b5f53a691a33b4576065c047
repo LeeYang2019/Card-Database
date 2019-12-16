@@ -1,15 +1,4 @@
 
-tsquid:UselessImportCheck"LRemove this unused import 'com.fasterxml.jackson.databind.util.JSONPObject'.(æïœ8²àÊï-
-isquid:S1192"HDefine a constant instead of duplicating this literal "results" 3 times.(ªæû†úÿÿÿÿ8Óõó¹ï-
-`squid:S2147"DCombine this catch with the one at line 59, which has the same body.(”ı¾8¾×¶ï-
-|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£–à™ùÿÿÿÿ8§£µï-
-Hsquid:S1068",Remove this unused "tokenUrl" private field.(ÈŸÔÄ8§£µï-
-\squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8“€«µï-
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷õçÂ8§£µï-
-esquid:UselessImportCheck"=Remove this unused import 'javax.net.ssl.HttpsURLConnection'.(æÎº08§£µï-
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈŸÔÄ8§£µï-
-Xsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8“€«µï-
-Isquid:S1068"(Remove this unused "auth" private field.(£–à™ùÿÿÿÿ8§£µï-
-]squid:UselessImportCheck"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã8§£µï-
-Hsquid:S1068"'Remove this unused "pat" private field.(Ç«Ãáÿÿÿÿÿ8§£µï-
-|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æ¯”£şÿÿÿÿ8§£µï-
+wsquid:S1450"YRemove the "properties" field and declare it as a local variable in the relevant methods.(õ÷Şà8ÍÜ¬ãï-
+bsquid:S21473"DCombine this catch with the one at line 49, which has the same body.(”ı¾8¾×¶ï-
+lsquid:S1192ƒ"HDefine a constant instead of duplicating this literal "results" 3 times.(ªæû†úÿÿÿÿ8Óõó¹ï-

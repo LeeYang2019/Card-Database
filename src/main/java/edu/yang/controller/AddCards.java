@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  * A simple servlet to add Cards to the db
@@ -42,7 +43,6 @@ public class AddCards extends HttpServlet {
         ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
         ProjectDao tsDao = new ProjectDao(YugiohCardHistory.class);
         ProjectDao userDao = new ProjectDao(User.class);
-
 
         TcgPlayerAPI tcgPlayerAPI = new TcgPlayerAPI();
 
@@ -69,6 +69,15 @@ public class AddCards extends HttpServlet {
         User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
 
         //check if exists from web and get information back
+
+        Map<String, String> cardSetsMap = (Map) req.getAttribute("yugiohSetsMap");
+
+        System.out.println(cardSetsMap.size());
+
+        cardSetsMap.get(cardSet);
+
+        System.out.println(cardSetsMap.get(cardSet));
+
         int cardId = tcgPlayerAPI.getProductId(cardName, "The Legend of Blue Eyes White Dragon", "Ultra");
         List<ProductDetails> productDetailsList = tcgPlayerAPI.getProductDetails(cardId);
         List<PriceObject> pricingList = tcgPlayerAPI.getMarketPrice(cardId);
