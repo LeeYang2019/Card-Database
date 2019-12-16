@@ -5,7 +5,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
 import java.util.Map;
 
@@ -30,15 +29,4 @@ class FileUploadTest {
         }
     }
 
-    @Test
-    void readCardSetFileSuccess() {
-       Map<String, String> cardSetsMap = newTest.readFile();
-
-       System.out.println(cardSetsMap.size());
-
-       for (Map.Entry<String, String> entry : cardSetsMap.entrySet()) {
-           System.out.println("Key = " + entry.getKey() +
-                   ", Value = " + entry.getValue());
-       }
-    }
 }

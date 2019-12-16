@@ -18,7 +18,6 @@
             </div>
 
             <div class="row">
-                <c:import url="search.jsp"/>
                 <div class="col mx-auto mb-3">
                     <div class="card border-muted rounded-0">
                         <div class="card-header bg-muted">

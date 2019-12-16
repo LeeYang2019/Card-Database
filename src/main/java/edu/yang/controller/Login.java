@@ -3,7 +3,10 @@ package edu.yang.controller;
 import edu.yang.entity.User;
 import edu.yang.entity.YugiohCard;
 import edu.yang.persistence.ProjectDao;
+import edu.yang.service.PriceObject;
+import edu.yang.service.TcgPlayerAPI;
 import edu.yang.service.UploadFileReader;
+import edu.yang.service.YugiohCardSetsFileReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -50,14 +53,10 @@ public class Login extends HttpServlet {
         HttpSession session = req.getSession();
         RequestDispatcher dispatcher;
 
-        ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         Map<String, Object> propsAndValues = new HashMap<>();
         List<YugiohCard> userCards;
 
         UploadFileReader cardSetReader = new UploadFileReader();
-        Map<String, String> cardSetsMap = cardSetReader.readFile();
-
-        logger.info("Size of the cardSetsMap: " + cardSetsMap.size());
 
         //get remote user
         String userName = req.getRemoteUser();
@@ -69,14 +68,10 @@ public class Login extends HttpServlet {
         //store user in session
         session.setAttribute("user", loggedInUser);
 
-        //store cardSetsMap in session
-        session.setAttribute("yugiohSets", cardSetsMap);
-
-        //make service call
-        //getUser cards by price
-
         propsAndValues.put("user", loggedInUser);
-        userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
+
+        userCards = updateYugiohCards(propsAndValues);
+
         req.setAttribute("cards", userCards);
 
         if (loggedInUser.getCards().size() == 0) {
@@ -88,4 +83,48 @@ public class Login extends HttpServlet {
         dispatcher.forward(req, resp);
     }
 
+    public List<YugiohCard> updateYugiohCards(Map<String, Object> propertyMap) {
+
+        ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
+        List<YugiohCard> yugiohCardList = yugiohCardDao.findByPropertyEqual(propertyMap);
+        TcgPlayerAPI newPlayerAPI = new TcgPlayerAPI();
+
+        for (YugiohCard card : yugiohCardList) {
+
+            //get productName
+            int cardId = newPlayerAPI.getProductId(card.getCardName(),getProductSet(card.getCardSet()),card.getCardRarity());
+
+            logger.info("cardId is : " + cardId);
+
+            //get marketprice of the card
+            double marketPrice = getProductMarketPrice(cardId, newPlayerAPI);
+        }
+
+        return yugiohCardList;
+    }
+
+    private String getProductSet(String cardSet) {
+
+        YugiohCardSetsFileReader newCardReader = new YugiohCardSetsFileReader();
+        Map<String, String> newCardSetMap = newCardReader.readFile();
+        newCardSetMap.get(cardSet);
+        String productSetName = newCardSetMap.get(cardSet);
+
+        logger.info("inside getProductSet method, productName is : " + productSetName);
+
+        return productSetName;
+    }
+
+    private double getProductMarketPrice(int cardId, TcgPlayerAPI newApi) {
+
+        List<PriceObject> pricingList  = newApi.getMarketPrice(cardId);
+
+        for (int i = 0; i < pricingList.size(); i++) {
+            if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")){
+                double marketPrice = (double) pricingList.get(i).getMarketPrice();
+                return marketPrice;
+            }
+        }
+        return 0; //0 is failure
+    }
 }
