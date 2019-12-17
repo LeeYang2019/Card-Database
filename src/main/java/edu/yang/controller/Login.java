@@ -65,7 +65,7 @@ public class Login extends HttpServlet {
         session.setAttribute("user", loggedInUser);
 
         //push user to map
-        propsAndValues.put("cardStatus", "unsold");
+        propsAndValues.put("status", "unsold");
         propsAndValues.put("user", loggedInUser);
 
         //return a list of cards based on user
