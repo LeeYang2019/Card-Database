@@ -1,3 +1,4 @@
 
-UWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(‹òá¤ıÿÿÿÿ8ÁÍì¼ï-
-UWeb:AvoidCommentedOutCodeCheck("Remove this commented out code.(‹òá¤ıÿÿÿÿ8äßÖ¼ï-
+jWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ8ôã·ƒñ-
+a	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8ôã·ƒñ-
+PWeb:PageWithoutTitleCheck"Add a <title> tag to this page.(œ÷Ãûÿÿÿÿ8ı¹¸ƒñ-

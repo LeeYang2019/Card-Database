@@ -7,7 +7,7 @@
                 <c:import url="header.jsp"/>
             </div>
             <div class="row">
-                <c:import url="navbar.jsp"/>
+                <c:import url="userMenu.jsp"/>
             </div>
             <div class="row">
                 <div class="col-8 mx-auto mb-3">

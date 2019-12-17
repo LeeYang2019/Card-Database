@@ -10,7 +10,7 @@
   <display-name>Archetype Created Web Application</display-name>
 
   <!-- set login servlet as the homepage -->
-  <servlet>
+  <!--<servlet>
     <servlet-name>edu.yang.controller.Login</servlet-name>
     <servlet-class>edu.yang.controller.Login</servlet-class>
   </servlet>
@@ -22,7 +22,7 @@
 
   <welcome-file-list>
     <welcome-file>login</welcome-file>
-  </welcome-file-list>
+  </welcome-file-list> -->
 
   <!-- Tell the server to use form-based authentication. -->
   <login-config>
@@ -45,7 +45,7 @@
   </security-constraint>
 
   <!-- Protect the index page.-->
-  <security-constraint>
+  <!--<security-constraint>
     <web-resource-collection>
       <web-resource-name>index</web-resource-name>
       <url-pattern>/index.jsp</url-pattern>
@@ -53,7 +53,7 @@
     <auth-constraint>
       <role-name>general</role-name>
     </auth-constraint>
-  </security-constraint>
+  </security-constraint>-->
 
   <!-- Protect the user search page. -->
   <security-constraint>

@@ -7,10 +7,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <c:import url="header.jsp"/>
-        </div>
-        <div class="row">
-            <c:import url="navbar.jsp"/>
+            <c:import url="menu.jsp"/>
         </div>
         <div class="col-6 mx-auto mb-3">
             <div class="card border-primary">

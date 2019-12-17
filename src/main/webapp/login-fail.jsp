@@ -6,10 +6,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <c:import url="header.jsp"/>
-        </div>
-        <div class="row">
-            <c:import url="navbar.jsp"/>
+            <c:import url="menu.jsp"/>
         </div>
         <div class="col-6 mx-auto mb-3">
             <div class="card border-primary">
@@ -19,8 +16,8 @@
                 <div class="card-body">
                     <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
 
-                        <p>Authentication Failed. Please try logging in again.
-                        </p>
+                        <h4>Authentication Failed. Please try logging in again.
+                        </h4>
 
                         <div class="form-group">
                             <label for="j_username">Username:</label>

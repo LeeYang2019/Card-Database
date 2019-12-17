@@ -1,22 +1,3 @@
 
-wsquid:S1450"YRemove the "properties" field and declare it as a local variable in the relevant methods.(õ÷Þà8Ì­Ïãï-
-Lsquid:S1068".Remove this unused "properties" private field.(õ÷Þà8©È¢åï-
-V
-squid:S106k"9Replace this use of System.out or System.err by a logger.(É›ŽÛ8”É²åï-
-isquid:CommentedOutCodeLineV"<This block of commented-out lines of code should be removed.(—ãÜí8›·åï-
-Fsquid:S1148r"#Use a logger to log this exception.(ÝÞŒ³üÿÿÿÿ8ÄöÜäï-
-Asquid:S1148t"#Use a logger to log this exception.(âÒçÖ8ÄöÜäï-
-[
-squid:S106X"9Replace this use of System.out or System.err by a logger.(ü²¶õùÿÿÿÿ8‹Ã“åï-
-?squid:S1148L"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-Nsquid:S2629I"7Use the built-in formatting to construct this argument.(ú¼Œ
-@squid:S2629F"$Invoke method(s) only conditionally.(Ù€¦»ûÿÿÿÿ
-Xsquid:S3457I"AFormat specifiers should be used instead of string concatenation.(ú¼Œ
-[
-squid:S106f"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8ü†©åï-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(¸á¸øøÿÿÿÿ8ëÞ¥åï-
-jsquid:S2095`"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(£Íû¦8ÄöÜäï-
-U"squid:SwitchLastCaseIsDefaultCheck*""Add a default case to this switch.(Š‚ã‡ûÿÿÿÿ
-V
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(Óï†Þ8‡ð€åï-
+U"squid:SwitchLastCaseIsDefaultCheck2""Add a default case to this switch.(Š‚ã‡ûÿÿÿÿ
+Jsquid:S1481P"'Remove this unused "id" local variable.(Ïí¢Ÿüÿÿÿÿ8¶Î¤ƒñ-

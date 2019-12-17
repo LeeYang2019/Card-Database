@@ -7,13 +7,10 @@
 <body>
     <div class="container">
         <div class="row">
-            <c:import url="header.jsp"/>
+            <c:import url="menu.jsp"/>
         </div>
         <div class="row">
-            <c:import url="navbar.jsp"/>
-        </div>
-        <div class="row">
-            <p>You are now logged out. Goodbye!</p>
+            <h4>You are now logged out. Goodbye!</h4>
         </div>
         <footer class="row">
             <c:import url="footer.jsp"/>

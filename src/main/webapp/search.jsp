@@ -7,7 +7,7 @@
                 <c:import url="header.jsp"/>
             </div>
             <div class="row">
-                <c:import url="navbar.jsp"/>
+                <c:import url="userMenu.jsp"/>
             </div>
             <div class="col-10 mx-auto">
                 <div class="card border-muted mb-3 rounded-0">

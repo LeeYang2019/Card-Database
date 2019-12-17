@@ -7,7 +7,14 @@
                 <c:import url="header.jsp"/>
             </div>
             <div class="row">
-                <c:import url="navbar.jsp"/>
+                <c:choose>
+                    <c:when test="${pageContext.request.isUserInRole('general')}" >
+                        <c:import url="/userMenu.jsp" />
+                    </c:when>
+                    <c:otherwise>
+                        <c:import url="menu.jsp"/>
+                    </c:otherwise>
+                </c:choose>
             </div>
             <div class="col-6 mx-auto mb-3">
                 <div class="card border-info">
