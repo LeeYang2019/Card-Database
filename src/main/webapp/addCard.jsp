@@ -14,7 +14,7 @@
                 <div class="col-12 mx-auto mb-3">
                     <div class="card border-muted">
                         <div class="card-header bg-muted">
-                            <h4 class="text-dark">Add Card to Database</h4>
+                            <h4 class="text-dark">Add Yu-Gi-Oh! Card</h4>
                         </div>
                         <div class="card-body">
                             <form id="cardForm" action="addCards" class="needs-validation" novalidate>

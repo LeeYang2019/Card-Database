@@ -23,7 +23,7 @@
                 <div class="col-4 mx-auto mb-3">
                     <div class="card border-muted rounded-0">
                         <div class="card-header bg-muted">
-                            <h4 class="text-dark font-italic font-weight-bold">Signup</h4>
+                            <h4 class="text-dark font-weight-bold">Signup</h4>
                         </div>
                         <div class="card-body">
                             <FORM id="myForm" ACTION="signup" METHOD="POST">

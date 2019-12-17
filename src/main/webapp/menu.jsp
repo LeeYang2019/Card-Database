@@ -10,7 +10,7 @@
    <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
          <li class="nav-item">
-            <a class="nav-link" href="signup.jsp"><i class="fas fa-user fa-fw"></i>Sign up</a>
+            <a class="nav-link" href="signup.jsp"><i class="fas fa-user fa-fw"></i>Signup</a>
          </li>
          <li class="nav-item">
             <a class="nav-link" href="login"><i class="fas fa-sign-in-alt"></i>Login</a>

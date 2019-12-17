@@ -50,9 +50,7 @@ J
 J
 src/main/webapp/header.jsp,0/5/051b0ac501a865704d2b6b36f8cfabfa311becc2
 J
-src/main/webapp/logout.jsp,e\7\e7a26d636a815ab45217ad388a04d73824e80eff
-J
-src/main/webapp/navbar.jsp,a/7/a7ba207bfa74ca8b935b52012e2659693fd94e87
+src/main/webapp/logout.jsp,e/7/e7a26d636a815ab45217ad388a04d73824e80eff
 J
 src/main/webapp/search.jsp,c/3/c3258cd09374f8ea39c10bd015a25ea37724465b
 J
@@ -62,15 +60,15 @@ K
 K
 src/main/webapp/results.jsp,a/0/a047297eff552188f44ca404fb93b1557c6deaad
 K
-src/main/webapp/selling.jsp,4\a\4a684ed7a04f1f9dbc344acd7bc12267991673c7
+src/main/webapp/selling.jsp,4/a/4a684ed7a04f1f9dbc344acd7bc12267991673c7
 L
 src/main/webapp/editCard.jsp,f/c/fcbbfb908f48d456306678e6eebce1fa0e186398
 N
 src/main/webapp/fileupload.jsp,8/3/839a86e99860db01a6e053e2f9f1f33deca4b42e
 N
-src/main/webapp/login-fail.jsp,1\f\1f7b2a181be9131f61443838c61c664045e937c8
+src/main/webapp/login-fail.jsp,1/f/1f7b2a181be9131f61443838c61c664045e937c8
 V
-&src/main/webapp/singupConfirmation.jsp,c\b\cbcae2c53dd7a8e600958dfcd035b649a58c3e7b
+&src/main/webapp/singupConfirmation.jsp,c/b/cbcae2c53dd7a8e600958dfcd035b649a58c3e7b
 T
 $src/main/resources/hibernate.cfg.xml,3\1\3176feae82bf4ff4f68f72c9d6d3b850a3110c22
 T
@@ -123,3 +121,9 @@ p
 @src/test/java/edu/yang/service/YugiohCardSetsFileReaderTest.java,9/e/9e65f74ca6ac8661cfe14d3a7aeb229a0d762401
 a
 1src/main/java/edu/yang/controller/DeleteCard.java,4/b/4b8cd049f8d77178b89424e43f19ee6af24bedfc
+H
+src/main/webapp/home.jsp,6/8/6853166b9553bb500860233db274f93560c021c5
+H
+src/main/webapp/menu.jsp,6/7/671fde2a78fbd3479793a5502b8584b419c99f8b
+L
+src/main/webapp/userMenu.jsp,3/a/3ac4a4d6e26242c6d9bc78378c279a082d6af794

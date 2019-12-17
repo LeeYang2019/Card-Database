@@ -35,41 +35,19 @@ public class EditCard extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        //card dao being used
-        ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
-        ProjectDao tsDao = new ProjectDao(YugiohCardHistory.class);
-        ProjectDao userDao = new ProjectDao(User.class);
 
-        Date date = new Date();
-        long time = date.getTime();
-        Timestamp ts = new Timestamp(time);
+        String input = req.getParameter("param");
+        int id = Integer.parseInt(input);
 
-        //get user input
-        String cardName = req.getParameter("cardName");
-        String cardType = req.getParameter("cardType");
-        String cardRarity = req.getParameter("cardRarity");
-        String cardSet = req.getParameter("cardSet");
-        String cardIndex = req.getParameter("cardIndex");
-        String cardPrice = req.getParameter("cardPrice");
-        double price = Double.parseDouble(cardPrice);
-        String cardQuantity = req.getParameter("cardQuantity");
-        int qty = Integer.parseInt(cardQuantity);
+        logger.info("id to remove: " + id);
 
-        //get this user
-        HttpSession session = req.getSession();
-        User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
-/*
-        //create a card object
-        YugiohCard newCard = new YugiohCard(cardName, cardType, cardRarity, cardSet, cardIndex, price, qty, "unsold", null, loggedInUser);
-        YugiohCardHistory entry = new YugiohCardHistory(price, newCard, ts);
-        newCard.addEntry(entry);
+        ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
+        YugiohCard newYugiohCard = (YugiohCard)yugiohCardDao.getById(id);
 
-        int id = newYugiohCardDao.insert(newCard);
-        int entryId = tsDao.insert(entry);
-*/
-        req.setAttribute("cards", loggedInUser.getCards());
+        logger.info("returned card is : " + newYugiohCard.getCardName());
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
+        req.setAttribute("card", newYugiohCard);
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/editCard.jsp");
         dispatcher.forward(req, resp);
 
     }

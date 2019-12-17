@@ -1,6 +1,6 @@
 
+lsquid:S1192…"HDefine a constant instead of duplicating this literal "results" 3 times.(ªæû†úÿÿÿÿ8‹âåŒñ-
+Wsquid:S11729"4Remove this unused method parameter "productRarity".(°ËßŠüÿÿÿÿ8øÖüŒñ-
+‡squid:S1488¢"cImmediately return this expression instead of assigning it to the temporary variable "marketPrice".(†‹óÎúÿÿÿÿ8‹âåŒñ-
 bsquid:S21473"DCombine this catch with the one at line 49, which has the same body.(”ı¾8¾×¶ï-
 wsquid:S1450"YRemove the "properties" field and declare it as a local variable in the relevant methods.(õ÷Şà8ÍÜ¬ãï-
-‡squid:S1488¢"cImmediately return this expression instead of assigning it to the temporary variable "marketPrice".(†‹óÎúÿÿÿÿ8‹âåŒñ-
-Wsquid:S11729"4Remove this unused method parameter "productRarity".(°ËßŠüÿÿÿÿ8øÖüŒñ-
-lsquid:S1192…"HDefine a constant instead of duplicating this literal "results" 3 times.(ªæû†úÿÿÿÿ8‹âåŒñ-

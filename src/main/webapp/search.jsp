@@ -12,7 +12,7 @@
             <div class="col-10 mx-auto">
                 <div class="card border-muted mb-3 rounded-0">
                     <div class="card-header bg-muted">
-                        <h4 class="text-dark">Card Search</h4>
+                        <h4 class="text-dark">Edit Yu-Gi-Oh! Card Search</h4>
                     </div>
                     <div class="card-body">
                         <form class="form-group" action="searchCards" method="GET" class="needs-validation" novalidate>
