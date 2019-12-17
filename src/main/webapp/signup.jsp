@@ -4,9 +4,6 @@
     <body>
         <div class="container">
             <div class="row">
-                <c:import url="header.jsp"/>
-            </div>
-            <div class="row">
                 <c:choose>
                     <c:when test="${pageContext.request.isUserInRole('general')}" >
                         <c:import url="/userMenu.jsp" />
@@ -55,7 +52,7 @@
                             </div>
 
 
-                            <button type="submit" class="btn btn-primary" value="log in">Submit</button><br />
+                            <button type="submit" class="btn btn-primary" value="log in">Signup</button><br />
                         </FORM>
                     </div>
                 </div>

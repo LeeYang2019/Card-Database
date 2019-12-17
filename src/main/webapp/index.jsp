@@ -5,30 +5,28 @@
     <body>
         <div class="container">
             <div class="row">
-                <c:choose>
-                    <c:when test="${pageContext.request.isUserInRole('general')}" >
-                        <c:import url="/userMenu.jsp" />
-                    </c:when>
-                    <c:otherwise>
-                        <c:import url="menu.jsp"/>
-                    </c:otherwise>
-                </c:choose>
+                <c:import url="header.jsp"/>
+            </div>
+            <div class="row">
+                <c:import url="menu.jsp"/>
             </div>
             <div class="row">
                 <div class="col mx-auto mb-3">
-                    <p>This is a free to use website for uploading and tracking Yu-Gi-Oh! cards, as well as getting the most current and up-to-date pricing for cards.</p>
-                    <p>To use, please signup.</p>
+                    <div class="col mx-auto">
+                        <p>This is a free to use website for managing one's Yu-Gi-Oh! card collection, as well as getting the most current and up-to-date pricing for cards.</p>
+                        <p>To use, please sign-up. Otherwise, login if you already have an account.</p>
+                    </div>
+                    <div class="col mx-auto">
+                        <img id="yugioh_image" src="images/yugioh.jpg" alt="Yu-Gi-OhCard"/>
+                    </div>
                 </div>
                 <div class="col-4 mx-auto mb-3">
                     <div class="card border-muted rounded-0">
                         <div class="card-header bg-muted">
-                            <h4 class="text-dark font-italic font-weight-bold">Top 20 Selling Cards</h4>
+                            <h4 class="text-dark font-italic font-weight-bold">Signup</h4>
                         </div>
                         <div class="card-body">
                             <FORM id="myForm" ACTION="signup" METHOD="POST">
-
-                                <p>To create an account, enter a username and password.
-                                </p>
 
                                 <div class="form-group">
                                     <label for="username">Username:</label>
@@ -56,7 +54,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary" value="singup">Submit</button><br />
+                                <button type="submit" class="btn btn-primary" value="singup">Signup</button><br />
                             </FORM>
                         </div>
                     </div>

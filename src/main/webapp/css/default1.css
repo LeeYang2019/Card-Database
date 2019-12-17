@@ -7,12 +7,17 @@ body {
     background-color: white;
     width: 100%;
 }
-
+/*
 .jumbotron {
     background-image: url("../images/yugioh1.png");
     width: 100%;
     height: auto;
     margin-bottom: 0px;
+}*/
+
+#yugioh_image {
+    max-width: 100%;
+    height: auto;
 }
 
 .navbar, #mySearch {
@@ -28,6 +33,18 @@ body {
     margin-left: 1em;
     margin-right: 1em;
 }
+
+#myInput {
+    background-image: url('/images/searchIcon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
 
 .imageSection, .infoSection {
     border: 1px solid #dee2e6;
@@ -68,7 +85,8 @@ footer {
     margin-top: 10px;
 }
 
-.imageSize {
+#imageSize {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
 }

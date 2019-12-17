@@ -15284,3 +15284,1230 @@ image : null
 [INFO ] 2019-12-17 10:22:18.385 [http-nio-8080-exec-3] SearchCards - in search servlet
 [INFO ] 2019-12-17 10:22:18.388 [http-nio-8080-exec-3] SearchCards - user is : leeyang2019
 [INFO ] 2019-12-17 10:22:18.388 [http-nio-8080-exec-3] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-17 10:29:25.198 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 10:29:25.334 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 10:29:25.336 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 10:29:25.379 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 10:29:25.892 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 10:29:26.086 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 10:29:26.217 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 10:29:26.217 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 10:29:26.217 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 10:29:26.742 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 10:29:26.743 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 10:29:26.769 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 10:29:26.889 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 10:29:26.890 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 10:29:26.890 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 10:29:26.0
+[INFO ] 2019-12-17 10:29:28.973 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 10:31:15.084 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-17 10:31:21.238 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 10:31:22.523 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 10:31:23.027 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 10:31:23.455 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 10:31:29.056 [http-nio-8080-exec-8] SearchCards - in search servlet
+[INFO ] 2019-12-17 10:31:29.059 [http-nio-8080-exec-8] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-17 10:31:29.059 [http-nio-8080-exec-8] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-17 10:31:45.181 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-17 10:31:45.336 [http-nio-8080-exec-3] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 10:31:45.749 [http-nio-8080-exec-3] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 10:31:46.204 [http-nio-8080-exec-3] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 10:31:46.563 [http-nio-8080-exec-3] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 10:31:49.866 [http-nio-8080-exec-6] SearchCards - in search servlet
+[INFO ] 2019-12-17 10:31:49.866 [http-nio-8080-exec-6] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-17 10:31:49.867 [http-nio-8080-exec-6] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-17 10:35:16.692 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 10:35:16.806 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 10:35:16.808 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 10:35:16.846 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 10:35:17.405 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 10:35:17.614 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 10:35:17.750 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 10:35:17.750 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 10:35:17.750 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 10:35:18.234 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 10:35:18.235 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 10:35:18.256 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 10:35:18.369 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 10:35:18.369 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 10:35:18.370 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 10:35:18.0
+[INFO ] 2019-12-17 10:35:20.060 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 10:37:43.974 [http-nio-8080-exec-6] Login - entering login servlet
+[INFO ] 2019-12-17 10:37:49.376 [http-nio-8080-exec-6] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 10:37:50.511 [http-nio-8080-exec-6] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 10:37:50.970 [http-nio-8080-exec-6] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 10:37:51.381 [http-nio-8080-exec-6] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 10:38:15.900 [http-nio-8080-exec-2] Login - entering login servlet
+[INFO ] 2019-12-17 10:42:27.005 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 10:42:27.123 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 10:42:27.124 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 10:42:27.162 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 10:42:27.747 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 10:42:27.962 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 10:42:28.111 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 10:42:28.113 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 10:42:28.113 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 10:42:28.633 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 10:42:28.634 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 10:42:28.659 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 10:42:28.792 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 10:42:28.792 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 10:42:28.792 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 10:42:28.0
+[INFO ] 2019-12-17 10:42:30.604 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 10:46:00.133 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 10:46:00.241 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 10:46:00.244 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 10:46:00.299 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 10:46:00.957 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 10:46:01.170 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 10:46:01.331 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 10:46:01.333 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 10:46:01.333 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 10:46:01.983 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 10:46:01.984 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 10:46:02.027 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 10:46:02.242 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 10:46:02.242 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 10:46:02.242 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 10:46:02.0
+[INFO ] 2019-12-17 10:46:05.263 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 10:47:53.879 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 10:47:54.012 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 10:47:54.014 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 10:47:54.053 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 10:47:54.631 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 10:47:54.849 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 10:47:55.001 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 10:47:55.001 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 10:47:55.001 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 10:47:55.556 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 10:47:55.556 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 10:47:55.581 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 10:47:55.696 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 10:47:55.697 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 10:47:55.697 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 10:47:55.0
+[INFO ] 2019-12-17 10:47:57.543 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 10:50:26.199 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 10:50:26.316 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 10:50:26.317 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 10:50:26.354 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 10:50:26.842 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 10:50:27.038 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 10:50:27.184 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 10:50:27.184 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 10:50:27.184 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 10:50:27.666 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 10:50:27.666 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 10:50:27.695 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 10:50:27.813 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 10:50:27.813 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 10:50:27.813 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 10:50:27.0
+[INFO ] 2019-12-17 10:50:29.524 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:05:01.897 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:05:02.021 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:05:02.024 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:05:02.063 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:05:02.551 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:05:02.750 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:05:02.885 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:05:02.885 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:05:02.885 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:05:03.410 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:05:03.411 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:05:03.437 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:05:03.563 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:05:03.563 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:05:03.563 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:05:03.0
+[INFO ] 2019-12-17 11:05:05.242 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:08:48.273 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:08:48.443 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:08:48.445 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:08:48.499 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:08:49.046 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:08:49.387 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:08:49.648 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:08:49.648 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:08:49.648 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:08:50.326 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:08:50.326 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:08:50.362 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:08:50.546 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:08:50.546 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:08:50.546 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:08:50.0
+[INFO ] 2019-12-17 11:08:52.855 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:10:34.105 [http-nio-8080-exec-7] Login - entering login servlet
+[INFO ] 2019-12-17 11:10:40.909 [http-nio-8080-exec-7] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:10:42.393 [http-nio-8080-exec-7] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:10:42.859 [http-nio-8080-exec-7] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:10:43.331 [http-nio-8080-exec-7] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:14:28.064 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:14:28.178 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:14:28.179 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:14:28.222 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:14:28.772 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:14:28.995 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:14:29.138 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:14:29.138 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:14:29.138 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:14:29.636 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:14:29.636 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:14:29.659 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:14:29.785 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:14:29.786 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:14:29.787 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:14:29.0
+[INFO ] 2019-12-17 11:14:31.509 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:15:25.237 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-17 11:15:33.060 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:15:34.532 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:15:35.374 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:15:36.321 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:17:53.458 [http-nio-8080-exec-4] SearchCards - in search servlet
+[INFO ] 2019-12-17 11:17:53.466 [http-nio-8080-exec-4] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-17 11:17:53.466 [http-nio-8080-exec-4] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-17 11:22:46.474 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:22:46.587 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:22:46.589 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:22:46.628 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:22:47.128 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:22:47.326 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:22:47.462 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:22:47.462 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:22:47.462 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:22:47.929 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:22:47.929 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:22:47.954 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:22:48.069 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:22:48.069 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:22:48.069 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:22:48.0
+[INFO ] 2019-12-17 11:22:49.692 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:24:37.016 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:24:37.160 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:24:37.164 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:24:37.222 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:24:37.838 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:24:38.037 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:24:38.170 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:24:38.170 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:24:38.170 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:24:38.681 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:24:38.681 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:24:38.707 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:24:38.822 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:24:38.822 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:24:38.822 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:24:38.0
+[INFO ] 2019-12-17 11:24:40.553 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:26:17.051 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:26:17.203 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:26:17.206 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:26:17.251 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:26:17.824 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:26:18.034 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:26:18.199 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:26:18.199 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:26:18.199 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:26:18.776 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:26:18.777 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:26:18.808 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:26:18.948 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:26:18.948 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:26:18.948 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:26:18.0
+[INFO ] 2019-12-17 11:26:20.678 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:30:19.522 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:30:19.640 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:30:19.641 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:30:19.707 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:30:20.232 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:30:20.430 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:30:20.562 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:30:20.562 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:30:20.562 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:30:21.096 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:30:21.097 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:30:21.120 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:30:21.231 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:30:21.231 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:30:21.231 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:30:21.0
+[INFO ] 2019-12-17 11:30:22.954 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:32:10.532 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:32:10.673 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:32:10.676 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:32:10.751 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:32:11.335 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:32:11.561 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:32:11.719 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:32:11.719 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:32:11.719 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:32:12.197 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:32:12.198 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:32:12.226 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:32:12.342 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:32:12.343 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:32:12.343 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:32:12.0
+[INFO ] 2019-12-17 11:32:14.332 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:33:13.068 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-17 11:33:21.643 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:33:23.005 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:33:23.433 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:33:23.805 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:38:23.341 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:38:23.499 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:38:23.501 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:38:23.542 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:38:24.073 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:38:24.290 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:38:24.453 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:38:24.453 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:38:24.453 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:38:24.980 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:38:24.980 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:38:25.004 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:38:25.131 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:38:25.132 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:38:25.132 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:38:25.0
+[INFO ] 2019-12-17 11:38:26.976 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:39:22.699 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-17 11:39:30.866 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:39:32.033 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:39:32.441 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:39:32.788 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:46:56.260 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:46:56.388 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:46:56.389 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:46:56.428 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:46:56.919 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:46:57.136 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:46:57.285 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:46:57.285 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:46:57.285 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:46:57.772 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:46:57.772 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:46:57.800 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:46:57.914 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:46:57.914 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:46:57.914 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:46:57.0
+[INFO ] 2019-12-17 11:46:59.577 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:47:55.461 [http-nio-8080-exec-6] Login - entering login servlet
+[INFO ] 2019-12-17 11:48:01.287 [http-nio-8080-exec-6] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:48:02.748 [http-nio-8080-exec-6] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:48:03.237 [http-nio-8080-exec-6] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:48:03.681 [http-nio-8080-exec-6] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:49:55.253 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 11:49:55.366 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 11:49:55.368 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 11:49:55.411 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 11:49:55.914 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 11:49:56.134 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 11:49:56.270 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 11:49:56.271 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 11:49:56.271 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 11:49:56.728 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 11:49:56.729 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 11:49:56.768 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 11:49:56.886 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 11:49:56.886 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 11:49:56.887 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 11:49:56.0
+[INFO ] 2019-12-17 11:49:58.661 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 11:50:54.143 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-17 11:51:03.392 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:51:04.668 [http-nio-8080-exec-5] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 11:51:05.142 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:51:05.556 [http-nio-8080-exec-5] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 11:51:51.583 [http-nio-8080-exec-1] SearchCards - in search servlet
+[INFO ] 2019-12-17 11:51:51.588 [http-nio-8080-exec-1] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-17 11:51:51.588 [http-nio-8080-exec-1] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-17 12:04:59.234 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 12:04:59.354 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 12:04:59.355 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 12:04:59.397 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 12:04:59.899 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 12:05:00.101 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 12:05:00.234 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 12:05:00.234 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 12:05:00.234 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 12:05:00.728 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 12:05:00.729 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 12:05:00.758 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 12:05:00.878 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 12:05:00.879 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 12:05:00.879 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 12:05:00.0
+[INFO ] 2019-12-17 12:05:02.604 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 12:06:05.490 [http-nio-8080-exec-8] Login - entering login servlet
+[INFO ] 2019-12-17 12:06:11.509 [http-nio-8080-exec-8] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:06:12.675 [http-nio-8080-exec-8] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:06:13.096 [http-nio-8080-exec-8] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:06:13.505 [http-nio-8080-exec-8] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:08:02.478 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 12:08:02.598 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 12:08:02.600 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 12:08:02.637 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 12:08:03.164 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 12:08:03.359 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 12:08:03.490 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 12:08:03.490 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 12:08:03.490 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 12:08:03.973 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 12:08:03.973 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 12:08:03.999 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 12:08:04.129 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 12:08:04.130 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 12:08:04.130 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 12:08:04.0
+[INFO ] 2019-12-17 12:08:05.894 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 12:08:59.996 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-17 12:09:07.959 [http-nio-8080-exec-3] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:09:09.180 [http-nio-8080-exec-3] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:09:09.616 [http-nio-8080-exec-3] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:09:09.983 [http-nio-8080-exec-3] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:11:40.208 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 12:11:40.387 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 12:11:40.391 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 12:11:40.445 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 12:11:41.034 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 12:11:41.277 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 12:11:41.439 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 12:11:41.439 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 12:11:41.439 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 12:11:42.024 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 12:11:42.024 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 12:11:42.052 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 12:11:42.217 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 12:11:42.217 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 12:11:42.218 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 12:11:42.0
+[INFO ] 2019-12-17 12:11:44.677 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 12:13:02.368 [http-nio-8080-exec-9] Login - entering login servlet
+[INFO ] 2019-12-17 12:13:07.919 [http-nio-8080-exec-9] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:13:09.270 [http-nio-8080-exec-9] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:13:09.720 [http-nio-8080-exec-9] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:13:10.151 [http-nio-8080-exec-9] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:15:13.864 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 12:15:13.990 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 12:15:13.992 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 12:15:14.036 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 12:15:14.571 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 12:15:14.802 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 12:15:14.942 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 12:15:14.942 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 12:15:14.942 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 12:15:15.415 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 12:15:15.416 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 12:15:15.440 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 12:15:15.560 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 12:15:15.560 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 12:15:15.560 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 12:15:15.0
+[INFO ] 2019-12-17 12:15:17.439 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 12:16:45.832 [http-nio-8080-exec-4] Login - entering login servlet
+[INFO ] 2019-12-17 12:16:51.523 [http-nio-8080-exec-4] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:16:52.693 [http-nio-8080-exec-4] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:16:53.092 [http-nio-8080-exec-4] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:16:53.455 [http-nio-8080-exec-4] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:18:54.659 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 12:18:54.792 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 12:18:54.795 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 12:18:54.840 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 12:18:55.392 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 12:18:55.616 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 12:18:55.765 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 12:18:55.765 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 12:18:55.765 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 12:18:56.336 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 12:18:56.336 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 12:18:56.360 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 12:18:56.474 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 12:18:56.474 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 12:18:56.474 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 12:18:56.0
+[INFO ] 2019-12-17 12:18:58.341 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 12:20:37.425 [http-nio-8080-exec-8] Login - entering login servlet
+[INFO ] 2019-12-17 12:20:42.597 [http-nio-8080-exec-8] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:20:43.845 [http-nio-8080-exec-8] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:20:44.308 [http-nio-8080-exec-8] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:20:44.714 [http-nio-8080-exec-8] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:20:52.652 [http-nio-8080-exec-1] SearchCards - in search servlet
+[INFO ] 2019-12-17 12:20:52.658 [http-nio-8080-exec-1] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-17 12:20:52.658 [http-nio-8080-exec-1] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-17 12:21:13.062 [http-nio-8080-exec-4] SearchCards - in search servlet
+[INFO ] 2019-12-17 12:21:13.064 [http-nio-8080-exec-4] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-17 12:21:13.064 [http-nio-8080-exec-4] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-17 12:21:14.237 [http-nio-8080-exec-7] SearchCards - in search servlet
+[INFO ] 2019-12-17 12:21:14.237 [http-nio-8080-exec-7] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-17 12:21:14.237 [http-nio-8080-exec-7] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-17 12:22:45.428 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-17 12:22:45.584 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-17 12:22:45.586 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-17 12:22:45.627 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-17 12:22:46.242 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-17 12:22:46.477 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-17 12:22:46.616 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-17 12:22:46.616 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-17 12:22:46.616 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-17 12:22:47.167 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-17 12:22:47.168 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-17 12:22:47.194 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-17 12:22:47.313 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-17 12:22:47.313 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-17 12:22:47.315 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-17 12:22:47.0
+[INFO ] 2019-12-17 12:22:49.042 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-17 12:23:53.174 [http-nio-8080-exec-6] Login - entering login servlet
+[INFO ] 2019-12-17 12:24:00.523 [http-nio-8080-exec-6] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:24:01.610 [http-nio-8080-exec-6] Login - getting updates for card Red Eyes B Dragon
+[INFO ] 2019-12-17 12:24:02.034 [http-nio-8080-exec-6] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:24:02.474 [http-nio-8080-exec-6] Login - getting updates for card Apollousa Bow of the Goddess
+[INFO ] 2019-12-17 12:24:10.682 [http-nio-8080-exec-9] SearchCards - in search servlet
+[INFO ] 2019-12-17 12:24:10.690 [http-nio-8080-exec-9] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-17 12:24:10.691 [http-nio-8080-exec-9] SearchCards - searchTerm is empty and searchType is All Cards

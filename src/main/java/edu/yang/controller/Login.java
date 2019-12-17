@@ -76,7 +76,7 @@ public class Login extends HttpServlet {
         if (loggedInUser.getCards().size() == 0) {
             dispatcher = req.getRequestDispatcher("/fileupload.jsp");
         } else {
-            dispatcher = req.getRequestDispatcher("/index.jsp");
+            dispatcher = req.getRequestDispatcher("/home.jsp");
         }
 
         dispatcher.forward(req, resp);

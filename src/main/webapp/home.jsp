@@ -5,6 +5,9 @@
     <body>
         <div class="container">
             <div class="row">
+                <c:import url="header.jsp"/>
+            </div>
+            <div class="row">
                 <c:import url="userMenu.jsp"/>
             </div>
             <div class="row">

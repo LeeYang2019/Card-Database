@@ -7,10 +7,13 @@
 <body>
     <div class="container">
         <div class="row">
+            <c:import url="header.jsp"/>
+        </div>
+        <div class="row">
             <c:import url="menu.jsp"/>
         </div>
         <div class="row">
-            <h4>You are now logged out. Goodbye!</h4>
+            <h4 class="mx-auto">You are now logged out. Goodbye!</h4>
         </div>
         <footer class="row">
             <c:import url="footer.jsp"/>

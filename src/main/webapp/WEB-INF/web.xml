@@ -44,16 +44,16 @@
   </auth-constraint>
   </security-constraint>
 
-  <!-- Protect the index page.-->
-  <!--<security-constraint>
+  <!-- Protect the home page.-->
+  <security-constraint>
     <web-resource-collection>
       <web-resource-name>index</web-resource-name>
-      <url-pattern>/index.jsp</url-pattern>
+      <url-pattern>/home.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>general</role-name>
     </auth-constraint>
-  </security-constraint>-->
+  </security-constraint>
 
   <!-- Protect the user search page. -->
   <security-constraint>

@@ -7,20 +7,18 @@
 <body>
     <div class="container">
         <div class="row">
+            <c:import url="header.jsp"/>
+        </div>
+        <div class="row">
             <c:import url="menu.jsp"/>
         </div>
         <div class="col-6 mx-auto mb-3">
-            <div class="card border-primary">
-                <div class="card-header bg-primary">
-                    <h4 class="text-white">Login</h4>
+            <div class="card border-muted rounded-0">
+                <div class="card-header bg-muted">
+                    <h4 class="text-dark">Login</h4>
                 </div>
                 <div class="card-body">
                     <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
-
-                        <p>If you already have an Ebay account, you have and account
-                            on this website. If you don't have an account, please sign-up with Ebay first.
-                        </p>
-
                         <div class="form-group">
                             <label for="j_username">Username:</label>
                             <input type="text" class="form-control" id="j_username" placeholder="Enter username" name="j_username" required>
@@ -34,9 +32,7 @@
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
-
-                        <p><a href="signup.jsp">I do not have an account.</a></p>
-                        <button type="submit" class="btn btn-primary" value="log in">Submit</button><br />
+                        <button type="submit" class="btn btn-primary" value="login">Login</button><br />
                     </FORM>
                 </div>
             </div>
