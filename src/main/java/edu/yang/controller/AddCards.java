@@ -19,6 +19,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -45,9 +46,7 @@ public class AddCards extends HttpServlet {
         ProjectDao tsDao = new ProjectDao(YugiohCardHistory.class);
         ProjectDao userDao = new ProjectDao(User.class);
 
-
-        TcgPlayerAPI tcgPlayerAPI = new TcgPlayerAPI();
-
+        //get current tmstamp
         Date date = new Date();
         long time = date.getTime();
         Timestamp ts = new Timestamp(time);
@@ -56,14 +55,11 @@ public class AddCards extends HttpServlet {
         String cardName = req.getParameter("cardName");
         String cardType = req.getParameter("cardType");
         String cardRarity = req.getParameter("cardRarity");
+        String cardEdition = req.getParameter("cardEdition");
         String cardSet = req.getParameter("cardSet");
         String cardIndex = req.getParameter("cardIndex");
-        String cardPrice = req.getParameter("cardPrice");
-        double price = Double.parseDouble(cardPrice);
         String cardQuantity = req.getParameter("cardQuantity");
         int qty = Integer.parseInt(cardQuantity);
-
-
         String imageUrl = "";
 
         //get this user
@@ -73,11 +69,12 @@ public class AddCards extends HttpServlet {
         YugiohCardSetsFileReader newCardReader = new YugiohCardSetsFileReader();
         Map<String, String> newCardSetMap = newCardReader.readFile(fileName);
         String productName = newCardSetMap.get(cardSet);
+        TcgPlayerAPI tcgPlayerAPI = new TcgPlayerAPI();
 
-        int cardId = tcgPlayerAPI.getProductId(cardName, productName, "Ultra");
+        int cardId = tcgPlayerAPI.getProductId(cardName, productName, cardRarity);
 
         List<ProductDetails> productDetailsList = tcgPlayerAPI.getProductDetails(cardId);
-        double marketPrice = tcgPlayerAPI.getMarketPrice(cardId);
+        double marketPrice = tcgPlayerAPI.getMarketPrice(cardId, cardEdition);
 
         for (int i = 0; i < productDetailsList.size(); i++) {
 
@@ -86,16 +83,50 @@ public class AddCards extends HttpServlet {
         }
 
         //create a card object
-        YugiohCard newCard = new YugiohCard(cardName, cardType, cardRarity, cardSet, cardIndex, marketPrice, qty, "unsold", imageUrl, loggedInUser);
-        YugiohCardHistory entry = new YugiohCardHistory(price, newCard, ts);
+        YugiohCard newCard = new YugiohCard(cardName, cardType, cardRarity, cardEdition, cardSet, productName, cardIndex, marketPrice, qty, "unsold", imageUrl, loggedInUser);
+
+        logger.info("new card to be inserted :" + newCard.toString());
+
+        YugiohCardHistory entry = new YugiohCardHistory(marketPrice, newCard, ts);
         newCard.addEntry(entry);
 
-        int id = newYugiohCardDao.insert(newCard);
+        if (validateIfExist(newCard) == false) {
+            int id = newYugiohCardDao.insert(newCard);
+        } else {
+            YugiohCard updateCard = (YugiohCard)newYugiohCardDao.getById(newCard.getId());
+            updateCard.setStatus("unsold");
+            newYugiohCardDao.saveOrUpdate(updateCard);
+        }
+
         int entryId = tsDao.insert(entry);
 
         req.setAttribute("cards", loggedInUser.getCards());
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
+    }
+
+    /**
+     * checks is a card already exists and returns a true/false response
+     * @param card card to check if exists
+     * @return boolean
+     */
+    public boolean validateIfExist(YugiohCard card) {
+
+        ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
+        Map<String, Object> propsAndValues = new HashMap<>();
+        propsAndValues.put("cardName", card.getCardName());
+        propsAndValues.put("cardRarity", card.getCardRarity());
+        propsAndValues.put("cardEdition", card.getCardEdition());
+        propsAndValues.put("cardSetFullName", card.getSetName());
+
+        List<YugiohCard> userCards = newYugiohCardDao.findByPropertyEqual(propsAndValues);
+
+        for (YugiohCard e : userCards) {
+            if (e.equals(card)) {
+                return true;
+            }
+        }
+        return false;
     }
 }

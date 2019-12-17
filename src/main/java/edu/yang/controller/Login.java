@@ -65,6 +65,7 @@ public class Login extends HttpServlet {
         session.setAttribute("user", loggedInUser);
 
         //push user to map
+        propsAndValues.put("cardStatus", "unsold");
         propsAndValues.put("user", loggedInUser);
 
         //return a list of cards based on user
@@ -94,9 +95,9 @@ public class Login extends HttpServlet {
 
         //for each card, get new pricing and update
         for (YugiohCard card : yugiohCardList) {
-
+            logger.info("getting updates for card " + card.getCardName());
             int cardId = newPlayerAPI.getProductId(card.getCardName(),getProductSet(card.getCardSet()),card.getCardRarity());
-            double marketPrice = newPlayerAPI.getMarketPrice(cardId);
+            double marketPrice = newPlayerAPI.getMarketPrice(cardId, card.getCardEdition());
             YugiohCard updateCard  = (YugiohCard)yugiohCardDao.getById(card.getId());
             updateCard.setPrice(marketPrice);
             yugiohCardDao.saveOrUpdate(updateCard);

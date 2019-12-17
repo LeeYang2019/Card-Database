@@ -58,7 +58,7 @@ public class EditCard extends HttpServlet {
         //get this user
         HttpSession session = req.getSession();
         User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
-
+/*
         //create a card object
         YugiohCard newCard = new YugiohCard(cardName, cardType, cardRarity, cardSet, cardIndex, price, qty, "unsold", null, loggedInUser);
         YugiohCardHistory entry = new YugiohCardHistory(price, newCard, ts);
@@ -66,7 +66,7 @@ public class EditCard extends HttpServlet {
 
         int id = newYugiohCardDao.insert(newCard);
         int entryId = tsDao.insert(entry);
-
+*/
         req.setAttribute("cards", loggedInUser.getCards());
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");

@@ -52,25 +52,26 @@
                                 <div class="form-group row">
 
                                     <div class="col">
-                                        <input type="cardSet" class="form-control" id="cardSet" placeholder="Set" name="cardSet" required>
+                                        <select class="form-control" id="cardEdition" name="cardEdition">
+                                            <option value="1st Edition">1st Edition</option>
+                                            <option value="Unlimited">Unlimited</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col">
+                                        <input type="cardSet" class="form-control" id="cardSet" placeholder="Set" name="cardSet" maxlength="7" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
 
                                     <div class="col">
-                                        <input type="cardIndex" class="form-control" id="cardIndex" placeholder="Card No." name="cardIndex" required>
+                                        <input type="cardIndex" class="form-control" id="cardIndex" placeholder="Card No." name="cardIndex" maxlength="7" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
 
                                     <div class="col">
-                                        <input type="cardPrice" class="form-control" id="cardPrice" placeholder="Price" name="cardPrice" required>
-                                        <div class="valid-feedback">Valid.</div>
-                                        <div class="invalid-feedback">Please fill out this field.</div>
-                                    </div>
-
-                                    <div class="col">
-                                        <input type="cardQuantity" class="form-control" id="cardQuantity" placeholder="Qty." name="cardQuantity" required>
+                                        <input type="cardQuantity" class="form-control" id="cardQuantity" placeholder="Qty." name="cardQuantity" maxlength="3" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>

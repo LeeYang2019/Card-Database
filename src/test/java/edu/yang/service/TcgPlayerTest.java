@@ -49,7 +49,7 @@ class TcgPlayerTest {
     @Test
     void getProductPrice() {
         List<PriceObject> pricingList = new ArrayList<>();
-        double marketPrice = tcgPlayerApi.getMarketPrice(200820);
+        double marketPrice = tcgPlayerApi.getMarketPrice(200820, "1st Edition");
 
     }
 
@@ -68,6 +68,7 @@ class TcgPlayerTest {
         newCard.setCardName("Dark Magician");
         newCard.setCardType("Monster");
         newCard.setCardRarity("Ultra");
+        newCard.setCardEdition("1st Edition");
 
         String cardSet = "The Legend of Blue Eyes White Dragon";
         newCard.setCardSet("LOB");
@@ -79,7 +80,7 @@ class TcgPlayerTest {
 
         List<ProductDetails> productDetailsList = tcgPlayerApi.getProductDetails(id);
 
-       double marketPrice  = tcgPlayerApi.getMarketPrice(id);
+       double marketPrice  = tcgPlayerApi.getMarketPrice(id, newCard.getCardEdition());
 
 
         for (int i = 0; i < productDetailsList.size(); i++) {

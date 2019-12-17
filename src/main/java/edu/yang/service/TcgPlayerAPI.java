@@ -144,7 +144,7 @@ public class TcgPlayerAPI implements PropertiesLoader {
      * @param productID
      * @return double marketPrice
      */
-    public double getMarketPrice(int productID) {
+    public double getMarketPrice(int productID, String cardEdition) {
 
         ObjectMapper objMapper = new ObjectMapper();
         List<PriceObject> pricingList = new ArrayList<>();
@@ -158,7 +158,7 @@ public class TcgPlayerAPI implements PropertiesLoader {
             pricingList = objMapper.readValue(resultsNode.toString(), new TypeReference<List<PriceObject>>() {});
 
             for (int i = 0; i < pricingList.size(); i++) {
-                if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")){
+                if (pricingList.get(i).getSubTypeName().equalsIgnoreCase(cardEdition)){
                     double marketPrice = (double) pricingList.get(i).getMarketPrice();
                     return marketPrice;
                 }

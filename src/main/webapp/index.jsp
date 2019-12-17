@@ -26,9 +26,7 @@
                                             <th>Type</th>
                                             <th>Rarity</th>
                                             <th>Set</th>
-                                            <th>No.</th>
                                             <th>Price</th>
-                                            <th>Qty</th>
                                         </tr>
                                         </thead>
                                         <c:forEach var="card" items="${cards}">
@@ -36,10 +34,8 @@
                                                 <td class="tbColumns"><a href="displayCard?param=${card.id}">${card.cardName}</a></td>
                                                 <td class="tbColumns">${card.cardType}</td>
                                                 <td class="tbColumns">${card.cardRarity}</td>
-                                                <td class="tbColumns">${card.cardSet}</td>
-                                                <td class="tbColumns">${card.cardIndex}</td>
+                                                <td class="tbColumns">${card.cardSet}-${card.cardIndex}</td>
                                                 <td class="tbColumns">${card.price}</td>
-                                                <td class="tbColumns">${card.quantity}</td>
                                             </tr>
                                         </c:forEach>
                                     </table>

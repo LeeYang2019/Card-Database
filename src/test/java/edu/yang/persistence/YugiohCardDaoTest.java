@@ -121,7 +121,7 @@ class YugiohCardDaoTest {
         Timestamp ts = new Timestamp(time);
 
         User updateUser = (User)userDao.getById(1);
-        YugiohCard newCard = new YugiohCard("Buster Blader", "Monster", "Ultra", "PSV", "EN035", 52.00, 1, "not sold", "hello", updateUser);
+        YugiohCard newCard = new YugiohCard("Buster Blader", "Monster", "Ultra", "1st Edition", "PSV", "Pharoah Servent", "EN035", 52.00, 1, "not sold", "hello", updateUser);
         YugiohCardHistory entry = new YugiohCardHistory(80.00, newCard, ts);
         updateUser.addCard(newCard);
         newCard.addEntry(entry);

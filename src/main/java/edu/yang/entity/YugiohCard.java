@@ -221,7 +221,7 @@ public class YugiohCard {
      * gets cardSetFullName
      * @return cardSetFullName
      */
-    public String getCardSetFullName() {return this.cardSetFullName;}
+    public String getSetName() {return this.cardSetFullName;}
 
     /**
      * gets cardSet
@@ -320,6 +320,8 @@ public class YugiohCard {
                 "cardName : " + this.cardName + "\n" +
                 "cardType : " + this.cardType + "\n" +
                 "cardRarity : " + this.cardRarity + "\n" +
+                "cardEdition : " + this.cardEdition + "\n" +
+                "cardFulleSetName : " + this.cardSetFullName + "\n" +
                 "cardSet : " + this.cardSet + "\n" +
                 "price : " + this.price + "\n" +
                 "quantity : " + this.quantity + "\n" +
