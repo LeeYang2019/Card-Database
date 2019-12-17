@@ -12582,3 +12582,1201 @@ image : null
 [INFO ] 2019-12-16 15:10:50.418 [main] FileUploadTest - Cards from docs/Cards.xlsx
 [INFO ] 2019-12-16 15:11:35.896 [http-nio-8080-exec-1] Login - entering login servlet
 [INFO ] 2019-12-16 15:11:43.951 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:30:41.363 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 15:30:41.475 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 15:30:41.475 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 15:30:41.513 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 15:30:41.985 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 15:30:42.179 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 15:30:42.308 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 15:30:42.308 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 15:30:42.308 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 15:30:42.758 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 15:30:42.758 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 15:30:42.784 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 15:30:42.895 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 15:30:42.895 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 15:30:42.895 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 15:30:42.0
+[INFO ] 2019-12-16 15:30:44.456 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 15:31:29.644 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 15:31:35.417 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:31:35.417 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:34:41.217 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 15:34:41.357 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 15:34:41.357 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 15:34:41.416 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 15:34:41.934 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 15:34:42.155 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 15:34:42.318 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 15:34:42.321 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 15:34:42.321 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 15:34:42.913 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 15:34:42.914 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 15:34:42.941 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 15:34:43.062 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 15:34:43.062 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 15:34:43.062 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 15:34:43.0
+[INFO ] 2019-12-16 15:34:44.832 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 15:35:37.512 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 15:35:42.743 [http-nio-8080-exec-1] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:35:42.745 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.745 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: MFC
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: LON
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: LON
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: IOC
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: BLRR
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: BOSH
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: LON
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:35:42.746 [http-nio-8080-exec-1] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:35:42.747 [http-nio-8080-exec-1] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:35:42.747 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:35:42.747 [http-nio-8080-exec-1] Login - This full product name: null
+[INFO ] 2019-12-16 15:36:56.046 [main] YugiohCardSetsFileReader - fileName: ../cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:37:19.124 [main] YugiohCardSetsFileReader - fileName: .../cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:39:23.507 [main] YugiohCardSetsFileReader - fileName: ..docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:43:28.469 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 15:43:28.585 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 15:43:28.587 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 15:43:28.621 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 15:43:29.120 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 15:43:29.305 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 15:43:29.432 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 15:43:29.432 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 15:43:29.432 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 15:43:29.917 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 15:43:29.918 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 15:43:29.944 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 15:43:30.053 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 15:43:30.054 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 15:43:30.054 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 15:43:30.0
+[INFO ] 2019-12-16 15:43:31.724 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 15:44:33.525 [http-nio-8080-exec-6] Login - entering login servlet
+[INFO ] 2019-12-16 15:44:39.499 [http-nio-8080-exec-6] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:44:39.504 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.504 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.504 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: MFC
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: LON
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: LON
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: IOC
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: BLRR
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: BOSH
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: LON
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] YugiohCardSetsFileReader - fileName: ../docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:44:39.505 [http-nio-8080-exec-6] Login - This full product name: null
+[INFO ] 2019-12-16 15:49:16.928 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 15:49:17.063 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 15:49:17.064 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 15:49:17.124 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 15:49:17.653 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 15:49:17.842 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 15:49:17.966 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 15:49:17.966 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 15:49:17.966 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 15:49:18.411 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 15:49:18.412 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 15:49:18.446 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 15:49:18.559 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 15:49:18.560 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 15:49:18.560 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 15:49:18.0
+[INFO ] 2019-12-16 15:49:20.208 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 15:50:12.009 [http-nio-8080-exec-2] Login - entering login servlet
+[INFO ] 2019-12-16 15:50:17.514 [http-nio-8080-exec-2] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:50:17.518 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] Login - This cardSet: MFC
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] Login - This cardSet: LON
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.519 [http-nio-8080-exec-2] Login - This cardSet: LON
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This cardSet: IOC
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This cardSet: BLRR
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.520 [http-nio-8080-exec-2] Login - This cardSet: BOSH
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] Login - This cardSet: LON
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] Login - This cardSet: LOB
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] YugiohCardSetsFileReader - fileName: docs/cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : null
+[INFO ] 2019-12-16 15:50:17.521 [http-nio-8080-exec-2] Login - This full product name: null
+[INFO ] 2019-12-16 15:52:18.224 [main] YugiohCardSetsFileReader - fileName: cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:55:46.716 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 15:55:46.831 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 15:55:46.831 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 15:55:46.866 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 15:55:47.373 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 15:55:47.612 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 15:55:47.758 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 15:55:47.759 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 15:55:47.759 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 15:55:48.245 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 15:55:48.246 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 15:55:48.268 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 15:55:48.392 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 15:55:48.392 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 15:55:48.392 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 15:55:48.0
+[INFO ] 2019-12-16 15:55:49.144 [main] YugiohCardSetsFileReader - fileName: cardSets.txt could not be found.
+[INFO ] 2019-12-16 15:55:50.304 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:02:56.977 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 16:02:57.107 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 16:02:57.110 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 16:02:57.149 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 16:02:57.658 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 16:02:57.892 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 16:02:58.019 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 16:02:58.019 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 16:02:58.019 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 16:02:58.521 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 16:02:58.521 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 16:02:58.543 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 16:02:58.654 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 16:02:58.654 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 16:02:58.654 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 16:02:58.0
+[INFO ] 2019-12-16 16:03:00.294 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:04:59.954 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-16 16:05:05.241 [http-nio-8080-exec-3] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:05:05.244 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:05:05.245 [http-nio-8080-exec-3] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:05:05.245 [http-nio-8080-exec-3] Login - This cardSet: MFC
+[INFO ] 2019-12-16 16:05:05.245 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:05:05.245 [http-nio-8080-exec-3] Login - This full product name: Magician's Force
+[INFO ] 2019-12-16 16:05:05.245 [http-nio-8080-exec-3] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:05:05.246 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:05:05.246 [http-nio-8080-exec-3] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:05:05.246 [http-nio-8080-exec-3] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:05:05.246 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:05:05.246 [http-nio-8080-exec-3] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:05:05.247 [http-nio-8080-exec-3] Login - This cardSet: IOC
+[INFO ] 2019-12-16 16:05:05.247 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : Invasion of Chaos
+[INFO ] 2019-12-16 16:05:05.247 [http-nio-8080-exec-3] Login - This full product name: Invasion of Chaos
+[INFO ] 2019-12-16 16:05:05.247 [http-nio-8080-exec-3] Login - This cardSet: BLRR
+[INFO ] 2019-12-16 16:05:05.248 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : Battles of Legend: Relentless Revenge
+[INFO ] 2019-12-16 16:05:05.248 [http-nio-8080-exec-3] Login - This full product name: Battles of Legend: Relentless Revenge
+[INFO ] 2019-12-16 16:05:05.248 [http-nio-8080-exec-3] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:05:05.248 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:05:05.248 [http-nio-8080-exec-3] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:05:05.248 [http-nio-8080-exec-3] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:05:05.248 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - This cardSet: BOSH
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : Breakers of Shadow
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - This full product name: Breakers of Shadow
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:05:05.250 [http-nio-8080-exec-3] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:05:05.251 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:05:05.251 [http-nio-8080-exec-3] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:06:16.465 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 16:06:16.617 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 16:06:16.619 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 16:06:16.678 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 16:06:17.239 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 16:06:17.431 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 16:06:17.598 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 16:06:17.601 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 16:06:17.601 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 16:06:18.116 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 16:06:18.116 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 16:06:18.146 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 16:06:18.262 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 16:06:18.263 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 16:06:18.263 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 16:06:18.0
+[INFO ] 2019-12-16 16:06:20.773 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:07:06.549 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-16 16:07:10.921 [http-nio-8080-exec-5] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:07:10.922 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:07:10.922 [http-nio-8080-exec-5] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:07:10.922 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:07:11.589 [http-nio-8080-exec-5] Login - cardId is : 21876
+[INFO ] 2019-12-16 16:07:11.590 [http-nio-8080-exec-5] Login - This cardSet: MFC
+[INFO ] 2019-12-16 16:07:11.591 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:07:11.591 [http-nio-8080-exec-5] Login - This full product name: Magician's Force
+[INFO ] 2019-12-16 16:07:11.591 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:07:11.877 [http-nio-8080-exec-5] Login - cardId is : 21877
+[INFO ] 2019-12-16 16:07:11.877 [http-nio-8080-exec-5] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:07:11.879 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:07:11.879 [http-nio-8080-exec-5] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:07:11.879 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:07:20.335 [http-nio-8080-exec-4] Login - entering login servlet
+[INFO ] 2019-12-16 16:07:20.567 [http-nio-8080-exec-4] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:07:20.574 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:07:20.574 [http-nio-8080-exec-4] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:07:20.575 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:07:20.897 [http-nio-8080-exec-4] Login - cardId is : 21876
+[INFO ] 2019-12-16 16:07:20.898 [http-nio-8080-exec-4] Login - This cardSet: MFC
+[INFO ] 2019-12-16 16:07:20.898 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:07:20.898 [http-nio-8080-exec-4] Login - This full product name: Magician's Force
+[INFO ] 2019-12-16 16:07:20.899 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:07:21.169 [http-nio-8080-exec-4] Login - cardId is : 21877
+[INFO ] 2019-12-16 16:07:21.171 [http-nio-8080-exec-4] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:07:21.172 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:07:21.172 [http-nio-8080-exec-4] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:07:21.172 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:07:39.095 [http-nio-8080-exec-15] Login - entering login servlet
+[INFO ] 2019-12-16 16:07:39.380 [http-nio-8080-exec-15] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:07:39.381 [http-nio-8080-exec-15] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:07:39.381 [http-nio-8080-exec-15] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:07:39.381 [http-nio-8080-exec-15] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:07:39.757 [http-nio-8080-exec-15] Login - cardId is : 21876
+[INFO ] 2019-12-16 16:07:39.757 [http-nio-8080-exec-15] Login - This cardSet: MFC
+[INFO ] 2019-12-16 16:07:39.758 [http-nio-8080-exec-15] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:07:39.758 [http-nio-8080-exec-15] Login - This full product name: Magician's Force
+[INFO ] 2019-12-16 16:07:39.759 [http-nio-8080-exec-15] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:07:40.062 [http-nio-8080-exec-15] Login - cardId is : 21877
+[INFO ] 2019-12-16 16:07:40.065 [http-nio-8080-exec-15] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:07:40.065 [http-nio-8080-exec-15] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:07:40.065 [http-nio-8080-exec-15] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:07:40.066 [http-nio-8080-exec-15] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:09:13.924 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 16:09:14.059 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 16:09:14.059 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 16:09:14.118 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 16:09:14.622 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 16:09:14.824 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 16:09:14.966 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 16:09:14.967 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 16:09:14.967 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 16:09:15.491 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 16:09:15.492 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 16:09:15.515 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 16:09:15.628 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 16:09:15.629 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 16:09:15.629 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 16:09:15.0
+[INFO ] 2019-12-16 16:09:17.293 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:10:34.112 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-16 16:10:40.456 [http-nio-8080-exec-5] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:10:40.458 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:10:40.458 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:10:40.459 [http-nio-8080-exec-5] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:10:41.333 [http-nio-8080-exec-5] Login - cardId is : 21876
+[INFO ] 2019-12-16 16:10:41.333 [http-nio-8080-exec-5] Login - This cardSet: MFC
+[INFO ] 2019-12-16 16:10:41.335 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:10:41.335 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:10:41.335 [http-nio-8080-exec-5] Login - This full product name: Magician's Force
+[INFO ] 2019-12-16 16:10:41.658 [http-nio-8080-exec-5] Login - cardId is : 21877
+[INFO ] 2019-12-16 16:10:41.659 [http-nio-8080-exec-5] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:10:41.663 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:10:41.669 [http-nio-8080-exec-5] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:10:41.669 [http-nio-8080-exec-5] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:12:26.961 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 16:12:27.098 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 16:12:27.100 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 16:12:27.156 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 16:12:27.684 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 16:12:27.885 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 16:12:28.013 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 16:12:28.014 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 16:12:28.014 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 16:12:28.488 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 16:12:28.490 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 16:12:28.514 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 16:12:28.633 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 16:12:28.634 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 16:12:28.634 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 16:12:28.0
+[INFO ] 2019-12-16 16:12:30.270 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:13:17.498 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 16:13:23.590 [http-nio-8080-exec-1] Login - this cardName: Dark Magician
+[INFO ] 2019-12-16 16:13:23.591 [http-nio-8080-exec-1] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:13:23.595 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:13:23.596 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:13:23.597 [http-nio-8080-exec-1] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:13:23.597 [http-nio-8080-exec-1] Login - This cardRarity: Ultra
+[INFO ] 2019-12-16 16:13:24.389 [http-nio-8080-exec-1] Login - cardId is : 21876
+[INFO ] 2019-12-16 16:13:24.389 [http-nio-8080-exec-1] Login - this cardName: Dark Magician Girl
+[INFO ] 2019-12-16 16:13:24.389 [http-nio-8080-exec-1] Login - This cardSet: MFC
+[INFO ] 2019-12-16 16:13:24.389 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:13:24.392 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:13:24.392 [http-nio-8080-exec-1] Login - This full product name: Magician's Force
+[INFO ] 2019-12-16 16:13:24.392 [http-nio-8080-exec-1] Login - This cardRarity: Secret
+[INFO ] 2019-12-16 16:13:24.685 [http-nio-8080-exec-1] Login - cardId is : 21877
+[INFO ] 2019-12-16 16:13:24.685 [http-nio-8080-exec-1] Login - this cardName: Buster Blader
+[INFO ] 2019-12-16 16:13:24.686 [http-nio-8080-exec-1] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:13:24.695 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:13:24.700 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:13:24.700 [http-nio-8080-exec-1] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:13:24.700 [http-nio-8080-exec-1] Login - This cardRarity: Ultra
+[INFO ] 2019-12-16 16:15:05.035 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 16:15:05.234 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 16:15:05.235 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 16:15:05.280 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 16:15:05.856 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 16:15:06.116 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 16:15:06.267 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 16:15:06.269 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 16:15:06.269 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 16:15:06.798 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 16:15:06.798 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 16:15:06.828 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 16:15:06.982 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 16:15:06.983 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 16:15:06.984 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 16:15:06.0
+[INFO ] 2019-12-16 16:15:08.907 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:15:09.996 [main] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 16:15:10.386 [main] TcgPlayerAPI - this productID: 200820
+[INFO ] 2019-12-16 16:16:06.059 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 16:16:12.497 [http-nio-8080-exec-1] Login - this cardName: Dark Magician
+[INFO ] 2019-12-16 16:16:12.498 [http-nio-8080-exec-1] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:16:12.500 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:16:12.500 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:16:12.501 [http-nio-8080-exec-1] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:16:12.502 [http-nio-8080-exec-1] Login - This cardRarity: Ultra
+[INFO ] 2019-12-16 16:16:13.355 [http-nio-8080-exec-1] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 16:16:13.356 [http-nio-8080-exec-1] Login - cardId is : 21876
+[INFO ] 2019-12-16 16:16:13.356 [http-nio-8080-exec-1] Login - this cardName: Dark Magician Girl
+[INFO ] 2019-12-16 16:16:13.356 [http-nio-8080-exec-1] Login - This cardSet: MFC
+[INFO ] 2019-12-16 16:16:13.358 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:16:13.358 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:16:13.358 [http-nio-8080-exec-1] Login - This full product name: Magician's Force
+[INFO ] 2019-12-16 16:16:13.358 [http-nio-8080-exec-1] Login - This cardRarity: Secret
+[INFO ] 2019-12-16 16:16:13.666 [http-nio-8080-exec-1] TcgPlayerAPI - this productID: 21877
+[INFO ] 2019-12-16 16:16:13.668 [http-nio-8080-exec-1] Login - cardId is : 21877
+[INFO ] 2019-12-16 16:16:13.668 [http-nio-8080-exec-1] Login - this cardName: Buster Blader
+[INFO ] 2019-12-16 16:16:13.668 [http-nio-8080-exec-1] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:16:13.668 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:16:13.668 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:16:13.668 [http-nio-8080-exec-1] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:16:13.668 [http-nio-8080-exec-1] Login - This cardRarity: Ultra
+[INFO ] 2019-12-16 16:21:56.415 [http-nio-8080-exec-4] Login - entering login servlet
+[INFO ] 2019-12-16 16:21:56.774 [http-nio-8080-exec-4] Login - this cardName: Dark Magician
+[INFO ] 2019-12-16 16:21:56.774 [http-nio-8080-exec-4] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:21:56.774 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:21:56.775 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:21:56.775 [http-nio-8080-exec-4] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:21:56.775 [http-nio-8080-exec-4] Login - This cardRarity: Ultra
+[INFO ] 2019-12-16 16:21:57.207 [http-nio-8080-exec-4] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 16:21:57.208 [http-nio-8080-exec-4] Login - cardId is : 21876
+[INFO ] 2019-12-16 16:21:57.208 [http-nio-8080-exec-4] Login - this cardName: Dark Magician Girl
+[INFO ] 2019-12-16 16:21:57.208 [http-nio-8080-exec-4] Login - This cardSet: MFC
+[INFO ] 2019-12-16 16:21:57.215 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:21:57.216 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:21:57.216 [http-nio-8080-exec-4] Login - This full product name: Magician's Force
+[INFO ] 2019-12-16 16:21:57.216 [http-nio-8080-exec-4] Login - This cardRarity: Secret
+[INFO ] 2019-12-16 16:21:57.517 [http-nio-8080-exec-4] TcgPlayerAPI - this productID: 21877
+[INFO ] 2019-12-16 16:21:57.518 [http-nio-8080-exec-4] Login - cardId is : 21877
+[INFO ] 2019-12-16 16:21:57.518 [http-nio-8080-exec-4] Login - this cardName: Buster Blader
+[INFO ] 2019-12-16 16:21:57.519 [http-nio-8080-exec-4] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:21:57.519 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:21:57.520 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:21:57.520 [http-nio-8080-exec-4] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:21:57.520 [http-nio-8080-exec-4] Login - This cardRarity: Ultra
+[INFO ] 2019-12-16 16:22:31.102 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 16:22:31.256 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 16:22:31.256 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 16:22:31.300 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 16:22:32.450 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 16:22:32.812 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 16:22:32.974 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 16:22:32.974 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 16:22:32.974 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 16:22:33.577 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 16:22:33.577 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 16:22:33.609 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 16:22:33.740 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 16:22:33.740 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 16:22:33.740 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 16:22:33.0
+[INFO ] 2019-12-16 16:22:35.892 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:22:36.969 [main] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 16:22:37.313 [main] TcgPlayerAPI - this productID: 200820
+[INFO ] 2019-12-16 16:24:00.112 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-16 16:24:10.745 [http-nio-8080-exec-3] Login - this cardName: Galaxy Soldier
+[INFO ] 2019-12-16 16:24:10.747 [http-nio-8080-exec-3] Login - This cardSet: WSUP
+[INFO ] 2019-12-16 16:24:10.754 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 16:24:10.755 [http-nio-8080-exec-3] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 16:24:10.756 [http-nio-8080-exec-3] Login - This full product name: World Superstars
+[INFO ] 2019-12-16 16:24:10.756 [http-nio-8080-exec-3] Login - This cardRarity: Prismatic
+[INFO ] 2019-12-16 16:37:40.289 [main] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 16:38:46.323 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 16:38:46.437 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 16:38:46.437 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 16:38:46.473 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 16:38:46.951 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 16:38:47.151 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 16:38:47.284 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 16:38:47.285 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 16:38:47.285 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 16:38:47.727 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 16:38:47.728 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 16:38:47.760 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 16:38:47.868 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 16:38:47.868 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 16:38:47.868 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 16:38:47.0
+[INFO ] 2019-12-16 16:38:49.435 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:38:50.447 [main] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 16:38:50.829 [main] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 16:39:37.242 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 16:39:45.105 [http-nio-8080-exec-1] Login - this cardName: Dark Magician
+[INFO ] 2019-12-16 16:39:45.108 [http-nio-8080-exec-1] Login - This cardSet: LOB
+[INFO ] 2019-12-16 16:39:45.111 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:39:45.111 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:39:45.115 [http-nio-8080-exec-1] Login - This full product name: The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-16 16:39:45.115 [http-nio-8080-exec-1] Login - This cardRarity: Ultra
+[INFO ] 2019-12-16 16:39:46.088 [http-nio-8080-exec-1] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 16:39:46.092 [http-nio-8080-exec-1] Login - cardId is : 21876
+[INFO ] 2019-12-16 16:39:46.092 [http-nio-8080-exec-1] Login - this cardName: Dark Magician Girl
+[INFO ] 2019-12-16 16:39:46.092 [http-nio-8080-exec-1] Login - This cardSet: MFC
+[INFO ] 2019-12-16 16:39:46.092 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:39:46.092 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Magician's Force
+[INFO ] 2019-12-16 16:39:46.093 [http-nio-8080-exec-1] Login - This full product name: Magician's Force
+[INFO ] 2019-12-16 16:39:46.093 [http-nio-8080-exec-1] Login - This cardRarity: Secret
+[INFO ] 2019-12-16 16:39:46.391 [http-nio-8080-exec-1] TcgPlayerAPI - this productID: 21877
+[INFO ] 2019-12-16 16:39:46.392 [http-nio-8080-exec-1] Login - cardId is : 21877
+[INFO ] 2019-12-16 16:39:46.392 [http-nio-8080-exec-1] Login - this cardName: Buster Blader
+[INFO ] 2019-12-16 16:39:46.392 [http-nio-8080-exec-1] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:39:46.398 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:39:46.402 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:39:46.404 [http-nio-8080-exec-1] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:39:46.405 [http-nio-8080-exec-1] Login - This cardRarity: Ultra
+[INFO ] 2019-12-16 16:50:06.057 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 16:50:06.183 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 16:50:06.184 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 16:50:06.222 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 16:50:06.741 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 16:50:06.940 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 16:50:07.102 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 16:50:07.102 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 16:50:07.102 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 16:50:07.564 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 16:50:07.564 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 16:50:07.593 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 16:50:07.736 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 16:50:07.737 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 16:50:07.737 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 16:50:07.0
+[INFO ] 2019-12-16 16:50:09.509 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:50:10.616 [main] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 16:50:11.092 [main] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 16:50:57.678 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 16:51:03.984 [http-nio-8080-exec-1] Login - this cardName: Galaxy Soldier
+[INFO ] 2019-12-16 16:51:03.984 [http-nio-8080-exec-1] Login - This cardSet: WSUP
+[INFO ] 2019-12-16 16:51:03.988 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 16:51:03.988 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 16:51:03.988 [http-nio-8080-exec-1] Login - This full product name: World Superstars
+[INFO ] 2019-12-16 16:51:03.988 [http-nio-8080-exec-1] Login - This cardRarity: Prismatic
+[INFO ] 2019-12-16 16:51:04.570 [http-nio-8080-exec-1] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 16:51:04.570 [http-nio-8080-exec-1] Login - cardId is : 97852
+[INFO ] 2019-12-16 16:51:04.570 [http-nio-8080-exec-1] Login - this cardName: Dark Scourge
+[INFO ] 2019-12-16 16:51:04.570 [http-nio-8080-exec-1] Login - This cardSet: LON
+[INFO ] 2019-12-16 16:51:04.571 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:51:04.571 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:51:04.571 [http-nio-8080-exec-1] Login - This full product name: Labyrinth of Nightmare
+[INFO ] 2019-12-16 16:51:04.571 [http-nio-8080-exec-1] Login - This cardRarity: Super
+[INFO ] 2019-12-16 16:55:23.110 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 16:55:23.245 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 16:55:23.246 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 16:55:23.301 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 16:55:23.783 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 16:55:24.009 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 16:55:24.145 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 16:55:24.145 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 16:55:24.145 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 16:55:24.609 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 16:55:24.611 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 16:55:24.636 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 16:55:24.747 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 16:55:24.747 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 16:55:24.747 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 16:55:24.0
+[INFO ] 2019-12-16 16:55:26.395 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 16:55:27.393 [main] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 16:55:27.771 [main] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 16:56:24.875 [http-nio-8080-exec-2] Login - entering login servlet
+[INFO ] 2019-12-16 16:56:32.852 [http-nio-8080-exec-2] Login - this cardName: Galaxy Soldier
+[INFO ] 2019-12-16 16:56:32.854 [http-nio-8080-exec-2] Login - This cardSet: WSUP
+[INFO ] 2019-12-16 16:56:32.856 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 16:56:32.857 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 16:56:32.857 [http-nio-8080-exec-2] Login - This full product name: World Superstars
+[INFO ] 2019-12-16 16:56:32.859 [http-nio-8080-exec-2] Login - This cardRarity: Prismatic
+[INFO ] 2019-12-16 16:56:33.465 [http-nio-8080-exec-2] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 16:56:33.468 [http-nio-8080-exec-2] Login - cardId is : 97852
+[INFO ] 2019-12-16 17:00:59.911 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 17:01:00.049 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 17:01:00.052 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 17:01:00.105 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 17:01:00.638 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 17:01:00.851 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 17:01:01.014 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 17:01:01.015 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 17:01:01.015 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 17:01:01.536 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 17:01:01.536 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 17:01:01.560 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 17:01:01.671 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 17:01:01.671 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 17:01:01.671 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 17:01:01.0
+[INFO ] 2019-12-16 17:01:03.295 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 17:01:04.311 [main] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 17:01:04.809 [main] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 17:01:55.479 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 17:02:00.476 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 17:02:01.199 [http-nio-8080-exec-1] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 17:02:01.215 [http-nio-8080-exec-1] Login - this cardName: Galaxy Soldier and cardId : 97852
+[INFO ] 2019-12-16 17:02:01.422 [http-nio-8080-exec-1] Login - current marketprice : 4.88
+[INFO ] 2019-12-16 17:03:54.085 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 17:03:54.200 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 17:03:54.201 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 17:03:54.237 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 17:03:54.723 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 17:03:54.916 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 17:03:55.049 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 17:03:55.050 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 17:03:55.050 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 17:03:55.516 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 17:03:55.516 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 17:03:55.548 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 17:03:55.660 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 17:03:55.661 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 17:03:55.661 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 17:03:55.0
+[INFO ] 2019-12-16 17:03:57.387 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 17:03:58.492 [main] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 17:03:58.896 [main] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 17:04:47.508 [http-nio-8080-exec-2] Login - entering login servlet
+[INFO ] 2019-12-16 17:04:52.980 [http-nio-8080-exec-2] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 17:04:53.633 [http-nio-8080-exec-2] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 17:04:53.642 [http-nio-8080-exec-2] Login - this cardName: Galaxy Soldier and cardId : 97852
+[INFO ] 2019-12-16 17:04:53.858 [http-nio-8080-exec-2] Login - current marketprice : 4.88
+[INFO ] 2019-12-16 17:05:13.641 [http-nio-8080-exec-4] Login - entering login servlet
+[INFO ] 2019-12-16 17:05:13.713 [http-nio-8080-exec-4] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 17:05:14.012 [http-nio-8080-exec-4] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 17:05:14.012 [http-nio-8080-exec-4] Login - this cardName: Galaxy Soldier and cardId : 97852
+[INFO ] 2019-12-16 17:05:14.115 [http-nio-8080-exec-4] Login - current marketprice : 4.88
+[INFO ] 2019-12-16 17:08:55.100 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 17:08:55.209 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 17:08:55.210 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 17:08:55.247 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 17:08:55.724 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 17:08:55.918 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 17:08:56.068 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 17:08:56.069 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 17:08:56.069 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 17:08:56.570 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 17:08:56.570 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 17:08:56.605 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 17:08:56.720 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 17:08:56.721 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 17:08:56.721 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 17:08:56.0
+[INFO ] 2019-12-16 17:08:58.471 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 17:08:59.558 [main] TcgPlayerAPI - this productID: 21876
+[INFO ] 2019-12-16 17:08:59.953 [main] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 17:09:46.170 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 17:09:52.260 [http-nio-8080-exec-1] Login - inside getProductSet method, productName is : World Superstars
+[INFO ] 2019-12-16 17:09:53.114 [http-nio-8080-exec-1] TcgPlayerAPI - this productID: 97852
+[INFO ] 2019-12-16 17:09:53.124 [http-nio-8080-exec-1] Login - this cardName: Galaxy Soldier and cardId : 97852
+[INFO ] 2019-12-16 17:09:53.376 [http-nio-8080-exec-1] Login - current marketprice : 4.88
+[INFO ] 2019-12-16 17:10:07.136 [http-nio-8080-exec-7] SearchCards - in search servlet
+[INFO ] 2019-12-16 17:10:07.137 [http-nio-8080-exec-7] SearchCards - user is : johnBones2019
+[INFO ] 2019-12-16 17:10:07.139 [http-nio-8080-exec-7] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-16 17:34:22.481 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-16 17:34:22.625 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-16 17:34:22.627 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-16 17:34:22.685 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-16 17:34:23.356 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-16 17:34:23.716 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-16 17:34:23.854 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-16 17:34:23.854 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-16 17:34:23.854 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-16 17:34:24.332 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-16 17:34:24.332 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-16 17:34:24.358 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-16 17:34:24.480 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-16 17:34:24.480 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-16 17:34:24.481 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-16 17:34:24.0
+[INFO ] 2019-12-16 17:34:26.106 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[INFO ] 2019-12-16 17:38:28.954 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-16 17:39:25.943 [http-nio-8080-exec-1] SearchCards - in search servlet
+[INFO ] 2019-12-16 17:39:25.947 [http-nio-8080-exec-1] SearchCards - user is : johnBones2019
+[INFO ] 2019-12-16 17:39:25.951 [http-nio-8080-exec-1] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-16 17:40:36.070 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-16 18:00:44.178 [http-nio-8080-exec-6] SearchCards - in search servlet
+[INFO ] 2019-12-16 18:00:44.181 [http-nio-8080-exec-6] SearchCards - user is : johnBones2019
+[INFO ] 2019-12-16 18:00:44.181 [http-nio-8080-exec-6] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-16 18:00:52.708 [http-nio-8080-exec-10] SearchCards - in search servlet
+[INFO ] 2019-12-16 18:00:52.710 [http-nio-8080-exec-10] SearchCards - user is : johnBones2019
+[INFO ] 2019-12-16 18:00:52.710 [http-nio-8080-exec-10] SearchCards - searchTerm is empty and searchType is All Cards

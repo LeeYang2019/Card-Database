@@ -29,7 +29,7 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 public class FileUpload extends HttpServlet {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    private final String UPLOAD_DIRECTORY = "../temp";
+    private final String UPLOAD_DIRECTORY = "../docs";
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

@@ -65,7 +65,9 @@ public class TcgPlayerAPI implements PropertiesLoader {
 
             String jsonInputString = "{\"sort\": \"MinPrice DESC\",\"limit\": 10,\"offset\": 0,\"filters\":" +
                     " [{\"name\": \"ProductName\",\"values\": [ \" " + productName + " \"]},{\"name\": \"SetName\",\"values\":" +
-                    " [\"" + productSet + "\"]},{\"name\": \"Rarity\",\"values\": [\"" + productRarity + "\"]}]}";
+                    " [\"" + productSet + "\"]},{\"name\": \"Rarity\",\"values\": [\"Common\",\"Rare\",\"Super\",\"Ultra\",\"Secret\",\"Ultimate\",\"Prismatic\"]}]}";
+
+            //\"" + productRarity + "\",
 
             OutputStream os = connection.getOutputStream();
             byte[] input = jsonInputString.getBytes("utf-8");
@@ -142,7 +144,7 @@ public class TcgPlayerAPI implements PropertiesLoader {
      * @param productID
      * @return double marketPrice
      */
-    public List<PriceObject> getMarketPrice(int productID) {
+    public double getMarketPrice(int productID) {
 
         ObjectMapper objMapper = new ObjectMapper();
         List<PriceObject> pricingList = new ArrayList<>();
@@ -152,12 +154,21 @@ public class TcgPlayerAPI implements PropertiesLoader {
         try {
             JsonNode jsonNode = objMapper.readTree(processGetRequest(urlString, productID, false, "GET"));
             JsonNode resultsNode = jsonNode.get("results");
+
             pricingList = objMapper.readValue(resultsNode.toString(), new TypeReference<List<PriceObject>>() {});
+
+            for (int i = 0; i < pricingList.size(); i++) {
+                if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")){
+                    double marketPrice = (double) pricingList.get(i).getMarketPrice();
+                    return marketPrice;
+                }
+            }
+
         } catch (JsonProcessingException e) {
             logger.error(e);
        }
 
-        return pricingList;
+        return 0;
     }
 
     /**
@@ -180,7 +191,7 @@ public class TcgPlayerAPI implements PropertiesLoader {
             results = results.replaceAll("\\p{P}","").trim();
             productId = Integer.parseInt(results);
         } catch (JsonProcessingException e) {
-            logger.error(e);
+            logger.error("The card does not exist");
         }
         return productId;
     }

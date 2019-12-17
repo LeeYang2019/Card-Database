@@ -16,17 +16,18 @@ public class YugiohCardSetsFileReader {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
-     * reads file of yugioh cardSets information
-     * @return map of key value pairs
+     *
+     * @param fileName
+     * @return
      */
-    public Map<String, String> readFile() {
-
-        String fileName = "docs/cardSets.txt";
+    public Map<String, String> readFile(String fileName) {
 
         Map<String, String> cardSetsMap = new HashMap<>();
 
         try {
-            File file = new File(fileName);
+
+            ClassLoader classLoader = YugiohCardSetsFileReader.class.getClassLoader();
+            File file = new File(classLoader.getResource(fileName).getFile());
             BufferedReader inputReader =
             new BufferedReader(new FileReader(file));
 

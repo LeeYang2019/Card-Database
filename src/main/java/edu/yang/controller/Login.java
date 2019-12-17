@@ -3,13 +3,10 @@ package edu.yang.controller;
 import edu.yang.entity.User;
 import edu.yang.entity.YugiohCard;
 import edu.yang.persistence.ProjectDao;
-import edu.yang.service.PriceObject;
 import edu.yang.service.TcgPlayerAPI;
-import edu.yang.service.UploadFileReader;
 import edu.yang.service.YugiohCardSetsFileReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -17,7 +14,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import javax.validation.constraints.Null;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
@@ -35,6 +31,7 @@ import java.util.Map;
 public class Login extends HttpServlet {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
+    private final String fileName = "cardSets.txt";
 
     /**
      * handles HTTP GET requests.
@@ -49,16 +46,15 @@ public class Login extends HttpServlet {
 
         logger.info("entering login servlet");
 
+        //local variables
+        Map<String, Object> propsAndValues = new HashMap<>();
+        List<YugiohCard> userCards;
+
         //create session
         HttpSession session = req.getSession();
         RequestDispatcher dispatcher;
 
-        Map<String, Object> propsAndValues = new HashMap<>();
-        List<YugiohCard> userCards;
-
-        UploadFileReader cardSetReader = new UploadFileReader();
-
-        //get remote user
+        //get remote user from session
         String userName = req.getRemoteUser();
 
         //get user from db
@@ -68,8 +64,10 @@ public class Login extends HttpServlet {
         //store user in session
         session.setAttribute("user", loggedInUser);
 
+        //push user to map
         propsAndValues.put("user", loggedInUser);
 
+        //return a list of cards based on user
         userCards = updateYugiohCards(propsAndValues);
 
         req.setAttribute("cards", userCards);
@@ -83,48 +81,40 @@ public class Login extends HttpServlet {
         dispatcher.forward(req, resp);
     }
 
+    /**
+     *
+     * @param propertyMap
+     * @return
+     */
     public List<YugiohCard> updateYugiohCards(Map<String, Object> propertyMap) {
 
+        TcgPlayerAPI newPlayerAPI = new TcgPlayerAPI();
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         List<YugiohCard> yugiohCardList = yugiohCardDao.findByPropertyEqual(propertyMap);
-        TcgPlayerAPI newPlayerAPI = new TcgPlayerAPI();
 
+        //for each card, get new pricing and update
         for (YugiohCard card : yugiohCardList) {
 
-            //get productName
             int cardId = newPlayerAPI.getProductId(card.getCardName(),getProductSet(card.getCardSet()),card.getCardRarity());
-
-            logger.info("cardId is : " + cardId);
-
-            //get marketprice of the card
-            double marketPrice = getProductMarketPrice(cardId, newPlayerAPI);
+            double marketPrice = newPlayerAPI.getMarketPrice(cardId);
+            YugiohCard updateCard  = (YugiohCard)yugiohCardDao.getById(card.getId());
+            updateCard.setPrice(marketPrice);
+            yugiohCardDao.saveOrUpdate(updateCard);
         }
-
         return yugiohCardList;
     }
 
+    /**
+     * returns the productName
+     * @param cardSet cardSet from YugiohCardDb
+     * @return productName from cardSetsMap
+     */
     private String getProductSet(String cardSet) {
 
         YugiohCardSetsFileReader newCardReader = new YugiohCardSetsFileReader();
-        Map<String, String> newCardSetMap = newCardReader.readFile();
+        Map<String, String> newCardSetMap = newCardReader.readFile(fileName);
         newCardSetMap.get(cardSet);
         String productSetName = newCardSetMap.get(cardSet);
-
-        logger.info("inside getProductSet method, productName is : " + productSetName);
-
         return productSetName;
-    }
-
-    private double getProductMarketPrice(int cardId, TcgPlayerAPI newApi) {
-
-        List<PriceObject> pricingList  = newApi.getMarketPrice(cardId);
-
-        for (int i = 0; i < pricingList.size(); i++) {
-            if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")){
-                double marketPrice = (double) pricingList.get(i).getMarketPrice();
-                return marketPrice;
-            }
-        }
-        return 0; //0 is failure
     }
 }

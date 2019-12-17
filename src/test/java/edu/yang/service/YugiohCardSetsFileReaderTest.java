@@ -21,7 +21,8 @@ class YugiohCardSetsFileReaderTest {
 
     @Test
     void readCardSetFileSuccess() {
-        Map<String, String> cardSetsMap = newTest.readFile();
+        String fileName = "cardSets.txt";
+        Map<String, String> cardSetsMap = newTest.readFile(fileName);
         assertEquals(425, cardSetsMap.size());
     }
 

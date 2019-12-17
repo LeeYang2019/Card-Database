@@ -28,8 +28,14 @@ public class YugiohCard {
     @Column(name = "card_rarity")
     private String cardRarity;
 
+    @Column(name = "card_edition")
+    private String cardEdition;
+
     @Column(name = "card_set")
     private String cardSet;
+
+    @Column(name = "card_set_full_name")
+    private String cardSetFullName;
 
     @Column(name = "card_index")
     private String cardIndex;
@@ -60,11 +66,13 @@ public class YugiohCard {
     }
 
     /**
-     * arg constructor
+     * constructor
      * @param cardName
      * @param cardType
      * @param cardRarity
+     * @param cardEdition
      * @param cardSet
+     * @param cardSetFullName
      * @param index
      * @param price
      * @param quantity
@@ -72,12 +80,14 @@ public class YugiohCard {
      * @param image
      * @param user
      */
-    public YugiohCard(String cardName, String cardType, String cardRarity, String cardSet, String index,
-                      double price, int quantity, String status, String image, User user) {
+    public YugiohCard(String cardName, String cardType, String cardRarity, String cardEdition, String cardSet,
+                      String cardSetFullName, String index, double price, int quantity, String status, String image, User user) {
         this.cardName = cardName;
         this.cardType = cardType;
         this.cardRarity = cardRarity;
+        this.cardEdition = cardEdition;
         this.cardSet = cardSet;
+        this.cardSetFullName = cardSetFullName;
         this.cardIndex = index;
         this.price = price;
         this.quantity = quantity;
@@ -107,12 +117,24 @@ public class YugiohCard {
     }
 
     /**
+     * sets cardEdition
+     * @param cardEdition
+     */
+    public void setCardEdition(String cardEdition) {this.cardEdition = cardEdition;}
+
+    /**
      * sets cardSet
      * @param cardSet
      */
     public void setCardSet(String cardSet) {
         this.cardSet = cardSet;
     }
+
+    /**
+     * sets cardSetFullName
+     * @param cardSetFullName
+     */
+    public void setCardSetFullName(String cardSetFullName) { this.cardSetFullName = cardSetFullName;}
 
     /**
      * sets cardIndex
@@ -188,6 +210,18 @@ public class YugiohCard {
     public String getCardRarity() {
         return this.cardRarity;
     }
+
+    /**
+     * gets cardEdition
+     * @return cardEdition
+     */
+    public String getCardEdition() {return this.cardEdition;}
+
+    /**
+     * gets cardSetFullName
+     * @return cardSetFullName
+     */
+    public String getCardSetFullName() {return this.cardSetFullName;}
 
     /**
      * gets cardSet
@@ -303,7 +337,9 @@ public class YugiohCard {
                 cardName.equals(card.cardName) &&
                 cardType.equals(card.cardType) &&
                 cardRarity.equals(card.cardRarity) &&
+                cardEdition.equals(card.cardEdition) &&
                 cardSet.equals(card.cardSet) &&
+                cardSetFullName.equals(card.cardSetFullName) &&
                 cardIndex.equals(card.cardIndex) &&
                 status.equals(card.status) &&
                 image.equals(card.image) &&
@@ -312,7 +348,7 @@ public class YugiohCard {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, cardName, cardType, cardRarity, cardSet, cardIndex, price, quantity, status, image, user);
+        return Objects.hash(id, cardName, cardType, cardRarity, cardEdition, cardSet, cardSetFullName, cardIndex, price, quantity, status, image, user);
     }
 }
 

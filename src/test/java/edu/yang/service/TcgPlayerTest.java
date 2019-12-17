@@ -49,20 +49,14 @@ class TcgPlayerTest {
     @Test
     void getProductPrice() {
         List<PriceObject> pricingList = new ArrayList<>();
-        pricingList = tcgPlayerApi.getMarketPrice(200820);
-
-        for (int i = 0; i < pricingList.size(); i++) {
-            if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")) {
-                System.out.println(pricingList.get(i).getMarketPrice());
-            }
-        }
+        double marketPrice = tcgPlayerApi.getMarketPrice(200820);
 
     }
 
     @Test
     void searchCard() {
 
-        int id = tcgPlayerApi.getProductId("Starliege Seyfert", "Chaos Impact", "Secret");
+        int id = tcgPlayerApi.getProductId("Galaxy Soldier", "World Superstars", "Prismatic");
         System.out.println("productId : " + id);
     }
 
@@ -85,7 +79,7 @@ class TcgPlayerTest {
 
         List<ProductDetails> productDetailsList = tcgPlayerApi.getProductDetails(id);
 
-        List<PriceObject> pricingList  = tcgPlayerApi.getMarketPrice(id);
+       double marketPrice  = tcgPlayerApi.getMarketPrice(id);
 
 
         for (int i = 0; i < productDetailsList.size(); i++) {
@@ -94,12 +88,6 @@ class TcgPlayerTest {
             }
         }
 
-        for (int i = 0; i < pricingList.size(); i++) {
-            if (pricingList.get(i).getSubTypeName().equalsIgnoreCase("1st Edition")){
-                double marketPrice = (double) pricingList.get(i).getMarketPrice();
-                newCard.setPrice(marketPrice);
-            }
-        }
 
         newCard.setQuantity(1);
         newCard.setStatus("Unsold");
