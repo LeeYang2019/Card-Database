@@ -1,0 +1,34 @@
+
+Zsquid:S1854A"7Remove this useless assignment to local variable "qty".(°úÑÂÿÿÿÿÿ8ä›ª°ñ-
+\squid:S1854<">Remove this useless assignment to local variable "cardRarity".(¬Å ÿ8ä›ª°ñ-
+Jsquid:S1481>",Remove this unused "cardSet" local variable.(ÁáÑ–8ä›ª°ñ-
+Jsquid:S1068(",Remove this unused "fileName" private field.(Ä×ÌÙ8ä›ª°ñ-
+Usquid:S2629D"7Use the built-in formatting to construct this argument.(©Û½ç8â£ï®ñ-
+Dsquid:S1989p"&Add a "try/catch" block for "forward".(òø½8Öáë®ñ-
+Csquid:S1989A"'Add a "try/catch" block for "parseInt".(°úÑÂÿÿÿÿÿ
+[squid:S1854?"=Remove this useless assignment to local variable "cardIndex".(•çö8ä›ª°ñ-
+Ysquid:S1854G";Remove this useless assignment to local variable "session".(ôÜ½¯8Öáë®ñ-
+Dsquid:S1989p"&Add a "try/catch" block for "forward".(òø½8Öáë®ñ-
+Usquid:S1481J"2Remove this unused "newCardReader" local variable.(«“äãùÿÿÿÿ8ä›ª°ñ-
+8squid:S1170("!Make this final field static too.(Ä×ÌÙ
+dsquid:S1854J"ARemove this useless assignment to local variable "newCardReader".(«“äãùÿÿÿÿ8ä›ª°ñ-
+_squid:S1854;"<Remove this useless assignment to local variable "cardType".(ÙĞüÿÿÿÿ8ä›ª°ñ-
+csquid:S1854H"@Remove this useless assignment to local variable "loggedInUser".(óªÀıÿÿÿÿ8ä›ª°ñ-
+Ksquid:S1481A"(Remove this unused "qty" local variable.(°úÑÂÿÿÿÿÿ8ä›ª°ñ-
+bsquid:S1854="?Remove this useless assignment to local variable "cardEdition".(½¨§úÿÿÿÿ8ä›ª°ñ-
+Ysquid:S18547"6Remove this useless assignment to local variable "ts".(î´à»ùÿÿÿÿ8ä›ª°ñ-
+Jsquid:S1481G",Remove this unused "session" local variable.(ôÜ½¯8Öáë®ñ-
+Ysquid:S1854>";Remove this useless assignment to local variable "cardSet".(ÁáÑ–8ä›ª°ñ-
+Jsquid:S14817"'Remove this unused "ts" local variable.(î´à»ùÿÿÿÿ8ä›ª°ñ-
+Xsquid:S14810"5Remove this unused "newYugiohCardDao" local variable.(¿éı¼úÿÿÿÿ8ä›ª°ñ-
+Msquid:S1481<"/Remove this unused "cardRarity" local variable.(¬Å ÿ8ä›ª°ñ-
+Lsquid:S1481?".Remove this unused "cardIndex" local variable.(•çö8ä›ª°ñ-
+isquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(Ù–åÉ8ä›ª°ñ-
+_squid:S3457D"AFormat specifiers should be used instead of string concatenation.(©Û½ç8â£ï®ñ-
+Tsquid:S1481H"1Remove this unused "loggedInUser" local variable.(óªÀıÿÿÿÿ8ä›ª°ñ-
+\squid:S18541"9Remove this useless assignment to local variable "tsDao".(ş˜Ñúÿÿÿÿ8ä›ª°ñ-
+gsquid:S18540"DRemove this useless assignment to local variable "newYugiohCardDao".(¿éı¼úÿÿÿÿ8ä›ª°ñ-
+Msquid:S14811"*Remove this unused "tsDao" local variable.(ş˜Ñúÿÿÿÿ8ä›ª°ñ-
+Ssquid:S1481="0Remove this unused "cardEdition" local variable.(½¨§úÿÿÿÿ8ä›ª°ñ-
+Ksquid:S1481B"-Remove this unused "imageUrl" local variable.(ÄŞİª8ä›ª°ñ-
+Psquid:S1481;"-Remove this unused "cardType" local variable.(ÙĞüÿÿÿÿ8ä›ª°ñ-

@@ -1,0 +1,18 @@
+
+Dsquid:S1989L"&Add a "try/catch" block for "forward".(òø½8ÛªĞ²ñ-
+msquid:S1192>"JDefine a constant instead of duplicating this literal "cardIndex" 3 times.(ö«İ®şÿÿÿÿ8ÚÇÄ²ñ-
+psquid:S1192?"MDefine a constant instead of duplicating this literal "cardQuantity" 3 times.(¤¨¥Ùÿÿÿÿÿ8ÚÇÄ²ñ-
+Isquid:S1481H",Remove this unused "entryId" local variable.(‡—û#8æÛÊ³ñ-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¬½î³ñ-
+Ysquid:S1854G"6Remove this useless assignment to local variable "id".(Ïí¢Ÿüÿÿÿÿ8ıÓÈ²ñ-
+Jsquid:S1989?"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8ÚÇÄ²ñ-
+Xsquid:S1854H";Remove this useless assignment to local variable "entryId".(‡—û#8æÛÊ³ñ-
+nsquid:S1192;"KDefine a constant instead of duplicating this literal "cardRarity" 5 times.(¾Âûºøÿÿÿÿ8ÚÇÄ²ñ-
+jsquid:S1192<"LDefine a constant instead of duplicating this literal "cardEdition" 4 times.(¸£’¶8¦â»³ñ-
+Dsquid:S1989L"&Add a "try/catch" block for "forward".(òø½8ÛªĞ²ñ-
+gsquid:UselessImportCheck"<Remove this unused import 'edu.yang.service.ProductDetails'.(ˆÙüÇ8¤Õ°ñ-
+Jsquid:S1481G"'Remove this unused "id" local variable.(Ïí¢Ÿüÿÿÿÿ8ıÓÈ²ñ-
+fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8í€Ï²ñ-
+ksquid:S1192="HDefine a constant instead of duplicating this literal "cardSet" 5 times.(…ÁŸ…üÿÿÿÿ8¶˜­³ñ-
+lsquid:S11929"IDefine a constant instead of duplicating this literal "cardName" 4 times.(»åÓóùÿÿÿÿ8ÚÇÄ²ñ-
+lsquid:S1192:"IDefine a constant instead of duplicating this literal "cardType" 3 times.( Ïÿ…ÿÿÿÿÿ8ÚÇÄ²ñ-

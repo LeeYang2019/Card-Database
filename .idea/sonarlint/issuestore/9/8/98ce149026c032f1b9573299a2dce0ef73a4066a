@@ -1,29 +1,12 @@
 
-Rsquid:S1854;";Remove this useless assignment to local variable "session".(ôÜ½¯
-Asquid:S19896"*Add a "try/catch" block for "parseDouble".(œÃú
-Csquid:S1481;",Remove this unused "session" local variable.(ôÜ½¯
-Asquid:S1068!"*Remove this unused "logger" private field.(æ×âÁ
-=squid:S1989I"&Add a "try/catch" block for "forward".(òø½
-Csquid:S19898"'Add a "try/catch" block for "parseInt".(°úÑÂÿÿÿÿÿ
-=squid:S1989I"&Add a "try/catch" block for "forward".(òø½
-Zsquid:S18548"7Remove this useless assignment to local variable "qty".(°úÑÂÿÿÿÿÿ8ùëŠñ-
-Wsquid:S18546"9Remove this useless assignment to local variable "price".(œÃú8ùëŠñ-
-[squid:S18544"=Remove this useless assignment to local variable "cardIndex".(•çö8ùëŠñ-
-Ysquid:S18543";Remove this useless assignment to local variable "cardSet".(ÁáÑ–8ùëŠñ-
-\squid:S18542">Remove this useless assignment to local variable "cardRarity".(¬Å ÿ8ùëŠñ-
-_squid:S18541"<Remove this useless assignment to local variable "cardType".(ÙĞüÿÿÿÿ8ùëŠñ-
-_squid:S18540"<Remove this useless assignment to local variable "cardName".(ıß‡şÿÿÿÿ8ùëŠñ-
-Ysquid:S1854-"6Remove this useless assignment to local variable "ts".(î´à»ùÿÿÿÿ8ùëŠñ-
-\squid:S1854("9Remove this useless assignment to local variable "tsDao".(ş˜Ñúÿÿÿÿ8ùëŠñ-
-gsquid:S1854'"DRemove this useless assignment to local variable "newYugiohCardDao".(¿éı¼úÿÿÿÿ8ùëŠñ-
-Xsquid:S1481'"5Remove this unused "newYugiohCardDao" local variable.(¿éı¼úÿÿÿÿ8ùëŠñ-
-Msquid:S1481("*Remove this unused "tsDao" local variable.(ş˜Ñúÿÿÿÿ8ùëŠñ-
-Jsquid:S1481-"'Remove this unused "ts" local variable.(î´à»ùÿÿÿÿ8ùëŠñ-
-Psquid:S14810"-Remove this unused "cardName" local variable.(ıß‡şÿÿÿÿ8ùëŠñ-
-Psquid:S14811"-Remove this unused "cardType" local variable.(ÙĞüÿÿÿÿ8ùëŠñ-
-Msquid:S14812"/Remove this unused "cardRarity" local variable.(¬Å ÿ8ùëŠñ-
-Jsquid:S14813",Remove this unused "cardSet" local variable.(ÁáÑ–8ùëŠñ-
-Lsquid:S14814".Remove this unused "cardIndex" local variable.(•çö8ùëŠñ-
-Hsquid:S14816"*Remove this unused "price" local variable.(œÃú8ùëŠñ-
-Ksquid:S14818"(Remove this unused "qty" local variable.(°úÑÂÿÿÿÿÿ8ùëŠñ-
-isquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(âŞÏ8ùëŠñ-
+Dsquid:S19893"&Add a "try/catch" block for "forward".(òø½8¡§Ğ­ñ-
+Jsquid:S1989("'Add a "try/catch" block for "parseInt".(§ú¨Âÿÿÿÿÿ8¡§Ğ­ñ-
+Dsquid:S19893"&Add a "try/catch" block for "forward".(òø½8¡§Ğ­ñ-
+Zsquid:S2629*"7Use the built-in formatting to construct this argument.(£Œûüÿÿÿÿ8êğÒ­ñ-
+dsquid:S3457*"AFormat specifiers should be used instead of string concatenation.(£Œûüÿÿÿÿ8êğÒ­ñ-
+fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8Æ¢Õ¬ñ-
+Vsquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼ü8Æ¢Õ¬ñ-
+Ysquid:UselessImportCheck"/Remove this unused import 'java.sql.Timestamp'.(èò½+8Æ¢Õ¬ñ-
+isquid:UselessImportCheck">Remove this unused import 'edu.yang.entity.YugiohCardHistory'.(»û³ì8Æ¢Õ¬ñ-
+asquid:UselessImportCheck"1Remove this unused import 'edu.yang.entity.User'.(Åëôıÿÿÿÿ8¡§Ğ­ñ-
+dsquid:S3457/"AFormat specifiers should be used instead of string concatenation.(ä²‚¯üÿÿÿÿ8òıÔ­ñ-

@@ -63,13 +63,26 @@ public class AddCard extends HttpServlet {
         userInputs.put("cardQuantity", Integer.parseInt(req.getParameter("cardQuantity")));
         userInputs.put("user", loggedInUser);
 
+
+        //otherwise, create new card
         YugiohCard newYugiohCard = cardProcessor(userInputs);
 
-        //update tms
-        YugiohCardHistory entry = new YugiohCardHistory(newYugiohCard.getPrice(), newYugiohCard, ts);
-        newYugiohCard.addEntry(entry);
-        int id = newYugiohCardDao.insert(newYugiohCard);
-        int entryId = tsDao.insert(entry);
+        //check if the card already exists and update the quantity
+        for (YugiohCard card : loggedInUser.getCards()) {
+            if (card.equals(newYugiohCard)) {
+                YugiohCard updateCard = (YugiohCard)newYugiohCardDao.getById(card.getId());
+                updateCard.setStatus(card.getStatus() + 1);
+                newYugiohCardDao.saveOrUpdate(updateCard);
+
+            } else  {
+
+                YugiohCardHistory entry = new YugiohCardHistory(newYugiohCard.getPrice(), newYugiohCard, ts);
+                newYugiohCard.addEntry(entry);
+                int id = newYugiohCardDao.insert(newYugiohCard);
+                int entryId = tsDao.insert(entry);
+
+            }
+        }
 
         req.setAttribute("cards", loggedInUser.getCards());
         RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");
@@ -106,15 +119,5 @@ public class AddCard extends HttpServlet {
                 (String)userInputs.get("cardEdition"),(String)userInputs.get("cardSet"), prodFullName,
                 (String)userInputs.get("cardIndex"), marketPrice, (int) userInputs.get("cardQuantity"),"unsold", imageUrl,
                 (User) userInputs.get("user"));
-    }
-
-
-    /**
-     * checks is a card already exists and returns a true/false response
-     * @param card card to check if exists
-     * @return boolean
-     */
-    public boolean validateIfExist(YugiohCard card) {
-        return false;
     }
 }
