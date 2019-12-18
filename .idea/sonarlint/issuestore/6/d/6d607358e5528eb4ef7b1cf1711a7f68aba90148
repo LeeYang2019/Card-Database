@@ -1,28 +1,28 @@
 
-jsquid:S1192?"LDefine a constant instead of duplicating this literal "cardEdition" 3 times.(¸£’¶8¦Ãó¸ñ-
-lsquid:S1192="IDefine a constant instead of duplicating this literal "cardType" 3 times.( Ïÿ…ÿÿÿÿÿ8êì¸ñ-
-[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8½†¸ñ-
-Dsquid:S1989o"&Add a "try/catch" block for "forward".(òø½8ê²ˆ¹ñ-
-nsquid:S1192>"KDefine a constant instead of duplicating this literal "cardRarity" 3 times.(¾Âûºøÿÿÿÿ8àíú¸ñ-
-Jsquid:S1989F"'Add a "try/catch" block for "parseInt".(ûÌñúÿÿÿÿ8˜·Ã¸ñ-
-Isquid:S1481c",Remove this unused "entryId" local variable.(‡—û#8É“¹ñ-
-Jsquid:S1068)",Remove this unused "fileName" private field.(Ä×ÌÙ8ä›ª°ñ-
-ksquid:S1192@"HDefine a constant instead of duplicating this literal "cardSet" 3 times.(…ÁŸ…üÿÿÿÿ8ˆ¼ş¸ñ-
-Ysquid:S1854b"6Remove this useless assignment to local variable "id".(Ïí¢Ÿüÿÿÿÿ8É“¹ñ-
-Xsquid:S1854c";Remove this useless assignment to local variable "entryId".(‡—û#8É“¹ñ-
-Dsquid:S1989j"&Add a "try/catch" block for "forward".(òø½8àßš¹ñ-
-lsquid:S1192<"IDefine a constant instead of duplicating this literal "cardName" 3 times.(»åÓóùÿÿÿÿ8Ä†ë¸ñ-
-Hsquid:S1068("*Remove this unused "logger" private field.(æ×âÁ8Äê¥¸ñ-
-fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8½†¸ñ-
-Dsquid:S1989o"&Add a "try/catch" block for "forward".(òø½8ê²ˆ¹ñ-
+jsquid:S1192?"LDefine a constant instead of duplicating this literal "cardEdition" 3 times.(¸£’¶8åŒ Ññ-
+lsquid:S1192<"IDefine a constant instead of duplicating this literal "cardName" 3 times.(»åÓóùÿÿÿÿ8åŒ Ññ-
+ksquid:S1192@"HDefine a constant instead of duplicating this literal "cardSet" 3 times.(…ÁŸ…üÿÿÿÿ8åŒ Ññ-
+psquid:S1192B"MDefine a constant instead of duplicating this literal "cardQuantity" 3 times.(¤¨¥Ùÿÿÿÿÿ8åŒ Ññ-
+nsquid:S1192>"KDefine a constant instead of duplicating this literal "cardRarity" 3 times.(¾Âûºøÿÿÿÿ8åŒ Ññ-
+msquid:S1192A"JDefine a constant instead of duplicating this literal "cardIndex" 3 times.(ö«İ®şÿÿÿÿ8åŒ Ññ-
+lsquid:S1192="IDefine a constant instead of duplicating this literal "cardType" 3 times.( Ïÿ…ÿÿÿÿÿ8åŒ Ññ-
+fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8åŒ Ññ-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8åŒ Ññ-
+esquid:UselessImportCheck":Remove this unused import 'edu.yang.service.TcgPlayerAPI'.(âğŠº8åŒ Ññ-
 psquid:UselessImportCheck
-"FRemove this unused import 'edu.yang.service.YugiohCardSetsFileReader'.(Ê€ÿ8Äê¥¸ñ-
-esquid:UselessImportCheck":Remove this unused import 'edu.yang.service.TcgPlayerAPI'.(âğŠº8Äê¥¸ñ-
-8squid:S1170)"!Make this final field static too.(Ä×ÌÙ
-msquid:S1192A"JDefine a constant instead of duplicating this literal "cardIndex" 3 times.(ö«İ®şÿÿÿÿ8ü³ƒ¹ñ-
-Jsquid:S1989B"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8½†¸ñ-
-Esquid:S1989Q"'Add a "try/catch" block for "parseInt".(ÿáğŸ8—Ø¹ñ-
-psquid:S1192B"MDefine a constant instead of duplicating this literal "cardQuantity" 3 times.(¤¨¥Ùÿÿÿÿÿ8—Ø¹ñ-
-Dsquid:S1989j"&Add a "try/catch" block for "forward".(òø½8àßš¹ñ-
-gsquid:UselessImportCheck"<Remove this unused import 'edu.yang.service.ProductDetails'.(ˆÙüÇ8½†¸ñ-
-Jsquid:S1481b"'Remove this unused "id" local variable.(Ïí¢Ÿüÿÿÿÿ8É“¹ñ-
+"FRemove this unused import 'edu.yang.service.YugiohCardSetsFileReader'.(Ê€ÿ8åŒ Ññ-
+gsquid:UselessImportCheck"<Remove this unused import 'edu.yang.service.ProductDetails'.(ˆÙüÇ8åŒ Ññ-
+?squid:S1170)"!Make this final field static too.(Ä×ÌÙ8åŒ Ññ-
+Xsquid:S1854c";Remove this useless assignment to local variable "entryId".(‡—û#8åŒ Ññ-
+Ysquid:S1854b"6Remove this useless assignment to local variable "id".(Ïí¢Ÿüÿÿÿÿ8åŒ Ññ-
+Jsquid:S1989B"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8åŒ Ññ-
+Jsquid:S1989F"'Add a "try/catch" block for "parseInt".(ûÌñúÿÿÿÿ8åŒ Ññ-
+Esquid:S1989Q"'Add a "try/catch" block for "parseInt".(ÿáğŸ8åŒ Ññ-
+Dsquid:S1989j"&Add a "try/catch" block for "forward".(òø½8åŒ Ññ-
+Dsquid:S1989j"&Add a "try/catch" block for "forward".(òø½8åŒ Ññ-
+Dsquid:S1989o"&Add a "try/catch" block for "forward".(òø½8åŒ Ññ-
+Dsquid:S1989o"&Add a "try/catch" block for "forward".(òø½8åŒ Ññ-
+Jsquid:S1481b"'Remove this unused "id" local variable.(Ïí¢Ÿüÿÿÿÿ8åŒ Ññ-
+Isquid:S1481c",Remove this unused "entryId" local variable.(‡—û#8åŒ Ññ-
+Hsquid:S1068("*Remove this unused "logger" private field.(æ×âÁ8åŒ Ññ-
+Jsquid:S1068)",Remove this unused "fileName" private field.(Ä×ÌÙ8åŒ Ññ-

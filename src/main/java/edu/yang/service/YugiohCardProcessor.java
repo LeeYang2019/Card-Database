@@ -25,11 +25,6 @@ public class YugiohCardProcessor {
         //get the fullset name from cardSet
         String prodFullName = helper.getProductName((String)userInputs.get("cardSet"));
 
-        logger.info((String)userInputs.get("cardName"));
-        logger.info(prodFullName);
-        logger.info((String)userInputs.get("cardRarity"));
-        logger.info((String)userInputs.get("cardSet"));
-
         //get the productId
         int productId = apiHelper.getProductId((String)userInputs.get("cardName"), prodFullName, (String)userInputs.get("cardRarity"));
 

@@ -46,15 +46,25 @@ public class AddCard extends HttpServlet {
         ProjectDao tsDao = new ProjectDao(YugiohCardHistory.class);
         ProjectDao userDao = new ProjectDao(User.class);
 
+        //local variables
         Map<String, Object> userInputs = new HashMap<>();
+        Map<String, Object> propsAndValues = new HashMap<>();
+        List<YugiohCard> userCards;
+
 
         //get current tmstamp
         Date date = new Date();
         long time = date.getTime();
         Timestamp ts = new Timestamp(time);
 
+        //get the loggedInUser
         User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
 
+        //get the loggedInUser's collection of cards
+        propsAndValues.put("user", loggedInUser);
+        userCards = newYugiohCardDao.findByPropertyEqual(propsAndValues);
+
+        //get user inputs
         userInputs.put("cardName", req.getParameter("cardName"));
         userInputs.put("cardType", req.getParameter("cardType"));
         userInputs.put("cardRarity", req.getParameter("cardRarity"));
@@ -64,16 +74,22 @@ public class AddCard extends HttpServlet {
         userInputs.put("cardQuantity", Integer.parseInt(req.getParameter("cardQuantity")));
         userInputs.put("user", loggedInUser);
 
-        //otherwise, create new card
+        //call the YugiohCardProcessor and pass the user inputs to create a new yugiohCard
         YugiohCardProcessor cardProcessor = new YugiohCardProcessor();
         YugiohCard newYugiohCard = cardProcessor.cardProcessor(userInputs);
 
-        //check if the card already exists and update the quantity
+        //check in the user's collection to see if the same card already exists and update it
         for (YugiohCard card : loggedInUser.getCards()) {
-            if (card.equals(newYugiohCard)) {
-                YugiohCard updateCard = (YugiohCard)newYugiohCardDao.getById(card.getId());
-                updateCard.setStatus(card.getStatus() + 1);
-                newYugiohCardDao.saveOrUpdate(updateCard);
+            if (card.getCardName().equalsIgnoreCase(newYugiohCard.getCardName())
+                    && card.getCardRarity().equalsIgnoreCase(newYugiohCard.getCardRarity())
+                    && card.getCardEdition().equalsIgnoreCase(newYugiohCard.getCardEdition()) &&
+                    card.getSetName().equalsIgnoreCase(newYugiohCard.getSetName())) {
+
+                card.setQuantity(card.getQuantity() + 1);
+                card.setStatus("unsold");
+                newYugiohCardDao.saveOrUpdate(card);
+
+                logger.info("card was updated");
 
             } else  {
 
@@ -82,6 +98,7 @@ public class AddCard extends HttpServlet {
                 int id = newYugiohCardDao.insert(newYugiohCard);
                 int entryId = tsDao.insert(entry);
 
+                logger.info("card was inserted");
             }
         }
 

@@ -25,9 +25,9 @@ public class UploadFileReader implements PropertiesLoader {
      */
     public List<YugiohCard> readExcelFile(String fileName, Object user) {
 
-
         ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
-
+        YugiohCardProcessor newProcessor = new YugiohCardProcessor();
+        Map<String, Object> fileInputs = new HashMap<>();
         List<YugiohCard> cardList = new ArrayList<>();
 
         try (Workbook wb = WorkbookFactory.create(new File(fileName))) {
@@ -47,43 +47,43 @@ public class UploadFileReader implements PropertiesLoader {
                 for (int col = row.getFirstCellNum(); col < row.getLastCellNum(); col++) {
                     Cell cell = row.getCell(col);
 
+
                     switch (col) {
                         case 0:
-                            newYugiohCard.setCardName(cell.getStringCellValue());
+                            fileInputs.put("cardName", cell.getStringCellValue());
                             break;
                         case 1:
-                            newYugiohCard.setCardType(cell.getStringCellValue());
+                            fileInputs.put("cardType", cell.getStringCellValue());
                             break;
                         case 2:
-                            newYugiohCard.setCardRarity(cell.getStringCellValue());
+                            fileInputs.put("cardRarity", cell.getStringCellValue());
                             break;
                         case 3:
-                            newYugiohCard.setCardSet(cell.getStringCellValue());
+                            fileInputs.put("cardEdition", cell.getStringCellValue());
                             break;
                         case 4:
-                            newYugiohCard.setIndex(cell.getStringCellValue());
+                            fileInputs.put("cardSet", cell.getStringCellValue());
                             break;
                         case 5:
-                            newYugiohCard.setPrice(cell.getNumericCellValue());
+                            fileInputs.put("cardIndex", cell.getStringCellValue());
                             break;
                         case 6:
-                            newYugiohCard.setQuantity((int)cell.getNumericCellValue());
+                            fileInputs.put("cardQuantity", (int)cell.getNumericCellValue());
                             break;
                         case 7:
-                            newYugiohCard.setStatus(cell.getStringCellValue());
+                            fileInputs.put("status", cell.getStringCellValue());
                             break;
                     }
 
-                    newYugiohCard.setUser((User)user);
+                    fileInputs.put("user", user);
+                    newYugiohCard = newProcessor.cardProcessor(fileInputs);
 
                 }
                 int id = newYugiohCardDao.insert(newYugiohCard);
-
             }
         } catch (Exception e) {
             logger.error(e);
         }
         return cardList;
     }
-
 }

@@ -1,15 +1,15 @@
 
-psquid:UselessImportCheck
-"FRemove this unused import 'edu.yang.service.YugiohCardSetsFileReader'.(Ê€ÿ8Âù ¸ñ-
-[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¬½î³ñ-
 gsquid:UselessImportCheck"<Remove this unused import 'edu.yang.service.ProductDetails'.(ˆÙüÇ8¤Õ°ñ-
-esquid:UselessImportCheck":Remove this unused import 'edu.yang.service.TcgPlayerAPI'.(âðŠº8Âù ¸ñ-
-fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8í€Ï²ñ-
-Dsquid:S1989Z"&Add a "try/catch" block for "forward".(òø½8ÛªÐ²ñ-
-Jsquid:S1481R"'Remove this unused "id" local variable.(Ïí¢Ÿüÿÿÿÿ8¦ýå·ñ-
-Jsquid:S1989@"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8ÚÇÄ²ñ-
-Isquid:S1481S",Remove this unused "entryId" local variable.(‡—û#8¦ýå·ñ-
-Ysquid:S1854R"6Remove this useless assignment to local variable "id".(Ïí¢Ÿüÿÿÿÿ8¦ýå·ñ-
-Xsquid:S1854S";Remove this useless assignment to local variable "entryId".(‡—û#8¦ýå·ñ-
-Hsquid:S1068'"*Remove this unused "logger" private field.(æ×âÁ8Âù ¸ñ-
-Dsquid:S1989Z"&Add a "try/catch" block for "forward".(òø½8ÛªÐ²ñ-
+fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8ÊýŸÑñ-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÊýŸÑñ-
+esquid:UselessImportCheck":Remove this unused import 'edu.yang.service.TcgPlayerAPI'.(âðŠº8ÊýŸÑñ-
+psquid:UselessImportCheck
+"FRemove this unused import 'edu.yang.service.YugiohCardSetsFileReader'.(Ê€ÿ8ÊýŸÑñ-
+Xsquid:S1854S";Remove this useless assignment to local variable "entryId".(‡—û#8ÊýŸÑñ-
+Ysquid:S1854R"6Remove this useless assignment to local variable "id".(Ïí¢Ÿüÿÿÿÿ8ÊýŸÑñ-
+Jsquid:S1989@"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8ÊýŸÑñ-
+Dsquid:S1989Z"&Add a "try/catch" block for "forward".(òø½8ÊýŸÑñ-
+Dsquid:S1989Z"&Add a "try/catch" block for "forward".(òø½8ÊýŸÑñ-
+Jsquid:S1481R"'Remove this unused "id" local variable.(Ïí¢Ÿüÿÿÿÿ8ÊýŸÑñ-
+Isquid:S1481S",Remove this unused "entryId" local variable.(‡—û#8ÊýŸÑñ-
+Hsquid:S1068'"*Remove this unused "logger" private field.(æ×âÁ8ÊýŸÑñ-

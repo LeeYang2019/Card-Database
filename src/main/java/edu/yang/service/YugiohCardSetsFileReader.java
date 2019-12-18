@@ -34,7 +34,6 @@ public class YugiohCardSetsFileReader {
                 String line = inputReader.readLine();
                 line = line.replace("\n", ",");
                 String[] tokens = line.split(",");
-                logger.info("tokens to process: " + tokens.length);
                 return tokens;
             }
         } catch (FileNotFoundException fileNotFound) {
@@ -51,7 +50,6 @@ public class YugiohCardSetsFileReader {
      * @return
      */
     public String getProductName(String prefix) {
-        logger.info("prefix : " + prefix);
 
         String tokens[] = readFile(fileName);
 

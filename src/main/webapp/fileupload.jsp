@@ -23,9 +23,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <p><a href="fileDownload">I do not have a file.</a></p>
-                </div>
+
                 <div class="row">
                     <div id="result">
                         <h3>${requestScope["message"]}</h3>

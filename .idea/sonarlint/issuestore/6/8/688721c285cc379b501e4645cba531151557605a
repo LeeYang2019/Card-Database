@@ -1,11 +1,11 @@
 
-csquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(£Íû¦
-Dsquid:S1168-"&Return an empty array instead of null.(¥¹ï8Ôş—³ñ-
-?squid:S1170"!Make this final field static too.(Ä×ÌÙ8Ã¦ë¯ñ-
-gsquid:S2259<"DA "NullPointerException" could be thrown; "tokens" is nullable here.(¤ïªúÿÿÿÿ8Ôş—³ñ-
-Usquid:S2629%"7Use the built-in formatting to construct this argument.(“¼Æã8¨³–³ñ-
-Vsquid:S11978"8Move the array designator from the variable to the type.(ËÉÑ8‹ÿó¯ñ-
 dsquid:S3457)"AFormat specifiers should be used instead of string concatenation.(·‰ü¢şÿÿÿÿ8º™Û„ñ-
+?squid:S1170"!Make this final field static too.(Ä×ÌÙ8Ã¦ë¯ñ-
 Usquid:S26296"7Use the built-in formatting to construct this argument.(¥áÁ8š²¯³ñ-
+gsquid:S2259<"DA "NullPointerException" could be thrown; "tokens" is nullable here.(¤ïªúÿÿÿÿ8Ôş—³ñ-
+csquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(£Íû¦
 _squid:S3457%"AFormat specifiers should be used instead of string concatenation.(“¼Æã8¨³–³ñ-
+Usquid:S2629%"7Use the built-in formatting to construct this argument.(“¼Æã8¨³–³ñ-
+Dsquid:S1168-"&Return an empty array instead of null.(¥¹ï8Ôş—³ñ-
+Vsquid:S11978"8Move the array designator from the variable to the type.(ËÉÑ8‹ÿó¯ñ-
 _squid:S34576"AFormat specifiers should be used instead of string concatenation.(¥áÁ8š²¯³ñ-
