@@ -64,10 +64,10 @@
                                                 <div class="card-body text-center">
                                                     <div class="card-body text-center">
                                                         <div class="btn-group-vertical">
-                                                            <div class="btn btn-outline-warning bg-warning btn-lg rounded-0 mb-1">
+                                                            <div class="btn btn-outline-warning bg-warning btn-lg btn-block rounded-0 mb-1">
                                                                 <a href="editCard?param=${card.id}">Edit</a>
                                                             </div>
-                                                            <div class="btn btn-outline-danger bg-danger btn-lg rounded-0 mt-1">
+                                                            <div class="btn btn-outline-danger bg-danger btn-lg btn-block rounded-0 mt-1">
                                                                 <a href="deleteCard?param=${card.id}">Delete</a>
                                                             </div>
                                                         </div>

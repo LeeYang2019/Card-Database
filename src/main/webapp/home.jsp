@@ -11,6 +11,11 @@
                 <c:import url="userMenu.jsp"/>
             </div>
             <div class="row">
+                <div id="result">
+                    <h6 class="text-dark font-italic font-weight-bold mx-auto">${requestScope["message"]}</h6>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-12 mx-auto mb-3">
                     <div class="card border-muted rounded-0">
                         <div class="card-header bg-muted">

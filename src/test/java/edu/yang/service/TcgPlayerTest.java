@@ -30,33 +30,19 @@ class TcgPlayerTest {
 
 
     @Test
-    void getClientCredentials() {
-    }
-
-    @Test
     void getProductImage() {
-
-        List<ProductDetails> productDetailsList = new ArrayList<>();
-        productDetailsList = tcgPlayerApi.getProductDetails(200820);
-
-        for (int i = 0; i < productDetailsList.size(); i++) {
-            System.out.println(productDetailsList.get(i).getCleanName());
-            System.out.println(productDetailsList.get(i).getImageUrl());
-        }
-
+        String image = tcgPlayerApi.getCardImage(200820);
     }
 
     @Test
     void getProductPrice() {
-        List<PriceObject> pricingList = new ArrayList<>();
         double marketPrice = tcgPlayerApi.getMarketPrice(200820, "1st Edition");
-
     }
 
     @Test
     void searchCard() {
 
-        int id = tcgPlayerApi.getProductId("Galaxy Soldier", "World Superstars", "Prismatic");
+        int id = tcgPlayerApi.getProductId("Galaxy Soldier", "World Superstars", "Secret");
         System.out.println("productId : " + id);
     }
 
@@ -78,21 +64,5 @@ class TcgPlayerTest {
 
         int id = tcgPlayerApi.getProductId(newCard.getCardName(), cardSet, newCard.getCardRarity());
 
-        List<ProductDetails> productDetailsList = tcgPlayerApi.getProductDetails(id);
-
-       double marketPrice  = tcgPlayerApi.getMarketPrice(id, newCard.getCardEdition());
-
-
-        for (int i = 0; i < productDetailsList.size(); i++) {
-            if (productDetailsList.get(i).getCleanName().equalsIgnoreCase(newCard.getCardName())) {
-                newCard.setImage(productDetailsList.get(i).getImageUrl());
-            }
-        }
-
-
-        newCard.setQuantity(1);
-        newCard.setStatus("Unsold");
-
-        System.out.println(newCard.toString());
     }
 }

@@ -68,10 +68,14 @@ public class Login extends HttpServlet {
         propsAndValues.put("status", "unsold");
         propsAndValues.put("user", loggedInUser);
 
-        //return a list of cards based on user
-        userCards = updateYugiohCards(propsAndValues);
+        try {
+            //return a list of cards based on user
+            userCards = updateYugiohCards(propsAndValues);
+            req.setAttribute("cards", userCards);
+        } catch (NumberFormatException ex) {
+            req.setAttribute("message", "Failed to Update Database due to " + ex);
+        }
 
-        req.setAttribute("cards", userCards);
 
         if (loggedInUser.getCards().size() == 0) {
             dispatcher = req.getRequestDispatcher("/fileupload.jsp");
@@ -92,30 +96,19 @@ public class Login extends HttpServlet {
         TcgPlayerAPI newPlayerAPI = new TcgPlayerAPI();
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         List<YugiohCard> yugiohCardList = yugiohCardDao.findByPropertyEqual(propertyMap);
+        YugiohCardSetsFileReader newCardReader = new YugiohCardSetsFileReader();
 
         //for each card, get new pricing and update
         for (YugiohCard card : yugiohCardList) {
-            logger.info("getting updates for card " + card.getCardName());
-            int cardId = newPlayerAPI.getProductId(card.getCardName(),getProductSet(card.getCardSet()),card.getCardRarity());
+            logger.info("getting updates for card " + card.getCardName()
+                    + " with a " + card.getCardRarity() + " rarity");
+
+            int cardId = newPlayerAPI.getProductId(card.getCardName(),newCardReader.getProductName(card.getCardSet()),card.getCardRarity());
             double marketPrice = newPlayerAPI.getMarketPrice(cardId, card.getCardEdition());
             YugiohCard updateCard  = (YugiohCard)yugiohCardDao.getById(card.getId());
             updateCard.setPrice(marketPrice);
             yugiohCardDao.saveOrUpdate(updateCard);
         }
         return yugiohCardList;
-    }
-
-    /**
-     * returns the productName
-     * @param cardSet cardSet from YugiohCardDb
-     * @return productName from cardSetsMap
-     */
-    private String getProductSet(String cardSet) {
-
-        YugiohCardSetsFileReader newCardReader = new YugiohCardSetsFileReader();
-        Map<String, String> newCardSetMap = newCardReader.readFile(fileName);
-        newCardSetMap.get(cardSet);
-        String productSetName = newCardSetMap.get(cardSet);
-        return productSetName;
     }
 }

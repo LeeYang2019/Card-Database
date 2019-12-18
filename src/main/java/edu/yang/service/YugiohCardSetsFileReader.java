@@ -14,15 +14,14 @@ import java.util.Map;
 public class YugiohCardSetsFileReader {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
+    private final String fileName = "cardSets.txt";
 
     /**
      *
      * @param fileName
      * @return
      */
-    public Map<String, String> readFile(String fileName) {
-
-        Map<String, String> cardSetsMap = new HashMap<>();
+    private String[] readFile(String fileName) {
 
         try {
 
@@ -35,24 +34,26 @@ public class YugiohCardSetsFileReader {
                 String line = inputReader.readLine();
                 line = line.replace("\n", ",");
                 String[] tokens = line.split(",");
-
-                cardSetsMap = createMap(tokens);
-                return cardSetsMap;
+                logger.info("tokens to process: " + tokens.length);
+                return tokens;
             }
         } catch (FileNotFoundException fileNotFound) {
             logger.info("fileName: " + fileName + " could not be found.");
         } catch (IOException inputOutputException) {
             logger.info("IOException");
         }
-        return cardSetsMap;
+        return null;
     }
 
     /**
-     * parse string tokens
-     * @param tokens tokens of card sets information
-     * @return a map of key value pairs
+     *
+     * @param prefix
+     * @return
      */
-    private Map<String,String> createMap(String[] tokens) {
+    public String getProductName(String prefix) {
+        logger.info("prefix : " + prefix);
+
+        String tokens[] = readFile(fileName);
 
         Map<String, String> cardSetsMap = new HashMap<>();
 
@@ -61,6 +62,8 @@ public class YugiohCardSetsFileReader {
                 cardSetsMap.put(tokens[i], tokens[i + 1]);
             }
         }
-        return cardSetsMap;
+        String productName = cardSetsMap.get(prefix);
+        logger.info(productName);
+        return productName;
     }
 }

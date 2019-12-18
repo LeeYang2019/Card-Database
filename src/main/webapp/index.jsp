@@ -54,7 +54,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary" value="singup">Signup</button><br />
+                                <button type="submit" class="btn btn-primary btn-block" value="singup">Signup</button><br />
                             </FORM>
                         </div>
                     </div>

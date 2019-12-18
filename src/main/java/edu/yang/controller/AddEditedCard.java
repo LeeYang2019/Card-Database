@@ -9,6 +9,7 @@ import edu.yang.service.TcgPlayerAPI;
 import edu.yang.service.YugiohCardSetsFileReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -29,17 +30,19 @@ import java.util.Map;
  */
 
 @WebServlet(
-        urlPatterns = {"/addCards"}
+        urlPatterns = {"/addEditedCard"}
 )
 
-public class AddCards extends HttpServlet {
+public class AddEditedCard extends HttpServlet {
 
     //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
     private final String fileName = "cardSets.txt";
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        logger.info("inside edit servlet");
 
         //card dao being used
         ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
@@ -62,11 +65,14 @@ public class AddCards extends HttpServlet {
         int qty = Integer.parseInt(cardQuantity);
         String imageUrl = "";
 
+        logger.info("cardName : " + cardName);
+
         //get this user
         HttpSession session = req.getSession();
         User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
 
         YugiohCardSetsFileReader newCardReader = new YugiohCardSetsFileReader();
+     /*
         Map<String, String> newCardSetMap = newCardReader.readFile(fileName);
         String productName = newCardSetMap.get(cardSet);
         TcgPlayerAPI tcgPlayerAPI = new TcgPlayerAPI();
@@ -101,8 +107,8 @@ public class AddCards extends HttpServlet {
         int entryId = tsDao.insert(entry);
 
         req.setAttribute("cards", loggedInUser.getCards());
-
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
+*/
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");
         dispatcher.forward(req, resp);
     }
 

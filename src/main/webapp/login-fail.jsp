@@ -19,8 +19,7 @@
                 <div class="card-body">
                     <FORM id="myForm" ACTION="j_security_check" METHOD="POST">
 
-                        <h4>Authentication Failed. Please try logging in again.
-                        </h4>
+                        <h4>Authentication Failed. Please try logging in again.</h4>
 
                         <div class="form-group">
                             <label for="j_username">Username:</label>
@@ -37,7 +36,7 @@
                         </div>
 
                         <p><a href="signup.jsp">I do not have an account.</a></p>
-                        <button type="submit" class="btn btn-primary" value="log in">Submit</button><br />
+                        <button type="submit" class="btn btn-primary btn-block" value="log in">Submit</button><br />
                     </FORM>
                 </div>
             </div>

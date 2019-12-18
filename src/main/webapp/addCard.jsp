@@ -43,7 +43,7 @@
                                             <option value="Super">Super</option>
                                             <option value="Ultra">Ultra</option>
                                             <option value="Secret">Secret</option>
-                                            <option value="Prismatic">Prismatic</option>
+                                            <option value="Ultimate">Ultimate</option>
                                         </select>
                                     </div>
 

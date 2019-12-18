@@ -17,11 +17,11 @@
                             <h4 class="text-dark">Edit Yu-Gi-Oh! Card</h4>
                         </div>
                         <div class="card-body">
-                            <form id="cardForm" action="addCards" class="needs-validation" novalidate>
+                            <form id="cardForm" action="addEditedCard" method="POST">
 
                                 <div class="form-group row">
                                     <div class="col-md-6">
-                                        <input type="cardName" class="form-control" id="cardName" placeholder="Name" name="cardName" required>
+                                        <input type="cardName" class="form-control" id="cardName" placeholder="Name" name="cardName" value="${card.cardName}" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
@@ -32,6 +32,7 @@
                                                 <option value="Monster">Monster</option>
                                                 <option value="Spell">Spell</option>
                                                 <option value="Trap">Trap</option>
+                                                <option value="${card.cardType}">${card.cardType}</option>
                                             </select>
                                         </div>
                                     </div>
@@ -44,6 +45,7 @@
                                             <option value="Ultra">Ultra</option>
                                             <option value="Secret">Secret</option>
                                             <option value="Prismatic">Prismatic</option>
+                                            <option value="${card.cardRarity}">${card.cardRarity}</option>
                                         </select>
                                     </div>
 
@@ -55,31 +57,31 @@
                                         <select class="form-control" id="cardEdition" name="cardEdition">
                                             <option value="1st Edition">1st Edition</option>
                                             <option value="Unlimited">Unlimited</option>
+                                            <option value="${card.cardEdition}">${card.cardEdition}</option>
                                         </select>
                                     </div>
 
                                     <div class="col">
-                                        <input type="cardSet" class="form-control" id="cardSet" placeholder="Set" name="cardSet" maxlength="7" required>
+                                        <input type="cardSet" class="form-control" id="cardSet" placeholder="Set" name="cardSet" maxlength="7" value="${card.cardSet}" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
 
                                     <div class="col">
-                                        <input type="cardIndex" class="form-control" id="cardIndex" placeholder="Card No." name="cardIndex" maxlength="7" required>
+                                        <input type="cardIndex" class="form-control" id="cardIndex" placeholder="Card No." name="cardIndex" maxlength="7" value="${card.cardIndex}" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
 
                                     <div class="col">
-                                        <input type="cardQuantity" class="form-control" id="cardQuantity" placeholder="Qty." name="cardQuantity" maxlength="3" required>
+                                        <input type="cardQuantity" class="form-control" id="cardQuantity" placeholder="Qty." name="cardQuantity" maxlength="3" value="${card.quantity}" required>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
                                 </div>
 
                                 <div class="row myButtons">
-                                    <button type="submit" class="btn btn-primary">Add</button>
-                                    <button type="reset" class="btn btn-danger">Cancel</button>
+                                    <button type="submit" class="btn btn-primary">Edit</button>
                                 </div>
 
                             </form>

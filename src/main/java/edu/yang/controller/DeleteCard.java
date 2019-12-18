@@ -37,7 +37,7 @@ public class DeleteCard extends HttpServlet {
         updateCard.setStatus("Delete");
         yugiohCardDao.saveOrUpdate(updateCard);
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");
         dispatcher.forward(req, resp);
     }
 }

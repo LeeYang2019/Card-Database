@@ -32,7 +32,7 @@
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
-                        <button type="submit" class="btn btn-primary" value="login">Login</button><br />
+                        <button type="submit" class="btn btn-primary btn-block" value="login">Login</button><br />
                     </FORM>
                 </div>
             </div>

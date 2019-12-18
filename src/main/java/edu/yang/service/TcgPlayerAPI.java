@@ -65,9 +65,7 @@ public class TcgPlayerAPI implements PropertiesLoader {
 
             String jsonInputString = "{\"sort\": \"MinPrice DESC\",\"limit\": 10,\"offset\": 0,\"filters\":" +
                     " [{\"name\": \"ProductName\",\"values\": [ \" " + productName + " \"]},{\"name\": \"SetName\",\"values\":" +
-                    " [\"" + productSet + "\"]},{\"name\": \"Rarity\",\"values\": [\"Common\",\"Rare\",\"Super\",\"Ultra\",\"Secret\",\"Ultimate\",\"Prismatic\"]}]}";
-
-            //\"" + productRarity + "\",
+                    " [\"" + productSet + "\"]},{\"name\": \"Rarity\",\"values\": [\"" + productRarity + "\"]}]}";
 
             OutputStream os = connection.getOutputStream();
             byte[] input = jsonInputString.getBytes("utf-8");
@@ -121,7 +119,7 @@ public class TcgPlayerAPI implements PropertiesLoader {
      * @param productID
      * @return String imageUrl
      */
-    public List<ProductDetails> getProductDetails(int productID) {
+    private List<ProductDetails> getProductDetails(int productID) {
 
         ObjectMapper objMapper = new ObjectMapper();
         List<ProductDetails> productDetailsList = new ArrayList<>();
@@ -169,6 +167,32 @@ public class TcgPlayerAPI implements PropertiesLoader {
        }
 
         return 0;
+    }
+
+    public String getCardName(int productId) {
+
+        List<ProductDetails> productDetailsList = new ArrayList<>();
+        productDetailsList = getProductDetails(productId);
+
+        String cardName = "";
+
+        for (int i = 0; i < productDetailsList.size(); i++) {
+            cardName = productDetailsList.get(i).getCleanName().trim();
+        }
+        return cardName;
+    }
+
+
+    public String getCardImage(int productId) {
+        List<ProductDetails> productDetailsList = new ArrayList<>();
+        productDetailsList = getProductDetails(productId);
+
+        String cardImage = "";
+
+        for (int i = 0; i < productDetailsList.size(); i++) {
+            cardImage = productDetailsList.get(i).getImageUrl();
+        }
+        return cardImage;
     }
 
     /**

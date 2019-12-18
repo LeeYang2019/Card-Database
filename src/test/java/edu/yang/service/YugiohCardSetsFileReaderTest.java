@@ -20,10 +20,8 @@ class YugiohCardSetsFileReaderTest {
     }
 
     @Test
-    void readCardSetFileSuccess() {
-        String fileName = "cardSets.txt";
-        Map<String, String> cardSetsMap = newTest.readFile(fileName);
-        assertEquals(425, cardSetsMap.size());
+    void getProductNameSuccess() {
+        String productName = newTest.getProductName("LOB");
+        assertEquals("The Legend of Blue Eyes White Dragon", productName );
     }
-
 }
