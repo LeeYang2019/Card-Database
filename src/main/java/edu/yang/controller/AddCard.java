@@ -6,6 +6,7 @@ import edu.yang.entity.YugiohCardHistory;
 import edu.yang.persistence.ProjectDao;
 import edu.yang.service.ProductDetails;
 import edu.yang.service.TcgPlayerAPI;
+import edu.yang.service.YugiohCardProcessor;
 import edu.yang.service.YugiohCardSetsFileReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -63,9 +64,9 @@ public class AddCard extends HttpServlet {
         userInputs.put("cardQuantity", Integer.parseInt(req.getParameter("cardQuantity")));
         userInputs.put("user", loggedInUser);
 
-
         //otherwise, create new card
-        YugiohCard newYugiohCard = cardProcessor(userInputs);
+        YugiohCardProcessor cardProcessor = new YugiohCardProcessor();
+        YugiohCard newYugiohCard = cardProcessor.cardProcessor(userInputs);
 
         //check if the card already exists and update the quantity
         for (YugiohCard card : loggedInUser.getCards()) {
@@ -87,37 +88,5 @@ public class AddCard extends HttpServlet {
         req.setAttribute("cards", loggedInUser.getCards());
         RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");
         dispatcher.forward(req, resp);
-    }
-
-    public YugiohCard cardProcessor(Map<String, Object> userInputs) {
-
-        //local variables
-        YugiohCardSetsFileReader helper = new YugiohCardSetsFileReader(); //returning null
-        TcgPlayerAPI apiHelper = new TcgPlayerAPI();
-
-        //get the fullset name from cardSet
-        String prodFullName = helper.getProductName((String)userInputs.get("cardSet"));
-
-        logger.info((String)userInputs.get("cardName"));
-        logger.info(prodFullName);
-        logger.info((String)userInputs.get("cardRarity"));
-        logger.info((String)userInputs.get("cardSet"));
-
-        //get the productId
-        int productId = apiHelper.getProductId((String)userInputs.get("cardName"), prodFullName, (String)userInputs.get("cardRarity"));
-
-        //get the correct name
-        String correctName = apiHelper.getCardName(productId);
-
-        //get the marketPrice
-        Double marketPrice =  apiHelper.getMarketPrice(productId, (String)userInputs.get("cardEdition"));
-
-        //get the image
-        String imageUrl = apiHelper.getCardImage(productId);
-
-        return new YugiohCard(correctName, (String)userInputs.get("cardType"), (String)userInputs.get("cardRarity"),
-                (String)userInputs.get("cardEdition"),(String)userInputs.get("cardSet"), prodFullName,
-                (String)userInputs.get("cardIndex"), marketPrice, (int) userInputs.get("cardQuantity"),"unsold", imageUrl,
-                (User) userInputs.get("user"));
     }
 }

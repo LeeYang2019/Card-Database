@@ -6,6 +6,7 @@ import edu.yang.entity.YugiohCardHistory;
 import edu.yang.persistence.ProjectDao;
 import edu.yang.service.ProductDetails;
 import edu.yang.service.TcgPlayerAPI;
+import edu.yang.service.YugiohCardProcessor;
 import edu.yang.service.YugiohCardSetsFileReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -42,97 +43,53 @@ public class AddEditedCard extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        logger.info("inside edit servlet");
-
         //card dao being used
         ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
         ProjectDao tsDao = new ProjectDao(YugiohCardHistory.class);
         ProjectDao userDao = new ProjectDao(User.class);
+
+        Map<String, Object> userInputs = new HashMap<>();
 
         //get current tmstamp
         Date date = new Date();
         long time = date.getTime();
         Timestamp ts = new Timestamp(time);
 
-        //get user input
-        String cardName = req.getParameter("cardName");
-        String cardType = req.getParameter("cardType");
-        String cardRarity = req.getParameter("cardRarity");
-        String cardEdition = req.getParameter("cardEdition");
-        String cardSet = req.getParameter("cardSet");
-        String cardIndex = req.getParameter("cardIndex");
-        String cardQuantity = req.getParameter("cardQuantity");
-        int qty = Integer.parseInt(cardQuantity);
-        String imageUrl = "";
-
-        logger.info("cardName : " + cardName);
-
-        //get this user
-        HttpSession session = req.getSession();
         User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
 
-        YugiohCardSetsFileReader newCardReader = new YugiohCardSetsFileReader();
-     /*
-        Map<String, String> newCardSetMap = newCardReader.readFile(fileName);
-        String productName = newCardSetMap.get(cardSet);
-        TcgPlayerAPI tcgPlayerAPI = new TcgPlayerAPI();
+        userInputs.put("cardName", req.getParameter("cardName"));
+        userInputs.put("cardType", req.getParameter("cardType"));
+        userInputs.put("cardRarity", req.getParameter("cardRarity"));
+        userInputs.put("cardEdition", req.getParameter("cardEdition"));
+        userInputs.put("cardSet", req.getParameter("cardSet"));
+        userInputs.put("cardIndex", req.getParameter("cardIndex"));
+        userInputs.put("cardQuantity", Integer.parseInt(req.getParameter("cardQuantity")));
+        userInputs.put("user", loggedInUser);
 
-        int cardId = tcgPlayerAPI.getProductId(cardName, productName, cardRarity);
+        //otherwise, create new card
+        YugiohCardProcessor newHelper = new YugiohCardProcessor();
+        YugiohCard newYugiohCard = newHelper.cardProcessor(userInputs);
 
-        List<ProductDetails> productDetailsList = tcgPlayerAPI.getProductDetails(cardId);
-        double marketPrice = tcgPlayerAPI.getMarketPrice(cardId, cardEdition);
+        //check if the card already exists and update the quantity
+        for (YugiohCard card : loggedInUser.getCards()) {
+            if (card.equals(newYugiohCard)) {
+                YugiohCard updateCard = (YugiohCard)newYugiohCardDao.getById(card.getId());
+                updateCard.setStatus(card.getStatus() + 1);
+                newYugiohCardDao.saveOrUpdate(updateCard);
 
-        for (int i = 0; i < productDetailsList.size(); i++) {
+            } else  {
 
-            cardName = productDetailsList.get(i).getCleanName().trim();
-            imageUrl = productDetailsList.get(i).getImageUrl();
+                YugiohCardHistory entry = new YugiohCardHistory(newYugiohCard.getPrice(), newYugiohCard, ts);
+                newYugiohCard.addEntry(entry);
+                int id = newYugiohCardDao.insert(newYugiohCard);
+                int entryId = tsDao.insert(entry);
+
+            }
         }
-
-        //create a card object
-        YugiohCard newCard = new YugiohCard(cardName, cardType, cardRarity, cardEdition, cardSet, productName, cardIndex, marketPrice, qty, "unsold", imageUrl, loggedInUser);
-
-        logger.info("new card to be inserted :" + newCard.toString());
-
-        YugiohCardHistory entry = new YugiohCardHistory(marketPrice, newCard, ts);
-        newCard.addEntry(entry);
-
-        if (validateIfExist(newCard) == false) {
-            int id = newYugiohCardDao.insert(newCard);
-        } else {
-            YugiohCard updateCard = (YugiohCard)newYugiohCardDao.getById(newCard.getId());
-            updateCard.setStatus("unsold");
-            newYugiohCardDao.saveOrUpdate(updateCard);
-        }
-
-        int entryId = tsDao.insert(entry);
 
         req.setAttribute("cards", loggedInUser.getCards());
-*/
         RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");
         dispatcher.forward(req, resp);
     }
 
-    /**
-     * checks is a card already exists and returns a true/false response
-     * @param card card to check if exists
-     * @return boolean
-     */
-    public boolean validateIfExist(YugiohCard card) {
-
-        ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
-        Map<String, Object> propsAndValues = new HashMap<>();
-        propsAndValues.put("cardName", card.getCardName());
-        propsAndValues.put("cardRarity", card.getCardRarity());
-        propsAndValues.put("cardEdition", card.getCardEdition());
-        propsAndValues.put("cardSetFullName", card.getSetName());
-
-        List<YugiohCard> userCards = newYugiohCardDao.findByPropertyEqual(propsAndValues);
-
-        for (YugiohCard e : userCards) {
-            if (e.equals(card)) {
-                return true;
-            }
-        }
-        return false;
-    }
 }
