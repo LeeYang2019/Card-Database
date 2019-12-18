@@ -26,21 +26,24 @@
                             <h4 class="text-dark font-weight-bold">Signup</h4>
                         </div>
                         <div class="card-body">
-                            <FORM id="myForm" ACTION="signup" METHOD="POST">
+                            <FORM id="myForm" ACTION="signup" METHOD="POST" oninput='up2.setCustomValidity(confirmPwd.value != password.value ? "Passwords do not match." : "")'>
+                                <p>To create an account, enter a username and password. Afterwards, you will be navigated back to the login page
+                                    and then prompted to provide your newly create username and password to login.
+                                </p>
 
                                 <div class="form-group">
                                     <label for="username">Username:</label>
                                     <input type="text" class="form-control" id="username" placeholder="Enter username" name="username"
                                            data-error="Please enter a username." required>
                                     <div class="help-block with-errors"></div>
-                                    <!--<div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Please fill out this field.</div>-->
                                 </div>
 
                                 <div class="form-group">
                                     <label for="password">Password:</label>
                                     <input type="password" class="form-control" id="password" placeholder="Enter password" name="password"
-                                           data-error="Please provide a password." required>
+                                           data-error="Please provide a password."
+                                           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                           title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
@@ -54,7 +57,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary btn-block" value="singup">Signup</button><br />
+                                <button type="submit" class="btn btn-primary btn-block" value="Signup">Signup</button><br />
                             </FORM>
                         </div>
                     </div>

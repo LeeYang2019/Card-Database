@@ -47,7 +47,6 @@ public class AddCard extends HttpServlet {
         Map<String, Object> propsAndValues = new HashMap<>();
         List<YugiohCard> userCards;
 
-
         //get current tmstamp
         Date date = new Date();
         long time = date.getTime();
@@ -55,10 +54,6 @@ public class AddCard extends HttpServlet {
 
         //get the loggedInUser
         User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
-
-        //get the loggedInUser's collection of cards
-        propsAndValues.put("user", loggedInUser);
-        userCards = newYugiohCardDao.findByPropertyEqual(propsAndValues);
 
         //get user inputs
         userInputs.put("cardName", req.getParameter("cardName"));
@@ -74,31 +69,17 @@ public class AddCard extends HttpServlet {
         YugiohCardProcessor cardProcessor = new YugiohCardProcessor();
         YugiohCard newYugiohCard = cardProcessor.cardProcessor(userInputs);
 
-        //check in the user's collection to see if the same card already exists and update it
-        for (YugiohCard card : loggedInUser.getCards()) {
-            if (card.getCardName().equalsIgnoreCase(newYugiohCard.getCardName())
-                    && card.getCardRarity().equalsIgnoreCase(newYugiohCard.getCardRarity())
-                    && card.getCardEdition().equalsIgnoreCase(newYugiohCard.getCardEdition()) &&
-                    card.getSetName().equalsIgnoreCase(newYugiohCard.getSetName())) {
+        YugiohCardHistory entry = new YugiohCardHistory(newYugiohCard.getPrice(), newYugiohCard, ts);
+        newYugiohCard.addEntry(entry);
+        int id = newYugiohCardDao.insert(newYugiohCard);
+        int entryId = tsDao.insert(entry);
 
-                card.setQuantity(card.getQuantity() + 1);
-                card.setStatus("unsold");
-                newYugiohCardDao.saveOrUpdate(card);
+        //get the loggedInUser's collection of cards
+        propsAndValues.put("user", loggedInUser);
+        propsAndValues.put("status", "unsold");
+        userCards = newYugiohCardDao.findByPropertyEqual(propsAndValues);
 
-                logger.info("card was updated");
-
-            } else  {
-
-                YugiohCardHistory entry = new YugiohCardHistory(newYugiohCard.getPrice(), newYugiohCard, ts);
-                newYugiohCard.addEntry(entry);
-                int id = newYugiohCardDao.insert(newYugiohCard);
-                int entryId = tsDao.insert(entry);
-
-                logger.info("card was inserted");
-            }
-        }
-
-        req.setAttribute("cards", loggedInUser.getCards());
+        req.setAttribute("cards", userCards);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");
         dispatcher.forward(req, resp);
     }

@@ -74,6 +74,7 @@ public class SearchCards extends HttpServlet {
                 logger.info("searchTerm is " + searchTerm + " and searchType is All Cards");
                 propsAndValues.put("cardName", searchTerm);
                 propsAndValues.put("user", loggedInUser);
+                propsAndValues.put("status", "unsold");
                 userCards = yugiohCardDao.findByPropertyLike(propsAndValues);
 
                 logger.info("the size of the list is " + userCards.size());
@@ -85,6 +86,7 @@ public class SearchCards extends HttpServlet {
                 propsAndValues.put("cardName", searchTerm);
                 propsAndValues.put("cardType", searchType);
                 propsAndValues.put("user", loggedInUser);
+                propsAndValues.put("status", "unsold");
                 userCards = yugiohCardDao.findByPropertyLike(propsAndValues);
 
                 logger.info("the size of the list is " + userCards.size());
@@ -99,6 +101,7 @@ public class SearchCards extends HttpServlet {
                 logger.info("searchTerm is empty and searchType is All Cards");
                 propsAndValues.put("cardType", searchType);
                 propsAndValues.put("user", loggedInUser);
+                propsAndValues.put("status", "unsold");
                 userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
                 return userCards;
             }
@@ -107,6 +110,7 @@ public class SearchCards extends HttpServlet {
         //DEFAULT: searchTerm is empty and searchType is choose, return call cards
         logger.info("searchTerm is empty and searchType is All Cards");
         propsAndValues.put("user", loggedInUser);
+        propsAndValues.put("status", "unsold");
         userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
         return userCards;
     }

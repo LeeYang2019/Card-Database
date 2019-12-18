@@ -1,15 +1,10 @@
 
-gsquid:UselessImportCheck"<Remove this unused import 'edu.yang.service.ProductDetails'.(ˆÙüÇ8¤Õ°ñ-
-fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8ÊýŸÑñ-
-[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÊýŸÑñ-
-esquid:UselessImportCheck":Remove this unused import 'edu.yang.service.TcgPlayerAPI'.(âðŠº8ÊýŸÑñ-
-psquid:UselessImportCheck
-"FRemove this unused import 'edu.yang.service.YugiohCardSetsFileReader'.(Ê€ÿ8ÊýŸÑñ-
-Xsquid:S1854S";Remove this useless assignment to local variable "entryId".(‡—û#8ÊýŸÑñ-
-Ysquid:S1854R"6Remove this useless assignment to local variable "id".(Ïí¢Ÿüÿÿÿÿ8ÊýŸÑñ-
-Jsquid:S1989@"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8ÊýŸÑñ-
-Dsquid:S1989Z"&Add a "try/catch" block for "forward".(òø½8ÊýŸÑñ-
-Dsquid:S1989Z"&Add a "try/catch" block for "forward".(òø½8ÊýŸÑñ-
-Jsquid:S1481R"'Remove this unused "id" local variable.(Ïí¢Ÿüÿÿÿÿ8ÊýŸÑñ-
-Isquid:S1481S",Remove this unused "entryId" local variable.(‡—û#8ÊýŸÑñ-
-Hsquid:S1068'"*Remove this unused "logger" private field.(æ×âÁ8ÊýŸÑñ-
+Dsquid:S1989g"&Add a "try/catch" block for "forward".(òø½8ßÎžØñ-
+Xsquid:S1854_";Remove this useless assignment to local variable "entryId".(‡—û#8í“Ôñ-
+Qsquid:S14810".Remove this unused "userCards" local variable.(éÞÎéúÿÿÿÿ8ßÎžØñ-
+Isquid:S1481_",Remove this unused "entryId" local variable.(‡—û#8í“Ôñ-
+Ysquid:S1854^"6Remove this useless assignment to local variable "id".(Ïí¢Ÿüÿÿÿÿ8ßÎžØñ-
+Jsquid:S1481^"'Remove this unused "id" local variable.(Ïí¢Ÿüÿÿÿÿ8ßÎžØñ-
+Jsquid:S1989F"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8ßÎžØñ-
+Dsquid:S1989g"&Add a "try/catch" block for "forward".(òø½8ßÎžØñ-
+`squid:S1854="=Remove this useless assignment to local variable "userCards".(çÓã˜ÿÿÿÿÿ8ßÎžØñ-

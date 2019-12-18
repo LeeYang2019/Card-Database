@@ -19,8 +19,7 @@
                         <h4 class="text-white">Signup</h4>
                     </div>
                     <div class="card-body">
-                        <FORM id="myForm" ACTION="signup" METHOD="POST">
-
+                        <FORM id="myForm" ACTION="signup" METHOD="POST" oninput='up2.setCustomValidity(confirmPwd.value != password.value ? "Passwords do not match." : "")'>
                             <p>To create an account, enter a username and password. Afterwards, you will be navigated back to the login page
                                 and then prompted to provide your newly create username and password to login.
                             </p>
@@ -35,7 +34,9 @@
                             <div class="form-group">
                                 <label for="password">Password:</label>
                                 <input type="password" class="form-control" id="password" placeholder="Enter password" name="password"
-                                       data-error="Please provide a password." required>
+                                       data-error="Please provide a password."
+                                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                       title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                                 <div class="help-block with-errors"></div>
                             </div>
 
