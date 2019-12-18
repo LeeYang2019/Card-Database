@@ -1,4 +1,8 @@
 
+|Week 1|Hours Worked|
+|----------|----------|
+| |0|
+|Reflection - No work. Was out of town taking wife up to Toronto for school orientation for spring 2020 seemester. Big changes coming up. Yikes!|
 
 |Week 2 (09/09-09/13/2019)|Hours Worked|
 |----------|----------|
@@ -57,3 +61,23 @@
 |----------|----------|
 |Monday - <br> Tuesday - <br> Wednesday - <br> Thursday - <br> Friday -|8|
 |Reflection - Feeling the pressue of not getting the project done with all of the features I had planned. Consuming APIs is more complicated than I thought. I'm stuck trying to request an authorization token for an API I wanted to use to return current prices. Will see if I can get to and implement Ebay APIs. Otherwise, this will be phase 2 of my project.|
+
+|Week 13|Hours Worked|
+|----------|----------|
+|Monday - <br> Tuesday - <br> Wednesday - <br> Thursday - <br> Friday -|8|
+|Reflection - Feeling the pressue of not getting the project done with all of the features I had planned. Consuming APIs is more complicated than I thought. I'm stuck trying to request an authorization token for an API I wanted to use to return current prices. Will see if I can get to and implement Ebay APIs. Otherwise, this will be phase 2 of my project.|
+
+|Week 14|Hours Worked|
+|----------|----------|
+|Monday - <br> Tuesday - <br> Wednesday - <br> Thursday - <br> Friday -|8|
+|Reflection - Feeling the pressue of not getting the project done with all of the features I had planned. Consuming APIs is more complicated than I thought. I'm stuck trying to request an authorization token for an API I wanted to use to return current prices. Will see if I can get to and implement Ebay APIs. Otherwise, this will be phase 2 of my project.|
+
+|Week 15|Hours Worked|
+|----------|----------|
+|Monday - <br> Tuesday - <br> Wednesday - <br> Thursday -  <br> |8|
+|Reflection - For data entry, I was going off of the abbreviations on |
+
+|Week 16|Hours Worked|
+|----------|----------|
+|Monday - <br> Tuesday - <br> Wednesday - <br> |8|
+|Reflection - |

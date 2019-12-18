@@ -1,7 +1,7 @@
 
-Jsquid:S1068"",Remove this unused "fileName" private field.(Ä×ÌÙ8€¨«°ñ-
 asquid:S1155P">Use isEmpty() to check whether the collection is empty or not.(óßƒãüÿÿÿÿ8çÒ°ñ-
+Jsquid:S1068"",Remove this unused "fileName" private field.(Ä×ÌÙ8€¨«°ñ-
 =squid:S1989V"&Add a "try/catch" block for "forward".(òø½
 =squid:S1989V"&Add a "try/catch" block for "forward".(òø½
-?squid:S1170""!Make this final field static too.(Ä×ÌÙ8–Ÿ£…ñ-
 Wsquid:S2441A":Make "User" serializable or don't store it in the session.(úæÛK8çÒ°ñ-
+?squid:S1170""!Make this final field static too.(Ä×ÌÙ8–Ÿ£…ñ-

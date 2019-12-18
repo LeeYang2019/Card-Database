@@ -1,34 +1,28 @@
 
-Zsquid:S1854A"7Remove this useless assignment to local variable "qty".(°úÑÂÿÿÿÿÿ8ä›ª°ñ-
-\squid:S1854<">Remove this useless assignment to local variable "cardRarity".(¬Å ÿ8ä›ª°ñ-
-Jsquid:S1481>",Remove this unused "cardSet" local variable.(ÁáÑ–8ä›ª°ñ-
-Jsquid:S1068(",Remove this unused "fileName" private field.(Ä×ÌÙ8ä›ª°ñ-
-Usquid:S2629D"7Use the built-in formatting to construct this argument.(©Û½ç8â£ï®ñ-
-Dsquid:S1989p"&Add a "try/catch" block for "forward".(òø½8Öáë®ñ-
-Csquid:S1989A"'Add a "try/catch" block for "parseInt".(°úÑÂÿÿÿÿÿ
-[squid:S1854?"=Remove this useless assignment to local variable "cardIndex".(•çö8ä›ª°ñ-
-Ysquid:S1854G";Remove this useless assignment to local variable "session".(ôÜ½¯8Öáë®ñ-
-Dsquid:S1989p"&Add a "try/catch" block for "forward".(òø½8Öáë®ñ-
-Usquid:S1481J"2Remove this unused "newCardReader" local variable.(«“äãùÿÿÿÿ8ä›ª°ñ-
-8squid:S1170("!Make this final field static too.(Ä×ÌÙ
-dsquid:S1854J"ARemove this useless assignment to local variable "newCardReader".(«“äãùÿÿÿÿ8ä›ª°ñ-
-_squid:S1854;"<Remove this useless assignment to local variable "cardType".(ÙĞüÿÿÿÿ8ä›ª°ñ-
-csquid:S1854H"@Remove this useless assignment to local variable "loggedInUser".(óªÀıÿÿÿÿ8ä›ª°ñ-
-Ksquid:S1481A"(Remove this unused "qty" local variable.(°úÑÂÿÿÿÿÿ8ä›ª°ñ-
-bsquid:S1854="?Remove this useless assignment to local variable "cardEdition".(½¨§úÿÿÿÿ8ä›ª°ñ-
-Ysquid:S18547"6Remove this useless assignment to local variable "ts".(î´à»ùÿÿÿÿ8ä›ª°ñ-
-Jsquid:S1481G",Remove this unused "session" local variable.(ôÜ½¯8Öáë®ñ-
-Ysquid:S1854>";Remove this useless assignment to local variable "cardSet".(ÁáÑ–8ä›ª°ñ-
-Jsquid:S14817"'Remove this unused "ts" local variable.(î´à»ùÿÿÿÿ8ä›ª°ñ-
-Xsquid:S14810"5Remove this unused "newYugiohCardDao" local variable.(¿éı¼úÿÿÿÿ8ä›ª°ñ-
-Msquid:S1481<"/Remove this unused "cardRarity" local variable.(¬Å ÿ8ä›ª°ñ-
-Lsquid:S1481?".Remove this unused "cardIndex" local variable.(•çö8ä›ª°ñ-
-isquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(Ù–åÉ8ä›ª°ñ-
-_squid:S3457D"AFormat specifiers should be used instead of string concatenation.(©Û½ç8â£ï®ñ-
-Tsquid:S1481H"1Remove this unused "loggedInUser" local variable.(óªÀıÿÿÿÿ8ä›ª°ñ-
-\squid:S18541"9Remove this useless assignment to local variable "tsDao".(ş˜Ñúÿÿÿÿ8ä›ª°ñ-
-gsquid:S18540"DRemove this useless assignment to local variable "newYugiohCardDao".(¿éı¼úÿÿÿÿ8ä›ª°ñ-
-Msquid:S14811"*Remove this unused "tsDao" local variable.(ş˜Ñúÿÿÿÿ8ä›ª°ñ-
-Ssquid:S1481="0Remove this unused "cardEdition" local variable.(½¨§úÿÿÿÿ8ä›ª°ñ-
-Ksquid:S1481B"-Remove this unused "imageUrl" local variable.(ÄŞİª8ä›ª°ñ-
-Psquid:S1481;"-Remove this unused "cardType" local variable.(ÙĞüÿÿÿÿ8ä›ª°ñ-
+jsquid:S1192?"LDefine a constant instead of duplicating this literal "cardEdition" 3 times.(¸£’¶8¦Ãó¸ñ-
+lsquid:S1192="IDefine a constant instead of duplicating this literal "cardType" 3 times.( Ïÿ…ÿÿÿÿÿ8êì¸ñ-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8½†¸ñ-
+Dsquid:S1989o"&Add a "try/catch" block for "forward".(òø½8ê²ˆ¹ñ-
+nsquid:S1192>"KDefine a constant instead of duplicating this literal "cardRarity" 3 times.(¾Âûºøÿÿÿÿ8àíú¸ñ-
+Jsquid:S1989F"'Add a "try/catch" block for "parseInt".(ûÌñúÿÿÿÿ8˜·Ã¸ñ-
+Isquid:S1481c",Remove this unused "entryId" local variable.(‡—û#8É“¹ñ-
+Jsquid:S1068)",Remove this unused "fileName" private field.(Ä×ÌÙ8ä›ª°ñ-
+ksquid:S1192@"HDefine a constant instead of duplicating this literal "cardSet" 3 times.(…ÁŸ…üÿÿÿÿ8ˆ¼ş¸ñ-
+Ysquid:S1854b"6Remove this useless assignment to local variable "id".(Ïí¢Ÿüÿÿÿÿ8É“¹ñ-
+Xsquid:S1854c";Remove this useless assignment to local variable "entryId".(‡—û#8É“¹ñ-
+Dsquid:S1989j"&Add a "try/catch" block for "forward".(òø½8àßš¹ñ-
+lsquid:S1192<"IDefine a constant instead of duplicating this literal "cardName" 3 times.(»åÓóùÿÿÿÿ8Ä†ë¸ñ-
+Hsquid:S1068("*Remove this unused "logger" private field.(æ×âÁ8Äê¥¸ñ-
+fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8½†¸ñ-
+Dsquid:S1989o"&Add a "try/catch" block for "forward".(òø½8ê²ˆ¹ñ-
+psquid:UselessImportCheck
+"FRemove this unused import 'edu.yang.service.YugiohCardSetsFileReader'.(Ê€ÿ8Äê¥¸ñ-
+esquid:UselessImportCheck":Remove this unused import 'edu.yang.service.TcgPlayerAPI'.(âğŠº8Äê¥¸ñ-
+8squid:S1170)"!Make this final field static too.(Ä×ÌÙ
+msquid:S1192A"JDefine a constant instead of duplicating this literal "cardIndex" 3 times.(ö«İ®şÿÿÿÿ8ü³ƒ¹ñ-
+Jsquid:S1989B"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8½†¸ñ-
+Esquid:S1989Q"'Add a "try/catch" block for "parseInt".(ÿáğŸ8—Ø¹ñ-
+psquid:S1192B"MDefine a constant instead of duplicating this literal "cardQuantity" 3 times.(¤¨¥Ùÿÿÿÿÿ8—Ø¹ñ-
+Dsquid:S1989j"&Add a "try/catch" block for "forward".(òø½8àßš¹ñ-
+gsquid:UselessImportCheck"<Remove this unused import 'edu.yang.service.ProductDetails'.(ˆÙüÇ8½†¸ñ-
+Jsquid:S1481b"'Remove this unused "id" local variable.(Ïí¢Ÿüÿÿÿÿ8É“¹ñ-
