@@ -66,25 +66,44 @@ public class AddEditedCard extends HttpServlet {
         userInputs.put("cardQuantity", Integer.parseInt(req.getParameter("cardQuantity")));
         userInputs.put("user", loggedInUser);
 
-        //otherwise, create new card
-        YugiohCardProcessor newHelper = new YugiohCardProcessor();
-        YugiohCard newYugiohCard = newHelper.cardProcessor(userInputs);
+        String input = req.getParameter("param");
+        int cardId = Integer.parseInt(input);
 
-        //check if the card already exists and update the quantity
-        for (YugiohCard card : loggedInUser.getCards()) {
-            if (card.equals(newYugiohCard)) {
-                YugiohCard updateCard = (YugiohCard)newYugiohCardDao.getById(card.getId());
-                updateCard.setStatus(card.getStatus() + 1);
-                newYugiohCardDao.saveOrUpdate(updateCard);
+        YugiohCard currentCard = (YugiohCard)newYugiohCardDao.getById(cardId);
 
-            } else  {
+        //check for change
+        if (!currentCard.getCardName().equalsIgnoreCase(req.getParameter("cardName"))
+                && !currentCard.getCardType().equalsIgnoreCase(req.getParameter("cardType"))
+                && !currentCard.getCardRarity().equalsIgnoreCase(req.getParameter("cardRarity"))
+                && !currentCard.getCardEdition().equalsIgnoreCase(req.getParameter("cardEdition"))
+                && !currentCard.getCardSet().equalsIgnoreCase(req.getParameter("cardSet"))
+                && !currentCard.getCardIndex().equalsIgnoreCase(req.getParameter("cardIndex"))
+                && currentCard.getQuantity() != Integer.parseInt(req.getParameter("cardQuantity")))
+        {
 
-                YugiohCardHistory entry = new YugiohCardHistory(newYugiohCard.getPrice(), newYugiohCard, ts);
-                newYugiohCard.addEntry(entry);
-                int id = newYugiohCardDao.insert(newYugiohCard);
-                int entryId = tsDao.insert(entry);
+            YugiohCardProcessor newHelper = new YugiohCardProcessor();
+            YugiohCard newYugiohCard = newHelper.cardProcessor(userInputs);
 
+            //check if the card already exists and update the quantity
+            for (YugiohCard card : loggedInUser.getCards()) {
+                if (card.equals(newYugiohCard)) {
+                    YugiohCard updateCard = (YugiohCard)newYugiohCardDao.getById(card.getId());
+                    updateCard.setStatus(card.getStatus() + 1);
+                    newYugiohCardDao.saveOrUpdate(updateCard);
+
+                } else  {
+
+                    YugiohCardHistory entry = new YugiohCardHistory(newYugiohCard.getPrice(), newYugiohCard, ts);
+                    newYugiohCard.addEntry(entry);
+                    int id = newYugiohCardDao.insert(newYugiohCard);
+                    int entryId = tsDao.insert(entry);
+                }
             }
+
+        } else {
+            req.setAttribute("message", "Cannot add card to database, please check input fields and enter in again.");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/editCard.jsp");
+            dispatcher.forward(req, resp);
         }
 
         req.setAttribute("cards", loggedInUser.getCards());
