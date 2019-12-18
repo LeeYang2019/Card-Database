@@ -34,6 +34,7 @@ public class DeleteCard extends HttpServlet {
 
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         YugiohCard updateCard = (YugiohCard)yugiohCardDao.getById(id);
+        updateCard.setQuantity(0);
         updateCard.setStatus("Delete");
         yugiohCardDao.saveOrUpdate(updateCard);
 
