@@ -74,10 +74,10 @@
 
 |Week 15|Hours Worked|
 |----------|----------|
-|Monday - <br> Tuesday - <br> Wednesday - <br> Thursday -  <br> |8|
+|Monday - <br> Tuesday - <br> Wednesday - <br> Thursday - wrote up file of cardsets and their full cardset names; wrote helper class YugiohCardFileReader to read and parse into a map of key-value pairs for use with service call.<br> |8|
 |Reflection - For data entry, I was going off of the abbreviations on |
 
 |Week 16|Hours Worked|
 |----------|----------|
-|Monday - <br> Tuesday - <br> Wednesday - <br> |8|
-|Reflection - |
+|Monday - Added two new columns to YugiohCard table: cardEdition and cardProductName; cardEdition was an oversight on my part, which I completely forgot about. CardProductName is me wanting to store and display more information on the browser.<br> Tuesday - Changed up control flow for logging in and out of app. Initially had login servlet as the landing page but changed it since a user would only land on the page when the application was deployed or refreshed. During other times, logout and then login and navigation did not work. Also, had last minute epiphany and rewrote CRUD logic and new helper class YugiohCardProcessor for help with making service calls. <br> Wednesday - no video nor AWS deployment yet.<br> |14|
+|Reflection - Not done recording nor deploying to AWS. Last minute decisions to add two new columns to YugiohCard table and rewrite CRUD logic has got me pushing my limits. Stressed!|
