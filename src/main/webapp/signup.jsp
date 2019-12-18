@@ -16,7 +16,7 @@
             <div class="col-6 mx-auto mb-3">
                 <div class="card border-info">
                     <div class="card-header bg-info">
-                        <h4 class="text-white">Login</h4>
+                        <h4 class="text-white">Signup</h4>
                     </div>
                     <div class="card-body">
                         <FORM id="myForm" ACTION="signup" METHOD="POST">
@@ -30,8 +30,6 @@
                                 <input type="text" class="form-control" id="username" placeholder="Enter username" name="username"
                                        data-error="Please enter a username." required>
                                 <div class="help-block with-errors"></div>
-                                <!--<div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">Please fill out this field.</div>-->
                             </div>
 
                             <div class="form-group">
@@ -51,8 +49,7 @@
                                 <div class="help-block with-errors"></div>
                             </div>
 
-
-                            <button type="submit" class="btn btn-primary btn-block" value="log in">Signup</button><br />
+                            <button type="submit" class="btn btn-primary btn-block" value="Signup">Signup</button><br />
                         </FORM>
                     </div>
                 </div>

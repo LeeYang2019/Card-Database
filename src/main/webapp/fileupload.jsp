@@ -11,7 +11,7 @@
             </div>
             <div class="row">
                 <div class="col-8 mx-auto mb-3">
-                    <div class="card border-dark">
+                    <div class="card border-dark rounded-0">
                         <div class="card-header bg-dark">
                             <h4 class="text-white">Upload a File</h4>
                         </div>
@@ -25,8 +25,8 @@
                 </div>
 
                 <div class="row">
-                    <div id="result">
-                        <h3>${requestScope["message"]}</h3>
+                    <div id="result" class="col mx-auto">
+                        <h4>${requestScope["message"]}</h4>
                     </div>
                 </div>
             </div>

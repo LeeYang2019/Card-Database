@@ -16,6 +16,12 @@ public class YugiohCardProcessor {
     //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * parses a map of Yugioh card information and makes service calls to update
+     * and return new Yugioh Card
+     * @param userInputs
+     * @return YugiohCard
+     */
     public YugiohCard cardProcessor(Map<String, Object> userInputs) {
 
         //local variables

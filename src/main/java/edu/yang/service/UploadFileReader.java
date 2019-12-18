@@ -1,6 +1,5 @@
 package edu.yang.service;
 
-import edu.yang.entity.User;
 import edu.yang.entity.YugiohCard;
 import edu.yang.persistence.ProjectDao;
 import org.apache.logging.log4j.LogManager;
@@ -15,6 +14,7 @@ import java.util.*;
  */
 public class UploadFileReader implements PropertiesLoader {
 
+    //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
@@ -76,9 +76,11 @@ public class UploadFileReader implements PropertiesLoader {
                     }
 
                     fileInputs.put("user", user);
-                    newYugiohCard = newProcessor.cardProcessor(fileInputs);
-
                 }
+
+                newYugiohCard = newProcessor.cardProcessor(fileInputs);
+                cardList.add(newYugiohCard);
+
                 int id = newYugiohCardDao.insert(newYugiohCard);
             }
         } catch (Exception e) {

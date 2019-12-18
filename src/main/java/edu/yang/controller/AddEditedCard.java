@@ -69,42 +69,17 @@ public class AddEditedCard extends HttpServlet {
         String input = req.getParameter("param");
         int cardId = Integer.parseInt(input);
 
-        YugiohCard currentCard = (YugiohCard)newYugiohCardDao.getById(cardId);
+        ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
+        YugiohCard updateCard = (YugiohCard)yugiohCardDao.getById(cardId);
 
-        //check for change
-        if (!currentCard.getCardName().equalsIgnoreCase(req.getParameter("cardName"))
-                && !currentCard.getCardType().equalsIgnoreCase(req.getParameter("cardType"))
-                && !currentCard.getCardRarity().equalsIgnoreCase(req.getParameter("cardRarity"))
-                && !currentCard.getCardEdition().equalsIgnoreCase(req.getParameter("cardEdition"))
-                && !currentCard.getCardSet().equalsIgnoreCase(req.getParameter("cardSet"))
-                && !currentCard.getCardIndex().equalsIgnoreCase(req.getParameter("cardIndex"))
-                && currentCard.getQuantity() != Integer.parseInt(req.getParameter("cardQuantity")))
-        {
-
-            YugiohCardProcessor newHelper = new YugiohCardProcessor();
-            YugiohCard newYugiohCard = newHelper.cardProcessor(userInputs);
-
-            //check if the card already exists and update the quantity
-            for (YugiohCard card : loggedInUser.getCards()) {
-                if (card.equals(newYugiohCard)) {
-                    YugiohCard updateCard = (YugiohCard)newYugiohCardDao.getById(card.getId());
-                    updateCard.setStatus(card.getStatus() + 1);
-                    newYugiohCardDao.saveOrUpdate(updateCard);
-
-                } else  {
-
-                    YugiohCardHistory entry = new YugiohCardHistory(newYugiohCard.getPrice(), newYugiohCard, ts);
-                    newYugiohCard.addEntry(entry);
-                    int id = newYugiohCardDao.insert(newYugiohCard);
-                    int entryId = tsDao.insert(entry);
-                }
-            }
-
-        } else {
-            req.setAttribute("message", "Cannot add card to database, please check input fields and enter in again.");
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/editCard.jsp");
-            dispatcher.forward(req, resp);
-        }
+        updateCard.setCardName((String)userInputs.get("cardName"));
+        updateCard.setCardType((String)userInputs.get("cardType"));
+        updateCard.setCardRarity((String)userInputs.get("cardRarity"));
+        updateCard.setCardEdition((String)userInputs.get("cardEdition"));
+        updateCard.setCardSet((String)userInputs.get("cardSet"));
+        updateCard.setIndex((String)userInputs.get("cardIndex"));
+        updateCard.setQuantity(Integer.parseInt(req.getParameter("cardQuantity")));
+        yugiohCardDao.saveOrUpdate(updateCard);
 
         req.setAttribute("cards", loggedInUser.getCards());
         RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");

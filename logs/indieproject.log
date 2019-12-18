@@ -25557,3 +25557,616 @@ image : null
 [ERROR] 2019-12-18 14:27:32.281 [main] UploadFileReader - java.lang.NullPointerException
 [INFO ] 2019-12-18 14:27:32.300 [main] FileUploadTest - Cards from Cards.xlsx
 [INFO ] 2019-12-18 14:31:19.332 [main] FileUploadTest - Cards from docs/Cards.xlsx
+[ERROR] 2019-12-18 14:48:57.647 [main] UploadFileReader - java.io.FileNotFoundException: /docs/Cards.xlsx
+[INFO ] 2019-12-18 14:48:57.668 [main] FileUploadTest - Cards from /docs/Cards.xlsx
+[ERROR] 2019-12-18 14:49:20.413 [main] UploadFileReader - java.io.FileNotFoundException: ../docs/Cards.xlsx
+[INFO ] 2019-12-18 14:49:20.449 [main] FileUploadTest - Cards from ../docs/Cards.xlsx
+[ERROR] 2019-12-18 14:50:20.410 [main] UploadFileReader - java.io.FileNotFoundException: ..temps/Cards.xlsx
+[INFO ] 2019-12-18 14:50:20.449 [main] FileUploadTest - Cards from ..temps/Cards.xlsx
+[INFO ] 2019-12-18 14:50:45.982 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 14:50:46.972 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 14:50:46.973 [main] FileUploadTest - Cards from temps/Cards.xlsx
+[ERROR] 2019-12-18 14:51:56.989 [main] UploadFileReader - java.io.FileNotFoundException: ../temps/Cards.xlsx
+[INFO ] 2019-12-18 14:51:57.014 [main] FileUploadTest - Cards from ../temps/Cards.xlsx
+[INFO ] 2019-12-18 14:52:38.606 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 14:52:39.541 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 14:52:39.542 [main] FileUploadTest - Cards from temps/Cards.xlsx
+[INFO ] 2019-12-18 14:53:40.593 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 14:53:41.506 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 14:53:41.507 [main] FileUploadTest - Cards from this filePath againtemps/Cards.xlsx
+[INFO ] 2019-12-18 14:56:50.991 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 14:56:51.744 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 14:56:51.746 [main] FileUploadTest - Cards from this filePath againtemps/Cards.xlsx
+[INFO ] 2019-12-18 14:58:53.537 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 14:58:54.392 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 14:58:54.393 [main] FileUploadTest - Cards from this filePath againtemps/Cards.xlsx
+[INFO ] 2019-12-18 15:01:13.083 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 15:01:14.027 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:01:14.028 [main] FileUploadTest - Cards from this filePath again temps/Cards.xlsx
+[INFO ] 2019-12-18 15:04:23.637 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 15:04:24.611 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:04:24.612 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:05:05.701 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 15:05:06.572 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:05:06.573 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:06:01.096 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 15:06:01.914 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:06:01.916 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:07:04.746 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:07:46.309 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:08:45.205 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:09:12.296 [main] YugiohCardSetsFileReader - null
+[ERROR] 2019-12-18 15:09:13.054 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:09:13.056 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:11:03.913 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:11:04.700 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:11:04.701 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:12:49.215 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:12:50.021 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:12:50.022 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:13:25.140 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:13:25.939 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:13:25.940 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:14:40.415 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:14:41.274 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:14:41.275 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:15:05.179 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:15:06.127 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:15:06.128 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:15:44.767 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:15:45.737 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:15:45.739 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:18:15.537 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:18:16.487 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:18:16.488 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:19:16.330 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:19:17.091 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:19:17.092 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:20:55.533 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:20:56.334 [main] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:20:56.336 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:22:54.736 [http-nio-8080-exec-4] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:23:14.492 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:23:18.520 [http-nio-8080-exec-8] SearchCards - in search servlet
+[INFO ] 2019-12-18 15:23:23.388 [http-nio-8080-exec-10] SearchCards - in search servlet
+[INFO ] 2019-12-18 15:23:29.452 [http-nio-8080-exec-3] SearchCards - in search servlet
+[INFO ] 2019-12-18 15:23:40.066 [http-nio-8080-exec-10] Login - entering login servlet
+[INFO ] 2019-12-18 15:24:30.889 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:24:37.482 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:24:38.035 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:24:38.572 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:24:39.390 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:26:01.262 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:26:07.639 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:26:08.215 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:26:08.793 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:26:09.507 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:27:01.021 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:27:05.934 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:27:06.539 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:27:07.206 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:27:07.825 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:31:00.731 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:31:05.993 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:31:06.486 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:31:07.022 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:31:07.725 [main] FileUploadTest - Cards from this filePath again temp/Cards.xlsx
+[INFO ] 2019-12-18 15:34:03.798 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:34:09.124 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:34:09.692 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:34:10.320 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:36:39.413 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:36:44.423 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:36:44.929 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:36:45.456 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:37:37.128 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-18 15:37:37.243 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-18 15:37:37.245 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-18 15:37:37.285 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-18 15:37:37.773 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-18 15:37:37.965 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-18 15:37:38.094 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-18 15:37:38.094 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-18 15:37:38.094 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-18 15:37:38.543 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-18 15:37:38.544 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-18 15:37:38.581 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-18 15:37:38.697 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-18 15:37:38.697 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-18 15:37:38.697 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-18 15:37:38.0
+[INFO ] 2019-12-18 15:37:39.377 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:37:40.275 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:37:41.454 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:37:41.919 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:37:42.438 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:38:33.203 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-18 15:40:13.486 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-18 15:40:13.638 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-18 15:40:13.640 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-18 15:40:13.701 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-18 15:40:14.219 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-18 15:40:14.426 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-18 15:40:14.560 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-18 15:40:14.560 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-18 15:40:14.560 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-18 15:40:15.119 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-18 15:40:15.121 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-18 15:40:15.148 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-18 15:40:15.264 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-18 15:40:15.264 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-18 15:40:15.265 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-18 15:40:15.0
+[INFO ] 2019-12-18 15:40:15.984 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:40:16.831 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:40:18.045 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:40:18.557 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:40:19.119 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:41:10.969 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-18 15:41:23.808 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:41:24.549 [http-nio-8080-exec-5] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:41:36.268 [http-nio-8080-exec-9] SearchCards - in search servlet
+[INFO ] 2019-12-18 15:41:36.269 [http-nio-8080-exec-9] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-18 15:41:36.270 [http-nio-8080-exec-9] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-18 15:46:52.648 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-18 15:46:52.785 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-18 15:46:52.788 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-18 15:46:52.847 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-18 15:46:53.356 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-18 15:46:53.576 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-18 15:46:53.730 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-18 15:46:53.731 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-18 15:46:53.731 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-18 15:46:54.265 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-18 15:46:54.265 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-18 15:46:54.288 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-18 15:46:54.401 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-18 15:46:54.401 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-18 15:46:54.401 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-18 15:46:54.0
+[INFO ] 2019-12-18 15:46:55.112 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:46:56.022 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:46:57.114 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:46:57.686 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:46:58.210 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:47:46.775 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-18 15:48:00.080 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Invasion of Chaos
+[ERROR] 2019-12-18 15:48:02.321 [http-nio-8080-exec-5] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-18 15:50:26.669 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-18 15:50:26.792 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-18 15:50:26.794 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-18 15:50:26.844 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-18 15:50:27.369 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-18 15:50:27.567 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-18 15:50:27.866 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-18 15:50:27.866 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-18 15:50:27.866 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-18 15:50:28.517 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-18 15:50:28.519 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-18 15:50:28.545 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-18 15:50:28.676 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-18 15:50:28.676 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-18 15:50:28.677 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-18 15:50:28.0
+[INFO ] 2019-12-18 15:50:29.343 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:50:30.203 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:50:31.267 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:50:31.735 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:50:32.228 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:51:28.691 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-18 15:51:40.180 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:51:41.432 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:51:41.959 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:51:42.460 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:51:56.648 [http-nio-8080-exec-9] SearchCards - in search servlet
+[INFO ] 2019-12-18 15:51:56.651 [http-nio-8080-exec-9] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-18 15:51:56.656 [http-nio-8080-exec-9] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-18 15:57:37.416 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-18 15:57:37.557 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-18 15:57:37.559 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-18 15:57:37.641 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-18 15:57:38.281 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-18 15:57:38.502 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-18 15:57:38.676 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-18 15:57:38.676 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-18 15:57:38.676 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-18 15:57:39.257 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-18 15:57:39.257 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-18 15:57:39.281 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-18 15:57:39.401 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-18 15:57:39.401 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-18 15:57:39.401 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-18 15:57:39.0
+[INFO ] 2019-12-18 15:57:40.566 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:57:41.550 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:57:42.897 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:57:43.429 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:57:44.002 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:58:38.601 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-18 15:58:54.483 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:58:55.679 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 15:58:56.204 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 15:58:56.741 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:00:40.377 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-18 16:00:40.520 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-18 16:00:40.523 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-18 16:00:40.582 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-18 16:00:41.095 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-18 16:00:41.293 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-18 16:00:41.424 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-18 16:00:41.424 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-18 16:00:41.424 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-18 16:00:41.898 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-18 16:00:41.898 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-18 16:00:41.922 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-18 16:00:42.039 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-18 16:00:42.041 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-18 16:00:42.041 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-18 16:00:42.0
+[INFO ] 2019-12-18 16:00:42.697 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:00:43.605 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:00:44.781 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:00:45.316 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:00:45.860 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:01:49.347 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-18 16:01:55.524 [http-nio-8080-exec-3] Login - getting updates for card Black Luster Soldier Envoy of the Beginning with a Ultra rarity
+[INFO ] 2019-12-18 16:01:55.528 [http-nio-8080-exec-3] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:01:56.529 [http-nio-8080-exec-3] Login - getting updates for card Chaos Sorcerer with a Common rarity
+[INFO ] 2019-12-18 16:01:56.529 [http-nio-8080-exec-3] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:01:56.910 [http-nio-8080-exec-3] Login - getting updates for card Raigeki with a Super rarity
+[INFO ] 2019-12-18 16:01:56.910 [http-nio-8080-exec-3] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:01:57.355 [http-nio-8080-exec-3] Login - getting updates for card Dark Hole with a Super rarity
+[INFO ] 2019-12-18 16:01:57.355 [http-nio-8080-exec-3] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:03:07.952 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:03:08.627 [http-nio-8080-exec-8] AddCard - card was inserted
+[INFO ] 2019-12-18 16:03:26.130 [http-nio-8080-exec-2] SearchCards - in search servlet
+[INFO ] 2019-12-18 16:03:26.133 [http-nio-8080-exec-2] SearchCards - user is : leeyang2019
+[INFO ] 2019-12-18 16:03:26.133 [http-nio-8080-exec-2] SearchCards - searchTerm is empty and searchType is All Cards
+[INFO ] 2019-12-18 16:03:45.078 [http-nio-8080-exec-6] EditCard - id to remove: 103
+[INFO ] 2019-12-18 16:03:45.145 [http-nio-8080-exec-6] EditCard - returned card is : Red Eyes B Dragon
+[INFO ] 2019-12-18 16:06:48.981 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-18 16:06:49.106 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-18 16:06:49.108 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-18 16:06:49.147 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-18 16:06:49.663 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-18 16:06:49.876 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-18 16:06:50.009 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-18 16:06:50.009 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-18 16:06:50.009 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-18 16:06:50.485 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-18 16:06:50.485 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-18 16:06:50.507 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-18 16:06:50.658 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-18 16:06:50.658 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-18 16:06:50.658 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-18 16:06:50.0
+[INFO ] 2019-12-18 16:06:51.344 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:06:52.273 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:06:53.483 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:06:54.168 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:06:54.771 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:07:45.694 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-18 16:07:50.728 [http-nio-8080-exec-3] Login - getting updates for card Black Luster Soldier Envoy of the Beginning with a Ultra rarity
+[INFO ] 2019-12-18 16:07:50.729 [http-nio-8080-exec-3] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:07:51.902 [http-nio-8080-exec-3] Login - getting updates for card Chaos Sorcerer with a Common rarity
+[INFO ] 2019-12-18 16:07:51.903 [http-nio-8080-exec-3] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:07:52.348 [http-nio-8080-exec-3] Login - getting updates for card Raigeki with a Super rarity
+[INFO ] 2019-12-18 16:07:52.348 [http-nio-8080-exec-3] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:07:52.772 [http-nio-8080-exec-3] Login - getting updates for card Dark Hole with a Super rarity
+[INFO ] 2019-12-18 16:07:52.772 [http-nio-8080-exec-3] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:07:53.182 [http-nio-8080-exec-3] Login - getting updates for card Red Eyes B Dragon with a Ultra rarity
+[INFO ] 2019-12-18 16:07:53.183 [http-nio-8080-exec-3] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:08:10.743 [http-nio-8080-exec-6] EditCard - id to remove: 99
+[INFO ] 2019-12-18 16:08:10.815 [http-nio-8080-exec-6] EditCard - returned card is : Black Luster Soldier Envoy of the Beginning
+[INFO ] 2019-12-18 16:09:26.839 [http-nio-8080-exec-3] Signup - entering signup servlet
+[INFO ] 2019-12-18 16:09:26.840 [http-nio-8080-exec-3] Signup - got data for kyle
+[INFO ] 2019-12-18 16:09:26.842 [http-nio-8080-exec-3] Signup - got data for 1234
+[INFO ] 2019-12-18 16:09:26.922 [http-nio-8080-exec-3] Signup - leaving servlet
+[INFO ] 2019-12-18 16:15:13.070 [http-nio-8080-exec-8] Login - entering login servlet
+[INFO ] 2019-12-18 16:15:13.212 [http-nio-8080-exec-8] Login - getting updates for card Black Luster Soldier Envoy of the Beginning with a Ultra rarity
+[INFO ] 2019-12-18 16:15:13.212 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:15:13.741 [http-nio-8080-exec-8] Login - getting updates for card Chaos Sorcerer with a Common rarity
+[INFO ] 2019-12-18 16:15:13.741 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:15:14.115 [http-nio-8080-exec-8] Login - getting updates for card Raigeki with a Super rarity
+[INFO ] 2019-12-18 16:15:14.115 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:15:14.510 [http-nio-8080-exec-8] Login - getting updates for card Dark Hole with a Super rarity
+[INFO ] 2019-12-18 16:15:14.511 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:15:14.890 [http-nio-8080-exec-8] Login - getting updates for card Red Eyes B Dragon with a Ultra rarity
+[INFO ] 2019-12-18 16:15:14.891 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:16:10.042 [http-nio-8080-exec-7] Signup - entering signup servlet
+[INFO ] 2019-12-18 16:16:10.044 [http-nio-8080-exec-7] Signup - got data for ireland
+[INFO ] 2019-12-18 16:16:10.044 [http-nio-8080-exec-7] Signup - got data for ireland1
+[INFO ] 2019-12-18 16:16:10.067 [http-nio-8080-exec-7] Signup - leaving servlet
+[INFO ] 2019-12-18 16:17:00.494 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-18 16:17:19.361 [http-nio-8080-exec-4] Login - entering login servlet
+[INFO ] 2019-12-18 16:23:07.398 [http-nio-8080-exec-1] Signup - entering signup servlet
+[INFO ] 2019-12-18 16:23:07.400 [http-nio-8080-exec-1] Signup - got data for crazycarl
+[INFO ] 2019-12-18 16:23:07.400 [http-nio-8080-exec-1] Signup - got data for round1234
+[INFO ] 2019-12-18 16:23:07.438 [http-nio-8080-exec-1] Signup - leaving servlet
+[INFO ] 2019-12-18 16:24:06.183 [http-nio-8080-exec-3] Login - entering login servlet
+[INFO ] 2019-12-18 16:25:17.132 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-18 16:25:17.249 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-18 16:25:17.252 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-18 16:25:17.300 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-18 16:25:17.895 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-18 16:25:18.125 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-18 16:25:18.300 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-18 16:25:18.300 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-18 16:25:18.300 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-18 16:25:18.808 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-18 16:25:18.809 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-18 16:25:18.831 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-18 16:25:18.956 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-18 16:25:18.956 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-18 16:25:18.956 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-18 16:25:18.0
+[INFO ] 2019-12-18 16:25:19.656 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:25:20.583 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:25:21.583 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:25:22.049 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:25:22.565 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:26:16.395 [http-nio-8080-exec-3] Signup - entering signup servlet
+[INFO ] 2019-12-18 16:26:16.405 [http-nio-8080-exec-3] Signup - got data for rebecca123
+[INFO ] 2019-12-18 16:26:16.405 [http-nio-8080-exec-3] Signup - got data for rebecca123
+[INFO ] 2019-12-18 16:26:21.788 [http-nio-8080-exec-3] Signup - leaving servlet
+[INFO ] 2019-12-18 16:26:34.859 [http-nio-8080-exec-6] Login - entering login servlet
+[INFO ] 2019-12-18 16:26:49.379 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:26:50.619 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-18 16:26:51.140 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-18 16:26:51.702 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon

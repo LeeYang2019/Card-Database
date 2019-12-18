@@ -1,25 +1,19 @@
 package edu.yang.controller;
 
-import edu.yang.entity.User;
 import edu.yang.entity.YugiohCard;
-import edu.yang.entity.YugiohCardHistory;
 import edu.yang.persistence.ProjectDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.sql.Timestamp;
-import java.util.Date;
 
 /**
- * A simple servlet to add Cards to the db
+ * A simple servlet that takes a card id and then gets a card by the id and pushes it the editCard jsp
  * @author Yang
  */
 

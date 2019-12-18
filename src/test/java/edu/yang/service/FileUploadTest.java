@@ -6,7 +6,8 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.List;
-import java.util.Map;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class FileUploadTest {
 
@@ -19,14 +20,10 @@ class FileUploadTest {
     }
 
     @Test
-    void readExcelFile() {
-        String excelFilePath = "docs/Cards.xlsx";
+    void readExcelFileSuccess() {
+        String excelFilePath = "temp/Cards.xlsx";
         List<YugiohCard> list = newTest.readExcelFile(excelFilePath, null);
-
-        logger.info("Cards from " + excelFilePath);
-        for (YugiohCard card: list) {
-            logger.info(card.toString());
-        }
+        assertEquals(4, list.size());
     }
 
 }

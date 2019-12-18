@@ -38,10 +38,7 @@ public class Signup extends HttpServlet {
     @Override
     public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        //get a session
-        //HttpSession session = req.getSession();
         logger.info("entering signup servlet");
-
 
         String userName = req.getParameter("username");
         String password = req.getParameter("password");
@@ -59,10 +56,10 @@ public class Signup extends HttpServlet {
 
         logger.info("leaving servlet");
 
-        //String url = "/login.jsp";
+        HttpSession session = req.getSession();
+        session.invalidate();
+
         String url = "singupConfirmation.jsp";
         resp.sendRedirect(url);
-        //RequestDispatcher dispatcher = req.getRequestDispatcher("/login");
-        //dispatcher.forward(req, resp);
     }
 }
