@@ -18,7 +18,7 @@ public class YugiohCardProcessor {
 
     /**
      * parses a map of Yugioh card information and makes service calls to update
-     * and return new Yugioh Card
+     * and returns new Yugioh Card
      * @param userInputs
      * @return YugiohCard
      */

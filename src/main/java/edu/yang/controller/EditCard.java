@@ -27,24 +27,28 @@ public class EditCard extends HttpServlet {
     //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * GET METHOD
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        //create session
         HttpSession session = req.getSession();
 
+        //get card from param
         String input = req.getParameter("param");
         int id = Integer.parseInt(input);
-
-        logger.info("id to remove: " + id);
 
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         YugiohCard newYugiohCard = (YugiohCard)yugiohCardDao.getById(id);
 
-        logger.info("returned card is : " + newYugiohCard.getCardName());
-
         req.setAttribute("card", newYugiohCard);
         session.setAttribute("cardToUpdate", newYugiohCard.getId());
-
         RequestDispatcher dispatcher = req.getRequestDispatcher("/editCard.jsp");
         dispatcher.forward(req, resp);
 

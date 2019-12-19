@@ -4,8 +4,6 @@ import edu.yang.entity.User;
 import edu.yang.persistence.ProjectDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -38,13 +36,8 @@ public class Signup extends HttpServlet {
     @Override
     public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        logger.info("entering signup servlet");
-
         String userName = req.getParameter("username");
         String password = req.getParameter("password");
-
-        logger.info("got data for " + userName);
-        logger.info("got data for " + password);
 
         User user = new User();
         user.setUserName(userName);
@@ -54,7 +47,6 @@ public class Signup extends HttpServlet {
         ProjectDao projectDao = new ProjectDao(User.class);
         projectDao.insert(user);
 
-        logger.info("leaving servlet");
 
         HttpSession session = req.getSession();
         session.invalidate();

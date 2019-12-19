@@ -15,7 +15,7 @@ import java.io.OutputStream;
 
 
 /**
- * A simple servlet that pulls the cards file from
+ * A simple servlet that downloads the Cards.xlsx file
  * @author Yang
  */
 @WebServlet(
@@ -28,6 +28,13 @@ public class FileDownload extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
     private static final int BYTES_DOWNLOAD = 1024;
 
+    /**
+     * GET METHOD
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -46,5 +53,10 @@ public class FileDownload extends HttpServlet {
         opStream.flush();
         opStream.close();
         inStream.close();
+
+        /*
+        NOTE: not able to fully implement
+        @TODO : implement and validate
+         */
     }
 }

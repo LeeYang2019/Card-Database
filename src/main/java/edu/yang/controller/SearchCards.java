@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.*;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,6 +29,13 @@ public class SearchCards extends HttpServlet {
     //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * GET METHOD
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -56,49 +62,41 @@ public class SearchCards extends HttpServlet {
      */
     public List<YugiohCard> getList(HttpSession session, String searchTerm, String searchType) {
 
-        logger.info("in search servlet");
-
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         Map<String, Object> propsAndValues = new HashMap<>();
         List<YugiohCard> userCards;
 
         //get user from session
         User loggedInUser = (User)session.getAttribute("user");
-        logger.info("user is : " + loggedInUser.getUserName());
+
 
         //if searchTerm is not empty and searchType is choose, return all cards by searchTerm
         if (!searchTerm.isEmpty()) {
 
             if (searchType.equalsIgnoreCase("All Cards")) {
 
-                logger.info("searchTerm is " + searchTerm + " and searchType is All Cards");
                 propsAndValues.put("cardName", searchTerm);
                 propsAndValues.put("user", loggedInUser);
                 propsAndValues.put("status", "unsold");
                 userCards = yugiohCardDao.findByPropertyLike(propsAndValues);
 
-                logger.info("the size of the list is " + userCards.size());
                 return userCards;
 
             } else if (!searchType.equalsIgnoreCase("All Cards")) {
 
-                logger.info("searchTerm is " + searchTerm + " and searchType is " + searchType);
                 propsAndValues.put("cardName", searchTerm);
                 propsAndValues.put("cardType", searchType);
                 propsAndValues.put("user", loggedInUser);
                 propsAndValues.put("status", "unsold");
                 userCards = yugiohCardDao.findByPropertyLike(propsAndValues);
 
-                logger.info("the size of the list is " + userCards.size());
                 return userCards;
-
             }
 
         } else {
 
             if (!searchType.equalsIgnoreCase("All Cards")) {
 
-                logger.info("searchTerm is empty and searchType is All Cards");
                 propsAndValues.put("cardType", searchType);
                 propsAndValues.put("user", loggedInUser);
                 propsAndValues.put("status", "unsold");
@@ -108,7 +106,6 @@ public class SearchCards extends HttpServlet {
         }
 
         //DEFAULT: searchTerm is empty and searchType is choose, return call cards
-        logger.info("searchTerm is empty and searchType is All Cards");
         propsAndValues.put("user", loggedInUser);
         propsAndValues.put("status", "unsold");
         userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);

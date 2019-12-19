@@ -1,11 +1,7 @@
 package edu.yang.controller;
 
-import edu.yang.entity.User;
-import edu.yang.persistence.ProjectDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,7 +11,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * A simple servlet to search.
+ * A simple servlet to log the user out
  */
 
 @WebServlet(

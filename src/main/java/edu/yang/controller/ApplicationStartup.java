@@ -29,9 +29,8 @@ public class ApplicationStartup extends HttpServlet {
      */
     public void init() throws ServletException {
 
-       // UploadFileReader newReader = new UploadFileReader();
-       // Map<String,String> cardSetsMap = newReader.readFile();
-
-        //this.getServletConfig().getServletContext().setAttribute("yugiohSetsMap", cardSetsMap);
+        /**
+         * work-in-progress
+         */
     }
 }

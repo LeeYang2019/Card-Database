@@ -3,6 +3,9 @@ package edu.yang.service;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.annotation.Generated;
 
+/**
+ * object TcgPlayer "product details" are mapped to
+ */
 @Generated("com.robohorse.robopojogenerator")
 public class PriceObject {
 

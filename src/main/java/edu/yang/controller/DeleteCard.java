@@ -5,7 +5,6 @@ import edu.yang.entity.YugiohCard;
 import edu.yang.persistence.ProjectDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * A simple servlet to gets the id of a card, retrieves the card corresponding to the id and forwards the card to the displayCard.jsp
+ * A simple servlet that gets the id of a card, retrieves the card corresponding to the id and deletes the card
  * @author Yang
  */
 @WebServlet(
@@ -31,6 +30,13 @@ public class DeleteCard extends HttpServlet {
     //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * GET METHOD
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -42,9 +48,11 @@ public class DeleteCard extends HttpServlet {
         HttpSession session = req.getSession();
         User updatedUser = (User)session.getAttribute("user");
 
+        //get card from param
         String input = req.getParameter("param");
         int id = Integer.parseInt(input);
 
+        //set qty to 0 and status to delete
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         YugiohCard updateCard = (YugiohCard)yugiohCardDao.getById(id);
         updateCard.setQuantity(0);
@@ -58,7 +66,6 @@ public class DeleteCard extends HttpServlet {
         userCards = yugiohCardDao.findByPropertyEqual(propsAndValues);
 
         req.setAttribute("cards", userCards);
-
         RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");
         dispatcher.forward(req, resp);
     }

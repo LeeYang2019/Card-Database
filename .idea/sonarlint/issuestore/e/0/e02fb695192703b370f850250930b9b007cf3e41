@@ -1,7 +1,3 @@
 
-Gsquid:S1989?"+Add a "try/catch" block for "sendRedirect".(Ñúðóùÿÿÿÿ
-Ssquid:S2629."7Use the built-in formatting to construct this argument.(‘­‰”øÿÿÿÿ
-Nsquid:S2629/"7Use the built-in formatting to construct this argument.(¸¤»é
-]squid:S3457."AFormat specifiers should be used instead of string concatenation.(‘­‰”øÿÿÿÿ
-Xsquid:S3457/"AFormat specifiers should be used instead of string concatenation.(¸¤»é
-gsquid:UselessImportCheck"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8õÈÃØñ-
+Hsquid:S1068"*Remove this unused "logger" private field.(æ×âÁ8ñ’ûôñ-
+Gsquid:S19897"+Add a "try/catch" block for "sendRedirect".(Ñúðóùÿÿÿÿ

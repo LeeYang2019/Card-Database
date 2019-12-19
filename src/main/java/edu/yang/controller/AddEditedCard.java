@@ -40,6 +40,13 @@ public class AddEditedCard extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
     private final String fileName = "cardSets.txt";
 
+    /**
+     * POST Method
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -57,8 +64,10 @@ public class AddEditedCard extends HttpServlet {
         long time = date.getTime();
         Timestamp ts = new Timestamp(time);
 
+        //get user
         User loggedInUser = (User) userDao.getByProperty("userName", req.getRemoteUser());
 
+        //get user inputs
         userInputs.put("cardName", req.getParameter("cardName"));
         userInputs.put("cardType", req.getParameter("cardType"));
         userInputs.put("cardRarity", req.getParameter("cardRarity"));
@@ -68,12 +77,19 @@ public class AddEditedCard extends HttpServlet {
         userInputs.put("cardQuantity", Integer.parseInt(req.getParameter("cardQuantity")));
         userInputs.put("user", loggedInUser);
 
-
+        //get card that was updated
         int cardId = (int)session.getAttribute("cardToUpdate");
-
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         YugiohCard updateCard = (YugiohCard)yugiohCardDao.getById(cardId);
 
+        /*
+        NOTE: was not able to fully implement, created the following to work on for PH2
+        @TODO: if there is a change in qty, if qty is greater than current qty add
+        @TODO: if there is a change in qty, if qty is less than current qty subtract
+        @TODO: if there is a change in qty, if qty is less than or equal to 0, update qty and change card status to "delete"
+         */
+
+        //update card
         updateCard.setCardName((String)userInputs.get("cardName"));
         updateCard.setCardType((String)userInputs.get("cardType"));
         updateCard.setCardRarity((String)userInputs.get("cardRarity"));

@@ -34,6 +34,13 @@ public class AddCard extends HttpServlet {
     //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * GET Method
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -68,6 +75,12 @@ public class AddCard extends HttpServlet {
         //call the YugiohCardProcessor and pass the user inputs to create a new yugiohCard
         YugiohCardProcessor cardProcessor = new YugiohCardProcessor();
         YugiohCard newYugiohCard = cardProcessor.cardProcessor(userInputs);
+
+        /*
+        NOTE: Was not able to fully implement add, created the following for PH2
+        @TODO : add same card as one that has been deleted
+        @TODO : add same card as one that has not been deleted
+         */
 
         YugiohCardHistory entry = new YugiohCardHistory(newYugiohCard.getPrice(), newYugiohCard, ts);
         newYugiohCard.addEntry(entry);

@@ -1,29 +1,30 @@
 
-Dsquid:S1989V"&Add a "try/catch" block for "forward".(òø½8åŒ Ññ-
-Jsquid:S1989F"'Add a "try/catch" block for "parseInt".(ûÌñúÿÿÿÿ8åŒ Ññ-
+ksquid:S1192K"HDefine a constant instead of duplicating this literal "cardSet" 3 times.(…ÁŸ…üÿÿÿÿ8’®†Ùñ-
+nsquid:S1192I"KDefine a constant instead of duplicating this literal "cardRarity" 3 times.(¾Âûºøÿÿÿÿ8Áù„Ùñ-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8åŒ Ññ-
+Dsquid:S1989h"&Add a "try/catch" block for "forward".(òø½8½õ®ôñ-
+Msquid:S14817"*Remove this unused "tsDao" local variable.(ş˜Ñúÿÿÿÿ8ÏÎşØñ-
+jsquid:S1192J"LDefine a constant instead of duplicating this literal "cardEdition" 3 times.(¸£’¶8ÉÄ…Ùñ-
+msquid:S1192L"JDefine a constant instead of duplicating this literal "cardIndex" 3 times.(ö«İ®şÿÿÿÿ8ğô‡Ùñ-
+\squid:S18547"9Remove this useless assignment to local variable "tsDao".(ş˜Ñúÿÿÿÿ8ÏÎşØñ-
+Usquid:S1135W"2Complete the task associated to this TODO comment.(˜ä’úÿÿÿÿ8¿ºôñ-
+Jsquid:S1989M"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8åŒ Ññ-
+gsquid:S18546"DRemove this useless assignment to local variable "newYugiohCardDao".(¿éı¼úÿÿÿÿ8ÏÎşØñ-
+Xsquid:S14816"5Remove this unused "newYugiohCardDao" local variable.(¿éı¼úÿÿÿÿ8ÏÎşØñ-
+Dsquid:S1989h"&Add a "try/catch" block for "forward".(òø½8½õ®ôñ-
 esquid:UselessImportCheck":Remove this unused import 'edu.yang.service.TcgPlayerAPI'.(âğŠº8åŒ Ññ-
-Dsquid:S1989V"&Add a "try/catch" block for "forward".(òø½8åŒ Ññ-
-msquid:S1192A"JDefine a constant instead of duplicating this literal "cardIndex" 3 times.(ö«İ®şÿÿÿÿ8ğô‡Ùñ-
-gsquid:UselessImportCheck"<Remove this unused import 'edu.yang.service.ProductDetails'.(ˆÙüÇ8åŒ Ññ-
-jsquid:S1192?"LDefine a constant instead of duplicating this literal "cardEdition" 3 times.(¸£’¶8ÉÄ…Ùñ-
-lsquid:S1192="IDefine a constant instead of duplicating this literal "cardType" 3 times.( Ïÿ…ÿÿÿÿÿ8Íœ„Ùñ-
-Msquid:S14810"*Remove this unused "tsDao" local variable.(ş˜Ñúÿÿÿÿ8ÏÎşØñ-
-nsquid:S1192>"KDefine a constant instead of duplicating this literal "cardRarity" 3 times.(¾Âûºøÿÿÿÿ8Áù„Ùñ-
-lsquid:UselessImportCheck	"ARemove this unused import 'edu.yang.service.YugiohCardProcessor'.(ıªÚ§8ÏÎşØñ-
-Ysquid:S18548"6Remove this useless assignment to local variable "ts".(î´à»ùÿÿÿÿ8ÏÎşØñ-
-Hsquid:S1068("*Remove this unused "logger" private field.(æ×âÁ8åŒ Ññ-
+?squid:S1170)"!Make this final field static too.(Ä×ÌÙ8åŒ Ññ-
 psquid:UselessImportCheck
 "FRemove this unused import 'edu.yang.service.YugiohCardSetsFileReader'.(Ê€ÿ8åŒ Ññ-
-Jsquid:S14818"'Remove this unused "ts" local variable.(î´à»ùÿÿÿÿ8ÏÎşØñ-
-ksquid:S1192@"HDefine a constant instead of duplicating this literal "cardSet" 3 times.(…ÁŸ…üÿÿÿÿ8’®†Ùñ-
-\squid:S18540"9Remove this useless assignment to local variable "tsDao".(ş˜Ñúÿÿÿÿ8ÏÎşØñ-
-fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8åŒ Ññ-
+lsquid:UselessImportCheck	"ARemove this unused import 'edu.yang.service.YugiohCardProcessor'.(ıªÚ§8ÏÎşØñ-
+Ysquid:S1854A"6Remove this useless assignment to local variable "ts".(î´à»ùÿÿÿÿ8ÏÎşØñ-
+lsquid:S1192G"IDefine a constant instead of duplicating this literal "cardName" 3 times.(»åÓóùÿÿÿÿ8ô‚Ùñ-
+Psquid:S1135Y"2Complete the task associated to this TODO comment.(›ªšì8½õ®ôñ-
+psquid:S1192M"MDefine a constant instead of duplicating this literal "cardQuantity" 3 times.(¤¨¥Ùÿÿÿÿÿ8”ş‹Ùñ-
+Jsquid:S1481A"'Remove this unused "ts" local variable.(î´à»ùÿÿÿÿ8ÏÎşØñ-
+gsquid:UselessImportCheck"<Remove this unused import 'edu.yang.service.ProductDetails'.(ˆÙüÇ8åŒ Ññ-
+lsquid:S1192H"IDefine a constant instead of duplicating this literal "cardType" 3 times.( Ïÿ…ÿÿÿÿÿ8Íœ„Ùñ-
+Psquid:S1135X"2Complete the task associated to this TODO comment.(×ó—ê8¿ºôñ-
 Jsquid:S1068)",Remove this unused "fileName" private field.(Ä×ÌÙ8åŒ Ññ-
-psquid:S1192B"MDefine a constant instead of duplicating this literal "cardQuantity" 3 times.(¤¨¥Ùÿÿÿÿÿ8”ş‹Ùñ-
-?squid:S1170)"!Make this final field static too.(Ä×ÌÙ8åŒ Ññ-
-lsquid:S1192<"IDefine a constant instead of duplicating this literal "cardName" 3 times.(»åÓóùÿÿÿÿ8ô‚Ùñ-
-Jsquid:S1989B"'Add a "try/catch" block for "parseInt".(¤¨¥Ùÿÿÿÿÿ8åŒ Ññ-
-gsquid:S1854/"DRemove this useless assignment to local variable "newYugiohCardDao".(¿éı¼úÿÿÿÿ8ÏÎşØñ-
-[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8åŒ Ññ-
-Dsquid:S1989Q"'Add a "try/catch" block for "parseInt".(Æâ•T8”ş‹Ùñ-
-Xsquid:S1481/"5Remove this unused "newYugiohCardDao" local variable.(¿éı¼úÿÿÿÿ8ÏÎşØñ-
+Dsquid:S1989c"'Add a "try/catch" block for "parseInt".(Æâ•T8½õ®ôñ-
+Hsquid:S1068("*Remove this unused "logger" private field.(æ×âÁ8åŒ Ññ-

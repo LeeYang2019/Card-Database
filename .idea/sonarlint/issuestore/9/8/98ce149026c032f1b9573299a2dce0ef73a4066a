@@ -1,7 +1,5 @@
 
-dsquid:S3457$"AFormat specifiers should be used instead of string concatenation.(£Œûüÿÿÿÿ8êğÒ­ñ-
-Jsquid:S1989""'Add a "try/catch" block for "parseInt".(§ú¨Âÿÿÿÿÿ8¡§Ğ­ñ-
-Zsquid:S2629$"7Use the built-in formatting to construct this argument.(£Œûüÿÿÿÿ8êğÒ­ñ-
-Dsquid:S1989-"&Add a "try/catch" block for "forward".(òø½8¡§Ğ­ñ-
-Dsquid:S1989-"&Add a "try/catch" block for "forward".(òø½8¡§Ğ­ñ-
-dsquid:S3457)"AFormat specifiers should be used instead of string concatenation.(ä²‚¯üÿÿÿÿ8òıÔ­ñ-
+Hsquid:S1068"*Remove this unused "logger" private field.(æ×âÁ8Ú¡Éôñ-
+Jsquid:S1989-"'Add a "try/catch" block for "parseInt".(§ú¨Âÿÿÿÿÿ8¡§Ğ­ñ-
+Dsquid:S19895"&Add a "try/catch" block for "forward".(òø½8¡§Ğ­ñ-
+Dsquid:S19895"&Add a "try/catch" block for "forward".(òø½8¡§Ğ­ñ-

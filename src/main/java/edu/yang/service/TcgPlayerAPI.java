@@ -12,13 +12,25 @@ import java.net.ProtocolException;
 import java.net.URL;
 import java.util.*;
 
-
-
+/**
+ * This help class processes doGET and doPOST methods for sending information to and retreiving information from the
+ * TcgPlayer API
+ * @author yang
+ *
+ */
 public class TcgPlayerAPI implements PropertiesLoader {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     private Properties properties;
 
+    /**
+     * gets Connection sending authentication token via header request to tcgPlayer API
+     * @param urlString endPoint to pull data from
+     * @param parameter specifies how to process goPost/doGet
+     * @param doOutput  specifies how to process goPost/doGet
+     * @param requestMethod specifies if doPost/doGet method
+     * @return
+     */
     public HttpURLConnection getConnection(String urlString, int parameter, boolean doOutput, String requestMethod) {
 
         String propertiesFile = "/indieproject.properties";
@@ -54,6 +66,17 @@ public class TcgPlayerAPI implements PropertiesLoader {
         return connection;
     }
 
+    /**
+     * Gets card information back from TcgPlayerAPI
+     * @param urlString endpoint
+     * @param productId id of product
+     * @param doOutput passed to getConnection
+     * @param requestMethod passed to GetConnection
+     * @param productName productName of card
+     * @param productSet cardSet
+     * @param productRarity cardRarity
+     * @return
+     */
     public String processPostRequest(String urlString, int productId, boolean doOutput, String requestMethod, String productName, String productSet, String productRarity) {
 
         BufferedReader buffReader = null;
@@ -88,6 +111,14 @@ public class TcgPlayerAPI implements PropertiesLoader {
         return "There is no card by that name";
     }
 
+    /**
+     *
+     * @param urlString
+     * @param productId
+     * @param doOutput
+     * @param requestMethod
+     * @return
+     */
     public String processGetRequest(String urlString, int productId, boolean doOutput, String requestMethod) {
 
         BufferedReader reader = null;
@@ -115,7 +146,7 @@ public class TcgPlayerAPI implements PropertiesLoader {
 
 
     /**
-     *
+     * gets productDetails of card
      * @param productID
      * @return String imageUrl
      */
@@ -138,7 +169,7 @@ public class TcgPlayerAPI implements PropertiesLoader {
     }
 
     /**
-     *
+     * gets marketprice of a card
      * @param productID
      * @return double marketPrice
      */
@@ -169,6 +200,11 @@ public class TcgPlayerAPI implements PropertiesLoader {
         return 0;
     }
 
+    /**
+     * gets cardName of a card
+     * @param productId
+     * @return cardName
+     */
     public String getCardName(int productId) {
 
         List<ProductDetails> productDetailsList = new ArrayList<>();
@@ -182,7 +218,11 @@ public class TcgPlayerAPI implements PropertiesLoader {
         return cardName;
     }
 
-
+    /**
+     * gets cardImage
+     * @param productId
+     * @return cardImage
+     */
     public String getCardImage(int productId) {
         List<ProductDetails> productDetailsList = new ArrayList<>();
         productDetailsList = getProductDetails(productId);
@@ -200,7 +240,7 @@ public class TcgPlayerAPI implements PropertiesLoader {
      * @param productName
      * @param productSet
      * @param productRarity
-     * @return int productId
+     * @return productId
      */
     public int getProductId(String productName, String productSet, String productRarity) {
 

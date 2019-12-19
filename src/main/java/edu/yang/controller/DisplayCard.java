@@ -25,15 +25,23 @@ public class DisplayCard extends HttpServlet {
     //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * GET METHOD
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        //get card from param
         String input = req.getParameter("param");
         int id = Integer.parseInt(input);
-
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         YugiohCard newYugiohCard = (YugiohCard)yugiohCardDao.getById(id);
 
+        //redirects card to display.jsp
         req.setAttribute("card", newYugiohCard);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/displayCard.jsp");
         dispatcher.forward(req, resp);

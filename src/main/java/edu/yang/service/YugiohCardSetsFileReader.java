@@ -17,9 +17,9 @@ public class YugiohCardSetsFileReader {
     private final String fileName = "cardSets.txt";
 
     /**
-     *
+     * reads file
      * @param fileName
-     * @return
+     * @return parsed tokens
      */
     private String[] readFile(String fileName) {
 
@@ -45,9 +45,9 @@ public class YugiohCardSetsFileReader {
     }
 
     /**
-     *
+     * gets productName of a card from its abbreviation prefix on the card
      * @param prefix
-     * @return
+     * @return productName
      */
     public String getProductName(String prefix) {
 

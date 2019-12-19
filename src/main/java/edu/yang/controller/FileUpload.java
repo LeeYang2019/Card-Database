@@ -23,7 +23,7 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
 /**
- * A simple servlet for uploading a file of Yugioh cards the user provides
+ * A simple servlet for uploading a the Cards.xlsx file the user provides
  * @author Yang
  */
 @WebServlet(
@@ -35,9 +35,17 @@ public class FileUpload extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
     private final String UPLOAD_DIRECTORY = "../temp";
 
+    /**
+     * GET
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        //create session and get user
         HttpSession session = req.getSession();
         User loggedInUser = (User)session.getAttribute("user");
         ProjectDao newYugiohCardDao = new ProjectDao(YugiohCard.class);
@@ -55,11 +63,15 @@ public class FileUpload extends HttpServlet {
                     if(!item.isFormField()){
                         String name = new File(item.getName()).getName();
                         item.write( new File(UPLOAD_DIRECTORY + File.separator + name));
+
+                        //create helper class to parse Cards.xlsx file and return list of cards
+                        // (list is returned for testing purposes, is not returned anywhere)
                         UploadFileReader newReader = new UploadFileReader();
                         List<YugiohCard> list = newReader.readExcelFile((UPLOAD_DIRECTORY + File.separator + name),loggedInUser);
                     }
                 }
 
+                //get an updated list of cards for the user
                 propsAndValues.put("user", loggedInUser);
                 userList = newYugiohCardDao.findByPropertyEqual(propsAndValues);
 

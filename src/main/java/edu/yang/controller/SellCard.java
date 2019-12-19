@@ -4,7 +4,6 @@ import edu.yang.entity.YugiohCard;
 import edu.yang.persistence.ProjectDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,6 +24,13 @@ public class SellCard extends HttpServlet {
     //logger
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * GET METHOD
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -39,5 +45,9 @@ public class SellCard extends HttpServlet {
         req.setAttribute("card", newYugiohCard);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/displayCard.jsp");
         dispatcher.forward(req, resp);
+
+        /*
+        NOTE: removed this out of MVP, will implement in PH2
+         */
     }
 }

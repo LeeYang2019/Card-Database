@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Login servlet to get the remote user and store it in the session
+ * Login servlet to get the remote user, stores it in the session, gets a list of the user's cards and returns the list to home.jsp
  * @author Lee Yang
  */
 
@@ -87,7 +87,7 @@ public class Login extends HttpServlet {
     }
 
     /**
-     *
+     * retrieves current prices of cards for TcgPlayer API and updates the cards in the user's collection
      * @param propertyMap
      * @return
      */
@@ -100,9 +100,8 @@ public class Login extends HttpServlet {
 
         //for each card, get new pricing and update
         for (YugiohCard card : yugiohCardList) {
-            logger.info("getting updates for card " + card.getCardName()
-                    + " with a " + card.getCardRarity() + " rarity");
 
+            //get marketprice for each yugioh card in an unsold status
             int cardId = newPlayerAPI.getProductId(card.getCardName(),newCardReader.getProductName(card.getCardSet()),card.getCardRarity());
             double marketPrice = newPlayerAPI.getMarketPrice(cardId, card.getCardEdition());
             YugiohCard updateCard  = (YugiohCard)yugiohCardDao.getById(card.getId());
