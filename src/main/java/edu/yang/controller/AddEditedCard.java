@@ -48,6 +48,8 @@ public class AddEditedCard extends HttpServlet {
         ProjectDao tsDao = new ProjectDao(YugiohCardHistory.class);
         ProjectDao userDao = new ProjectDao(User.class);
 
+        HttpSession session = req.getSession();
+
         Map<String, Object> userInputs = new HashMap<>();
 
         //get current tmstamp
@@ -66,8 +68,8 @@ public class AddEditedCard extends HttpServlet {
         userInputs.put("cardQuantity", Integer.parseInt(req.getParameter("cardQuantity")));
         userInputs.put("user", loggedInUser);
 
-        String input = req.getParameter("param");
-        int cardId = Integer.parseInt(input);
+
+        int cardId = (int)session.getAttribute("cardToUpdate");
 
         ProjectDao yugiohCardDao = new ProjectDao(YugiohCard.class);
         YugiohCard updateCard = (YugiohCard)yugiohCardDao.getById(cardId);

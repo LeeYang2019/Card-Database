@@ -12,14 +12,14 @@
 |Week 3 (09/16-09/20/2019) |Hours Worked|
 |----------|----------|
 |- watched week 2 videos and did the in class activities, as well as the weekly assignment. <br> - struggled with not having a main method <br> - learned how to write a test script to run my object methods <br> - research web service calls: spent a hour watching Youtube videos of people talking about APIs and using APIs <br> - started working on wireframes for my independent project <br> - started working on user stories for my independent project| 6|
-|Reflection -||
+|Reflection - work's keeping me from getting more done. UAT month.||
 
 
 
-|Week 4 (09/23-08/27/2019)|Hours Worked|
+|Week 4 (09/23-09/27/2019)|Hours Worked|
 |----------|----------|
 |- began watching week 3 videos <br> - starting watching week 4 videos <br> - created wireframes for my independent project <br> - finished creating user stories for my independent project|4|
-|Reflection -||
+|Reflection - more UAT. ||
 
 
 |Week 5 | Hours Worked|
@@ -34,7 +34,7 @@
 
 |Week 7 | Hours Worked|
 |----------|----------|
-|||
+|-expecting integer when string was provided - I did not write the right method to return a card by its name. The method I wrote and functions I used were asking instead for an integer and not a string. This caused a lot of frustration on my part as I did not know how to resolve it. <br> - typemismatchexception - I created a foreign key and did not specifically assign a name qualifier. The code was assuming a different foreign key name than the one I provided, which caused alot of issues for me. <br> - empty query - running my cleandb file resulted in this which I was not able to resolve. <br> - ran into an issue mapping my one-to-many relationships. Finally understood the entity (YugiohCard table) does not mapp to the YugiohCardHistory table. Actually, its an instance of the YugiohCard object that mapps to the table.||
 |Reflection -||
 
 |Week 8 | Hours Worked|

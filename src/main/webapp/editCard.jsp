@@ -27,11 +27,12 @@
                                     </div>
                                     <div class="col">
                                         <div class="col">
-                                            <select class="form-control" id="cardType" name="cardType" value="${card.cardType}">
+                                            <select class="form-control" id="cardType" name="cardType">
                                                 <option value="">Type</option>
                                                 <option value="Monster">Monster</option>
                                                 <option value="Spell">Spell</option>
                                                 <option value="Trap">Trap</option>
+                                                <option value='<c:out value="${card.cardType}"/>'><c:out value="${card.cardType}"></c:out></option>
                                             </select>
                                         </div>
                                     </div>

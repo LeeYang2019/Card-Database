@@ -10,6 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
@@ -29,6 +30,7 @@ public class EditCard extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        HttpSession session = req.getSession();
 
         String input = req.getParameter("param");
         int id = Integer.parseInt(input);
@@ -41,6 +43,8 @@ public class EditCard extends HttpServlet {
         logger.info("returned card is : " + newYugiohCard.getCardName());
 
         req.setAttribute("card", newYugiohCard);
+        session.setAttribute("cardToUpdate", newYugiohCard.getId());
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("/editCard.jsp");
         dispatcher.forward(req, resp);
 
