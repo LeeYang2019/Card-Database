@@ -43,6 +43,8 @@ public class YugiohCardProcessor {
         //get the image
         String imageUrl = apiHelper.getCardImage(productId);
 
+        logger.info("returning card for :" + correctName);
+
         return new YugiohCard(correctName, (String)userInputs.get("cardType"), (String)userInputs.get("cardRarity"),
                 (String)userInputs.get("cardEdition"),(String)userInputs.get("cardSet"), prodFullName,
                 (String)userInputs.get("cardIndex"), marketPrice, (int) userInputs.get("cardQuantity"),"unsold", imageUrl,

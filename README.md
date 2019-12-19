@@ -16,9 +16,11 @@ At the heart of what I'm doing, I are creating the following:
  
 ### Supporting Materials 
 
-* Link to your presentation.
-* Link to related materials, such as demo code, if appropriate. 
-* Link to references. 
+* API: http://api.tcgplayer.com/v1.32.0/pricing/product/
+* API: http://api.tcgplayer.com/v1.32.0/catalog/products/
+* API: http://api.tcgplayer.com/v1.32.0/catalog/categories/2/search
+* Video of demo: https://youtu.be/6cBaNtQ6cP8
+* https://github.com/LeeYang2019/indieProjectDemo.git
 
 ### Feedback
 

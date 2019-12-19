@@ -26710,3 +26710,494 @@ image : null
 [INFO ] 2019-12-18 20:41:17.741 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Magician's Force
 [INFO ] 2019-12-18 20:41:18.257 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Magician's Force
 [ERROR] 2019-12-18 20:41:18.636 [http-nio-8080-exec-6] UploadFileReader - java.lang.NumberFormatException: For input string: "21879 155991"
+[INFO ] 2019-12-19 10:19:26.761 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-19 10:19:27.137 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-19 10:19:27.140 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-19 10:19:27.239 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-19 10:19:28.599 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-19 10:19:29.169 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-19 10:19:29.530 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-19 10:19:29.530 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-19 10:19:29.531 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-19 10:19:30.662 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-19 10:19:30.663 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-19 10:19:30.718 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-19 10:19:31.120 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-19 10:19:31.120 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-19 10:19:31.121 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-19 10:19:31.0
+[INFO ] 2019-12-19 10:19:32.730 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:19:39.670 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:19:41.523 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:19:42.085 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:19:42.878 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:22:40.289 [http-nio-8080-exec-2] Login - entering login servlet
+[INFO ] 2019-12-19 10:22:54.517 [http-nio-8080-exec-4] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:22:55.913 [http-nio-8080-exec-4] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:22:56.458 [http-nio-8080-exec-4] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:22:57.065 [http-nio-8080-exec-4] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:22:57.627 [http-nio-8080-exec-4] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:22:58.283 [http-nio-8080-exec-4] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:22:58.830 [http-nio-8080-exec-4] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:22:59.363 [http-nio-8080-exec-4] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:22:59.917 [http-nio-8080-exec-4] YugiohCardSetsFileReader - Magician's Force
+[INFO ] 2019-12-19 10:23:00.517 [http-nio-8080-exec-4] YugiohCardSetsFileReader - Magician's Force
+[ERROR] 2019-12-19 10:23:01.022 [http-nio-8080-exec-4] UploadFileReader - java.lang.NumberFormatException: For input string: "21879 155991"
+[INFO ] 2019-12-19 10:26:02.916 [main] YugiohCardDaoTest - [user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null, user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician Girl
+cardType : Monster
+cardRarity : Secret
+cardEdition : 1st Edition
+cardFulleSetName : Magicians Force
+cardSet : MFC
+price : 100.0
+quantity : 1
+image : null]
+[INFO ] 2019-12-19 10:26:03.088 [main] YugiohCardDaoTest - this user is leeyang2019
+[INFO ] 2019-12-19 10:26:03.091 [main] YugiohCardDaoTest - this user id is 1
+[INFO ] 2019-12-19 10:26:03.128 [main] YugiohCardDaoTest - 0
+[INFO ] 2019-12-19 10:26:03.675 [main] YugiohCardDaoTest - updated card: Dark Magician of Chaos
+[INFO ] 2019-12-19 10:26:03.874 [main] YugiohCardDaoTest - new card: Dark Magician
+[INFO ] 2019-12-19 10:26:04.002 [main] YugiohCardDaoTest - card : Dark Magician Girl
+[INFO ] 2019-12-19 10:26:04.003 [main] YugiohCardDaoTest - card : Dark Magician
+[INFO ] 2019-12-19 10:26:04.003 [main] YugiohCardDaoTest - card : Buster Blader
+[INFO ] 2019-12-19 10:26:04.536 [main] YugiohCardHistoryDaoTest - 2
+[INFO ] 2019-12-19 10:26:04.537 [main] YugiohCardHistoryDaoTest - this entry's card id : 1
+[INFO ] 2019-12-19 10:26:04.560 [main] YugiohCardHistoryDaoTest - 1
+[INFO ] 2019-12-19 10:26:04.678 [main] YugiohCardHistoryDaoTest - Entry id: 1
+[INFO ] 2019-12-19 10:26:04.679 [main] YugiohCardHistoryDaoTest - Entry cardId: user: id : 1
+first name : leeyang2019
+last name : greenbayPackers
+cardName : Dark Magician
+cardType : Monster
+cardRarity : Ultra
+cardEdition : 1st Edition
+cardFulleSetName : The Legend of Blue Eyes White Dragon
+cardSet : LOB
+price : 35.0
+quantity : 2
+image : null
+[INFO ] 2019-12-19 10:26:04.679 [main] YugiohCardHistoryDaoTest - Entry update_dt: 2019-12-19 10:26:04.0
+[INFO ] 2019-12-19 10:26:05.369 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:26:06.590 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:26:07.744 [main] YugiohCardProcessor - returning card for :Black Luster Soldier Envoy of the Beginning
+[INFO ] 2019-12-19 10:26:07.766 [main] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:26:08.247 [main] YugiohCardProcessor - returning card for :Chaos Sorcerer
+[INFO ] 2019-12-19 10:26:08.271 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:26:08.818 [main] YugiohCardProcessor - returning card for :Raigeki
+[INFO ] 2019-12-19 10:26:08.837 [main] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:26:09.328 [main] YugiohCardProcessor - returning card for :Dark Hole
+[INFO ] 2019-12-19 10:27:40.375 [http-nio-8080-exec-8] Login - entering login servlet
+[INFO ] 2019-12-19 10:27:48.407 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:27:50.412 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Black Luster Soldier Envoy of the Beginning
+[INFO ] 2019-12-19 10:27:50.453 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:27:51.022 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Chaos Sorcerer
+[INFO ] 2019-12-19 10:27:51.047 [http-nio-8080-exec-10] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:27:51.585 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Raigeki
+[INFO ] 2019-12-19 10:27:51.620 [http-nio-8080-exec-10] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:27:52.130 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Dark Hole
+[INFO ] 2019-12-19 10:27:52.155 [http-nio-8080-exec-10] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:27:52.776 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Monster Reborn
+[INFO ] 2019-12-19 10:27:52.801 [http-nio-8080-exec-10] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:27:53.384 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Polymerization
+[INFO ] 2019-12-19 10:27:53.420 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:27:53.939 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:27:53.973 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:27:54.545 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Imperial Order
+[INFO ] 2019-12-19 10:27:54.571 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Magician's Force
+[INFO ] 2019-12-19 10:27:55.137 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Breaker the Magical Warrior
+[INFO ] 2019-12-19 10:27:55.177 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Magician's Force
+[ERROR] 2019-12-19 10:27:55.596 [http-nio-8080-exec-10] UploadFileReader - java.lang.NumberFormatException: For input string: "21879 155991"
+[INFO ] 2019-12-19 10:30:02.382 [http-nio-8080-exec-8] Login - entering login servlet
+[INFO ] 2019-12-19 10:30:07.497 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:30:08.038 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Black Luster Soldier Envoy of the Beginning
+[INFO ] 2019-12-19 10:30:08.073 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:30:08.517 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Chaos Sorcerer
+[INFO ] 2019-12-19 10:30:08.574 [http-nio-8080-exec-9] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:30:09.055 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Raigeki
+[INFO ] 2019-12-19 10:30:09.075 [http-nio-8080-exec-9] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:30:09.562 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Dark Hole
+[INFO ] 2019-12-19 10:30:09.596 [http-nio-8080-exec-9] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:30:10.117 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Monster Reborn
+[INFO ] 2019-12-19 10:30:10.149 [http-nio-8080-exec-9] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:30:10.612 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Polymerization
+[INFO ] 2019-12-19 10:30:10.629 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:30:11.097 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:30:11.128 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:30:11.582 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Imperial Order
+[INFO ] 2019-12-19 10:30:11.607 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Magician's Force
+[INFO ] 2019-12-19 10:30:12.107 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Breaker the Magical Warrior
+[INFO ] 2019-12-19 10:30:12.132 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Maximum Crisis
+[INFO ] 2019-12-19 10:30:12.598 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Zoodiac Chakanine
+[INFO ] 2019-12-19 10:30:12.642 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:30:13.106 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Dark Magician of Chaos
+[INFO ] 2019-12-19 10:30:13.135 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:30:13.640 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Injection Fairy Lily
+[INFO ] 2019-12-19 10:30:13.671 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:30:14.100 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Yata Garasu
+[INFO ] 2019-12-19 10:30:14.116 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:30:14.598 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:30:14.626 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:30:15.073 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Mirage Knight
+[INFO ] 2019-12-19 10:30:15.096 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Labyrinth of Nightmare
+[INFO ] 2019-12-19 10:30:15.546 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Kycoo the Ghost Destroyer
+[INFO ] 2019-12-19 10:30:15.563 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:30:16.047 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Dark Ruler Ha Des
+[INFO ] 2019-12-19 10:30:16.071 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:30:16.554 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Strike Ninja
+[INFO ] 2019-12-19 10:30:16.575 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Rise of Destiny
+[INFO ] 2019-12-19 10:30:17.032 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :The Creator
+[INFO ] 2019-12-19 10:30:17.059 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Pharaonic Guardian
+[INFO ] 2019-12-19 10:30:17.452 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Don Zaloog
+[INFO ] 2019-12-19 10:30:17.482 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:30:18.000 [http-nio-8080-exec-9] YugiohCardProcessor - returning card for :Vampire Lord
+[INFO ] 2019-12-19 10:30:18.013 [http-nio-8080-exec-9] YugiohCardSetsFileReader - Absolute Powerforce
+[ERROR] 2019-12-19 10:30:18.266 [http-nio-8080-exec-9] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-19 10:31:24.125 [http-nio-8080-exec-6] Login - entering login servlet
+[INFO ] 2019-12-19 10:31:28.980 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:31:29.493 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Black Luster Soldier Envoy of the Beginning
+[INFO ] 2019-12-19 10:31:29.530 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:31:29.998 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Chaos Sorcerer
+[INFO ] 2019-12-19 10:31:30.031 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:31:30.510 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Raigeki
+[INFO ] 2019-12-19 10:31:30.527 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:31:31.013 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Dark Hole
+[INFO ] 2019-12-19 10:31:31.027 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:31:31.522 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Monster Reborn
+[INFO ] 2019-12-19 10:31:31.532 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:31:31.992 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Polymerization
+[INFO ] 2019-12-19 10:31:32.067 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:31:32.497 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:31:32.514 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:31:32.946 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Imperial Order
+[INFO ] 2019-12-19 10:31:32.996 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Magician's Force
+[INFO ] 2019-12-19 10:31:33.475 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Breaker the Magical Warrior
+[INFO ] 2019-12-19 10:31:33.558 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Maximum Crisis
+[INFO ] 2019-12-19 10:31:33.985 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Zoodiac Chakanine
+[INFO ] 2019-12-19 10:31:34.014 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:31:34.479 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Dark Magician of Chaos
+[INFO ] 2019-12-19 10:31:34.511 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:31:35.008 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Injection Fairy Lily
+[INFO ] 2019-12-19 10:31:35.031 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:31:35.497 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Yata Garasu
+[INFO ] 2019-12-19 10:31:35.529 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:31:36.033 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:31:36.051 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:31:36.537 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Mirage Knight
+[INFO ] 2019-12-19 10:31:36.559 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Labyrinth of Nightmare
+[INFO ] 2019-12-19 10:31:37.047 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Kycoo the Ghost Destroyer
+[INFO ] 2019-12-19 10:31:37.069 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:31:37.556 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Dark Ruler Ha Des
+[INFO ] 2019-12-19 10:31:37.575 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:31:38.045 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Strike Ninja
+[INFO ] 2019-12-19 10:31:38.141 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Rise of Destiny
+[INFO ] 2019-12-19 10:31:38.674 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :The Creator
+[INFO ] 2019-12-19 10:31:38.698 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Pharaonic Guardian
+[INFO ] 2019-12-19 10:31:39.119 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Don Zaloog
+[INFO ] 2019-12-19 10:31:39.156 [http-nio-8080-exec-8] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:31:39.649 [http-nio-8080-exec-8] YugiohCardProcessor - returning card for :Vampire Lord
+[INFO ] 2019-12-19 10:31:39.678 [http-nio-8080-exec-8] YugiohCardSetsFileReader - The Shining DarknessVB5
+[ERROR] 2019-12-19 10:31:39.947 [http-nio-8080-exec-8] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-19 10:32:33.336 [http-nio-8080-exec-6] Login - entering login servlet
+[INFO ] 2019-12-19 10:32:38.250 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:32:38.749 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Black Luster Soldier Envoy of the Beginning
+[INFO ] 2019-12-19 10:32:38.785 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:32:39.235 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Chaos Sorcerer
+[INFO ] 2019-12-19 10:32:39.262 [http-nio-8080-exec-7] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:32:39.702 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Raigeki
+[INFO ] 2019-12-19 10:32:39.712 [http-nio-8080-exec-7] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:32:40.155 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Dark Hole
+[INFO ] 2019-12-19 10:32:40.165 [http-nio-8080-exec-7] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:32:40.700 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Monster Reborn
+[INFO ] 2019-12-19 10:32:40.744 [http-nio-8080-exec-7] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:32:41.200 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Polymerization
+[INFO ] 2019-12-19 10:32:41.217 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:32:41.706 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:32:41.721 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:32:42.147 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Imperial Order
+[INFO ] 2019-12-19 10:32:42.177 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Magician's Force
+[INFO ] 2019-12-19 10:32:42.651 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Breaker the Magical Warrior
+[INFO ] 2019-12-19 10:32:42.676 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Maximum Crisis
+[INFO ] 2019-12-19 10:32:43.099 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Zoodiac Chakanine
+[INFO ] 2019-12-19 10:32:43.134 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:32:43.613 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Dark Magician of Chaos
+[INFO ] 2019-12-19 10:32:43.633 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:32:44.143 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Injection Fairy Lily
+[INFO ] 2019-12-19 10:32:44.163 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:32:44.607 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Yata Garasu
+[INFO ] 2019-12-19 10:32:44.628 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:32:45.130 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:32:45.162 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:32:45.577 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Mirage Knight
+[INFO ] 2019-12-19 10:32:45.613 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Labyrinth of Nightmare
+[INFO ] 2019-12-19 10:32:46.027 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Kycoo the Ghost Destroyer
+[INFO ] 2019-12-19 10:32:46.044 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:32:46.573 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Dark Ruler Ha Des
+[INFO ] 2019-12-19 10:32:46.605 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:32:47.098 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Strike Ninja
+[INFO ] 2019-12-19 10:32:47.126 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Rise of Destiny
+[INFO ] 2019-12-19 10:32:47.643 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :The Creator
+[INFO ] 2019-12-19 10:32:47.678 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Pharaonic Guardian
+[INFO ] 2019-12-19 10:32:48.170 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Don Zaloog
+[INFO ] 2019-12-19 10:32:48.182 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:32:48.659 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Vampire Lord
+[INFO ] 2019-12-19 10:32:48.688 [http-nio-8080-exec-7] YugiohCardSetsFileReader - Legacy of Darkness
+[ERROR] 2019-12-19 10:32:48.912 [http-nio-8080-exec-7] UploadFileReader - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2019-12-19 10:33:36.926 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-19 10:33:42.158 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:33:42.695 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Black Luster Soldier Envoy of the Beginning
+[INFO ] 2019-12-19 10:33:42.722 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:33:43.143 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Chaos Sorcerer
+[INFO ] 2019-12-19 10:33:43.161 [http-nio-8080-exec-6] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:33:43.675 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Raigeki
+[INFO ] 2019-12-19 10:33:43.710 [http-nio-8080-exec-6] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:33:44.167 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Dark Hole
+[INFO ] 2019-12-19 10:33:44.188 [http-nio-8080-exec-6] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:33:44.693 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Monster Reborn
+[INFO ] 2019-12-19 10:33:44.703 [http-nio-8080-exec-6] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:33:45.152 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Polymerization
+[INFO ] 2019-12-19 10:33:45.246 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:33:45.741 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:33:45.759 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:33:46.175 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Imperial Order
+[INFO ] 2019-12-19 10:33:46.201 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Magician's Force
+[INFO ] 2019-12-19 10:33:46.685 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Breaker the Magical Warrior
+[INFO ] 2019-12-19 10:33:46.697 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Maximum Crisis
+[INFO ] 2019-12-19 10:33:47.109 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Zoodiac Chakanine
+[INFO ] 2019-12-19 10:33:47.123 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:33:47.666 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Dark Magician of Chaos
+[INFO ] 2019-12-19 10:33:47.696 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:33:48.139 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Injection Fairy Lily
+[INFO ] 2019-12-19 10:33:48.162 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:33:48.640 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Yata Garasu
+[INFO ] 2019-12-19 10:33:48.663 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:33:49.134 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:33:49.154 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:33:49.566 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Mirage Knight
+[INFO ] 2019-12-19 10:33:49.605 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Labyrinth of Nightmare
+[INFO ] 2019-12-19 10:33:50.065 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Kycoo the Ghost Destroyer
+[INFO ] 2019-12-19 10:33:50.079 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:33:50.549 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Dark Ruler Ha Des
+[INFO ] 2019-12-19 10:33:50.562 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:33:50.997 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Strike Ninja
+[INFO ] 2019-12-19 10:33:51.017 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Rise of Destiny
+[INFO ] 2019-12-19 10:33:51.490 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :The Creator
+[INFO ] 2019-12-19 10:33:51.500 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Pharaonic Guardian
+[INFO ] 2019-12-19 10:33:51.925 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Don Zaloog
+[INFO ] 2019-12-19 10:33:51.932 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:33:52.381 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Vampire Lord
+[INFO ] 2019-12-19 10:33:52.409 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Soul of the Duelist
+[INFO ] 2019-12-19 10:33:52.865 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Horus the Black Flame Dragon LV8
+[INFO ] 2019-12-19 10:33:52.893 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Soul of the Duelist
+[INFO ] 2019-12-19 10:33:53.353 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Horus the Black Flame Dragon LV6
+[INFO ] 2019-12-19 10:33:53.387 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:33:53.810 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Reflect Bounder
+[INFO ] 2019-12-19 10:33:53.834 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Dimension of Chaos
+[INFO ] 2019-12-19 10:33:54.288 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Urgent Ritual Art
+[INFO ] 2019-12-19 10:33:54.319 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Ancient Prophecy
+[INFO ] 2019-12-19 10:33:54.783 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Discord
+[INFO ] 2019-12-19 10:33:54.794 [http-nio-8080-exec-6] YugiohCardSetsFileReader - Dragons of Legend
+[INFO ] 2019-12-19 10:33:55.227 [http-nio-8080-exec-6] YugiohCardProcessor - returning card for :Mound of the Bound Creator
+[ERROR] 2019-12-19 10:33:55.281 [http-nio-8080-exec-6] UploadFileReader - java.lang.NullPointerException
+[INFO ] 2019-12-19 10:42:48.051 [http-nio-8080-exec-1] Login - entering login servlet
+[INFO ] 2019-12-19 10:44:20.833 [http-nio-8080-exec-8] Login - entering login servlet
+[INFO ] 2019-12-19 10:44:53.637 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:44:54.163 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Black Luster Soldier Envoy of the Beginning
+[INFO ] 2019-12-19 10:44:54.192 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:44:54.635 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Chaos Sorcerer
+[INFO ] 2019-12-19 10:44:54.670 [http-nio-8080-exec-2] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:44:55.144 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Raigeki
+[INFO ] 2019-12-19 10:44:55.174 [http-nio-8080-exec-2] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:44:55.683 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Dark Hole
+[INFO ] 2019-12-19 10:44:55.724 [http-nio-8080-exec-2] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:44:56.213 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Monster Reborn
+[INFO ] 2019-12-19 10:44:56.226 [http-nio-8080-exec-2] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:44:56.714 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Polymerization
+[INFO ] 2019-12-19 10:44:56.735 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:44:57.260 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:44:57.278 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:44:57.706 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Imperial Order
+[INFO ] 2019-12-19 10:44:57.723 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Magician's Force
+[INFO ] 2019-12-19 10:44:58.216 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Breaker the Magical Warrior
+[INFO ] 2019-12-19 10:44:58.230 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Maximum Crisis
+[INFO ] 2019-12-19 10:44:58.668 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Zoodiac Chakanine
+[INFO ] 2019-12-19 10:44:58.694 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:44:59.176 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Dark Magician of Chaos
+[INFO ] 2019-12-19 10:44:59.204 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:44:59.653 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Injection Fairy Lily
+[INFO ] 2019-12-19 10:44:59.677 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:45:00.114 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Yata Garasu
+[INFO ] 2019-12-19 10:45:00.123 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:45:00.561 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:45:00.580 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:45:01.067 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Mirage Knight
+[INFO ] 2019-12-19 10:45:01.087 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Labyrinth of Nightmare
+[INFO ] 2019-12-19 10:45:01.573 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Kycoo the Ghost Destroyer
+[INFO ] 2019-12-19 10:45:01.596 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:45:02.064 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Dark Ruler Ha Des
+[INFO ] 2019-12-19 10:45:02.072 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:45:02.524 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Strike Ninja
+[INFO ] 2019-12-19 10:45:02.548 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Rise of Destiny
+[INFO ] 2019-12-19 10:45:03.004 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :The Creator
+[INFO ] 2019-12-19 10:45:03.020 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Pharaonic Guardian
+[INFO ] 2019-12-19 10:45:03.455 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Don Zaloog
+[INFO ] 2019-12-19 10:45:03.462 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:45:03.996 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Vampire Lord
+[INFO ] 2019-12-19 10:45:04.016 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Soul of the Duelist
+[INFO ] 2019-12-19 10:45:04.547 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Horus the Black Flame Dragon LV8
+[INFO ] 2019-12-19 10:45:04.574 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Soul of the Duelist
+[INFO ] 2019-12-19 10:45:05.088 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Horus the Black Flame Dragon LV6
+[INFO ] 2019-12-19 10:45:05.114 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:45:05.586 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Reflect Bounder
+[INFO ] 2019-12-19 10:45:05.598 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Dimension of Chaos
+[INFO ] 2019-12-19 10:45:06.033 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Urgent Ritual Art
+[INFO ] 2019-12-19 10:45:06.050 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Ancient Prophecy
+[INFO ] 2019-12-19 10:45:06.562 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Discord
+[INFO ] 2019-12-19 10:45:06.583 [http-nio-8080-exec-2] YugiohCardSetsFileReader - Dragons of Legend
+[INFO ] 2019-12-19 10:45:07.012 [http-nio-8080-exec-2] YugiohCardProcessor - returning card for :Mound of the Bound Creator
+[ERROR] 2019-12-19 10:45:07.052 [http-nio-8080-exec-2] UploadFileReader - java.lang.NullPointerException
+[INFO ] 2019-12-19 10:47:02.252 [http-nio-8080-exec-7] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:47:02.786 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Red Eyes B Dragon
+[INFO ] 2019-12-19 10:50:00.749 [http-nio-8080-exec-10] Login - entering login servlet
+[INFO ] 2019-12-19 10:50:28.013 [http-nio-8080-exec-7] Login - entering login servlet
+[INFO ] 2019-12-19 10:52:14.240 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-19 10:52:37.892 [http-nio-8080-exec-8] Login - entering login servlet
+[INFO ] 2019-12-19 10:52:50.611 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:52:51.142 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Black Luster Soldier Envoy of the Beginning
+[INFO ] 2019-12-19 10:52:51.157 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:52:51.627 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Chaos Sorcerer
+[INFO ] 2019-12-19 10:52:51.634 [http-nio-8080-exec-10] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:52:52.143 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Raigeki
+[INFO ] 2019-12-19 10:52:52.151 [http-nio-8080-exec-10] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:52:52.617 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Dark Hole
+[INFO ] 2019-12-19 10:52:52.639 [http-nio-8080-exec-10] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:52:53.152 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Monster Reborn
+[INFO ] 2019-12-19 10:52:53.159 [http-nio-8080-exec-10] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:52:53.758 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Polymerization
+[INFO ] 2019-12-19 10:52:53.784 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:52:54.271 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:52:54.281 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:52:54.716 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Imperial Order
+[INFO ] 2019-12-19 10:52:54.742 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Magician's Force
+[INFO ] 2019-12-19 10:52:55.190 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Breaker the Magical Warrior
+[INFO ] 2019-12-19 10:52:55.207 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Maximum Crisis
+[INFO ] 2019-12-19 10:52:55.679 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Zoodiac Chakanine
+[INFO ] 2019-12-19 10:52:55.687 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:52:56.159 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Dark Magician of Chaos
+[INFO ] 2019-12-19 10:52:56.169 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:52:56.619 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Injection Fairy Lily
+[INFO ] 2019-12-19 10:52:56.626 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:52:57.052 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Yata Garasu
+[INFO ] 2019-12-19 10:52:57.058 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:52:57.491 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Jinzo
+[INFO ] 2019-12-19 10:52:57.500 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:52:57.910 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Mirage Knight
+[INFO ] 2019-12-19 10:52:57.931 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Labyrinth of Nightmare
+[INFO ] 2019-12-19 10:52:58.353 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Kycoo the Ghost Destroyer
+[INFO ] 2019-12-19 10:52:58.359 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:52:58.811 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Dark Ruler Ha Des
+[INFO ] 2019-12-19 10:52:58.825 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:52:59.261 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Strike Ninja
+[INFO ] 2019-12-19 10:52:59.293 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Rise of Destiny
+[INFO ] 2019-12-19 10:52:59.762 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :The Creator
+[INFO ] 2019-12-19 10:52:59.771 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Pharaonic Guardian
+[INFO ] 2019-12-19 10:53:00.178 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Don Zaloog
+[INFO ] 2019-12-19 10:53:00.197 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:53:00.664 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Vampire Lord
+[INFO ] 2019-12-19 10:53:00.693 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Soul of the Duelist
+[INFO ] 2019-12-19 10:53:01.116 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Horus the Black Flame Dragon LV8
+[INFO ] 2019-12-19 10:53:01.136 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Soul of the Duelist
+[INFO ] 2019-12-19 10:53:01.684 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Horus the Black Flame Dragon LV6
+[INFO ] 2019-12-19 10:53:01.709 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:53:02.130 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Reflect Bounder
+[INFO ] 2019-12-19 10:53:02.150 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Dimension of Chaos
+[INFO ] 2019-12-19 10:53:02.564 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Urgent Ritual Art
+[INFO ] 2019-12-19 10:53:02.573 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Ancient Prophecy
+[INFO ] 2019-12-19 10:53:03.033 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Discord
+[INFO ] 2019-12-19 10:53:03.047 [http-nio-8080-exec-10] YugiohCardSetsFileReader - Dragons of Legend
+[INFO ] 2019-12-19 10:53:03.520 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Mound of the Bound Creator
+[ERROR] 2019-12-19 10:53:03.570 [http-nio-8080-exec-10] UploadFileReader - java.lang.NullPointerException
+[INFO ] 2019-12-19 10:55:21.106 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:55:21.731 [http-nio-8080-exec-5] YugiohCardProcessor - returning card for :Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:55:54.480 [http-nio-8080-exec-7] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:55:55.070 [http-nio-8080-exec-7] YugiohCardProcessor - returning card for :Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:56:35.368 [http-nio-8080-exec-4] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:56:35.937 [http-nio-8080-exec-4] YugiohCardProcessor - returning card for :Dark Magician
+[INFO ] 2019-12-19 10:57:36.233 [http-nio-8080-exec-6] Login - entering login servlet
+[INFO ] 2019-12-19 10:57:49.760 [http-nio-8080-exec-10] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:57:50.306 [http-nio-8080-exec-10] YugiohCardProcessor - returning card for :Red Eyes B Dragon
+[INFO ] 2019-12-19 10:58:06.637 [http-nio-8080-exec-6] Login - entering login servlet
+[INFO ] 2019-12-19 10:58:06.682 [http-nio-8080-exec-6] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:58:38.911 [http-nio-8080-exec-5] Login - entering login servlet
+[INFO ] 2019-12-19 10:58:39.065 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:58:39.508 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:58:39.913 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:58:40.287 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:58:40.707 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:58:41.090 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:58:41.501 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:58:41.879 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Magician's Force
+[INFO ] 2019-12-19 10:58:42.337 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Maximum Crisis
+[INFO ] 2019-12-19 10:58:42.719 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:58:43.151 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:58:43.513 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Pharaoh's Servant
+[INFO ] 2019-12-19 10:58:43.914 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:58:44.293 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Labyrinth of Nightmare
+[INFO ] 2019-12-19 10:58:44.672 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Legacy of Darkness
+[INFO ] 2019-12-19 10:58:45.026 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Invasion of Chaos
+[INFO ] 2019-12-19 10:58:45.416 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Rise of Destiny
+[INFO ] 2019-12-19 10:58:45.787 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Pharaonic Guardian
+[INFO ] 2019-12-19 10:58:46.148 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:58:46.586 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Soul of the Duelist
+[INFO ] 2019-12-19 10:58:47.049 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Soul of the Duelist
+[INFO ] 2019-12-19 10:58:47.452 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Dark Crisis
+[INFO ] 2019-12-19 10:58:47.828 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Dimension of Chaos
+[INFO ] 2019-12-19 10:58:48.209 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Ancient Prophecy
+[INFO ] 2019-12-19 10:58:48.672 [http-nio-8080-exec-5] YugiohCardSetsFileReader - Dragons of Legend
+[INFO ] 2019-12-19 10:58:49.066 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
+[INFO ] 2019-12-19 10:58:49.491 [http-nio-8080-exec-5] YugiohCardSetsFileReader - The Legend of Blue Eyes White Dragon
