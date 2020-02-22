@@ -2,18 +2,22 @@
 
 ### Presentation Description/Overview
 
-Buying and selling Yu-Gi-Oh! trading cards is something I enjoy doing. It's a passion of mine which began when I was in high school. To kill time, my friends and I would play Yu-Gi-Oh! as we waited for our parents to come pick us up from school. Now many years later, I don't play the game as much anymore but what I do I spend a lot of time scouring buying and selling cards. I would scour the internet and local card stores looking for Yu-Gi-Oh! cards and sell them online. 
+Buying and selling Yu-Gi-Oh! trading cards is something I enjoy doing, which began when I was in high school. To kill time, my friends and I would play Yu-Gi-Oh! as we waited for our parents to come pick us up from school. Now many years later, I don't play the game as much anymore but I do spend a lot of time scouring the internet and visiting local card stores to buy and sell Yu-Gi-Oh! cards. When I am selling cards in person, I put them online to sell on Ebay.
 
-One issue I have with buying and selling Yugioh cards, is keeping tracking of and knowing when to sell a card, and selling the card in bulk. As a collector and seller of Yugioh cards, I pride myself in my ability to find "diamonds in the rough" and selling them when their prices have gone up. 
+With this application, I try to solve the following problems I have with tracking and managing my collection of Yu-Gi-Oh! cards and selling them online:
 
-At the heart of what I'm doing, I are creating the following:
+1. My collection of cards are verywhere in my apartment; some are in neatly put away in binders and others are on shelves and my computer desk. I need a better way to track them for easy tracking and managing. 
 
-1. A database to track my Yugioh cards. So often the case, whenever I am looking for something I cannot tell if I have it. And since I have so many cards in boxes, shelves, and binders, it can be a hassle for me to have to go through all of my cards to see if I have the card I am looking for. To that end, if I have a database that stores my Yugioh cards and can help me find them can save me so much time in the long run.
+This application solves the above issue by letting me upload a file of cards that I own, which are them mapped as card objects and stored in a database. With a database, I can easily track and manage my card collection.
 
-2. An application that can identify for me which of the cards I own have appreciated or depreciated in value. If I know a card has appreciated in value, I can sell it.
+2. Outside of social media, such as youtube, facebook, and the like, and word of mouth, how do I know when a card or cards I own have gone up in value? I need a better way to identify when I would need to sell something. 
 
-3. An application that can post my cards on Ebay. The easier I can post to Ebay and the more of it that I can post, the sooner I am putting a card out that I can then sell and the more money I can make.
- 
+This application will use a tcgplayer api for pricing. When I log into my account, the application will call the tcgplayer api and fetch the current price for each of the cards in my collection. The application will then compare the current price of a card with its previous price and if the current price has gone up X %, the application will let me display that for me. 
+
+3. Selling online, especially on ebay is great; however, for those times when I need to sell many cards at once is there a better way to list them on ebay than having to manually key in cards one at a time?
+
+The application will use the ebay inventory api to post cards individually or as a batch to ebay.
+
 ### Supporting Materials 
 
 * API: http://api.tcgplayer.com/v1.32.0/pricing/product/
