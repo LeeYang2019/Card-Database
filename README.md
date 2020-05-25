@@ -1,8 +1,8 @@
-# Tracking and selling trading cards.
+# Tracking and selling trading cards
 
 ### Presentation Description/Overview
 
-Buying and selling Yu-Gi-Oh! trading cards is something I enjoy doing, which began when I was in high school. To kill time, my friends and I would play Yu-Gi-Oh! as we waited for our parents to come pick us up from school. Now many years later, I don't play the game as much anymore but I do spend a lot of time scouring the internet and visiting local card stores to buy and sell Yu-Gi-Oh! cards. When I am selling cards in person, I put them online to sell on Ebay.
+Buying and selling trading cards is something I enjoy doing. In particular, I enjoy buying and selling Yu-Gi- which began when I was in high school. To kill time, my friends and I would play Yu-Gi-Oh! as we waited for our parents to come pick us up from school. Now many years later, I don't play the game as much anymore but I do spend a lot of time scouring the internet and visiting local card stores to buy and sell Yu-Gi-Oh! cards. When I am selling cards in person, I put them online to sell on Ebay.
 
 With this application, I try to solve the following problems I have with tracking and managing my collection of Yu-Gi-Oh! cards and selling them online:
 
