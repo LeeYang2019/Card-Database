@@ -1,4 +1,4 @@
-# Student Presentation Topic Will Go Here
+# Tracking and selling trading cards.
 
 ### Presentation Description/Overview
 
