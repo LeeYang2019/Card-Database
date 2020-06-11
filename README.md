@@ -12,6 +12,8 @@ With this application, I try to solve the following problems I have with trackin
 
 3. Selling online, especially on ebay is great; however, for those times when I need to sell many cards at once is there a better way to list them on ebay than having to manually key in cards one at a time?The application will use the ebay inventory api to post cards individually or as a batch to ebay.
 
+### Screenshots of application
+
 ### Supporting Materials 
 
 * API: http://api.tcgplayer.com/v1.32.0/pricing/product/
