@@ -14,6 +14,8 @@ With this application, I try to solve the following problems I have with trackin
 
 ### Screenshots of application
 
+![Screen Shot 2020-06-11 at 2 20 48 PM](https://user-images.githubusercontent.com/46943342/84425116-0c4b0d00-abef-11ea-921a-0149bbbf9015.png)
+
 ### Supporting Materials 
 
 * API: http://api.tcgplayer.com/v1.32.0/pricing/product/
