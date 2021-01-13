@@ -12,6 +12,8 @@ With this application, I try to solve the following problems I have with trackin
 
 3. Selling online, especially on ebay is great; however, for those times when I need to sell many cards at once there needs to be a better way of listing them on ebay without having to manually key in cards one at a time. The application will use the ebay inventory api to post cards individually or as a batch to ebay.
 
+Technologies: Java SE, servlets, servlet pages, Java Beans, Tomcat, Maven, MySQL, Hibernate, AWS
+
 ### Screenshots of application
 
 ![yugioh](https://user-images.githubusercontent.com/46943342/104406780-12f78500-552e-11eb-9437-a6b0f459bbe4.png)
