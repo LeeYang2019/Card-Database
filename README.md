@@ -14,7 +14,7 @@ With this application, I try to solve the following problems I have with trackin
 
 ### Screenshots of application
 
-![Screen Shot 2020-06-11 at 2 20 48 PM](https://user-images.githubusercontent.com/46943342/84425116-0c4b0d00-abef-11ea-921a-0149bbbf9015.png)
+![yugioh](https://user-images.githubusercontent.com/46943342/104406780-12f78500-552e-11eb-9437-a6b0f459bbe4.png)
 
 ### Supporting Materials 
 
